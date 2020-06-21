@@ -1,0 +1,15 @@
+<footer id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+      <a href="https://gitlab.com/lazplanet/lazplanet.gitlab.io">Fork</a> this blog
+    </div>
+  </div>
+</footer>
+
+<% if (page.path !== 'index.html'){ %>
+<script type="text/javascript" src="https://adnan360.com/hovr/comments.php"></script>
+<% } %>

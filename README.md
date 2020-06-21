@@ -1,97 +1,44 @@
+# LazPlanet Lazarus Blog
+
 ![Build Status](https://gitlab.com/pages/hexo/badges/master/build.svg)
 
----
-
-Example [Hexo] website using GitLab Pages.
-
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ee/user/project/pages/.
-
----
+_This is an effort to bring the old LazPlanet [blog](https://lazplanet.blogspot.com) into Hexo. **Note:** This is still work in progress._
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- If you've changed this README.md file, especially any of its headings run `doctoc README.md` -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [GitLab CI](#gitlab-ci)
-- [Building locally](#building-locally)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
+- [About LazPlanet](#about-lazplanet)
+- [Running locally](#running-locally)
+- [Technical aspects](#technical-aspects)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## GitLab CI
 
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
+## About LazPlanet
 
-```
-image: node:10.15.3
+LazPlanet is a blog full of interesting DIY projects, source codes and ideas that can be created in Lazarus IDE. In this blog you can find everything from a talking clock to a simple word processor or even a basic web browser that you can create in 3 minutes! LazPlanet is here since 2013 and is a great resource for beginners who want to start their programming journey in Lazarus or Free Pascal.
 
-cache:
-  paths:
-    - node_modules/
 
-before_script:
-  - npm install hexo-cli -g
-  - test -e package.json && npm install
-  - hexo generate
-
-pages:
-  script:
-    - hexo generate
-  artifacts:
-    paths:
-      - public
-  only:
-    - master
-```
-
-## Building locally
+## Running locally
 
 To work locally with this project, you'll have to follow the steps below:
 
 1. Fork, clone or download this project
-1. [Install][] Hexo and [Hexo Server][hexo-server]
+1. [Install](https://hexo.io/docs/#Installation) Hexo globally: `npm install -g hexo-cli`
 1. Install dependencies: `npm install`
+1. Add/edit content (optional)
+1. Generate your site: `hexo generate`
 1. Preview your site: `hexo server`
-1. Add content
-1. Generate your site (optional): `hexo generate`
 
-Read more at Hexo's [documentation][].
+Read more at Hexo's [documentation][https://hexo.io/docs].
 
-## GitLab User or Group Pages
 
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
+## Technical aspects
 
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
+The blog is mainly made in Hexo (Node.js based static site generator) and the content is converted from the original platform into WordPress then converted into Hexo (as markdown). The conversion process is roughly described [here](https://notabug.org/adnan360/blogger-to-hexo). Currently the content is as is, after the conversion (so WIP). But this project is designed in such a way that it can be hosted in GitLab/GitHub pages or any [simple server](https://www.npmjs.com/package/simple-server) that is able to serve static files.
 
-## Did you fork this project?
+As the site is static, the comments are not. So they had to be kept somewhere that dynamic languages are supported. [HashOver](https://www.barkdull.org/software/hashover) is a great project that lets anyone host their own comments and also supports [converting WordPress comments](https://github.com/kepon85/wp2hashover) into it.
 
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
-
-## Troubleshooting
-
-1. CSS is missing! That means two things:
-
-    Either that you have wrongly set up the CSS URL in your templates, or
-    your static generator has a configuration option that needs to be explicitly
-    set in order to serve static assets under a relative URL.
-
-----
-
-Forked from @VeraKolotyuk
-
-[ci]: https://about.gitlab.com/gitlab-ci/
-[hexo]: https://hexo.io
-[install]: https://hexo.io/docs/index.html#Installation
-[documentation]: https://hexo.io/docs/
-[userpages]: http://doc.gitlab.com/ee/pages/README.html#user-or-group-pages
-[projpages]: http://doc.gitlab.com/ee/pages/README.html#project-pages
-[hexo-server]: https://hexo.io/docs/server.html
+The search feature is not implemented yet, but will be in future. All the self hosted solutions involve downloading the whole content index data into user machine and process it in browser. But it would be too much overhead for a simple feature. It could be somewhere around utilizing the GitLab search feature or having a dynamic language parse the dataset on some server and render the result on the site.
