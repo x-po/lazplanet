@@ -15,7 +15,7 @@ categories:
 date: 2013-05-23 01:28:00
 ---
 
-![](http://4.bp.blogspot.com/-IF7Oqvk5BwQ/UZ1wKKYZn3I/AAAAAAAAA4Q/1URJhj4iQgk/s1600/random-number-thumb.gif)Do you know what face of dice is going to come up before throwing? That's what random means. We learn how to create a program that shows a random number each time you click a button.  
+![](how-to-generate-random-number/random-number-thumb.gif)Do you know what face of dice is going to come up before throwing? That's what random means. We learn how to create a program that shows a random number each time you click a button.  
   
   
 
@@ -125,7 +125,7 @@ Let's see a Quick Tutorial for a GUI program.
 
 Create a new Application Project (Project-> New Project-> Application-> OK). Prepare the form layout like the following:  
   
-![](http://4.bp.blogspot.com/-PLN3mFWI4OA/UZ1qHUHHS8I/AAAAAAAAA3w/V_eD-TJLNzA/s1600/rand-layout.gif)  
+![](how-to-generate-random-number/rand-layout.gif)  
 Name the Editbox near to "From" as edtFrom and the other one as edtTo. Name the tButton as btnRandom and name also the TLabel which will show the random number as lblRandom. Set the text of both Editboxes as a numeric value.  
   
 Now double click the button and enter:  
@@ -155,7 +155,7 @@ end;
   
 Now Run the project (F9 or Run-> Run). You will see the form like below:  
   
-![](http://3.bp.blogspot.com/-LYImZdtI5eg/UZ1rfKu8MlI/AAAAAAAAA4A/zHUFev10b6s/s1600/random-number-generator.gif)  
+![](how-to-generate-random-number/random-number-generator.gif)  
 Enter desired values and click the button.  
   
 This is a basic implementation of the program. If you enter non-numeric or non-integer inputs, the program will crash. You will have to apply [Val()](http://lazarus-ccr.sourceforge.net/docs/rtl/system/val.html) function in order to face this error. Such as:  

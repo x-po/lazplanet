@@ -14,7 +14,7 @@ categories:
 date: 2014-11-18 09:09:00
 ---
 
-![](http://1.bp.blogspot.com/-RUFxHvT6awg/VGsIypMCRuI/AAAAAAAABv4/gqVav5JqAJU/s1600/min-number.jpg)This is usually a very basic task for beginner programmers. Find out the smaller from two numbers.  
+![](find-out-smallest-number-from-two/min-number.jpg)This is usually a very basic task for beginner programmers. Find out the smaller from two numbers.  
   
   
 There are many basic problems that a beginner programmer has to solve. One of the most popular is finding the smallest number out of two.  
@@ -123,7 +123,7 @@ end.
   
 Now Run the Project (Run-> Run or press F9).  
   
-![](http://3.bp.blogspot.com/-I-AGEp6O1po/VGsMmFBNDtI/AAAAAAAABwE/SBVNTrvtWfs/s1600/min-number-lazarus.gif)  
+![](find-out-smallest-number-from-two/min-number-lazarus.gif)  
 Test it with two numbers on each line. You should get the minimum number between the two inputs.  
 
 ### Download Sample Code ZIP

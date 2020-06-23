@@ -13,12 +13,12 @@ categories:
 date: 2013-05-14 01:00:00
 ---
 
-![](http://2.bp.blogspot.com/-DRY2WGaZ8fc/UZE5fOj_cjI/AAAAAAAAAxE/qeVDkjtr72I/s1600/angle-1.gif)When you draw a line, does that come to you that how many degrees is that line? How much is it steep or flat? Learn through your own program.  
+![](measure-angle-of-line/angle-1.gif)When you draw a line, does that come to you that how many degrees is that line? How much is it steep or flat? Learn through your own program.  
   
   
 A line can be of any angle. It can be parallel to earth, or steep like a pole, or angular, like it is leaning towards something. We all know the name of Tower of Pisa. It is famous for its leaning nature. It is not perpendicular/staright/vertcal like all the other usual buildings of the world. It is not standing 90 degrees upright, but its leaning by 5.5 degrees.  
   
-![](http://4.bp.blogspot.com/-D-kuBkngFEM/UZE1_tCnC-I/AAAAAAAAAw0/9k0PKtJwP6A/s1600/tower-of-pisa2.jpg)  
+![](measure-angle-of-line/tower-of-pisa2.jpg)  
 So if we get a imaginary line at the at the right side of the tower, then can we calculate the angle of pisa? Yes. But we need math. Specifically Geometry and more specifically Trigonometry.  
   
 
@@ -45,7 +45,7 @@ uses
   ..., math;
 
   
-![](http://2.bp.blogspot.com/-DRY2WGaZ8fc/UZE5fOj_cjI/AAAAAAAAAxE/qeVDkjtr72I/s1600/angle-1.gif)  
+![](measure-angle-of-line/angle-1.gif)  
 Suppose that we want to calculate the angle of the diagonal line. The line starts at (0, 0) position \[where it is (x, y)\] and ends at (100, 100) position. From the image above, it is obvious that the angle is 45 degrees. But let our program find the angle  
   
 Switch to Form Designer (F12). Now Double click the form and enter:  
@@ -62,7 +62,7 @@ You will see 45 in the Title bar of the form. It will be able to detect the angl
   
 You can utilize this function to show your creativity to implement this function in many ways. We have a sample code zip file downloadable below. It is a graphical implementation of the function.  
   
-![](http://4.bp.blogspot.com/-yIBuLjWz3BE/UZE7JR3EqwI/AAAAAAAAAxQ/WncvWttPjGQ/s1600/measure-line-angle.gif)  
+![](measure-angle-of-line/measure-line-angle.gif)  
   
   
   

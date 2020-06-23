@@ -11,7 +11,7 @@ categories:
 date: 2013-04-03 01:30:00
 ---
 
-![](http://2.bp.blogspot.com/-6VLJkijfvzo/UVofKWc1sbI/AAAAAAAAAew/y1STPbeSYMc/s1600/duplicate-form-lazarus.jpg)This is a fun code example to try. When you open up a new Application project, you get a form. To have fun, we can create hundreds of "copies" of this form! On runtime. Here's how...  
+![](clone-your-form-into-many/duplicate-form-lazarus.jpg)This is a fun code example to try. When you open up a new Application project, you get a form. To have fun, we can create hundreds of "copies" of this form! On runtime. Here's how...  
   
 
 ### Concept 
@@ -64,10 +64,10 @@ Press **F9**. Click the button and a new form will appear on top each time you c
   
 With the form selected, go to **Object Inspector** and set **Position** to **poDefaultPosOnly**. This will position every new form  in cascading style (one lower to another).  
   
-![](http://2.bp.blogspot.com/-9CZlmLgsuOM/UVoUTWLdFBI/AAAAAAAAAeg/dF1aQ1ak6LE/s1600/properties.gif)  
+![](clone-your-form-into-many/properties.gif)  
 Now again press **F9**. Now you will see pure fun! Forms and forms everywhere! Keep copying until your heart desires.  
   
-![](http://2.bp.blogspot.com/-6VLJkijfvzo/UVofKWc1sbI/AAAAAAAAAew/y1STPbeSYMc/s1600/duplicate-form-lazarus.jpg)  
+![](clone-your-form-into-many/duplicate-form-lazarus.jpg)  
 
 ### Sample code zip
 

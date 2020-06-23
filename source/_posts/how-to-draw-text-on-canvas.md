@@ -15,7 +15,7 @@ categories:
 date: 2013-06-17 00:59:00
 ---
 
-![](http://1.bp.blogspot.com/-Z2v4Z68pVBk/Ub5fhIMKwTI/AAAAAAAABD0/E_uQPZBx3DM/s1600/draw-text-thumb.gif)We can use TLabel to show any text just to show any text, not editing. But what could we do to show text on a canvas? Then we would need to draw the text. Here's how...  
+![](how-to-draw-text-on-canvas/draw-text-thumb.gif)We can use TLabel to show any text just to show any text, not editing. But what could we do to show text on a canvas? Then we would need to draw the text. Here's how...  
   
   
 For showing any normal text that doesn't usually react to any user events, which only lies idle on the form can be made by using a TLabel. We use TLabels for captions for input fields and instructions to how to use the program we have made.  
@@ -42,7 +42,7 @@ begin
 end;
 
   
-![](http://3.bp.blogspot.com/-ZN_cgOgux4c/Ub5aiDSV92I/AAAAAAAABCs/XSsm5nWTRMc/s1600/draw-text-example-1.gif)  
+![](how-to-draw-text-on-canvas/draw-text-example-1.gif)  
 The text will be printed on the form's canvas in the top left position (0,0...).  
   
 
@@ -55,7 +55,7 @@ begin
 end;
 
   
-![](http://3.bp.blogspot.com/-l9BrVM9_MMY/Ub5ay4Ew8_I/AAAAAAAABC0/gx6kTDTb0l8/s1600/draw-text-example-2.gif)  
+![](how-to-draw-text-on-canvas/draw-text-example-2.gif)  
 The text will be drawn at 50 pixels from left and 60 pixels to the right.  
   
 
@@ -72,7 +72,7 @@ begin
 end;
 
   
-![](http://3.bp.blogspot.com/-tVXb0qUx5S8/Ub5bAc3jnHI/AAAAAAAABC8/cdw8JYC2_As/s1600/draw-text-example-3.gif)  
+![](how-to-draw-text-on-canvas/draw-text-example-3.gif)  
 The background is set by Brush.Color and the text color is set by Font.Color. You can also set any TColor as a value, such as clGreen, clBlack, clWhite etc.  
   
 
@@ -88,7 +88,7 @@ begin
 end;
 
   
-![](http://3.bp.blogspot.com/-X0tWtShndOc/Ub5bQgkZn2I/AAAAAAAABDE/EyXQw8ShdF4/s1600/draw-text-example-4.gif)  
+![](how-to-draw-text-on-canvas/draw-text-example-4.gif)  
   
 
 #### Example 5: Setting text size
@@ -103,7 +103,7 @@ begin
 end;
 
   
-![](http://4.bp.blogspot.com/-xp_4SquooH4/Ub5bsWDZYjI/AAAAAAAABDM/6PIGseaP418/s1600/draw-text-example-5.gif)  
+![](how-to-draw-text-on-canvas/draw-text-example-5.gif)  
   
 
 #### Example 6: Getting the text size before drawing (and drawing a rectangle around it as border)
@@ -129,7 +129,7 @@ begin
 end;
 
   
-![](http://3.bp.blogspot.com/-oI3QLw88csQ/Ub5cDUleWxI/AAAAAAAABDU/vAcke9CDtaw/s1600/draw-text-example-6.gif)  
+![](how-to-draw-text-on-canvas/draw-text-example-6.gif)  
 Canvas.TextWidth returns the width and Canvas.TextHeight returns the height of the probable drawing area before actually printing the text. We can also use Canvas.GetTextSize, which assigns the width and height to the variables given (without returning anything).  
   
 
@@ -152,7 +152,7 @@ begin
 end;
 
   
-![](http://3.bp.blogspot.com/-j3QlhP4X4Ec/Ub5cScsnuCI/AAAAAAAABDc/cLI4kHWYLlU/s1600/draw-text-example-7.gif)  
+![](how-to-draw-text-on-canvas/draw-text-example-7.gif)  
 
 #### Example 8: Drawing text in a rectangular area (good for paragraphs)
 
@@ -178,7 +178,7 @@ begin
   Canvas.FrameRect(20, 20, textarea.Right, textarea.Bottom);  
 end;  
   
-![](http://1.bp.blogspot.com/-1z2GQD9e--Q/Ub5ckcr4aVI/AAAAAAAABDk/RygUUZDRV5k/s1600/draw-text-example-8.gif)  
+![](how-to-draw-text-on-canvas/draw-text-example-8.gif)  
   
 We set the the Brush.color for the FrameRect procedure later on, which will draw a rectangle showing the area in which we have drawn the text. We define a TRect to define the area in which we want our text to be shown. We use a variable mytextstyle to tweak the drawing rules for our text. We set wordbreak to True and SingleLine to False just to indicate that we want to have our text not in a single line but in a paragraph style inside the TRect. Be my guest and comment out the 2 lines to see what happens if we wouldn't have written these lines.  
   
@@ -190,10 +190,10 @@ We have learned quite a bit from the examples above. Now we would create a sampl
 Create a new Application project (Project-> New Project-> Application-> OK).  
   
 Create components and name them seeing the screenshot below of the Object Inspector.  
-![](http://2.bp.blogspot.com/-FoZgJAK6uoE/Ub5SeojhJzI/AAAAAAAABCE/IWsGDRSu9S8/s1600/drawtext-object-ins.gif)  
+![](how-to-draw-text-on-canvas/drawtext-object-ins.gif)  
 The form layout would be something like this: If you don't find a component then use Ctrl+Alt+P (or View-> Components) to find that naughty little component that was hiding from you.  
   
-![](http://4.bp.blogspot.com/-w-8w3njxhKY/Ub5SsorBO-I/AAAAAAAABCM/kINB0L46bqM/s1600/draw-text-frm-layout.gif)  
+![](how-to-draw-text-on-canvas/draw-text-frm-layout.gif)  
 At the top we have edtText. Change its default Text property to something like "This is a sample text".  
 Then its the cboFonts. Set its Style property to csDropDownList. Set it also for the cboSize. For cboSize, set its Items property with variaous font sizes, such as:  
 8  
@@ -314,7 +314,7 @@ end;
   
 Now, Run it (F9 or Run-> Run).  
   
-![](http://3.bp.blogspot.com/-NdxmQwtV01k/Ub5W1xufFGI/AAAAAAAABCc/IYTHp1uNgro/s1600/draw-text-rect.gif)  
+![](how-to-draw-text-on-canvas/draw-text-rect.gif)  
 Now choose a font, size, color, text and then drag a rectangular area on the Paintbox to your text drawn on it. Simple!  
   
 

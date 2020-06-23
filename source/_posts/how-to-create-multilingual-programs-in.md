@@ -16,7 +16,7 @@ categories:
 date: 2018-12-15 18:54:00
 ---
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/lazarus-i18n-thumb.jpg)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/lazarus-i18n-thumb.jpg)
+[![](how-to-create-multilingual-programs-in/lazarus-i18n-thumb.jpg)](how-to-create-multilingual-programs-in/lazarus-i18n-thumb.jpg)
 
 Hola, ciào, bonjour! Today we're making our program speak different languages!  
   
@@ -44,7 +44,7 @@ For a basic localized application you need to:
 \- Ensure that **Create/update .po file when saving a lfm file** is checked. Click **OK**.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-project-settings--300x198.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-project-settings-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-project-settings--300x198.png)](how-to-create-multilingual-programs-in/i18n-project-settings-.png)
 
   
 \- Go to Code View (F12) and add **DefaultTranslator** under uses clause  
@@ -62,7 +62,7 @@ resourcestring
 The directory you set earlier on the project settings will be created and a projectname.po file will be created inside the directory for the strings you wrote earlier in the code.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-strings-file-created--300x110.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-strings-file-created-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-strings-file-created--300x110.png)](how-to-create-multilingual-programs-in/i18n-strings-file-created-.png)
 
   
 Everytime you Run/Save the project, this file will be updated with the added or changed string list. It will include all the string values in Captions, etc. of components, so you won't have to add them manually. Easy, isn't it?!  
@@ -70,13 +70,13 @@ Everytime you Run/Save the project, this file will be updated with the added or 
 Now, install [poedit](https://poedit.net/). poedit is free, open source and cross platform and we use it to edit translation files. Open the .po file in poedit and just hit save. This will automatically create a .mo file on the same directory.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-save-from-poedit--300x234.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-save-from-poedit-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-save-from-poedit--300x234.png)](how-to-create-multilingual-programs-in/i18n-save-from-poedit-.png)
 
   
 In case it complains about language not set, then click the **Set language** button and set **English (United States)** as the language and it should stop.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-mo-file-created--300x94.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-mo-file-created-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-mo-file-created--300x94.png)](how-to-create-multilingual-programs-in/i18n-mo-file-created-.png)
 
   
 Remember, .mo files will be used on runtime - on the exe. (.po files are ignored on runtime and are just for editing purposes. So .po files are just there for _us_, the developers.)  
@@ -89,7 +89,7 @@ Now copy the projectname.po file (on **languages** or **locale** folder) and pas
 For example, if you want to translate the strings to Spanish, copy the original .po file, then rename to projectname.es.po  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-po-created--300x120.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-po-created-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-po-created--300x120.png)](how-to-create-multilingual-programs-in/i18n-es-po-created-.png)
 
   
 If you are not sure what should be the 2-letter code for your language, check [here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). (The code should be under "ISO 639-1" column).  
@@ -97,7 +97,7 @@ If you are not sure what should be the 2-letter code for your language, check [h
 Open with poedit, then translate the strings and save. The .mo file for the .po file in your language will be created.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-mo-created--300x118.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-mo-created-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-mo-created--300x118.png)](how-to-create-multilingual-programs-in/i18n-es-mo-created-.png)
 
   
 Whenever the project is run, you will see the updated strings in all of the .po files you created. To make it reflect on the exe, you should open the .po files in poedit and hit save. This will create the .mo files and the exe will see that.  
@@ -117,25 +117,25 @@ cd /path/to/project
 I don't know Spanish, but Google Translate says "Form" in Spanish is _Formulario_. So I translated the Form1 string into Formulario1 and Saved the project1.es.po file.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-test-translated--300x234.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-test-translated-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-test-translated--300x234.png)](how-to-create-multilingual-programs-in/i18n-es-test-translated-.png)
 
   
 Then went to project directory, then right-clicked with Shift key pressed at the same time and then selected **Open command window here**.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-open-cmd-dir--300x201.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-open-cmd-dir-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-open-cmd-dir--300x201.png)](how-to-create-multilingual-programs-in/i18n-open-cmd-dir-.png)
 
   
 Now run the executable with **\--lang es**.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-run-cmd--300x152.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-run-cmd-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-run-cmd--300x152.png)](how-to-create-multilingual-programs-in/i18n-es-run-cmd-.png)
 
   
 This will show your application in Spanish language:  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-run-app--300x248.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-run-app-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-es-run-app--300x248.png)](how-to-create-multilingual-programs-in/i18n-es-run-app-.png)
 
   
 You can also try sending this command line argument from Lazarus, which is great if you want to test your application in certain language from inside Lazarus. Go to **Run - Run Parameters**. Now enter **\--lang es** under Command line parameters field, then click **OK**. Now hit Run - Run and your application should appear in Spanish language.  
@@ -191,13 +191,13 @@ We are using placeholders %0:s and %1:s. We will replace them later with Name an
 Switch to Form view (F12). Place 3 TGroupBoxes on the form. You many want to resize the form accordingly. Change their Caption properties to become something like this:  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-groupbox-structure--300x152.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-groupbox-structure-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-groupbox-structure--300x152.png)](how-to-create-multilingual-programs-in/i18n-groupbox-structure-.png)
 
   
 Now create 2 TLabels, 2 TEdits, 5 TButtons and change their Caption or Text to make them something like this:  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-form-layout--300x152.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-form-layout-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-form-layout--300x152.png)](how-to-create-multilingual-programs-in/i18n-form-layout-.png)
 
   
 Now let's change their Name property into something more meaningful. Change the Name of top left button to BtnMessage. Change the Name of the 3 language buttons to BtnEnglish, BtnSpanish and BtnBangla respectively. Name the 2 TEdits EdtName and EdtCountry. Then name the button below to BtnGreet.  
@@ -273,13 +273,13 @@ end;
 Now add your translations in the languages folder. Copy projectname.po twice and rename them to projectname.es.po and projectname.bn.po.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-create-po--300x134.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-create-po-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-create-po--300x134.png)](how-to-create-multilingual-programs-in/i18n-create-po-.png)
 
   
 Now open the files with poedit, go to Catalog - Properties and make sure language is set for each one, then save. This will create .mo files for each one.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-mo-created--300x191.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-mo-created-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-mo-created--300x191.png)](how-to-create-multilingual-programs-in/i18n-mo-created-.png)
 
   
 Now Translate the .po files and save. You can also download the project source code and use the translation files I used.  
@@ -287,20 +287,20 @@ Now Translate the .po files and save. You can also download the project source c
 Now run the project (Run - Run or F9). You should the form as usual.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-run-first--300x152.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-run-first-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-run-first--300x152.png)](how-to-create-multilingual-programs-in/i18n-run-first-.png)
 
   
 Then click the language buttons to change language.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-run-lang-change--300x152.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-run-lang-change-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-run-lang-change--300x152.png)](how-to-create-multilingual-programs-in/i18n-run-lang-change-.png)
 
   
   
 The messages should also work. If you click the message button you should see the localized version of the message.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-run-message--300x99.png)](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-run-message-.png)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/12/i18n-run-message--300x99.png)](how-to-create-multilingual-programs-in/i18n-run-message-.png)
 
   
 

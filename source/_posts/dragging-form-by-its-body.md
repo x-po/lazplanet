@@ -17,7 +17,7 @@ categories:
 date: 2013-06-04 19:59:00
 ---
 
-![](http://1.bp.blogspot.com/-8Ggzyz7fMo0/Ua5FpjeSQoI/AAAAAAAAA_E/GQa64hUPUCg/s1600/drag-form-lazarus.jpg)Moving a window is not new! We move windows by its title bar at the top. But what if we want to move a window/form by dragging its body? Could we remove the title bar of our form and have fancy interface going on? Yes. And here's how...  
+![](dragging-form-by-its-body/drag-form-lazarus.jpg)Moving a window is not new! We move windows by its title bar at the top. But what if we want to move a window/form by dragging its body? Could we remove the title bar of our form and have fancy interface going on? Yes. And here's how...  
   
   
 Imagine you are creating a cool interface for an MP3 Player. For the intended coolness, you got rid of the title bar of the form. Instead you have a roundish form shape with a titlebar looking area. You want the user to be able to move the form by dragging the whole form. How can you do that? We'll see how...  
@@ -83,7 +83,7 @@ You can now set the form's BorderStyle property to bsNone. This will remove the 
   
 You can see a simple utilization of the code above to create a custom looking form border. You can improve it more with your ideas.  
   
-![](http://2.bp.blogspot.com/-K-KIUUawn4s/Ua5D5Awvl5I/AAAAAAAAA-0/dYiYbIXYoqo/s1600/drag-form-lazarus.gif)  
+![](dragging-form-by-its-body/drag-form-lazarus.gif)  
   
 How did I make the Close and Minimize buttons work? The button image is from the background image. There must be some invisible component to do that, right? :-) No. I have created some "invisible hotspots" by creating a TLabels and making their caption blank. Then you can double click it and enter any command. You can create invisible components with this method.  
   

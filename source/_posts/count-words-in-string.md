@@ -10,7 +10,7 @@ categories:
 date: 2013-04-04 06:23:00
 ---
 
-![](http://3.bp.blogspot.com/-Sr-Sc4jIZoo/UV0b7gTnVcI/AAAAAAAAAfQ/aj0rkhDt234/s1600/necklace-measure-words.jpg)Suppose you have found a huge paragraph. How many words are in that paragraph? Do you want to count yourself? No. We can let our program count the words! Here's how...  
+![](count-words-in-string/necklace-measure-words.jpg)Suppose you have found a huge paragraph. How many words are in that paragraph? Do you want to count yourself? No. We can let our program count the words! Here's how...  
   
   
 The [strutils](http://www.freepascal.org/docs-html/rtl/strutils/index-5.html) unit has an useful function: [wordcount](http://www.freepascal.org/docs-html/rtl/strutils/wordcount.html)  
@@ -50,7 +50,7 @@ uses
   
 Now Run the Project (F9). Write something in the Memo. You will see the count in the Label.  
   
-![](http://3.bp.blogspot.com/-hUtDbBGIGoo/UV0YYNcmDII/AAAAAAAAAfA/kGEK2O_7BNo/s1600/wordcount-1.gif)  
+![](count-words-in-string/wordcount-1.gif)  
   
 Now the problem is that when you use a new line, the word count is not right. For example enter:  
 I  

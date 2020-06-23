@@ -16,7 +16,7 @@ categories:
 date: 2013-06-11 18:44:00
 ---
 
-![](http://4.bp.blogspot.com/-n0-IEwy_OWw/Ubdv4eZL54I/AAAAAAAABBk/zHGGYjUJBWA/s1600/paint-icon.jpg)Today, in our special post, we see how to create a basic paint software in Lazarus with some basic drawing tools and Open, Save, Resize options. A must see for Lazarians!  
+![](how-to-create-basic-paint-software/paint-icon.jpg)Today, in our special post, we see how to create a basic paint software in Lazarus with some basic drawing tools and Open, Save, Resize options. A must see for Lazarians!  
   
   
 Painting is a fun exercise of creativity. People form kids to professionals like to draw something just to have fun. Creating a drawing software is more fun than drawing (at least to me ;-) ). As the 50th post of [LazPlanet](http://lazplanet.blogspot.com/), I am honored to present to you a simple paint software code made in Lazarus (Free Pascal). Enjoy!  
@@ -73,16 +73,16 @@ Start [Lazarus](http://www.lazarus.freepascal.org/).
   
 Here is a screenshot of the component's names and their type straight from the Object Inspector.  
   
-![](http://2.bp.blogspot.com/--l0jEf751Vo/UbddyaSbaMI/AAAAAAAABA0/3F7ZB_6dwc4/s1600/basic-paint-lazarus-obj.gif)  
+![](how-to-create-basic-paint-software/basic-paint-lazarus-obj.gif)  
 That seems to be a lot of components! But remember the impressive result that you will get after doing such a hard work. (Plus, keep imagining what the Photoshop and Gimp programmers has done for those software! They are indeed hard workers.)  
   
 Add those components and name them according to the screenshot. Here is a screenshot of the form's design view to make positioning the components easier for you:  
   
-![](http://3.bp.blogspot.com/-LS4KTp3Jcz4/UbddSoVN28I/AAAAAAAABAs/K4aXa4cKSpI/s1600/basic-paint-frm-layout.gif)  
+![](how-to-create-basic-paint-software/basic-paint-frm-layout.gif)  
   
 Use appropriate Glyphs/Icons for the toolbar icons. (I have used icons from [Silk Companion](http://damieng.com/creative/icons/silk-companion-1-icons) and [famfamfam Mini Icons](http://www.famfamfam.com/lab/icons/mini/) collection. I have used these because they free for any project, even commercial ones. Cool, right?) I have included the icons that I have used in the sample code zip file available from below this article. They are in the "icons4u" folder.  
   
-![](http://2.bp.blogspot.com/-m4Wdyqvj_PY/UbdkfK35osI/AAAAAAAABBU/DgrEZ3TpsHE/s1600/icons-basic-paint.gif)  
+![](how-to-create-basic-paint-software/icons-basic-paint.gif)  
   
 Now we would make the tools' buttons to toggle on click. Have you noticed that when you select a tool in a drawing software (such as [MS Paint](http://en.wikipedia.org/wiki/Paint_%28software%29)/[Gimp](http://www.gimp.org/)/[Photoshop](http://en.wikipedia.org/wiki/Adobe_Photoshop)/[Illustrator](http://en.wikipedia.org/wiki/Illustrator) etc.) another tool gets de-selected. Select all the Tool Buttons and set its GroupIndex to 1. Select the first tool (Pencil tool SpeedButton). Make its Down property to True.  
   
@@ -475,7 +475,7 @@ end;
 
 Run the project (F9 or Run-> Run).  
   
-![](http://4.bp.blogspot.com/-C-LiPqmiwL4/Ubde2hFOnJI/AAAAAAAABBE/7ndK_52L6VM/s1600/basic-paint-lazarus.gif)  
+![](how-to-create-basic-paint-software/basic-paint-lazarus.gif)  
 Now, do your thing! Create your next masterpiece!  
   
 

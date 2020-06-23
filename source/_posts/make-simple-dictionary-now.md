@@ -16,14 +16,14 @@ categories:
 date: 2015-07-19 10:09:00
 ---
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/funny-pictures-cat-dictionary-cheezburger-300x205.jpg)](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/funny-pictures-cat-dictionary-cheezburger.jpg)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/funny-pictures-cat-dictionary-cheezburger-300x205.jpg)](make-simple-dictionary-now/funny-pictures-cat-dictionary-cheezburger.jpg)
 
 Dictionary is one of the fun challenges of programming. Learn how to make a dictionary in this quick tutorial.  
   
 Dictionary programmes are fun all by itself. The storage, retrieval and searching etc. are very exciting. And what about creating a dictionary in your own mother tongue? While you're at it, how about using the code to reprogramme the software to show what basic Pascal procedures do! Once you understand the code, you can shape it whatever you want. I hope you're salivating!  
   
 
-[![Funny cat](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/funny-face-book-Grumpy-cat-243x300.jpg "Funny cat")](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/funny-face-book-Grumpy-cat.jpg)
+[![Funny cat](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/funny-face-book-Grumpy-cat-243x300.jpg "Funny cat")](make-simple-dictionary-now/funny-face-book-Grumpy-cat.jpg)
 
 We, now a days... We don't like to  
 look-up words in bulky old books  
@@ -105,19 +105,19 @@ Create a new Application Project (**Project->New Project->Application->OK**).
 Draw **2 GroupBoxes**. One to the left, other to the right. Change the **Caption** of the left one to "**Search**" and the right one to "**Definition**".  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-1-300x196.gif)](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-1.gif)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-1-300x196.gif)](make-simple-dictionary-now/Simple-Dictionary-Lazarus-1.gif)
 
   
 Draw a **TEdit** and a **TListBox** on the **Groupbox to the left**. The TEdit is going to be our search box and the ListBox is going to hold our words. **Empty** the **Text** property of **Tedit**.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-2-300x196.gif)](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-2.gif)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-2-300x196.gif)](make-simple-dictionary-now/Simple-Dictionary-Lazarus-2.gif)
 
   
 Draw 2 **TMemo** inside the groupbox to the right.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-3-300x196.gif)](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-3.gif)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-3-300x196.gif)](make-simple-dictionary-now/Simple-Dictionary-Lazarus-3.gif)
 
   
 **Memo2** will be a hidden TMemo that will store our definitions. So Select Memo2 and set Visible to False.  
@@ -125,13 +125,13 @@ Draw 2 **TMemo** inside the groupbox to the right.
 Select Memo1 and set the Scrollbars property to ssAutoVertical.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-4-300x196.gif)](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-4.gif)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-4-300x196.gif)](make-simple-dictionary-now/Simple-Dictionary-Lazarus-4.gif)
 
   
 Empty the Lines property of both the Memo1 and Memo2.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-5-300x196.gif)](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-5.gif)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-5-300x196.gif)](make-simple-dictionary-now/Simple-Dictionary-Lazarus-5.gif)
 
   
 Double click on Form1 and enter the code below:  
@@ -268,13 +268,13 @@ Now save the project using File->Save all. Choose to save in the project folder 
 Now that you've saved the project we are ready to Run the project. Press F9 (or Run->Run) to run the project.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-6-300x227.gif)](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-6.gif)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-6-300x227.gif)](make-simple-dictionary-now/Simple-Dictionary-Lazarus-6.gif)
 
   
 Write something to search in our new dictionary...  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-7-300x227.gif)](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-7.gif)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2015/07/Simple-Dictionary-Lazarus-7-300x227.gif)](make-simple-dictionary-now/Simple-Dictionary-Lazarus-7.gif)
 
   
 There you go! A simple dictionary for your enjoyment.  

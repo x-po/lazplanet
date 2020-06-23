@@ -18,7 +18,7 @@ categories:
 date: 2019-03-15 17:47:00
 ---
 
-![](https://4.bp.blogspot.com/-zb69x8Uh9cI/XIsrGEnaB9I/AAAAAAAACgM/z3pLTbPqbaIYvmmk4XKUEtrJBuvSdYT6wCLcBGAs/s1600/download-file-thumb.jpg)The Web is an amazing place. What if we could download the contents of a link on the web to our own Lazarus program? Let's find out how!  
+![](how-to-get-contents-of-url-in-2-ways/download-file-thumb.jpg)The Web is an amazing place. What if we could download the contents of a link on the web to our own Lazarus program? Let's find out how!  
   
 Getting the contents of a link can give us so much to do. We can communicate with servers or websites, get data from them, then parse and present the data in our program window just like we want to. And we can even use REST APIs to do amazing things.  
   
@@ -43,7 +43,7 @@ But what happens when we get large outputs and we need to resize the form? We ca
   
 Your form should look something like this:  
   
-![](https://4.bp.blogspot.com/-kQeV2JPI2ao/XIvATlb1Q4I/AAAAAAAACgY/Yf76EMPZl8QMoVXYo0yvPtYz8FstNWwkQCLcBGAs/s1600/01.fphc-form-design.png)  
+![](how-to-get-contents-of-url-in-2-ways/01.fphc-form-design.png)  
 Switch to **Code View (F12)** and simply include **fphttpclient** in the uses clause:  
   
 
@@ -117,10 +117,10 @@ If you don't include these dlls, it will raise an error when you would try to ac
   
 Now **Run** the project **(F9 or Run - Run)** and test both buttons.  
   
-![](https://4.bp.blogspot.com/-lA9ZQhYSTsg/XIvHOfKUqYI/AAAAAAAACgs/p-W35faVTYs7ee0VDYHuMhT0qlr9HnvTQCLcBGAs/s1600/02.fphc-running-c.png)  
+![](how-to-get-contents-of-url-in-2-ways/02.fphc-running-c.png)  
 You may have to give these some time to download the data. Eventually you should see the content on the **Memo1** and also a test.txt file on the project directory.  
   
-![](https://2.bp.blogspot.com/-z5vP3oH-J50/XIvHjyNGWZI/AAAAAAAACg0/_UgQvCW_yk8UPRXRMervu0LwOQtf3KN0QCLcBGAs/s1600/03.fphc-file-downloaded-c.png)  
+![](how-to-get-contents-of-url-in-2-ways/03.fphc-file-downloaded-c.png)  
 We'll do the same project in Synapse...  
   
 
@@ -131,10 +131,10 @@ Click **File - Save All** and save the project in a folder.
   
 Now [get Synapse from here](http://www.ararat.cz/synapse/doku.php/download). Download the **synapse.zip** file from under the title Stable release. Extract and put the folder inside your project folder.  
   
-![](https://4.bp.blogspot.com/-2UgZN3fldKE/XIvGidM2NuI/AAAAAAAACgk/kB6ocUZnaZMggaycp3pLXqnYCJmjD4GyQCLcBGAs/s1600/04.save-synapse-lib-files-c.png)  
+![](how-to-get-contents-of-url-in-2-ways/04.save-synapse-lib-files-c.png)  
 You should have a folder named **synapse40** or something similar inside your project folder. Now go to **Project - Project Options - Compiler Options - Paths** and click the **\[...\]** button beside **Other unit files** and browse the source folder inside lib folder from the synapse folder. For example, **synapse40sourcelib**.  
   
-![](https://4.bp.blogspot.com/-Na3PyWju-xA/XIvKUomGdXI/AAAAAAAAChA/wuB-LgdK5kootRPt8u7Gt8IWTUZwD5yeACLcBGAs/s1600/05.synapse-lib-path-c.png)  
+![](how-to-get-contents-of-url-in-2-ways/05.synapse-lib-path-c.png)  
 Now switch to **Code view (F12)** and add **httpsend** in the **uses** clause.  
   
 
@@ -196,7 +196,7 @@ Set the Text of TEdit to: **http://lazplanet.blogspot.com**
 Set **Lines** property of **Memo1** to empty and set its **ScrollBars** to **ssAutoVertical**.  
   
 Like previous project, you can enable the **akRight** for **Edit1** under **Anchors**. And **akRight** and **akBottom** for **Memo1** so that when the form is resized the components fill the form.  
-![](https://4.bp.blogspot.com/-nB1GOS05Uls/XIvK-yo0zOI/AAAAAAAAChI/kyY500eAqOQAc1-va9qmDnNxJ2xPOnmIgCLcBGAs/s1600/06.synapse-form-design-c.png)  
+![](how-to-get-contents-of-url-in-2-ways/06.synapse-form-design-c.png)  
 Double click **button1** and enter:  
   
 
@@ -219,7 +219,7 @@ If you want your program to be able to access **https** links, then save the pro
   
 Now **Run** the project (**F9 or Run - Run**). Now click the buttons to test. **button1** should show the contents on the **Memo1**, **button2** should download the contents on "test.txt".  
   
-![](https://3.bp.blogspot.com/-TOExE0F8w-8/XIvLXZNNytI/AAAAAAAAChQ/EPC0IDmJ9mg941vJjkOeT8-HqLQr6g4ZQCLcBGAs/s1600/07.synapse-running-c.png)  
+![](how-to-get-contents-of-url-in-2-ways/07.synapse-running-c.png)  
   
 You can also fetch links like: https://api.desktoppr.co/1/wallpapers/random  
 This will give you JSON data about a random wallpaper everytime. You can then [parse the JSON data](http://localhost/wp-lazplanet/2014/09/03/a-simple-json-parsing-example/) to get the random wallpaper image URL, then download and [set it as wallpaper](http://localhost/wp-lazplanet/2014/08/31/how-to-set-the-desktop-wallpaper/). This way you will get yourself a random wallpaper setter!  

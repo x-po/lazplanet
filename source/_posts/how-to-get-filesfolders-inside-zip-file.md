@@ -14,7 +14,7 @@ categories:
 date: 2013-05-24 19:02:00
 ---
 
-![](http://4.bp.blogspot.com/-60AA3DysVw8/UZ-486OzREI/AAAAAAAAA54/uiTSJ43Dzdc/s1600/compress-icon-zip.jpg)Ever wanted to make your own Zip Viewer? In this article we look at a simple code for listing the files/folders inside a ZIP file, without any third party libraries.  
+![](how-to-get-filesfolders-inside-zip-file/compress-icon-zip.jpg)Ever wanted to make your own Zip Viewer? In this article we look at a simple code for listing the files/folders inside a ZIP file, without any third party libraries.  
   
   
 Compression softwares such as [WinZIP](http://www.winzip.com/), [WinRAR](http://www.rarlab.com/download.htm), [7-zip](http://www.7-zip.org/) has been one of the needed softwares for our PCs. We can compress dozens of files into a single file, also shrink its size at the same time, with these compression utilities. But what if we could make our own zip viewer?  
@@ -30,7 +30,7 @@ Create a Application Project (Project-> New Project-> Application-> OK).
   
 Drop a TFileNameEdit (from Misc tab), a TButton, TListBox, TLabel (all from Standard tab). You should create a form layout like the screenshot below:  
   
-![](http://4.bp.blogspot.com/-G0DLmEaulNs/UZ-tslV0wSI/AAAAAAAAA5Q/K8lj3DfpOYg/s1600/zip-viewer-formlayout.gif)  
+![](how-to-get-filesfolders-inside-zip-file/zip-viewer-formlayout.gif)  
   
 Now set the Name property of the TLabel to lblCount. Also set the Filter of TFileNameEdit to:  
 ZIP Files (\*.zip)|\*.zip  
@@ -108,7 +108,7 @@ We can also use, for example, Entries\[i\].IsDirectory or Entries\[i\].Size info
   
 Now run the Project (F9 or Run-> Run). Open a .ZIP file and click the button. You will see a list of files and folders in the zip file.  
   
-![](http://3.bp.blogspot.com/-cofeox4Zz_A/UZ-v-wjo4AI/AAAAAAAAA5g/2sThm9jZj54/s1600/zip-viewer-lazarus.gif)  
+![](how-to-get-filesfolders-inside-zip-file/zip-viewer-lazarus.gif)  
 Zipper (a.k.a. paszlib) can also be used in Console projects. So [you can create command line programs with paszlib library](http://wiki.freepascal.org/paszlib#Examples).  
   
 

@@ -11,7 +11,7 @@ categories:
 date: 2013-04-01 23:22:00
 ---
 
-![](http://3.bp.blogspot.com/-_Mgd_cblvrc/UVD5AsMMFeI/AAAAAAAAAbs/WYa4haWfpjI/s1600/lazarus-exe-compression.jpg)Zip files are a very common way of sharing multiple files compressed into a single file. Zip files are supported in various platforms (Windows, Mac, Linux etc.). We can use many softwares to create a zip file, such as [7-zip](http://www.7-zip.org/), [WinZip](http://www.winzip.com/), [WinRAR](http://www.rarlab.com/) etc. But today we are going to make zip files on our own program!  
+![](how-to-create-zip-file/lazarus-exe-compression.jpg)Zip files are a very common way of sharing multiple files compressed into a single file. Zip files are supported in various platforms (Windows, Mac, Linux etc.). We can use many softwares to create a zip file, such as [7-zip](http://www.7-zip.org/), [WinZip](http://www.winzip.com/), [WinRAR](http://www.rarlab.com/) etc. But today we are going to make zip files on our own program!  
   
   
 
@@ -99,7 +99,7 @@ end;
   
 Press F9 to Run the program we have made.  
   
-![](http://3.bp.blogspot.com/-Eu7dJHp3ulw/UVI0WoMkFtI/AAAAAAAAAcg/tbXIVdnpLJ4/s1600/add-to-zip-lazarus.gif)  
+![](how-to-create-zip-file/add-to-zip-lazarus.gif)  
   
 Click the button. And then visit the project directory. You  will see a "test.zip" file created by the program.  
   

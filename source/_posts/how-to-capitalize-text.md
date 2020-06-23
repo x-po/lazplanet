@@ -12,7 +12,7 @@ categories:
 date: 2013-04-13 18:28:00
 ---
 
-![](http://4.bp.blogspot.com/-G_qYeJj9A7Q/UWn6k6gU-LI/AAAAAAAAAio/cPDPrx2jydQ/s1600/croppercapture2.jpg)We write the words in the middle of the sentence in lowercase letters. Capitalizing is sometimes necessary to emphasize things. Any text (or string) can be converted to uppercase (capitalize). Here's how...  
+![](how-to-capitalize-text/croppercapture2.jpg)We write the words in the middle of the sentence in lowercase letters. Capitalizing is sometimes necessary to emphasize things. Any text (or string) can be converted to uppercase (capitalize). Here's how...  
   
   
 
@@ -37,7 +37,7 @@ end;
 
 Press F9 (Run->Run). Enter some text in the memo and then click the button.  
   
-![](http://2.bp.blogspot.com/-hxeREbofZKg/UWg49d5b3qI/AAAAAAAAAiY/wCvI6YCPmAA/s1600/lazarus-lazarus-uppercase.gif)
+![](how-to-capitalize-text/lazarus-lazarus-uppercase.gif)
 
 ### Concept
 

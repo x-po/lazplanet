@@ -13,7 +13,7 @@ categories:
 date: 2013-05-20 18:05:00
 ---
 
-![](http://3.bp.blogspot.com/-f9CGr_1Xf-o/UZhDc-JKHzI/AAAAAAAAA10/PUyt3QAI-Lg/s1600/search-list-thumb.gif)Lists are interesting to do programing tricks. In this session we learn how to search partial inputs with only the first part of the list items.  
+![](partial-list-search-technique/search-list-thumb.gif)Lists are interesting to do programing tricks. In this session we learn how to search partial inputs with only the first part of the list items.  
   
   
 
@@ -64,7 +64,7 @@ Drop a TEdit, TCheckbox and 2 TListboxes. Name the TCheckbox to chkCase. Listbox
   
 Your layout  may resemble this:  
   
-![](http://2.bp.blogspot.com/-7eVMmho_12k/UZpe8UIqVjI/AAAAAAAAA2k/6V9f_r7hrWk/s1600/partial-list-search-lazarus.gif)  
+![](partial-list-search-technique/partial-list-search-lazarus.gif)  
 Select the TEdit, then go to Object Inspector -> Events tab. Then click the \[...\] button in front of OnChange event. Now enter the following:  
   
 var  
@@ -92,7 +92,7 @@ end;
   
 Now run the project (F9 or Run -> Run).  
   
-![](http://2.bp.blogspot.com/-7eVMmho_12k/UZpe8UIqVjI/AAAAAAAAA2k/6V9f_r7hrWk/s1600/partial-list-search-lazarus.gif)  
+![](partial-list-search-technique/partial-list-search-lazarus.gif)  
 Now type in "app". You will see matching items in the result list. Now type in "App" and click on the checkbox. You will not see the result change. It is a bug. To fix it, we will have to add a code.  
   
 Double click on the TCheckbox and  enter:  

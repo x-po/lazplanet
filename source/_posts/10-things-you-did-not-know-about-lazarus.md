@@ -12,7 +12,7 @@ categories:
 date: 2015-06-25 16:24:00
 ---
 
-![](http://3.bp.blogspot.com/-oA9UpWFum6w/Ubtes8bszUI/AAAAAAAABB0/R2a6EWkKgeE/s1600/Lazarus-Logo.png)In this useful article we see some of the less known but handy tools or features that Lazarus has  
+![](10-things-you-did-not-know-about-lazarus/Lazarus-Logo.png)In this useful article we see some of the less known but handy tools or features that Lazarus has  
   
 Lazarus is a cross platform RAD IDE tool to develop applications for your need. Lazarus is a great IDE but its marketing efforts are poor, but if you are used to the Lazarus wiki then you will find out the true treasures in this IDE. It is packed with hundreds of features, yet the users know a little about them. Those features can cut some minutes of work from your daily life for your ease. Here are some interesting features that you might not know about:  
   
@@ -22,7 +22,7 @@ Lazarus is a cross platform RAD IDE tool to develop applications for your need. 
 Press Ctrl+Alt+P. This will bring out the components list and you can search the component you want or simply just click it. It can't get any easier than this!  
   
 
-[![Component List dialog box in Lazarus](http://3.bp.blogspot.com/-IVScI2046Qc/VYwjZuBLixI/AAAAAAAAB_Q/RJYAUnzTn8M/s320/Component-List.gif "Component List dialog box in Lazarus")](http://3.bp.blogspot.com/-IVScI2046Qc/VYwjZuBLixI/AAAAAAAAB_Q/RJYAUnzTn8M/s1600/Component-List.gif)
+[![Component List dialog box in Lazarus](http://3.bp.blogspot.com/-IVScI2046Qc/VYwjZuBLixI/AAAAAAAAB_Q/RJYAUnzTn8M/s320/Component-List.gif "Component List dialog box in Lazarus")](10-things-you-did-not-know-about-lazarus/Component-List.gif)
 
 Component List. It can't get any easier than this!
 
@@ -33,7 +33,7 @@ Component List. It can't get any easier than this!
 Click a variable name or procedure/function by pressing Ctrl.  
 This is particularly useful if you are unsure of any procedure definition or the source declaration of any variable.  
   
-![](http://3.bp.blogspot.com/-5GuMiMx0R98/VYwkm5HSIkI/AAAAAAAAB_Y/6P88LuaL0IM/s1600/Code-Hotlink-Definition-Search-Lazarus.gif)  
+![](10-things-you-did-not-know-about-lazarus/Code-Hotlink-Definition-Search-Lazarus.gif)  
 
 ### 3\. $IFDEF compiler directives (OS+CPU architecture)
 
@@ -72,7 +72,7 @@ There are tonnes of more ways you can use compiler directives. You can look in t
 Press Alt+G.  
 This will show you a list of procedures/functions in the current unit. This is extremely helpful when you have hundreds of procedures that cannot be found with just scrolling the code. You can double click any procedure/function from the list to jump to it.  
   
-![](http://2.bp.blogspot.com/-NGeUQLw0puI/VYwloL7r8tI/AAAAAAAAB_g/bVgoPz2ly1M/s1600/procedure-list-lazarus.gif)  
+![](10-things-you-did-not-know-about-lazarus/procedure-list-lazarus.gif)  
 For this purpose you can also use Code Explorer (available from View menu) shows uses, types, variables, procedures of the project. But this will take time to expand some plus signs. ... whichever suits you.  
   
 
@@ -82,7 +82,7 @@ Available from View->Tab Order.
 This dialog enables you to review your tab order arrangements in the form components. Tab order is basically a way to control which component gets focus after which component. You can order/re-order the tab order from this dialog box by clicking the arrow buttons.  
   
 
-[![Tab Order editor in Lazarus](http://3.bp.blogspot.com/-CuQl7IcmVYM/VYwmcKqNK9I/AAAAAAAAB_o/Zj8wNsWOg8c/s320/Tab-order-editor-lazarus.gif "Tab Order editor in Lazarus")](http://3.bp.blogspot.com/-CuQl7IcmVYM/VYwmcKqNK9I/AAAAAAAAB_o/Zj8wNsWOg8c/s1600/Tab-order-editor-lazarus.gif)
+[![Tab Order editor in Lazarus](http://3.bp.blogspot.com/-CuQl7IcmVYM/VYwmcKqNK9I/AAAAAAAAB_o/Zj8wNsWOg8c/s320/Tab-order-editor-lazarus.gif "Tab Order editor in Lazarus")](10-things-you-did-not-know-about-lazarus/Tab-order-editor-lazarus.gif)
 
 Tab order editor dialog:  
 defines how user will navigate  
@@ -104,7 +104,7 @@ This is a very useful feature when you don't remember where you put your todo co
 Now if you summon the ToDo List, it will show that comment. You can jump to your ToDo by clicking on it.  
   
 
-[![ToDo List in Lazarus IDE](http://4.bp.blogspot.com/-XXZYqzMHO58/VYwn1_MuBdI/AAAAAAAAB_0/e2JvwaZ7s0E/s320/ToDo-List-dialog-Lazarus.gif "ToDo List dialog")](http://4.bp.blogspot.com/-XXZYqzMHO58/VYwn1_MuBdI/AAAAAAAAB_0/e2JvwaZ7s0E/s1600/ToDo-List-dialog-Lazarus.gif)
+[![ToDo List in Lazarus IDE](http://4.bp.blogspot.com/-XXZYqzMHO58/VYwn1_MuBdI/AAAAAAAAB_0/e2JvwaZ7s0E/s320/ToDo-List-dialog-Lazarus.gif "ToDo List dialog")](10-things-you-did-not-know-about-lazarus/ToDo-List-dialog-Lazarus.gif)
 
 ToDo List dialog
 
@@ -115,7 +115,7 @@ ToDo List dialog
 Actions available from Source->Refactoring menu.  
 I know less about code Refactoring. I have used this feature to rename variables throughout my code of a project which it did quite splendidly. It has other tools which I believe is worth its place.  
   
-![](http://3.bp.blogspot.com/-8gShutwn5-E/VYwoWaPgE_I/AAAAAAAAB_8/Xqp-RoqqHYQ/s1600/Refactoring-menu-lazarus.gif)  
+![](10-things-you-did-not-know-about-lazarus/Refactoring-menu-lazarus.gif)  
 
 ### 8\. Clean Directory
 
@@ -134,7 +134,7 @@ Lazarus has its way of showing code. I mean its colors, font spacing etc. When y
 (Tools-> Code Templates..., triggered  by Ctrl+J)  
 This is a power feature for every programmer. Just check out the shortcuts in Tools->Code Templates... menu. You can type in these shortcuts and press Ctrl+J to have some code created for you. Cool!  
   
-![](http://1.bp.blogspot.com/-1FXaaCk0-JA/VYwpK4kX9jI/AAAAAAAACAE/tLKnNU_2ZBc/s1600/Code-templates-dialog-lazarus.gif)  
+![](10-things-you-did-not-know-about-lazarus/Code-templates-dialog-lazarus.gif)  
 You can also add a code if you want. Just add a pipe character where you want your cursor to be when the code is inserted. I have used such features with Notepad++ (with Fingertext plugin) and with Sublime Text and it feels awesome to type code, believe me!  
   
 You can get more help on how to create your own code templates here: [Lazarus Wiki: IDE Window: Code Templates](http://wiki.lazarus.freepascal.org/IDE_Window:_Code_Templates).  

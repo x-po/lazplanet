@@ -17,11 +17,11 @@ categories:
 date: 2013-12-24 17:56:00
 ---
 
-![](http://4.bp.blogspot.com/-OypnXGIykrA/UrnIidIXerI/AAAAAAAABYg/JGVnq_B-gS4/s1600/rich-editor-thumb.jpg)In this holiday, gift yourself a nice little word processor that you can use yourself! You can further develop it. It happily supports Unicode and lets you learn the use of Toolbar, RichMemo, ImageLists, File Save Management and more.  
-![](http://1.bp.blogspot.com/-5ggAlV9EpuE/UrkpmLJGLwI/AAAAAAAABWE/3DEQJv5wvVA/s1600/richmemo-components-dir.jpg)  
+![](create-rich-text-editor-for-yourself/rich-editor-thumb.jpg)In this holiday, gift yourself a nice little word processor that you can use yourself! You can further develop it. It happily supports Unicode and lets you learn the use of Toolbar, RichMemo, ImageLists, File Save Management and more.  
+![](create-rich-text-editor-for-yourself/richmemo-components-dir.jpg)  
 Now enter into the directory and double click **richmemopackage.lpk** file. [Lazarus](http://www.lazarus.freepascal.org/) will open with an extra window having the title package name.  
   
-![](http://4.bp.blogspot.com/-iHePiMiVP64/UrkqNXhmBEI/AAAAAAAABWM/qqxbk5Lgv-M/s1600/package-window-richmemo.gif)  
+![](create-rich-text-editor-for-yourself/package-window-richmemo.gif)  
   
 Now click **Compile**. After the compiling is completed, you will see a message in the Messages window. Then click **Use** -> **Install**. A message will appear that if we want to rebuild Lazarus. Click **Yes**.  
   
@@ -38,26 +38,26 @@ Now the toolbar. Draw a **TToolBar** on the form (from Common Controls tab). Res
   
 Here is our form so far:  
   
-![](http://1.bp.blogspot.com/-Fk9jp6WGon4/Urkr6q0G_DI/AAAAAAAABWY/qqcxAk6rn9w/s1600/1.basic-layout-with-toolbar-richmemo.gif)  
+![](create-rich-text-editor-for-yourself/1.basic-layout-with-toolbar-richmemo.gif)  
   
 We'll now add items to the toolbar. Right click the **Toolbar1** component then select **New Button**.  
   
-![](http://2.bp.blogspot.com/-5DfkrSnw_hM/UrksNFi7b_I/AAAAAAAABWg/UuF1ADiszqc/s1600/2.right-click-toolbar-new-button.gif)  
+![](create-rich-text-editor-for-yourself/2.right-click-toolbar-new-button.gif)  
 You will notice that a new TToolButton appearing on the **Object Inspector**.  
   
-![](http://2.bp.blogspot.com/-s9muJBId36I/UrksaPIrKlI/AAAAAAAABWo/VJ2N3cAk0Zs/s1600/3.toolbar-button-object-inspector.gif)  
+![](create-rich-text-editor-for-yourself/3.toolbar-button-object-inspector.gif)  
 The Ttoolbar and TToolButton is two separate object. You will see a little area at the top left corner of TToolbar.  
   
-![](http://4.bp.blogspot.com/-tygGyXbkRnU/UrktBxQC3jI/AAAAAAAABWw/8kjcGNTNkk0/s1600/4.ttoolbutton-created-on-toolbar.gif)  
+![](create-rich-text-editor-for-yourself/4.ttoolbutton-created-on-toolbar.gif)  
 If you click on it you can select the toolbar button. On the other hand you can click on the sunk area to select the TToolbar object. To make the buttons more visible to us, go ahead and select the TToolbar object. Then set its **ShowCaptions** property to **True**. Now you can easily see the toolbar buttons' **Caption**s.  
   
-![](http://2.bp.blogspot.com/-cQpBA-WWUT0/UrktZO-JqfI/AAAAAAAABW4/gjEMB9VBkGI/s1600/5.ttoolbutton-after-showcaptions.gif)  
+![](create-rich-text-editor-for-yourself/5.ttoolbutton-after-showcaptions.gif)  
 
 #### Prepping the Image List
 
 We will now prepare our Image list. Yes, the little component that will keep our toolbar icons. **Right click** it and select **ImageList Editor**... (or you can **double click** it as well).  
   
-![](http://1.bp.blogspot.com/-PsEwP0PWf7Y/Urlje4bWJDI/AAAAAAAABXI/0T7Xc_AKz3Y/s1600/6.ImageList-editor-right-click.gif)  
+![](create-rich-text-editor-for-yourself/6.ImageList-editor-right-click.gif)  
   
 Now add the images for the toolbar in the following manner. I have used [FamFamFam.com Slik Icons](http://www.famfamfam.com/lab/icons/silk/). You can also download it. So here are the indexes and the file names for icons:  
   
@@ -70,7 +70,7 @@ Now add the images for the toolbar in the following manner. I have used [FamFamF
   
 Your ImageList Editor dialog should look like this:  
   
-![](http://2.bp.blogspot.com/-Q-S7JR39-8s/Urlj3BvA3jI/AAAAAAAABXQ/m4tjJdcnbVs/s1600/7.ImageList-editor.gif)  
+![](create-rich-text-editor-for-yourself/7.ImageList-editor.gif)  
 Now select the **Toolbar1** component and set its **Images** property as **ImageList1**. This will let us set images from the ImageList through the index of the icons. You will get it in a moment.  
   
   
@@ -114,18 +114,18 @@ New CheckButton creates a TToolButton but sets its Style as tbsCheck. You can cr
   
 **8.** Now we have to create a Font selector combobox. Since TCombobox cannot be created with right clicking toolbar, we will create it manually. And we will also include with it a Label saying "Font:". We can nicely blanket the label and the combobox in a Panel so that we can keep some space. If we create those two without the panel, there can be no space between components. Also, when you will resize the form and the toolbar buttons has to be shown in two or more lines, the whole Panel would stay together:  
   
-![](http://3.bp.blogspot.com/-VEpNcJwMses/UrlmUiifnmI/AAAAAAAABYA/u_0n2YniW-E/s1600/toolbar-font-list-resize-scenario.gif)  
+![](create-rich-text-editor-for-yourself/toolbar-font-list-resize-scenario.gif)  
   
 So, first create a **TPanel** inside the Toolbar (when drawing it, **start drawing from inside the toolbar** are to create the panel as a child of the toolbar.) Its height will be automatically set to ButtonHeight of the toolbar.  
   
-![](http://3.bp.blogspot.com/-65ExDYR0jls/UrlkZkgcmdI/AAAAAAAABXY/iTrQKoH34Es/s1600/8.toolbar-font-list-panel.gif)  
+![](create-rich-text-editor-for-yourself/8.toolbar-font-list-panel.gif)  
   
 **Empty its caption**. Create a **TLabel** inside it and set its **Caption to "Font:"**.  
   
-![](http://4.bp.blogspot.com/-rJtLU6tUWc4/UrlkmZi1A-I/AAAAAAAABXg/EkBUmZ8VeBA/s1600/9.font-list-label.gif)  
+![](create-rich-text-editor-for-yourself/9.font-list-label.gif)  
 Now create a **TComboBox** inside it. Set its Name as **cboFont**. Now you will see that you can freely keep space between these two and you can even center them vertically, which would've been impossible without the Panel. Keep the combobox the way it is. We are going to load the fonts with the help code, later.  
   
-![](http://3.bp.blogspot.com/-3l6TEfp_m5M/UrllA1hAMjI/AAAAAAAABXo/tNRPOSEy6I4/s1600/10.font-list-combo-added.gif)  
+![](create-rich-text-editor-for-yourself/10.font-list-combo-added.gif)  
   
 Oh! and set the **BevelOuter** to **bvNone** of the **Panel** to get rid of the border.  
   
@@ -141,7 +141,7 @@ Oh! and set the **BevelOuter** to **bvNone** of the **Panel** to get rid of the 
 36  
 72  
   
-![](http://4.bp.blogspot.com/-ttzsdGz5i4I/UrllP6qUToI/AAAAAAAABXw/YdVsH-B8du8/s1600/11.font-size-combo-in-panel.gif)  
+![](create-rich-text-editor-for-yourself/11.font-size-combo-in-panel.gif)  
 You can optionally set its **ItemIndex** as 1, just as a default value.  
   
 Yaaay! The Toolbar is finished! It was the greatest complexities of this project! Now you are ready to face the rest of the project with a shine in your eyes.  
@@ -153,7 +153,7 @@ Now for giving it more professional look, draw a TStatusBar on the form (from Co
   
 Go ahead and test it (Run->Run or F9).  
   
-![](http://4.bp.blogspot.com/-N3U_8DfXnVE/Urll0r679GI/AAAAAAAABX4/xpe-7E-ynvQ/s1600/12.first-run-rich-text-editor.gif)  
+![](create-rich-text-editor-for-yourself/12.first-run-rich-text-editor.gif)  
 It certainly _looks_ good but its not functional. So let's get cookin'!  
   
 
@@ -394,7 +394,7 @@ Optionally, you can add some menus if you like to give it more professional look
   
 Now Run it (F9 or Run->Run).  
   
-![](http://2.bp.blogspot.com/-SE35bDBlnKs/Urlm4CHeSLI/AAAAAAAABYI/KTYvxzStSYc/s1600/14.rtf-editor-1.gif)  
+![](create-rich-text-editor-for-yourself/14.rtf-editor-1.gif)  
   
   
   
@@ -403,7 +403,7 @@ Now Run it (F9 or Run->Run).
   
 Type in, open documents and test it.  
   
-![](http://1.bp.blogspot.com/-iPmaxPxyj9c/UrlnJZvLGTI/AAAAAAAABYQ/QwOX43IEyZU/s1600/15.rtf-editor-2.gif)  
+![](create-rich-text-editor-for-yourself/15.rtf-editor-2.gif)  
   
 There you have it! Your very own Christmas Gift! :-)  
   

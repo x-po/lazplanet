@@ -15,7 +15,7 @@ categories:
 date: 2013-10-19 06:13:00
 ---
 
-![](http://3.bp.blogspot.com/-X3eEVnQhXAg/UmIiSc6YuyI/AAAAAAAABQk/6Bp0EEOdo0c/s1600/arrays2.jpg)Come, discover the wonderful way to store and manage virtual lists on the computer memory.  
+![](how-to-use-arrays-in-lazarusfpc/arrays2.jpg)Come, discover the wonderful way to store and manage virtual lists on the computer memory.  
   
 _It is a long time since you have seen a post from me. Well, to let you know, I have got a job. And luckily I got it even before my graduation result got published. That's great for my career but bad for this website. I have been busy with my work in my new job, organizing stuff to make it managable. Now its coming in a systematic manner, gradually. Now its time for this blog to occasionally get a post. Wish me good luck guys!_  
   
@@ -39,14 +39,14 @@ var
   
   
 
-[![](http://4.bp.blogspot.com/-BvaCJTbKEj4/UmIffhtyLbI/AAAAAAAABQI/1HrmW7C34Z0/s1600/_46343078_height_world_leaders_466.gif)](http://4.bp.blogspot.com/-BvaCJTbKEj4/UmIffhtyLbI/AAAAAAAABQI/1HrmW7C34Z0/s1600/_46343078_height_world_leaders_466.gif)
+[![](how-to-use-arrays-in-lazarusfpc/_46343078_height_world_leaders_466.gif)](how-to-use-arrays-in-lazarusfpc/_46343078_height_world_leaders_466.gif)
 
 The height of the leaders.... Just for humor! ;)
 
-![](http://1.bp.blogspot.com/-i-m-qhGWytk/UmIdSvEIXRI/AAAAAAAABP4/VRtb4s_EYHY/s1600/tic_tac_toe.gif)  
+![](how-to-use-arrays-in-lazarusfpc/tic_tac_toe.gif)  
   
 Let's see a figure below:  
-![](http://3.bp.blogspot.com/-xAK1gGZbFhA/UmIcaZe_ehI/AAAAAAAABPw/tt9FwinvHfw/s1600/Arrays-fpc-lazarus.gif)Notice the usage a\[1\] vs a\[1,1\]. Single dimension has a total 3 items, while 2 dimensional array has 9 items. The dimensions are pointed out through blue arrows.  
+![](how-to-use-arrays-in-lazarusfpc/Arrays-fpc-lazarus.gif)Notice the usage a\[1\] vs a\[1,1\]. Single dimension has a total 3 items, while 2 dimensional array has 9 items. The dimensions are pointed out through blue arrows.  
   
 For further reading about the multidimensional arrays [see this wiki](http://wiki.freepascal.org/Multidimensional_arrays).  
   
@@ -100,11 +100,11 @@ Click on the procedure name to take the cursor on it. Then press Ctrl+Shift+C. T
   
 Now run the project (F9).  
   
-![](http://2.bp.blogspot.com/-jB753i8jDiQ/UmIgJ6cxHUI/AAAAAAAABQQ/-FOZnZrzx9k/s1600/array-lazarus-program-code.gif)  
+![](how-to-use-arrays-in-lazarusfpc/array-lazarus-program-code.gif)  
   
 Now press the button a few times. You will see some random numbers being added to the TMemo. Actually the items shown in the memo are coming from an array. When you click the button, an item is added to the array. Then the items in the array is shown in the memo with a for loop.  
   
-![](http://4.bp.blogspot.com/-BXSI4TujnW8/UmIggUfXt4I/AAAAAAAABQY/Grj5Lw7UJVI/s1600/array-lazarus-program-code2.gif)  
+![](how-to-use-arrays-in-lazarusfpc/array-lazarus-program-code2.gif)  
 This way you can create virtual lists in the memory (RAM) and then render it on screen the way you want it. If you are interested in virtual lists then check out TStringList as well.  
   
 

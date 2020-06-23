@@ -15,7 +15,7 @@ categories:
 date: 2014-10-13 10:54:00
 ---
 
-![](http://2.bp.blogspot.com/-qFsY3mbVAwQ/VDuvO9dX5GI/AAAAAAAABuA/nSkbCbzz1N0/s1600/connected-thumb.jpg)If you are doing something that depends on an internet connection, you would probably want to check if internet is available. That's what we are going to detect today.  
+![](find-out-if-computer-is-connected-to/connected-thumb.jpg)If you are doing something that depends on an internet connection, you would probably want to check if internet is available. That's what we are going to detect today.  
   
   
   
@@ -52,7 +52,7 @@ Start [Lazarus](http://lazarus.freepascal.org/).
 Create a new Application Project (Project -> New Project -> Application -> OK).  
 Place a TLabel and a TTimer (from System tab). You can resize your form and customize it the way you like. My form looks like this:  
   
-![](http://4.bp.blogspot.com/-AqpRBSYSz44/VDupa7uGL4I/AAAAAAAABto/-K1KiEf3Ako/s1600/is-connected.gif)  
+![](find-out-if-computer-is-connected-to/is-connected.gif)  
 Double click the TTimer (or Timer1) and enter the following code:  
   
 
@@ -79,7 +79,7 @@ uses
   
 Now Run the project (F9 or Run -> Run).  
   
-![](http://1.bp.blogspot.com/-6XdhLjm2m3U/VDurN85rBDI/AAAAAAAABt0/cmhvFa_xAzA/s1600/is-connected-lazarus.gif)  
+![](find-out-if-computer-is-connected-to/is-connected-lazarus.gif)  
 Now if the computer is connected to the internet, it will show "Connected". And if its not, the label will show "Disconnected".  
   
 This code can be utilized in many ways. For example, if you're going to download a file from the internet you can check the connection before continuing. You can then prompt the user to get connected if he is not. Or maybe offering products to the user when he is online.  

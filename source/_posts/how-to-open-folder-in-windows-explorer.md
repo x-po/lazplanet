@@ -16,7 +16,7 @@ categories:
 date: 2014-03-03 12:04:00
 ---
 
-![](http://2.bp.blogspot.com/-JlK9c3HhdLA/UxRrTeDWa3I/AAAAAAAABfo/KHea6XRZwEE/s1600/open-directory-explorer-thumb.gif)We often need to open a directory/folder in a File Manager to show its contents. Today we learn how to run [Windows Explorer](http://en.wikipedia.org/wiki/File_Explorer) to automatically show the content of a directory of our choice.  
+![](how-to-open-folder-in-windows-explorer/open-directory-explorer-thumb.gif)We often need to open a directory/folder in a File Manager to show its contents. Today we learn how to run [Windows Explorer](http://en.wikipedia.org/wiki/File_Explorer) to automatically show the content of a directory of our choice.  
   
   
 Directories are directories. They make our lives simpler. We can partition our hard disks to categorize which part of our hard disk we want to use for what. Then we have directories (or how [Redmond](http://en.wikipedia.org/wiki/Redmond,_Washington#Economy) wants to call it -- folders.) [Directories](http://en.wikipedia.org/wiki/Directory_%28computing%29) let us categorize even more. We can keep files in different directories to differentiate them. I don't know what we would do if there were no directories. Keep thinking!  
@@ -105,7 +105,7 @@ Create a new Application Project (Project -> New Project -> Application -> OK).
   
 Draw a TDirectoryEdit (from Misc tab). It should be named as "DirectoryEdit1". Draw a TButton. It should be named as Button1. You can add a label if you want. Caption these 3 components properly.  
   
-![](http://3.bp.blogspot.com/-YJKwfpe6fW0/UxRit_Wf4LI/AAAAAAAABfE/JjO9hWY-vAA/s1600/open-directory-explorer-lazarus-1.gif)  
+![](how-to-open-folder-in-windows-explorer/open-directory-explorer-lazarus-1.gif)  
 Double click Button1 and enter:  
   
 
@@ -119,7 +119,7 @@ We don't need to add SysUtils in the uses clause, because it is added by default
   
 Now draw a TFileNameEdit (from Misc tab). It should be named FileNameEdit1. Draw a TButton. It should be named Button2. You can also draw a label. Caption the components.  
   
-![](http://4.bp.blogspot.com/-N5Xw3RcZugM/UxRj3io0mhI/AAAAAAAABfM/lj49uuB7l7M/s1600/open-directory-explorer-lazarus-2.gif)  
+![](how-to-open-folder-in-windows-explorer/open-directory-explorer-lazarus-2.gif)  
 Now double click Button2 and enter:  
   
 
@@ -131,7 +131,7 @@ end;
   
 Now run the project (F9 or Run->Run).  
   
-![](http://1.bp.blogspot.com/-6IFtCsgUBMY/UxRl_7Rmr1I/AAAAAAAABfY/u_TfWwaUN8E/s1600/open-directory-explorer-lazarus-3.gif)  
+![](how-to-open-folder-in-windows-explorer/open-directory-explorer-lazarus-3.gif)  
 Now test both the features. Open a directory in the DirectoryEdit and click the button beside it.  
   
   

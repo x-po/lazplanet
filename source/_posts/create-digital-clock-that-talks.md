@@ -15,7 +15,7 @@ categories:
 date: 2013-12-30 16:36:00
 ---
 
-![](http://4.bp.blogspot.com/-9Ao5SgCXcyE/UsF9ec6iYpI/AAAAAAAABY8/Lpm-vX4bXRk/s1600/pacman-clock.jpg)We are going to make a digital clock that has LCD Screen looking digits. Not only that. It can also speak the time!  
+![](create-digital-clock-that-talks/pacman-clock.jpg)We are going to make a digital clock that has LCD Screen looking digits. Not only that. It can also speak the time!  
   
   
 Clock is an essential part of our daily lives. Wherever the new technology taking us, we're rediscovering the clock but can't avoid it. We now have smartwatches that shows time, takes photos, receives messages and more.  
@@ -233,7 +233,7 @@ This time it looks more perfect.
 
 [### Let it talk!
 
-It would be cool if our little digital clock could talk the time! It is possible, thanks to TTS (Text to Speech). Here is a good wiki about TTS in Lazarus/FPC. We can either use](http://3.bp.blogspot.com/-aSWudgPLEVE/UsGQn4KNcsI/AAAAAAAABZM/GxHRn791MwA/s1600/digital-clock-lazarus.jpg) [Microsoft Speech API (SAPI)](http://wiki.freepascal.org/SAPI) or [eSpeak](http://wiki.freepascal.org/espeak). SAPI is Windows-only. We are going to use SAPI here for a shortcut way. You can implement eSpeak with the code very easily.  
+It would be cool if our little digital clock could talk the time! It is possible, thanks to TTS (Text to Speech). Here is a good wiki about TTS in Lazarus/FPC. We can either use](create-digital-clock-that-talks/digital-clock-lazarus.jpg) [Microsoft Speech API (SAPI)](http://wiki.freepascal.org/SAPI) or [eSpeak](http://wiki.freepascal.org/espeak). SAPI is Windows-only. We are going to use SAPI here for a shortcut way. You can implement eSpeak with the code very easily.  
   
 Add comobj in your uses clause:  
 
@@ -290,7 +290,7 @@ end;
   
 You can also set the FormStyle of the form to fsStaysOnTop to set it as a "Always on Top" mode (it won't disappear even if you focus on other windows).  
   
-![](http://3.bp.blogspot.com/-aSWudgPLEVE/UsGQn4KNcsI/AAAAAAAABZM/GxHRn791MwA/s1600/digital-clock-lazarus.jpg)  
+![](create-digital-clock-that-talks/digital-clock-lazarus.jpg)  
 
 ### Further experiments
 

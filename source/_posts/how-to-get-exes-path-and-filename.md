@@ -13,7 +13,7 @@ categories:
 date: 2013-03-30 21:44:00
 ---
 
-![](http://1.bp.blogspot.com/-Igo_2CW5A9c/UVlPiY-uj8I/AAAAAAAAAeQ/Uerhb4CqAbQ/s1600/exe-file.jpg)It is a common question. In your code, sometimes you need to define where your EXE is running from. Then you can load any file from the application's directory or subdirectories. Let's learn how to.  
+![](how-to-get-exes-path-and-filename/exe-file.jpg)It is a common question. In your code, sometimes you need to define where your EXE is running from. Then you can load any file from the application's directory or subdirectories. Let's learn how to.  
   
   
 **The easy way to put it is:**  
@@ -33,7 +33,7 @@ Switch to form view (F12). Place a TLabel and a TEdit on the form. Set the TEdit
 Now place a TButton and a Timage. Set the Timage's autosize property to true.  
   
 Your form will look like this:  
-![](http://1.bp.blogspot.com/-NJfV6YXBN-E/UVdWqd8JOUI/AAAAAAAAAdw/fwU184kbWh8/s1600/apppath-1.gif)  
+![](how-to-get-exes-path-and-filename/apppath-1.gif)  
   
 Double click on form and enter:  
 
@@ -57,7 +57,7 @@ _Change the image filename according to what image you are using._
 ### Run it
 
 Now run it (F9). You will see the application path, exe file path and exe filename on the editboxes. Click the tButton and you will see your image loading in the timage.  
-![](http://1.bp.blogspot.com/-zbnx7K9r-Zs/UVdYDt5m9-I/AAAAAAAAAd4/h4hXENHd86o/s1600/apppath-2.gif)  
+![](how-to-get-exes-path-and-filename/apppath-2.gif)  
 
 ### Sample code download
 

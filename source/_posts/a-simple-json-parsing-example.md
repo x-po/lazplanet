@@ -15,7 +15,7 @@ categories:
 date: 2014-09-03 11:46:00
 ---
 
-![](http://2.bp.blogspot.com/-LSJzVDlyUyg/VAb-zL1VLiI/AAAAAAAABrg/CUgtwt5AdfY/s1600/json-thumb.gif)Can't get enough of JSONs? Crunch some JSON data with this simple code!  
+![](a-simple-json-parsing-example/json-thumb.gif)Can't get enough of JSONs? Crunch some JSON data with this simple code!  
   
   
 [JSON](http://wiki.freepascal.org/JSON) is a very common data format now a days, especially in various APIs. [JSON](http://en.wikipedia.org/wiki/JSON) or [JavaScript Object Notation](http://www.json.org/) is a comma seperated data writing format. It is easy for the humans to read & write. It is easy for the machines to read & write. So it is a d@mn good format to put data in. See this example and you'll get the idea:  
@@ -116,7 +116,7 @@ Switch to Form view and draw 2 TMemo. Memo1 should be on the left and Memo2 shou
   
 Now draw a TEdit and a TButton on the form. They should appear as Edit1 and Button1. Change their name as edtPath and btnParse to have a identifiable layout. Use any TLabels if you think they are appropriate, even a TGroupBox is good. My form looks like this:  
   
-![](http://3.bp.blogspot.com/-i89j9zFMK6c/VAb0shYP1bI/AAAAAAAABrE/nWs1dzXjQmo/s1600/JSON-parser-1.gif)![](http://4.bp.blogspot.com/-2emlWVbIp7w/VAbzBJ0SrBI/AAAAAAAABq4/KszugkBNN7E/s1600/JSON-parser-2.gif)  
+![](http://3.bp.blogspot.com/-i89j9zFMK6c/VAb0shYP1bI/AAAAAAAABrE/nWs1dzXjQmo/s1600/JSON-parser-1.gif)![](a-simple-json-parsing-example/JSON-parser-2.gif)  
 Now double click the button and enter:  
   
 
@@ -135,7 +135,7 @@ Again, only 2 lines of code does the trick!
   
 Now Run it (F9 or Run-> Run).  
   
-![](http://1.bp.blogspot.com/-E1GRbUSyW7k/VAb3-R1CVkI/AAAAAAAABrQ/PpvS8XSuxes/s1600/JSON-parser-cross-platform-lazarus.gif)  
+![](a-simple-json-parsing-example/JSON-parser-cross-platform-lazarus.gif)  
   
   
 Noe click the Parse button. You should see jsmith in the Result. It works graciously. But what if the path does not exist? Try out with some random path and you will see an SIGSEGV error.  

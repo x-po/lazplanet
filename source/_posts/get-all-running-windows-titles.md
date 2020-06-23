@@ -12,7 +12,7 @@ categories:
 date: 2013-04-09 04:42:00
 ---
 
-![](http://4.bp.blogspot.com/-mLILKCtF0gM/UWOaZFoP_lI/AAAAAAAAAho/JgpYyf2aZeM/s1600/tooManyWindows2.jpg)With this simple little code you can list the windows/software that are running. You can identify if some specific software is running or do some magic tricks with Windows API. It is up to you...  
+![](get-all-running-windows-titles/tooManyWindows2.jpg)With this simple little code you can list the windows/software that are running. You can identify if some specific software is running or do some magic tricks with Windows API. It is up to you...  
   
   
 
@@ -73,7 +73,7 @@ Do additional changes to beautify your form.
 
 Press F9 or Run->Run. The program will compile and run. Click the button. You will see a bunch of programs' titles that are currently running. Click the button again to get an updated list. (You may also implement a timer.)  
   
-![](http://3.bp.blogspot.com/-F3I_5y2a3ds/UWMljKWecyI/AAAAAAAAAhY/xm84WRCWjic/s1600/get-running-windows-lazarus.gif)  
+![](get-all-running-windows-titles/get-running-windows-lazarus.gif)  
 
 ### Concept
 

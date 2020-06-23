@@ -12,7 +12,7 @@ categories:
 date: 2019-02-14 10:20:00
 ---
 
-![](http://3.bp.blogspot.com/-oA9UpWFum6w/Ubtes8bszUI/AAAAAAAABB0/R2a6EWkKgeE/s1600/Lazarus-Logo.png)Lazarus 2.0 has been released. It is the second major release with FPC 3.0.4. It has many new minor changes to look for.  
+![](lazarus-200-released-with-many-tiny/Lazarus-Logo.png)Lazarus 2.0 has been released. It is the second major release with FPC 3.0.4. It has many new minor changes to look for.  
   
 I think you'll agree it is always a pleasure to see a new version of Lazarus. The stable version of the Lazarus of version 2.0, with FPC 3.0.4 has been announced on 5 February 2019. Some major changes include:  
   
@@ -26,7 +26,7 @@ I think you'll agree it is always a pleasure to see a new version of Lazarus. Th
   
 Here is how it looks on a typical Windows install:  
   
-![](https://1.bp.blogspot.com/-_0wdkVZ5KW4/XGU_lOSf3EI/AAAAAAAACeE/fcXmAKe0r8wFI11hzAaohVHHkzLMWWKwgCLcBGAs/s1600/Lazarus-2.0.0-on-windows.png)![](https://2.bp.blogspot.com/-GYfi9lq916A/XGU_tZHLfpI/AAAAAAAACeM/6622QbjS42MHrZEenX9ZKbbmVgH4PHiTQCLcBGAs/s1600/Lazarus-2.0.0-menu1.png)  
+![](https://1.bp.blogspot.com/-_0wdkVZ5KW4/XGU_lOSf3EI/AAAAAAAACeE/fcXmAKe0r8wFI11hzAaohVHHkzLMWWKwgCLcBGAs/s1600/Lazarus-2.0.0-on-windows.png)![](lazarus-200-released-with-many-tiny/Lazarus-2.0.0-menu1.png)  
   
 
 There are many other changes which are yours to explore! Go ahead, download Lazarus and try for yourself.

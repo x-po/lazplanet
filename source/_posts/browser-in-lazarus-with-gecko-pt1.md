@@ -14,7 +14,7 @@ categories:
 date: 2013-10-29 12:43:00
 ---
 
-![](http://4.bp.blogspot.com/-F167n1pr6Kk/Um-qCFAy0SI/AAAAAAAABSE/fCp76waB7HE/s1600/firefox-funny-icon.jpg)What web browsers do for us? They let us browse the internet, serve some wicked features that we love and let us customize them as we wish. Well, now it's time to make your own and customize it even further!  
+![](browser-in-lazarus-with-gecko-pt1/firefox-funny-icon.jpg)What web browsers do for us? They let us browse the internet, serve some wicked features that we love and let us customize them as we wish. Well, now it's time to make your own and customize it even further!  
   
   
 So, are you ready?  
@@ -83,7 +83,7 @@ Then run the command below:
   
 `svn co https://lazarus-ccr.svn.sourceforge.net/svnroot/lazarus-ccr/components/geckoport/version1 geckoport_v1`  
   
-![](http://1.bp.blogspot.com/--Yl3eQk9B-Y/Um-jpr7x35I/AAAAAAAABQ4/sX60mNykXAk/s1600/geckoport-svn-co-lazarus.gif)  
+![](browser-in-lazarus-with-gecko-pt1/geckoport-svn-co-lazarus.gif)  
   
 Now the Source Code for GeckoPort1 will be downloaded in the "geckoport\_v1" directory. Again, you can avoid this commands by downloading the source code from the link mentioned above.  
   
@@ -95,19 +95,19 @@ No matter which way you chose, you should have a geckoport\_v1 directory.
   
 Now copy that geckoport\_v1 directory to c:lazaruscomponents directory. You can keep it in any directory, but I like the Lazarus installation to be contained within itself.  
   
-![](http://2.bp.blogspot.com/-Bg8CpKpfnVY/Um-l_vl4x8I/AAAAAAAABRE/p7fVFNYZ92s/s1600/geckoport-install-lazarus.gif)  
+![](browser-in-lazarus-with-gecko-pt1/geckoport-install-lazarus.gif)  
   
 Now if you go to C:lazaruscomponentsgeckoport\_v1Components you will see GeckoComponents.lpk. Double click it. Lazarus will open up automatically and with a package window titled "Package GeckoComponents".  
   
-![](http://1.bp.blogspot.com/-Ie3HGJL8acE/Um-mzy8S1ZI/AAAAAAAABRM/RNK0PqTkUZw/s1600/geckoport-install-lazarus-2.gif)  
+![](browser-in-lazarus-with-gecko-pt1/geckoport-install-lazarus-2.gif)  
   
 Click the "Compile" button on that window. See the messages window. It will eventually finish compiling and will show a message.  
   
-![](http://1.bp.blogspot.com/-To0h0kJMys0/Um-n7HmQOvI/AAAAAAAABRg/6ekZxlbFZYE/s1600/geckoport-install-lazarus-4.gif)  
+![](browser-in-lazarus-with-gecko-pt1/geckoport-install-lazarus-4.gif)  
   
 Now get back to the package window. Click More->Install. You will get a message that if you want to rebuild Lazarus. Click Yes.  
   
-![](http://3.bp.blogspot.com/-WmIwjA3qiyg/Um-no1AAxOI/AAAAAAAABRY/bthpuTk2vmc/s1600/geckoport-install-lazarus-3.gif)  
+![](browser-in-lazarus-with-gecko-pt1/geckoport-install-lazarus-3.gif)  
 Now Lazarus will be automatically rebuilt with the Gecko components and restart itself. (As I said before, its only a matter of some clicks. No command line stuff.)  
   
 
@@ -116,7 +116,7 @@ Now Lazarus will be automatically rebuilt with the Gecko components and restart 
   
 In Lazarus, check out the toolbar. If Gecko components have been installed correctly then a new tab named "Gecko" should appear with 2 components inside it.  
   
-![](http://4.bp.blogspot.com/-0Mtbk_iwvQI/Um-sBUZVTuI/AAAAAAAABSQ/92a8wFea22I/s1600/geckoport-in-lazarus-toolbar.gif)  
+![](browser-in-lazarus-with-gecko-pt1/geckoport-in-lazarus-toolbar.gif)  
 If they are visible to you then you have successfully installed Gecko Components. Congrats!!  
   
   
@@ -158,14 +158,14 @@ If you are trying from any platform other than Windows to install XULRunner, the
   
 Go to C:lazaruscomponentsgeckoport\_v1SampleApps. Now you will see 2 projects. Try opening the GBrowser.lpi example and hitting Shift+F9 to build (not F9 or Run->Run). The executable should be generated. Now if you double click the executables then you will see an error message in the place of the Gecko Frame "Failed to initialize TGeckoBrowser".  
   
-![](http://1.bp.blogspot.com/-aN30RzripQ8/Um-pU8L1xMI/AAAAAAAABR8/ai6RNCH3J3A/s1600/geckoport-install-lazarus-6a.gif)  
+![](browser-in-lazarus-with-gecko-pt1/geckoport-install-lazarus-6a.gif)  
   
 This is because we haven't given it XULRunner. So extract and copy "xulrunner" directory in the C:lazaruscomponentsgeckoport\_v1SampleApps directory. Now run the executable again. And if everything is okey, you should see the webpage of Lazarus!!  
   
   
-![](http://4.bp.blogspot.com/-lLfCiM5LYIc/Um-oYiTv49I/AAAAAAAABRo/XNBvXLenbqc/s1600/geckoport-install-lazarus-5.gif)  
+![](browser-in-lazarus-with-gecko-pt1/geckoport-install-lazarus-5.gif)  
   
-![](http://3.bp.blogspot.com/-uxkrtHul2S0/Um-ov2vb9zI/AAAAAAAABRw/nwjTMiLO6JE/s1600/geckoport-install-lazarus-6.gif)  
+![](browser-in-lazarus-with-gecko-pt1/geckoport-install-lazarus-6.gif)  
   
   
 

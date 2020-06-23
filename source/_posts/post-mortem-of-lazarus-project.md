@@ -19,7 +19,7 @@ categories:
 date: 2014-05-19 09:25:00
 ---
 
-![](http://2.bp.blogspot.com/-rkRRhgLaoQA/U3m4en3790I/AAAAAAAABi8/_T0OGyQlTxg/s1600/Lazarus-project.jpg)How do Lazarus projects work? Each Project file have their own purpose. Today, we do an autopsy or a post-mortem to learn about their function!  
+![](post-mortem-of-lazarus-project/Lazarus-project.jpg)How do Lazarus projects work? Each Project file have their own purpose. Today, we do an autopsy or a post-mortem to learn about their function!  
   
   
   
@@ -61,7 +61,7 @@ Great! Now close Lazarus and open the "**Program1**" folder in File explorer.
   
 You will see 3 files: **project1.lpi**, **project1.lpr**, **project1.lps**. Now we will open these files one by one in a plain text editor and see what's in them.  
   
-![](http://3.bp.blogspot.com/-iiL17p2RtHw/U3m_pviWtlI/AAAAAAAABjM/MGKJtzsn0s0/s1600/Lazarus-Project-Post-Mortem-1.gif)  
+![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-1.gif)  
   
 
 #### project1.lpi
@@ -79,7 +79,7 @@ You can double click this file to open the project in Lazarus. But we are not in
   
 The extension .lpr is a confusing abbreviation. Because according to _Tools-> Options-> Environment-> File Filters_, .lpr means "Lazarus project source" file. It should have been .lps, but it is not.  
   
-![](http://4.bp.blogspot.com/-Jwhdplbv1gA/U3nAPcavxBI/AAAAAAAABjU/lA0hITGA-GE/s1600/Lazarus-Project-Post-Mortem-2.gif)  
+![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-2.gif)  
 Well, from the name "Lazarus project source", you can guess that this file contains the source code for our project.  
   
 This .lpr file should contain the following:  
@@ -124,7 +124,7 @@ This folder contains backups that Lazarus keeps of the project files in case you
   
 Now open the project in Lazarus (by double clicking the lpi or lpr or using **File-> Open**). Click **Run -> Compile**. (You can also try **Run-> Run**.) When the compiling finishes you will see a "**lib**" folder to be created in the project folder. It has a .compiled and .o file. They are the result of compiling.  
   
-![](http://2.bp.blogspot.com/-yxJ4d8uNIz4/U3nBV4_3CGI/AAAAAAAABjs/bnZI5iJ_TeE/s1600/Lazarus-Project-Post-Mortem-3.gif)![](http://2.bp.blogspot.com/-NQ6fl9PhTf4/U3nCEIlBXlI/AAAAAAAABj0/hVgmE6S3GJU/s1600/Lazarus-Project-Post-Mortem-4.gif)  
+![](http://2.bp.blogspot.com/-yxJ4d8uNIz4/U3nBV4_3CGI/AAAAAAAABjs/bnZI5iJ_TeE/s1600/Lazarus-Project-Post-Mortem-3.gif)![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-4.gif)  
 Now there are 7 files! (Compared to only 3 files in the console project.) This is because GUI application need more data than a console project. It has to have the source code, of course, plus the component properties, resource file and an icon and so on.  
   
 So let's see what these files do...  
@@ -137,7 +137,7 @@ The lpi and lps files are basically the same as the console project. So we can s
   
 As your common sense may indicate, .ico means "Icon" file. Unlike console programs, the GUI project has to have an icon for the exe (or dmg or any other binary format). This is currently a Lazarus "paw" icon. When you set an icon for the project, this will be replaced by that icon.  
   
-![](http://3.bp.blogspot.com/-D89CuUTVc-4/U3nDZLedGDI/AAAAAAAABj8/O_dOH7Mo-4I/s1600/Lazarus-Project-Post-Mortem-5.gif)  
+![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-5.gif)  
 
 #### project1.lpr
 
@@ -221,7 +221,7 @@ Now, Running it...
   
 Click **Run-> Compile**.  
   
-![](http://1.bp.blogspot.com/-gj6H1ZTxVF4/U3nHYGjmb_I/AAAAAAAABkI/OEA1lBjL6yI/s1600/Lazarus-Project-Post-Mortem-6.gif)  
+![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-6.gif)  
 Similar to the console program, a "lib" folder is created and the result of the compilation are kept there as files. Also, the project1.exe is created which is around 14mb. This is huge. Because it contains debugging data. You can strip off this data and make it weigh around 700kb. Read more about Build modes.  
   
 So, that's it. I wish I had this article when I first started using Lazarus. It would've made my understanding of Pascal way better as I didn't know a clear difference between a Pascal unit and a main Program. You are very lucky to have this article in your hands.  

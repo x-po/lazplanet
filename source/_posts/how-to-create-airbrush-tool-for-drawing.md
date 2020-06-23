@@ -17,7 +17,7 @@ categories:
 date: 2013-06-28 16:06:00
 ---
 
-![](http://4.bp.blogspot.com/-VdZTA1ecAIg/Uc2t24GQsKI/AAAAAAAABHA/nrZt9J2BQ9g/s200/airbrush-thumb.jpg)You know [how to draw like a pencil](http://lazplanet.blogspot.com/2013/05/how-to-scribble-with-virtual-pencil.html) and [circles and rectangles and stuff](http://lazplanet.blogspot.com/2013/06/how-to-create-basic-paint-software.html). But how do you make an airbrush tool in Lazarus? Here's how...  
+![](how-to-create-airbrush-tool-for-drawing/airbrush-thumb.jpg)You know [how to draw like a pencil](http://lazplanet.blogspot.com/2013/05/how-to-scribble-with-virtual-pencil.html) and [circles and rectangles and stuff](http://lazplanet.blogspot.com/2013/06/how-to-create-basic-paint-software.html). But how do you make an airbrush tool in Lazarus? Here's how...  
   
   
   
@@ -30,8 +30,8 @@ Well, first of all, airbrush has a soft, gradually blending transparent area. Se
   
 First, look at the image below to have a proper understanding of how airbrush tool works:  
   
-![](http://4.bp.blogspot.com/-Zl_ngMajblk/Uc02ONJNSmI/AAAAAAAABFo/HwH9X3t0KUg/s412/airbrush-works.jpg)  
-![](http://1.bp.blogspot.com/-LPiMx9f_gs4/Uc04xfukJGI/AAAAAAAABF4/GM9qFRsFh9g/s300/300px-Bresenham.svg.png)  
+![](how-to-create-airbrush-tool-for-drawing/airbrush-works.jpg)  
+![](how-to-create-airbrush-tool-for-drawing/300px-Bresenham.svg.png)  
   
 The basic version of the algorithm is given below in [pseudocode](http://en.wikipedia.org/wiki/Pseudocode). (If you don't understand it, then you can skip it):  
   
@@ -66,12 +66,12 @@ Create a new Application Project (Project-> New Project-> Application-> OK). Sav
   
 Now create the brush image as a png file. I have used Photoshop but you can use [Gimp](http://www.gimp.org/) too, which is free. I have created a new file, 20 by 20 pixels. Then chose a 21 size brush to draw a brush image.  
   
-![](http://1.bp.blogspot.com/-8vslH6YxWKY/Uc0_VbcjMaI/AAAAAAAABGI/9a_ZPOReUO4/s337/airbrush-ps.jpg)  
+![](how-to-create-airbrush-tool-for-drawing/airbrush-ps.jpg)  
   
 You can also use a gradient, but that may take bit of tweaking to make it perfect. You can also create bigger or smaller size image if you like.  
   
 You can download the image below if you can't reproduce it (right click it then choose Save image as):  
-![](http://3.bp.blogspot.com/-SnSvN4pmMKU/Uc0_w9XK4yI/AAAAAAAABGQ/CB9wSEa6M_Y/s20/brush.png)  
+![](how-to-create-airbrush-tool-for-drawing/brush.png)  
 Save the image as "brush.png" in the same directory in the project that you saved earlier.  
   
   
@@ -212,7 +212,7 @@ end;
   
 Now run the project (F9 or Run-> Run).  
   
-![](http://2.bp.blogspot.com/-xD1UnLdetsM/Uc1EEdRi-cI/AAAAAAAABGw/qQyJebawatw/s345/airbrush-test-runtime.jpg)  
+![](how-to-create-airbrush-tool-for-drawing/airbrush-test-runtime.jpg)  
 Drag you mouse to draw with airbrush mode. Right click and drag your mouse to draw with Paintbrush mode.  
   
 You can also [use BGRA Bitmap Library](http://wiki.freepascal.org/BGRABitmap_tutorial_5) to create the brush image in the memory by making a gradient. Then you can change the color and size of the brush by generating a gradient of according to the size and color chosen.  

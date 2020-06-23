@@ -12,7 +12,7 @@ categories:
 date: 2013-04-11 23:06:00
 ---
 
-![](http://1.bp.blogspot.com/-RLtATFSIbLc/UWdCm_FAgpI/AAAAAAAAAiI/B9cOGEFRD-Y/s1600/lazarus-form-transparency-2.gif)Forms are boring solid objects. But you can make it fun in many ways. One of them is transparency. Here's how...  
+![](make-your-forms-transparent/lazarus-form-transparency-2.gif)Forms are boring solid objects. But you can make it fun in many ways. One of them is transparency. Here's how...  
   
   
   
@@ -98,7 +98,7 @@ end;
 
 Did you entered them correctly? Let's test it out. Press F9 (Run->Run).  
   
-![](http://4.bp.blogspot.com/-gHAdqtEdGCI/UWc-GgU8znI/AAAAAAAAAh4/NsUKPAWbM-8/s1600/lazarus-form-transparency.gif)  
+![](make-your-forms-transparent/lazarus-form-transparency.gif)  
 Are you satisfied? Your form is look-through.  
   
 The above code uses windows unit and Windows API so it is not cross platform.  

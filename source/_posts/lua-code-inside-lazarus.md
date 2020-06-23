@@ -12,7 +12,7 @@ categories:
 date: 2020-05-01 10:37:00
 ---
 
-[![Lua inside Lazarus projects blog thumbnail](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lua-inside-lazarus-thumb.jpg "Lua inside Lazarus projects blog thumbnail")](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lua-inside-lazarus-thumb.jpg)
+[![Lua inside Lazarus projects blog thumbnail](lua-code-inside-lazarus/lua-inside-lazarus-thumb.jpg "Lua inside Lazarus projects blog thumbnail")](lua-code-inside-lazarus/lua-inside-lazarus-thumb.jpg)
 
 We're crazy! We're out of our minds! We're going to run Lua code, from inside our Lazarus code! 2 Languages at once!  
   
@@ -80,7 +80,7 @@ end.
 So after all these my project folder looks like this:  
   
 
-[![Project files](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lua-project-setup-01-300x131.png "Project files")](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lua-project-setup-01.png)
+[![Project files](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lua-project-setup-01-300x131.png "Project files")](lua-code-inside-lazarus/lua-project-setup-01.png)
 
   
 Now we are ready to run our program. Hit **Run - Run** (or F9).  
@@ -88,7 +88,7 @@ Now we are ready to run our program. Hit **Run - Run** (or F9).
 It should print the message from Lua as expected:  
   
 
-[![Lua code running inside a Free Pascal program in a Console program](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lua-cli-01-300x152.png "Lua code running inside a Free Pascal program in a Console program")](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lua-cli-01.png)
+[![Lua code running inside a Free Pascal program in a Console program](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lua-cli-01-300x152.png "Lua code running inside a Free Pascal program in a Console program")](lua-code-inside-lazarus/lua-cli-01.png)
 
   
   
@@ -117,7 +117,7 @@ This way we'll have a simple code to execute when we run our program. We should 
 Set the Caption property of Button1 to something like "Execute!" or anything you like. Your form should now look something like this:  
   
 
-[![Form design of the GUI program](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-form-design-01-300x173.gif "Form design of the GUI program")](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-form-design-01.gif)
+[![Form design of the GUI program](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-form-design-01-300x173.gif "Form design of the GUI program")](lua-code-inside-lazarus/Lua-form-design-01.gif)
 
   
 Double click the Button1 and enter:  
@@ -208,13 +208,13 @@ uses
 Now click Run - Run (or F9). It will show up on screen.  
   
 
-[![Lua GUI application for running Lua code from inside Free Pascal program](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-form-design-02-300x173.gif "Lua GUI application for running Lua code from inside Lazarus program")](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-form-design-02.gif)
+[![Lua GUI application for running Lua code from inside Free Pascal program](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-form-design-02-300x173.gif "Lua GUI application for running Lua code from inside Lazarus program")](lua-code-inside-lazarus/Lua-form-design-02.gif)
 
   
 Now click the Execute button and it should show a message on the Memo to the right.  
   
 
-[![Basic functionality is working](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-gui-03-300x173.gif "Basic functionality is working")](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-gui-03.gif)
+[![Basic functionality is working](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-gui-03-300x173.gif "Basic functionality is working")](lua-code-inside-lazarus/Lua-gui-03.gif)
 
   
 You can paste any Lua code and it should work. I tried a code example from [tutorialspoint.com](https://www.tutorialspoint.com/lua/lua_variables.htm) (love their work by the way) which is something like this:  
@@ -245,7 +245,7 @@ print("value of f", f)
 Which should output like the screenshot below:  
   
 
-[![Lazarus program running a variable example code written in Lua](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-gui-04-300x173.gif "Lazarus program running a variable example code written in Lua")](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-gui-04.gif)
+[![Lazarus program running a variable example code written in Lua](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-gui-04-300x173.gif "Lazarus program running a variable example code written in Lua")](lua-code-inside-lazarus/Lua-gui-04.gif)
 
   
 Have fun with this amazing trick!  

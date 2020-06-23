@@ -14,7 +14,7 @@ categories:
 date: 2015-04-07 19:12:00
 ---
 
-![](http://3.bp.blogspot.com/-oA9UpWFum6w/Ubtes8bszUI/AAAAAAAABB0/R2a6EWkKgeE/s1600/Lazarus-Logo.png)Lazarus 1.4 RC3 has been released. There are a lots of awaited updates and fixes. See how much Lazarus has evolved.  
+![](lazarus-14-rc3-is-available-and-why-you/Lazarus-Logo.png)Lazarus 1.4 RC3 has been released. There are a lots of awaited updates and fixes. See how much Lazarus has evolved.  
   
 Lazarus 1.4 Release Candidate 3 has been released. A [forum post](http://forum.lazarus.freepascal.org/index.php/topic,27985.0.html) has confirmed the news.  
   

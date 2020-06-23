@@ -14,14 +14,14 @@ categories:
 date: 2013-05-09 12:20:00
 ---
 
-![](http://2.bp.blogspot.com/-yE3BMyJQS-s/UYuTqWjYxfI/AAAAAAAAAuI/TkBnR66O1j4/s1600/average-thumb.gif)We have seen a lot of average calculation programs. They have limit to their numbers of input. So we have a code that will let you enter number to your heart's content.  
+![](calculate-average-of-unlimited-numbers/average-thumb.gif)We have seen a lot of average calculation programs. They have limit to their numbers of input. So we have a code that will let you enter number to your heart's content.  
   
   
 Do you know how to calculate average? How do we do it in Lazarus / Free pascal?  
   
 Average is the number which we get by dividing the sum of numbers by the count of the numbers. The average number helps us to get an overall look at a whole bunch of numbers. If we get that the average height of the students of a class is 5.5' (5 feet 5 inches) then we can understand that all the students have a height more or less than 5.5'.  
   
-![](http://4.bp.blogspot.com/-UmYYxbebTjw/UYuLo0_xlzI/AAAAAAAAAts/xzuFJb1j1sE/s1600/average-graph-1.gif)  
+![](calculate-average-of-unlimited-numbers/average-graph-1.gif)  
   
 The average calculation is a very easy one. We only need to add the numbers and store it in a variable. At the same time we need to keep the count of the numbers that have been entered. After the numbers are finished entering we need to just Divide the sum with the count of numbers. That's it!  
   
@@ -97,7 +97,7 @@ end.
   
 Run the program (F9 or Run->Run).  
   
-![](http://4.bp.blogspot.com/-K1goaJtTgHA/UYuQRQeBPmI/AAAAAAAAAt8/nOBH7gFKsCM/s1600/average-calculation-lazarus.gif)  
+![](calculate-average-of-unlimited-numbers/average-calculation-lazarus.gif)  
 You could enter many numbers you desire. Just leave the input blank and press enter to calculate the average.  
 
 ### Explanation

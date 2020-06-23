@@ -11,7 +11,7 @@ categories:
 date: 2013-06-14 18:28:00
 ---
 
-![](http://3.bp.blogspot.com/-oA9UpWFum6w/Ubtes8bszUI/AAAAAAAABB0/R2a6EWkKgeE/s1600/Lazarus-Logo.png)Another release of the 1.x stable version Lazarus 1.0.10 has been released. It has FPC 2.6.2 like its previous version. It is generally a bugfix version. It is good to see Lazarus releasing more updates for the stable version.  
+![](lazarus-1010-with-fpc-262-released/Lazarus-Logo.png)Another release of the 1.x stable version Lazarus 1.0.10 has been released. It has FPC 2.6.2 like its previous version. It is generally a bugfix version. It is good to see Lazarus releasing more updates for the stable version.  
   
   
 Lazarus is having more bugfix releases. Which the Lazarus community [agrees](http://www.lazarus.freepascal.org/index.php/topic,21150.msg123485.html#msg123485) that even the paid Embarcadero / Delphi wasn't able to do. It is better to have a more stable version in the development process because it will have more reliability on the IDE, rather than just ruthlessly pushing the new features to the already buggy version (just like [Ubuntu](http://en.wikipedia.org/wiki/Ubuntu_(operating_system)) now a days).  

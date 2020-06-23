@@ -12,7 +12,7 @@ categories:
 date: 2013-11-03 08:18:00
 ---
 
-![](http://4.bp.blogspot.com/-F167n1pr6Kk/Um-qCFAy0SI/AAAAAAAABSE/fCp76waB7HE/s1600/firefox-funny-icon.jpg)Web browsers are our daily thing. We browse the internet through them. But what about making our own browser? That we are going to do.  
+![](browser-in-lazarus-with-gecko-pt2/firefox-funny-icon.jpg)Web browsers are our daily thing. We browse the internet through them. But what about making our own browser? That we are going to do.  
   
 _Before you continue please read [part 1 of this tutorial](http://lazplanet.blogspot.com/2013/10/browser-in-lazarus-with-gecko-pt1.html) to setup your [Lazarus](http://www.lazarus.freepascal.org/) to add support for GeckoPort components in your Toolbar._  
   
@@ -92,18 +92,18 @@ Okey, now we are ready for some serious action.
   
 Go to form view (F12). Now go to Gecko tab from the toolbar and drop TGeckoBrowser on your form. You should see a component with a Lizard in it. That's Gecko! Our trusty browser component! Name your trusty component as "Browser".  
   
-![](http://3.bp.blogspot.com/-9xAdosI41mw/UnXg1oCo3bI/AAAAAAAABS0/T4B6ok_iG5U/s1600/lazarus-toolbar-gecko-component.gif)   
-![](http://2.bp.blogspot.com/-cvynzcMPtNc/UnXe4W9m3rI/AAAAAAAABSo/fylaLjHoMDA/s1600/lazarus-form-designer-gecko-component.gif)  
+![](browser-in-lazarus-with-gecko-pt2/lazarus-toolbar-gecko-component.gif)   
+![](browser-in-lazarus-with-gecko-pt2/lazarus-form-designer-gecko-component.gif)  
   
 Now Drop a TEdit (Standard tab) and a TBitBtn (Additional Tab). Set the caption of BitButton as GO. Set it's name to btnGo. Name the TEdit to edtAddress.  
   
 Drop 3 TSpeedButtons. They will be our Back, Forward and Refresh/Reload button. Name them btnBack, btnForward and btnReload. Set their Glyphs to icons. I have used [FamFamFam](http://www.famfamfam.com/lab/icons/mini/) and [Silk Companion](http://damieng.com/creative/icons/silk-companion-1-icons) icon packs.  
   
-![](http://2.bp.blogspot.com/-J5ocqalFghg/UnXeaYJ7t4I/AAAAAAAABSg/n2MKcLw6nqQ/s1600/BItButtons-lazarus-browser.gif)  
+![](browser-in-lazarus-with-gecko-pt2/BItButtons-lazarus-browser.gif)  
   
 Now drop a TProgressBar (Common Controls). That will be our loading progress bar. Drop a TLabel as well and name that lblStatus.  
   
-![](http://3.bp.blogspot.com/-655-vWLUUKY/UnXiw2t6-ZI/AAAAAAAABTA/9wvtpXmlpvk/s1600/lazarus-web-browser-progress-status.gif)  
+![](browser-in-lazarus-with-gecko-pt2/lazarus-web-browser-progress-status.gif)  
 
 #### Now to coding...
 
@@ -216,13 +216,13 @@ Now Run (F9). When you browse, it would feel more responsive because you will kn
 #### Resize Scenario
 
 We can use Anchor property to update the components' size on form resize, without writing a single line of code. Every Anchor property (akBottom, akLeft etc.) is available under Anchors property.  
-![](http://2.bp.blogspot.com/-qRt7n1nCpkg/UnXyXRau_iI/AAAAAAAABTg/YAvGTv5TNwM/s1600/anchors-property.gif)![](http://3.bp.blogspot.com/-XbsYYiiRGuk/UnXs7d2RqRI/AAAAAAAABTQ/2Vp0jF7Ijq4/s1600/progressbar-overlay-problem.gif)  
+![](http://2.bp.blogspot.com/-qRt7n1nCpkg/UnXyXRau_iI/AAAAAAAABTg/YAvGTv5TNwM/s1600/anchors-property.gif)![](browser-in-lazarus-with-gecko-pt2/progressbar-overlay-problem.gif)  
   
 Select ProgressBar1 and set akTop to False, akBottom to True. Select lblStatus and set akTop to False, akBottom to True.  
   
 Now press F9. It should now work nicely.  
   
-![](http://1.bp.blogspot.com/-Rz-BdmwTH28/UnX_WXG29fI/AAAAAAAABTw/Z8WByuw5SCM/s1600/gecko-based-browser-sample-code.gif)  
+![](browser-in-lazarus-with-gecko-pt2/gecko-based-browser-sample-code.gif)  
 
 ### Download Sample Code ZIP
 

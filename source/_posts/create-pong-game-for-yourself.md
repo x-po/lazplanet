@@ -14,7 +14,7 @@ categories:
 date: 2014-10-04 06:33:00
 ---
 
-![](http://2.bp.blogspot.com/-4vH60iJ2_-Q/VC-HTLT57AI/AAAAAAAABsM/gEW8HgqFtDE/s1600/ping_pong.png)Everybody likes to play games. It gets even better if you play the game you made yourself.  
+![](create-pong-game-for-yourself/ping_pong.png)Everybody likes to play games. It gets even better if you play the game you made yourself.  
   
 [Pong game](http://en.wikipedia.org/wiki/Pong) was one of the most primitive [graphical computer game](http://lazplanet.blogspot.com/search/label/Games) made in the early 1970s. Since then the gaming industry has evolved so much. And so did the graphics, bringing in many other types of games in the table. But still Pong game is considered to be the Hello World of Game Development. If you want to try learning to make games you should try to make a Pong Game first. It is easy to understand and easy to code.  
   
@@ -25,7 +25,7 @@ date: 2014-10-04 06:33:00
 [The Pong game](http://en.wikipedia.org/wiki/Pong) was first introduced in 1972 by Atari Inc. It was in minimalistic game having two dimensional graphics. With the graphical capabilities just flourishing for the computers the Pong game was exciting for the gamers. Atari even made cabinet style gaming machine for Pong game. It is the game that basically started the video game industry. So it was a real game-changer.  
   
 
-[![Pong game](https://2.bp.blogspot.com/-R8MtXunzRTQ/VC-GsGGDAvI/AAAAAAAABsE/azZGr-jYXgw/s1600/pong.jpg "Pong game")](http://2.bp.blogspot.com/-R8MtXunzRTQ/VC-GsGGDAvI/AAAAAAAABsE/azZGr-jYXgw/s1600/pong.jpg)
+[![Pong game](https://2.bp.blogspot.com/-R8MtXunzRTQ/VC-GsGGDAvI/AAAAAAAABsE/azZGr-jYXgw/s1600/pong.jpg "Pong game")](create-pong-game-for-yourself/pong.jpg)
 
 The Pong game
 
@@ -49,16 +49,16 @@ Create a new Application Project (Project -> New Project -> Application -> OK). 
   
 Set the form's Color to clBlack. This color will be the background of our game. Games are better in Black backgrounds, don't you think?  
   
-![](http://3.bp.blogspot.com/-oqoisGSIous/VC-I_MsP6EI/AAAAAAAABsY/C05RQD4qT3Q/s1600/Lazarus-Pong-Game-1.gif)  
+![](create-pong-game-for-yourself/Lazarus-Pong-Game-1.gif)  
 Draw 2 TShapes on the form (TShape is available in the Additional tab). Set one Component's name as "Ball" and another as "Paddle". Set the Shape of the "Ball" to stCircle. It is better to set both the Width and Height of the ball to same. Size the "Paddle" to something you like.  
   
-![](http://2.bp.blogspot.com/-2DdFLZil01s/VC-JEIswmqI/AAAAAAAABsg/J0CBR1s75no/s1600/Lazarus-Pong-Game-2.gif)  
+![](create-pong-game-for-yourself/Lazarus-Pong-Game-2.gif)  
 Set the Form's Caption to "Pascal Ping Pong - Use left and right arrow to move the paddle". This text will be shown when the player hasn't scored yet. This will help a newbie player to understand how play the game.  
   
-![](http://4.bp.blogspot.com/-gKBgRS1YZqU/VC-JLVUyLRI/AAAAAAAABso/JmGOXtVjdKQ/s1600/Lazarus-Pong-Game-3.gif)  
+![](create-pong-game-for-yourself/Lazarus-Pong-Game-3.gif)  
 Draw a TTimer in the form (from System tab). Place it anywhere you like because it is going to be hidden in runtime. Set its Interval property to 30.  
   
-![](http://1.bp.blogspot.com/-ISjgq7NYKfM/VC-JVSrj0rI/AAAAAAAABsw/WPzMtOwIo8g/s1600/Lazarus-Pong-Game-4.gif)  
+![](create-pong-game-for-yourself/Lazarus-Pong-Game-4.gif)  
 See how our form looks and look at the Object Inspector to check if yours look the same (click to zoom).  
   
   
@@ -192,7 +192,7 @@ The code is well-commented. So I think you will understand the code yourself.
   
 Now run the Project (Run->Run or F9). Move the paddle with Left and Right arrow keys on the keyboard and enjoy!  
   
-![](http://2.bp.blogspot.com/--XQ4NocLJbU/VC-L2N6SEUI/AAAAAAAABs8/YOK7wmDcXdU/s1600/Ping-Pong-Game-Lazarus.gif)  
+![](create-pong-game-for-yourself/Ping-Pong-Game-Lazarus.gif)  
   
 
 #### Pause function

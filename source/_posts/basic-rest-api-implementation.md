@@ -16,7 +16,7 @@ categories:
 date: 2019-03-22 10:16:00
 ---
 
-![](https://3.bp.blogspot.com/-g5RbR9TkAMY/XJRzseT9OBI/AAAAAAAACi0/gerwRVyaoFA1wsttnUf7MAA3h31243g4ACLcBGAs/s1600/rest-api-thumb.jpg)REST APIs are "the thing" to learn these days. But how should we get it to work on Lazarus? Let's see...  
+![](basic-rest-api-implementation/rest-api-thumb.jpg)REST APIs are "the thing" to learn these days. But how should we get it to work on Lazarus? Let's see...  
   
 Does the word API ring any bell? If it doesn't, it means Application Programming Interface. If you have a service that you want to allow people to get access to, then you need a "standard" way to send or get the data. We need a standard so that everyone follows the standard and requests the data same way and gets the same result. This "standard" is called API. Think of it as a bridge between you and the service.  
   
@@ -34,12 +34,12 @@ The URL is basically asking for 1 wallpaper that is random. So after you access 
   
 You will see many data in the output. If you are on Chrome or Chrome based browser, you will see a plain text output. If you are on Firefox you will see a organized output with JSON variable names and values beside them, something like this:  
   
-![](https://1.bp.blogspot.com/-CJNSp3KUFR8/XJMEpQ2bb0I/AAAAAAAACho/oDw643NqRU47i0HUQ1H_ryPFEjFCL1NrgCLcBGAs/s1600/01.json-wallpaper-response.png)  
+![](basic-rest-api-implementation/01.json-wallpaper-response.png)  
 On the above screenshot you will see some "url" values. The first "url" value is the wallpaper URL.  
   
 On the output for Chrome or browsers other than Firefox, press Ctrl+F and search for the word "url" and find its value, something like this:  
   
-![](https://4.bp.blogspot.com/-lcer_M6Eviw/XJMEu02_OeI/AAAAAAAAChs/Eyi1PbdxsFUzqNvnA5iI2mDPRP6T39SagCLcBGAs/s1600/02.json-wallpaper-response.png)  
+![](basic-rest-api-implementation/02.json-wallpaper-response.png)  
 You will find a link to image file. Copy the link and open it. You will find a random wallpaper. So, the system is working. desktoppr.co has a REST API setup for us and it is giving us data when we access special URLs.  
   
 There are many other APIs similar to this. This API is public, but there are other REST APIs which require sign ups and API Keys to pass with the URL so that the server can detect any misuse of the service. But basics are the same.  
@@ -86,7 +86,7 @@ end;
   
 **Explanation:** We are just using [an test REST API website](https://jsonplaceholder.typicode.com/). We seldom need REST API implementation to run some tests. Some good person has setup a dummy REST API website so that we can test our REST API implementation. We'll use that for this test project. Go ahead and open the link [https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos) in browser.  
   
-![](https://3.bp.blogspot.com/-AwV001z5bxw/XJMLOlCDZyI/AAAAAAAACh8/N5ZqeHZ0hhYy_7R1gGqFqFVayvVZjgJfQCLcBGAs/s1600/04.json-todos.jpg)  
+![](basic-rest-api-implementation/04.json-todos.jpg)  
 You will see it has returned some test dummy json code so that we can work with it. It returned some dummy todo entries. I have highlighted the individual records with Cyan and Yellow color above so that you can guess where the individual records are.  
   
 In our above code, we are getting output from the above URL and and keeping it inside **listitemsjson** variable. Then we are sending the code to GetJSON() function to get the JSON data to be extracted from the return we got.  
@@ -169,7 +169,7 @@ The URL is something like this:
   
 Here, 1 is the index we are querying for. What it does is it returns the details of todo entry with id 1.  
   
-![](https://3.bp.blogspot.com/-ue-VHENkZHc/XJMSlBvGRzI/AAAAAAAACiI/YDTNLJ6_F4cgG7QZTfJZTpa6ZGjMEyFaACLcBGAs/s1600/04.rest-api-todo-detail.png)  
+![](basic-rest-api-implementation/04.rest-api-todo-detail.png)  
 We are just getting the details for the todo entries and showing it on the **TMemo** we created.  
   
 Now **Run** the project (**Run - Run or F9**).  
@@ -277,17 +277,17 @@ end;
   
 We are getting the actual weather results this time. When the user clicks the location from the ListBox, the woeid for the location is sent to metaweather API to fetch the weather details for the location. The response looks something like [this](https://www.metaweather.com/api/location/1915035/2019/3/21/) on Firefox:  
   
-![](https://3.bp.blogspot.com/-bG8TvqpLF-k/XJNpCB_jn8I/AAAAAAAACiU/FzFora6YnHQdeqneUEdcy0uMIup-CdLwwCLcBGAs/s1600/05.rest-api-weather-location-json.png)  
+![](basic-rest-api-implementation/05.rest-api-weather-location-json.png)  
 The response has many data, so opening it on Firefox helps us understand the data better. We just need the data below the "0" (zero) element. Others are most probably data of the previous hours.  
   
 We then present the data on our TMemo. We use FloatToStrF() function to format the data to double decimal places. You can also use round() - it is up to you.  
   
 Now **Run** the project (**F9 or Run - Run**).  
   
-![](https://4.bp.blogspot.com/-P7b4rdVRVO8/XJRdfBt-VYI/AAAAAAAACig/xa9lcq5xCCEyZzwACqZDrMxZW01BXZT2wCLcBGAs/s1600/06.rest-api-run.png)  
+![](basic-rest-api-implementation/06.rest-api-run.png)  
 Now search for a location. Choose an item from the list on the right. It will magically show you the weather.  
   
-![](https://2.bp.blogspot.com/-gCckmTYvSR0/XJRd-ycl_WI/AAAAAAAACio/y6pu2mRRAL0H7mqMr7CZEiRCRNYYzcLPgCLcBGAs/s1600/07.rest-api-search.png)  
+![](basic-rest-api-implementation/07.rest-api-search.png)  
 This is a basic weather API implementation. There are many other out there. Feel free to try them out!  
   
 

@@ -16,7 +16,7 @@ categories:
 date: 2013-05-29 17:09:00
 ---
 
-![](http://1.bp.blogspot.com/-nL1A3abasY0/UaYjQ6fANbI/AAAAAAAAA7s/YxF39GQD0mM/s1600/pencil-thumb.jpg)Drawing is fun. Learn how to create a drawing software that can let the user draw like a pencil in a virtual canvas in his computer screen. We are also going to use colors!  
+![](how-to-scribble-with-virtual-pencil/pencil-thumb.jpg)Drawing is fun. Learn how to create a drawing software that can let the user draw like a pencil in a virtual canvas in his computer screen. We are also going to use colors!  
   
   
 If you have a piece of paper and a pencil and loads of time to waste, what would you do? You will scribble. You will draw random shapes and lines in that piece of paper. That's what you are going to do today in your own program. Plus, you will find out the secrets how the computer draws what you draw!  
@@ -30,7 +30,7 @@ Create a new Application project (Project-> New Project-> Application-> OK).
   
 Create a TColorButton and a TSpinEdit (both from Misc tab) and a TButton. You can also use a TBitBtn instead of TButton, to use an icon for the button. It is a graphics application, you know. But it is upto you. Also, create a TPaintbox. Then select the TButton and set its Name property to btnNew. Add TLabels and set Captions as you desire. Your form layout may resemble the following:  
   
-![](http://3.bp.blogspot.com/-4yDVk_gjxBE/UaYk86tfc5I/AAAAAAAAA74/S6DcqiVXMFk/s1600/scribble-frm-layout.gif)  
+![](how-to-scribble-with-virtual-pencil/scribble-frm-layout.gif)  
 Set the MinValue and Value of SpinButton1 to 1. You can set the AkBottom and AkRight of PaintBox1-> Anchors property to True for sizing the Paintbox in resize event.  
   
 Switch to Code View (F12) and add these variables under the first var clause at the top:  
@@ -159,7 +159,7 @@ We need to Free the TBitmap because it has been Create-ed. Remember to Free anyt
   
 Now Run it (F9 or Run-> Run).  
   
-![](http://4.bp.blogspot.com/-gz136HhiOGc/UaYoyCs1y5I/AAAAAAAAA8I/03Vq1hCtvJk/s1600/scribble-run-time.gif)  
+![](how-to-scribble-with-virtual-pencil/scribble-run-time.gif)  
   
 
 ### Explanations:
@@ -203,10 +203,10 @@ To create a virtual pencil work is a hardwork in computers. Do you think these d
   
 First, lets look at how a line tool works. When the user presses the mouse button (OnMouseDown event) 2 variables store the X and Y position where the mouse was down. (Assume they are PrevX = X and Prev = Y.). When the mouse is up a line is drawn from the point (PrevX, PrevY) to point (X, Y).  
   
-![](http://1.bp.blogspot.com/-yCgwSETXg8k/UaYttYqagWI/AAAAAAAAA8Y/xTbKwoNfy0E/s1600/line-tool-works.gif)  
+![](how-to-scribble-with-virtual-pencil/line-tool-works.gif)  
 In the case of Pencil tool, we just have to update the PrevX and PrevY in the OnMouseMove event. So that we get a path of the mouse position where the cursor has been going.  
   
-![](http://1.bp.blogspot.com/-sgWBKmAb66g/UaYu3j53THI/AAAAAAAAA8k/tSnnjLX5rGk/s1600/pencil-tool-works.gif)  
+![](how-to-scribble-with-virtual-pencil/pencil-tool-works.gif)  
 We have to keep updating the PrevX & PrevY just after we have drawn a line.  
   
 procedure TForm1.PaintBox1MouseMove(Sender: TObject; Shift: TShiftState; X,  

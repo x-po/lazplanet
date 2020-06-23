@@ -12,7 +12,7 @@ categories:
 date: 2015-05-05 19:16:00
 ---
 
-![](http://2.bp.blogspot.com/-U1yKGbZpcBo/VUkUVM9ReLI/AAAAAAAAB84/q_ZxED-AfcE/s1600/create-components-thumb.jpg)The good thing about programming is that you can do almost anything you wish. Even create components out of thin air!  
+![](how-to-create-components-on-runtime/create-components-thumb.jpg)The good thing about programming is that you can do almost anything you wish. Even create components out of thin air!  
   
 Today we are going to learn how to create Buttons, Labels, Edits right at the time when the exe is running.  
   
@@ -144,11 +144,11 @@ end;
   
 Now run the project (F9 or Run->Run).  
   
-![](http://2.bp.blogspot.com/-UF3TfpSn7t4/VUj2TZSvATI/AAAAAAAAB7s/oCXiQuxrluY/s1600/clone-buttons-lazarus-1.jpg)  
+![](how-to-create-components-on-runtime/clone-buttons-lazarus-1.jpg)  
   
 Now click the Button several times. You will see the button get 'cloned'.  
   
-![](http://3.bp.blogspot.com/-09QRcx6LmxM/VUj2u_L2JPI/AAAAAAAAB70/zNJifbU28rk/s1600/clone-buttons-lazarus-2.jpg)  
+![](how-to-create-components-on-runtime/clone-buttons-lazarus-2.jpg)  
 
 ### Real Project
 
@@ -165,15 +165,15 @@ button3 -> Create Shapes
   
 Resize the form if you need to.  
   
-![](http://4.bp.blogspot.com/-1WYqGLp3a-E/VUj4YzKzIDI/AAAAAAAAB8A/fOIWKU4H7D0/s1600/clone-real-project-1.jpg)  
+![](how-to-create-components-on-runtime/clone-real-project-1.jpg)  
 Now Draw 1 TPanel below the first Tbutton. While you have it selected change some properties from the Object Inspector. Set its BevelOuter to bvLowered. Also, empty its Caption, so that there is no "Panel 1" text in the middle of the panel.  
   
-![](http://1.bp.blogspot.com/-gLJ1en9O-oI/VUj5Uo2H8VI/AAAAAAAAB8I/IOQkR60srAk/s1600/clone-real-project-2.jpg)  
+![](how-to-create-components-on-runtime/clone-real-project-2.jpg)  
 Now right click the TPanel and select Copy. Then right click the form and choose Paste. The Panel will be copied with the name Panel2. Position it under the second Tbutton.  
   
 Again Copy the last TPanel, select the form and paste. The new Tpanel will be automatically named Panel3. Position it under the third Tbutton.  
   
-![](http://4.bp.blogspot.com/-Fw1fYuk4k5E/VUj6gZCfOTI/AAAAAAAAB8U/tpnrdoN38AY/s1600/clone-real-project-3.gif)  
+![](how-to-create-components-on-runtime/clone-real-project-3.gif)  
 Double click the button1 and enter the code below:  
   
 
@@ -357,10 +357,10 @@ Here, the command is like before. We only give our shapes a random shape and we 
   
 Now Run the project to see your hard work! (Press F9 or Run-> Run.)  
   
-![](http://2.bp.blogspot.com/-r0XIJgandHE/VUj7R1WXhHI/AAAAAAAAB8c/SWMfaPE02ww/s1600/clone-real-project-4.gif)  
+![](how-to-create-components-on-runtime/clone-real-project-4.gif)  
 Now click the buttons to test!  
   
-![](http://3.bp.blogspot.com/-IrQIkoWObjU/VUj7mvmGrxI/AAAAAAAAB8k/e89t5ewcDwY/s1600/clone-real-project-5.gif)  
+![](how-to-create-components-on-runtime/clone-real-project-5.gif)  
 
 ### Download Sample Code ZIP
 

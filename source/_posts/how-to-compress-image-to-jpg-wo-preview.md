@@ -18,7 +18,7 @@ categories:
 date: 2014-03-24 11:35:00
 ---
 
-![](http://2.bp.blogspot.com/-6wPxCj0xN18/UzAVRJDraZI/AAAAAAAABhA/fIALzkabOMc/s1600/JPEG_example_JPG_RIP_050.jpg)Today we'll make a JPEG compressor. Sounds exciting, doesn't it? It can convert and compress from any other image formats too!  
+![](how-to-compress-image-to-jpg-wo-preview/JPEG_example_JPG_RIP_050.jpg)Today we'll make a JPEG compressor. Sounds exciting, doesn't it? It can convert and compress from any other image formats too!  
   
   
 Very often we find out that we take a screenshot and we look for a tool to compress it in a snap. Because people can't load 1mb~ images in a website or blog. But I personally end up opening [Photoshop](http://en.wikipedia.org/wiki/Adobe_Photoshop) and saving the image from there and optionally cropping it. How if we could have our own program do it for us? It would be time-saving and fun.  
@@ -96,7 +96,7 @@ JPEG File (\*.jpg)|\*.jpg
   
 Now your form layout should look like this (click on the image to see in original size):  
   
-![](http://2.bp.blogspot.com/-Zoe_MgSxquQ/UzADN07fGqI/AAAAAAAABgY/fj-eRsMeXeg/s1600/JPEG-Compressor-sample-project-form.gif)  
+![](how-to-compress-image-to-jpg-wo-preview/JPEG-Compressor-sample-project-form.gif)  
 Draw a TScrollBox in the left half of the form (from Additional tab). This should be named ScrollBox1 automatically. The specialty of TScrollBox is that if you put large components inside it, you can have scrollbars to scroll it. We will put a TImage inside it to load the original/source image. This way we would be able to scroll and see the whole image. Set its HorzScrollBar->Tracking and VertScrollBar-> to True. It will make sure that the components inside it will scroll at the time of scrolling, not on mouse up.  
   
 Draw a TImage inside it. This should be named Image1 automatically.  
@@ -107,7 +107,7 @@ Position ScrollBox2 accordingly.
   
 Your form should look like this:  
   
-![](http://2.bp.blogspot.com/-UsRyL4LbOsY/UzAG2uupnkI/AAAAAAAABgk/W9Dojnnc1L4/s1600/JPEG-Compressor-form-layout-2.gif)  
+![](how-to-compress-image-to-jpg-wo-preview/JPEG-Compressor-form-layout-2.gif)  
 
 #### Now to coding...
 
@@ -239,7 +239,7 @@ end;
 
 Now Run the Project for testing (F9 or Run->Run).  
   
-![](http://2.bp.blogspot.com/-Frx_LIxhl7w/UzASSiEyXRI/AAAAAAAABg0/0wPWFy8eql4/s1600/JPEG-Compressor-running.gif)  
+![](how-to-compress-image-to-jpg-wo-preview/JPEG-Compressor-running.gif)  
 Now Select a source file, Change the quality, click on Convert. This should show you a preview of how the compressed image would look. Now click the Save button to save the compressed image.  
   
 

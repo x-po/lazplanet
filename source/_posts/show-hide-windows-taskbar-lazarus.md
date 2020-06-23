@@ -19,7 +19,7 @@ categories:
 date: 2014-02-20 08:22:00
 ---
 
-![](http://3.bp.blogspot.com/-j0U5Hm5THEA/UwW6eRJW2EI/AAAAAAAABdc/vio_lj0-QYw/s1600/task-bar-show-hide-lazplanet-thumb.jpg)If you want to build some uncommon software which needs hiding the taskbar then check out this article.  
+![](show-hide-windows-taskbar-lazarus/task-bar-show-hide-lazplanet-thumb.jpg)If you want to build some uncommon software which needs hiding the taskbar then check out this article.  
   
   
 Windows Taskbar is the bar which sits at the very bottom of the screen. This bar has the Start orb (or the Start Button) and some of our favorite program icons and some other Tray icons on the right as well. It is a prominent feature of a windows desktop.  
@@ -30,11 +30,11 @@ In this short tutorial, we'll see how to hide the taskbar and show it again. For
 
 ### The code
 
-![](http://3.bp.blogspot.com/-f3kZGy6GJOQ/UwWyMluvl-I/AAAAAAAABdA/W6OVE-ouNWQ/s1600/hide-taskbar-button-lazarus.gif)  
+![](show-hide-windows-taskbar-lazarus/hide-taskbar-button-lazarus.gif)  
 Now draw another **TButton**. (Or you can copy and paste Button1 as another option.) This button should automatically be named **Button2**. Set it's caption to "**Show Taskbar**". Size and position it as you like.  
   
   
-![](http://4.bp.blogspot.com/-c5zwBZ2RJ1A/UwWyujQ63pI/AAAAAAAABdE/b1uw0Uemh8I/s1600/show-taskbar-button-lazarus.gif)  
+![](show-hide-windows-taskbar-lazarus/show-taskbar-button-lazarus.gif)  
 You can change the name of the buttons as you like but then change the code accordingly.  
   
 Now press **F12** to switch to code view. Add the **windows** unit to the **uses** clause:  
@@ -73,7 +73,7 @@ end;
   
 Now Run the project (Run -> Run or F9).  
   
-![](http://1.bp.blogspot.com/-plQDbJf12iU/UwW2ezIeA9I/AAAAAAAABdQ/ZBlR3PfdAtM/s1600/show-hide-taskbar-lazarus-project.gif)  
+![](show-hide-windows-taskbar-lazarus/show-hide-taskbar-lazarus-project.gif)  
 Click both the buttons to show and hide task bar.  
   
 

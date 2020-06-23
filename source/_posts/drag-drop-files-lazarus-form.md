@@ -16,7 +16,7 @@ categories:
 date: 2013-05-26 21:19:00
 ---
 
-![](http://2.bp.blogspot.com/-qCTMdoVH3_U/UaJ6qzmXcMI/AAAAAAAAA7E/ZExAUm0Ksxs/s1600/drag-drop-thumb.jpg)You can drag and drop files to softwares, that's old news. But can you drag & drop files over YOUR own software? Yes. And we learn how to...  
+![](drag-drop-files-lazarus-form/drag-drop-thumb.jpg)You can drag and drop files to softwares, that's old news. But can you drag & drop files over YOUR own software? Yes. And we learn how to...  
   
   
 Dragging and dropping files over an application is a good thing. Especially, when you don't want to use the Open dialog when you have the files open in your File Explorer. Why would you want to navigate through the directories and find the file, when you can just drag and drop the files on the software? Simple- you wouldn't. Because we will implement Drag and Drop in your own little program!  
@@ -49,11 +49,11 @@ First, create a new Application Project (Project-> New Project-> Application-> O
 
 Then with the form being selected, go to the Object Inspector and change the AllowDropFiles to True.  
   
-![](http://2.bp.blogspot.com/-CLei7uag2Fo/UaJtzjQHPgI/AAAAAAAAA6U/8CJ0e2eBwUU/s1600/allowdropfiles-lazarus.gif)  
+![](drag-drop-files-lazarus-form/allowdropfiles-lazarus.gif)  
 This will capture the files that are dragged over the form.  
   
 Create a TLabel, TListbox and a TButton to reproduce the form design below:  
-![](http://3.bp.blogspot.com/-_DWM_hhATvI/UaJwkbj2nJI/AAAAAAAAA6k/NQS3QtnB0lc/s1600/drag-and-drop-form-layout.gif)  
+![](drag-drop-files-lazarus-form/drag-and-drop-form-layout.gif)  
 
 #### Step-2
 
@@ -88,7 +88,7 @@ end;
 
 Now run the project (F9 or Run->Run).  
   
-![](http://2.bp.blogspot.com/-Z5FkkdfYc5w/UaJ0ekYnIXI/AAAAAAAAA60/I5WNUSsgRLc/s1600/drag-drop-file-lazarus.gif)  
+![](drag-drop-files-lazarus-form/drag-drop-file-lazarus.gif)  
 Now drag some files and folders and test if gets listed in the list. Clear the list if you wish. Enjoy!  
   
 

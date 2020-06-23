@@ -13,7 +13,7 @@ categories:
 date: 2013-05-01 08:46:00
 ---
 
-![](http://1.bp.blogspot.com/-45DOhYYGPM0/UYDWAoAmfNI/AAAAAAAAAmc/Me4I7eoNKo8/s1600/simple-calculator.jpg)There are many calculator programs out there... with hundreds of buttons to click and thousands of lines of codes to implement those functions. But in this little project we discover a simple calculator...by hand...  
+![](a-simple-calculator-project/simple-calculator.jpg)There are many calculator programs out there... with hundreds of buttons to click and thousands of lines of codes to implement those functions. But in this little project we discover a simple calculator...by hand...  
   
   
 We have 4 Buttons for calculation and 2 Editboxes for entering numbers. That's it. We just implement the addition, subtraction, multiplication, devision with two numbers. Should be easy.  
@@ -48,12 +48,12 @@ MyResult := num1 / num2;  // returns: 2
 It is simple!  
 Just look at the arithmetic operators in the [free pascal manual](http://www.freepascal.org/docs-html/ref/refsu39.html):  
   
-![](http://4.bp.blogspot.com/-v4O-GVx_M-k/UYDF9SozCaI/AAAAAAAAAmE/xun-c7Oi0sQ/s1600/binary-arithmetic-operators.gif)  
+![](a-simple-calculator-project/binary-arithmetic-operators.gif)  
 We know + and - for addition and subtraction. But in computers \* is used for multiplication and / for division for easier access from keyboard.  
   
 We have a layout in the project like this:  
   
-![](http://4.bp.blogspot.com/-_GESHNw8vU8/UYDGnU4hnrI/AAAAAAAAAmM/SPknC9Zd4aM/s1600/Simple-Calculator-Lazarus-1.gif)  
+![](a-simple-calculator-project/Simple-Calculator-Lazarus-1.gif)  
 The user inputs two numbers in the first two Editboxes, then presses a button for the result to be shown. The project code contains error handling code and thus may look complicated at first. But let's break down the code in simple parts and look at a simplified version.  
   
 

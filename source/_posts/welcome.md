@@ -10,7 +10,7 @@ categories:
 date: 2013-03-20 00:14:00
 ---
 
-[![](http://cdn.gingerpublicspeaking.com/wp-content/uploads/2012/05/public-speaking-robot-simple.jpg)](http://cdn.gingerpublicspeaking.com/wp-content/uploads/2012/05/public-speaking-robot-simple.jpg)
+[![](welcome/public-speaking-robot-simple.jpg)](welcome/public-speaking-robot-simple.jpg)
 
 ### Welcome to LazPlanet!
 

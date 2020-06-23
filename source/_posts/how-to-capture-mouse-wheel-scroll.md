@@ -16,7 +16,7 @@ categories:
 date: 2013-06-22 09:31:00
 ---
 
-![](http://3.bp.blogspot.com/-5EWVQFRA2mg/UcVurP_50RI/AAAAAAAABE4/ECg9QCXutjk/s1600/mouse-scroll-thumb.jpg)Mouse wheel is very common in modern day mouse. It helps us scroll text, image and sometimes do something amazing in 3D software. So how do we know when the user has scrolled the mouse wheel?  
+![](how-to-capture-mouse-wheel-scroll/mouse-scroll-thumb.jpg)Mouse wheel is very common in modern day mouse. It helps us scroll text, image and sometimes do something amazing in 3D software. So how do we know when the user has scrolled the mouse wheel?  
   
   
 We all have these mice. They idly sit beside the computer to let us click them, drag them and most importantly, scroll them. We use mouse wheels very often. We usually have a scroll wheel at the middle of any computer mouse. We use them to scroll any webpage when we surf the net, edit a document, browse/zoom images etc. We can do many cool things with mouse scroll wheel.  
@@ -29,7 +29,7 @@ Today we are going to see how to capture mouse wheel event in Lazarus IDE.
   
 If you create a new Application project (Project-> New Project-> Application-> OK) and then in the Object Inspector-> Events tab you will see 3 mouse scroll related events.  
   
-![](http://1.bp.blogspot.com/-0AEctLK_djM/UcVadTtuZUI/AAAAAAAABEI/fYcA90XMC0M/s1600/mouse-wheel-scroll-events-lazarus.gif)  
+![](how-to-capture-mouse-wheel-scroll/mouse-wheel-scroll-events-lazarus.gif)  
 That's what they do:  
 **OnMouseWheel**: Triggered whenever the user scrolls the mouse wheel, in any direction.  
 **OnMouseWheelDown**: Triggered when the user scrolls the mouse wheel up.  
@@ -50,7 +50,7 @@ Start [Lazarus](http://www.lazarus.freepascal.org/). Create a new Application Pr
   
 Create some TLabels and a TMemo to create a form layout like the following screenshot:  
   
-![](http://3.bp.blogspot.com/--YB1PjtCc0o/UcVf1PCa_gI/AAAAAAAABEY/qIEXQ35ZFqg/s1600/mouse-wheel-frm-layout.gif)  
+![](how-to-capture-mouse-wheel-scroll/mouse-wheel-frm-layout.gif)  
   
 TMemo has no function. We just placed it to test whether the mouse wheel events work on it, when only form has the event procedures with code.  
   
@@ -103,7 +103,7 @@ The explanation for the above code is similar to OnMouseWheelDown's codes. But i
 
 Run the project (F9 or Run-> Run).  
   
-![](http://3.bp.blogspot.com/-0JdT4TLHKSM/UcVrzLIkf7I/AAAAAAAABEo/LZPrdIJQMn8/s1600/mouse-wheel-lazarus-project.gif)  
+![](how-to-capture-mouse-wheel-scroll/mouse-wheel-lazarus-project.gif)  
   
 Now point your mouse in the form and scroll in any direction to make the value increase or decrease. If you take your mouse pointer over the TMemo and scroll, then it will not work. Because we haven't written any code for it to use the mouse scroll event. It works only when you place the mouse over the component and scroll.  
   

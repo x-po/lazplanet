@@ -13,7 +13,7 @@ categories:
 date: 2014-07-30 08:47:00
 ---
 
-![](http://2.bp.blogspot.com/-rB9cBVqqQcQ/U9iw83UsGfI/AAAAAAAABoc/kxMw3XteCzI/s1600/bionic-thumb.jpg)Today we create bionic, robotic, futuristic human beings! That can even respond to your question! A virtual TPerson to be precise!  
+![](oop-example-artificial-persons-that/bionic-thumb.jpg)Today we create bionic, robotic, futuristic human beings! That can even respond to your question! A virtual TPerson to be precise!  
   
   
   

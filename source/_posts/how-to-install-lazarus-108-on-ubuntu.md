@@ -17,7 +17,7 @@ categories:
 date: 2013-05-08 12:26:00
 ---
 
-![](http://2.bp.blogspot.com/-dn4qbUwOcSI/UYpA5CROndI/AAAAAAAAAsk/3B17W-sceSw/s1600/Lazarus-ubuntu-13.04-launcher.jpg)Ubuntu 13.04 has been released recently but its repo has an outdated version of Lazarus (0.9.30.4). Lazarus is at version 1.0.8 stable with FPC 2.6.2. This guide serves you as an installation guide to having the best of both worlds. Learn how to get the Latest Lazarus running in your latest Ubuntu.  
+![](how-to-install-lazarus-108-on-ubuntu/Lazarus-ubuntu-13.04-launcher.jpg)Ubuntu 13.04 has been released recently but its repo has an outdated version of Lazarus (0.9.30.4). Lazarus is at version 1.0.8 stable with FPC 2.6.2. This guide serves you as an installation guide to having the best of both worlds. Learn how to get the Latest Lazarus running in your latest Ubuntu.  
   
   
 [Ubuntu 13.04 (Raring Ringtail)](http://releases.ubuntu.com/13.04/) has been [released](https://wiki.ubuntu.com/RaringRingtail/ReleaseNotes) recently with some mouth watering features. Also as a fan of Lazarus Project, I presume that you want to use Lazarus 1.0.8 in your new installation. We look at the way you can easily install the latest Lazarus version in your latest Ubuntu and hopefully in Xubuntu, Lubuntu or Linux Mint too with slight modification of this guide.  
@@ -79,7 +79,7 @@ You can go to the [Sourceforge.net download page](http://sourceforge.net/project
 **32-Bit:** [http://sourceforge.net/projects/lazarus/files/Lazarus%20Linux%20i386%20DEB/Lazarus%201.0.8/](http://sourceforge.net/projects/lazarus/files/Lazarus%20Linux%20i386%20DEB/Lazarus%201.0.8/)  
 **64-Bit:** [http://sourceforge.net/projects/lazarus/files/Lazarus%20Linux%20amd64%20DEB/Lazarus%201.0.8/](http://sourceforge.net/projects/lazarus/files/Lazarus%20Linux%20amd64%20DEB/Lazarus%201.0.8/)  
   
-![](http://3.bp.blogspot.com/-BgRgP8U8vY4/UYpD9jdo_PI/AAAAAAAAAtY/CbhreesUoN4/s1600/Lazarus-deb-files-dl.gif)  
+![](how-to-install-lazarus-108-on-ubuntu/Lazarus-deb-files-dl.gif)  
   
 Download the 3 deb files from the above link: **fpc\_2.6.2-0\_i386.deb**, **fpc-src\_2.6.2-0\_i386.deb** and **lazarus\_1.0.8-0\_i386.deb**. Store them in a folder. Name the folder something like "Lazarus 1.0.8 Debian".  
   
@@ -93,7 +93,7 @@ If you cannot access SourceForge.net then try the mirrors [here](http://mirrors.
   
 Open a terminal and cd to the "Lazarus 1.0.8 Debian" directory (for easier access you can open terminal, type cd followed by a space, then drag and drop the folder on the terminal window).  
   
-![](http://3.bp.blogspot.com/-r9Mwb6_sCD4/UYpBEurHE6I/AAAAAAAAAss/7FNLxtRM2QQ/s1600/Lazarus-Install-cd.jpg)  
+![](how-to-install-lazarus-108-on-ubuntu/Lazarus-Install-cd.jpg)  
   
 Run the command below:  
 **sudo dpkg -i \*.deb**  
@@ -101,7 +101,7 @@ Run the command below:
   
 It may show errors and require you to install further packages.  
   
-![](http://2.bp.blogspot.com/-J0EJCE2i0O8/UYpBSn2jo8I/AAAAAAAAAs0/S-5FWTZ0pDc/s1600/Lazarus-Install-dependency.gif)  
+![](how-to-install-lazarus-108-on-ubuntu/Lazarus-Install-dependency.gif)  
 Install them through sudo apt-get install packagename and then run the above command again. If everything went well you will see no error messages and Lazarus will be installed. I usually require libgtk2.0-dev package in my Ubuntu setups (so I do a **sudo apt-get install libgtk2.0-dev** and the rest goes smooth).  
   
 
@@ -112,14 +112,14 @@ startlazarus
   
 But you will not see Lazarus icon in the Dash/Launcher this way. You will have to reboot.  
   
-![](http://4.bp.blogspot.com/-B-KvadLR4O4/UYpB4tFhBiI/AAAAAAAAAs8/Pss43o9iVyE/s1600/Dash.jpg)  
+![](how-to-install-lazarus-108-on-ubuntu/Dash.jpg)  
 After the Reboot, go to Dash and search for Lazarus. You will see the Lazarus Icon in your Dash. Click it to start Lazarus. Lazarus will start on your screen.  
   
-![](http://2.bp.blogspot.com/-iw5SwXZwBEc/UYpCNenH6wI/AAAAAAAAAtM/DWoKFkhhrkA/s1600/Lazarus-running-on-Ubuntu-1.gif)  
+![](how-to-install-lazarus-108-on-ubuntu/Lazarus-running-on-Ubuntu-1.gif)  
   
 Now to make the Launcher icon stay on the Launcher, right click the Lazarus icon in the Launcher, then select Lock to Launcher.  
   
-![](http://2.bp.blogspot.com/-6idA4W-5Gpo/UYpCERdxuxI/AAAAAAAAAtI/J8rTc9o-pEQ/s1600/Lock-to-Launcher.jpg)  
+![](how-to-install-lazarus-108-on-ubuntu/Lock-to-Launcher.jpg)  
   
 There you go! Your Lazarus installation is now in your latest Ubuntu (or your favorite Linux!)  
   

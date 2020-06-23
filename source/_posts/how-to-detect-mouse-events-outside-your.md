@@ -16,7 +16,7 @@ categories:
 date: 2016-06-22 07:59:00
 ---
 
-![](https://3.bp.blogspot.com/-gsJz7ZAOnvw/V2pCz2rsY-I/AAAAAAAACL0/sXoX5Es1f3owyOrS9Q32OF4dJzcFg7OgACLcB/s1600/Systemwide-Mouse-events-thumb.gif)In this article we find out what the user is doing with his mouse, even outside of the program. Let's conquer the whole system!  
+![](how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-thumb.gif)In this article we find out what the user is doing with his mouse, even outside of the program. Let's conquer the whole system!  
   
   
 We have events on components, such as OnClick, OnMouseDown, OnScrollDown etc. But unfortunately these events only work when the mouse is inside the form. But sometimes we need to get a view of what the user is doing on other programs or other windows (or in other words "System-wide"). These "System wide" events can be "caught" through a crazy thing called "hooks".  
@@ -30,7 +30,7 @@ We will catch when the left, middle and right mouse button is pressed, and addit
   
   
 
-#### ![](https://4.bp.blogspot.com/-AuWtyHrmwpQ/V2o-euc_RcI/AAAAAAAACLc/ThleEkOcQTU-PAuraT8RteSUuLr3p32aQCLcB/s1600/Systemwide-Mouse-events-1.gif)  
+#### ![](how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-1.gif)  
   
 Optionally, you can set the **FormStyle** to **fsSystemStayOnTop**. It will [keep the form always on top](http://localhost/wp-lazplanet/2014/01/12/how-to-make-your-form-always-on-top/) and let you see the events even when you click outside of the form.  
   
@@ -137,7 +137,7 @@ end;
   
 Now run the project (F9 or Run -> Run).  
   
-![](https://2.bp.blogspot.com/-Asvs1QZJznc/V2o-oITMsiI/AAAAAAAACLk/Vj9hJd3Q85At4KTW1-1gzPw9TS3C4NEwgCLcB/s1600/Systemwide-Mouse-events-2.gif)  
+![](how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-2.gif)  
 Now, when you use this code on your project you will need to customize the LowLevelMouseHookProc() function to suit your needs. Try things yourself. The sky is the limit here!  
   
 ...And for the mouse position, it is better to [use the Mouse.CursorPos.x or .y](http://localhost/wp-lazplanet/2013/04/06/how-to-get-your-mouse-cursor-position-bonus-set-position-also/) because the solution in this article sometimes begets negative values, which might not be what you would like. The code is kept just to show how it is done in the hooks style.  

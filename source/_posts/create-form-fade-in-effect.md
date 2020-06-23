@@ -15,7 +15,7 @@ categories:
 date: 2013-05-11 19:21:00
 ---
 
-![](http://4.bp.blogspot.com/-zAs6tEuLxfs/UY6Z6XMniBI/AAAAAAAAAvY/5hSRPFRojn4/s1600/Form-alpha-blending.gif)Forms are a bit boring sometimes, right? Spice it a little bit with a Fade In animation effect on startup. That boring square area of form will amuse the users a bit more.  
+![](create-form-fade-in-effect/Form-alpha-blending.gif)Forms are a bit boring sometimes, right? Spice it a little bit with a Fade In animation effect on startup. That boring square area of form will amuse the users a bit more.  
   
   
   
@@ -42,8 +42,8 @@ There are [three terms](http://melander.dk/articles/alphasplash/) you should kno
   
 Since the version (probably) 0.9.30, an AlphaBlend property is added to TForm's properties. There used to be involved a lot of lines of codes to apply alpha blending to form. This AlphaBlending is the above Translucent term. It means _slightly_ transparent, not totally. For example, Windows 7/8 taskbar is translucent. That means, you can see the wallpaper through the taskbar but in a faded form, as you can see what's behind a fog but partially.  
   
-![](http://1.bp.blogspot.com/-pj0UUO7KPUE/UY6HmLWGtPI/AAAAAAAAAu8/GHRbuWpioaQ/s1600/translucency-example.jpg)  
-![](http://1.bp.blogspot.com/-yfFe6X5LQvQ/UY6VVho3mTI/AAAAAAAAAvM/-xeZU52UMEQ/s1600/form-fade-in-effect-1.gif)  
+![](create-form-fade-in-effect/translucency-example.jpg)  
+![](create-form-fade-in-effect/form-fade-in-effect-1.gif)  
   
 We have used "Show Again" button that's why we used the Tbutton's OnClick procedure. You can use separate procedure and no button to produce same results.  
   

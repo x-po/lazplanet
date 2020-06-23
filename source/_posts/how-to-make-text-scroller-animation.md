@@ -14,7 +14,7 @@ categories:
 date: 2016-04-25 08:11:00
 ---
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/text-scroller-thumb.jpg)](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/text-scroller-thumb.jpg)
+[![](how-to-make-text-scroller-animation/text-scroller-thumb.jpg)](how-to-make-text-scroller-animation/text-scroller-thumb.jpg)
 
 At the end of a movie or in our application, we could use some text scrolling fun! But how to do that? Let's see...  
   
@@ -44,7 +44,7 @@ Now, with the Label still selected, change the "Alignment" (not "Align") propert
 Now our form should look something like this:  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-form-design-lazarus-1-300x253.gif)](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-form-design-lazarus-1.gif)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-form-design-lazarus-1-300x253.gif)](how-to-make-text-scroller-animation/Text-scroller-form-design-lazarus-1.gif)
 
   
   
@@ -79,14 +79,14 @@ Or may be like this:
 Now move the label a bit to the bottom so that it appears to be rising from the bottom. My form layout now looks something like this...  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-form-design-lazarus-2-300x253.gif)](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-form-design-lazarus-2.gif)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-form-design-lazarus-2-300x253.gif)](how-to-make-text-scroller-animation/Text-scroller-form-design-lazarus-2.gif)
 
   
   
 Now Run the Project (F9 or Run -> Run).  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-lazarus-simple-1-300x253.gif)](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-lazarus-simple-1.gif)
+[![](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-lazarus-simple-1-300x253.gif)](how-to-make-text-scroller-animation/Text-scroller-lazarus-simple-1.gif)
 
   
   

@@ -16,10 +16,10 @@ categories:
 date: 2013-08-05 12:08:00
 ---
 
-![](http://2.bp.blogspot.com/-U-0j8tgcgk4/Uf-OPPRbChI/AAAAAAAABOk/OHgO-iOg5zo/s1600/popup-menu-thumb.jpg)Pop Up menus pop when you right click on the application somewhere to make available the quick jobs in a menu. We explore 3 ways of using popup menus in Lazarus.  
+![](3-ways-to-use-popup-menus-in-lazarus/popup-menu-thumb.jpg)Pop Up menus pop when you right click on the application somewhere to make available the quick jobs in a menu. We explore 3 ways of using popup menus in Lazarus.  
   
 Popup menus are common in many popular applications. For example, in VLC Media Player (or any other typical media player) if you right click on the video area then a popup menu appears. It lets you open media files, play or pause, skip to the next song and many more.  
-![](http://2.bp.blogspot.com/-5nZ1C4MPOEo/Uf-O3qslW5I/AAAAAAAABOs/QY9i_BtqKyM/s1600/vlc-popupmenu.gif)  
+![](3-ways-to-use-popup-menus-in-lazarus/vlc-popupmenu.gif)  
 Lazarus has a very easy implementation of this popup-style menu. Lazarus has a component named TPopupMenu for this purpose. Once we create menus we can show it in 3 different ways, which I will demonstrate.  
   
   
@@ -38,7 +38,7 @@ Create a new project (Project-> New Project-> Application-> OK).
   
 Now drop a TPopupMenu component in the form. Now right click it and select "Menu Editor...".  
   
-![](http://4.bp.blogspot.com/-gYQiWboG6Es/Uf-PgfpEJ9I/AAAAAAAABO0/SDYljeUNqmk/s1600/popupmenu-editor.gif)  
+![](3-ways-to-use-popup-menus-in-lazarus/popupmenu-editor.gif)  
   
 You will see 1 menu item already created for you. You can change its property, for example, Caption property to something like "My popup menu item 1". For this you can click on the item to select it, then change the property from the Object Inspector.  
   
@@ -48,7 +48,7 @@ You will see 1 menu item already created for you. You can change its property, f
   
 If you want more item(s) to be added then the default single item, then obviously you need to add more menu items. You can add new menu items by right clicking and selecting "Insert New Item (after)" or "Insert New Item (before)".  
   
-![](http://3.bp.blogspot.com/-yu3SICLyc9s/Uf-QFvgTV2I/AAAAAAAABO8/oPLfLsRXdvU/s1600/popupmenu-add-new-item.gif)  
+![](3-ways-to-use-popup-menus-in-lazarus/popupmenu-add-new-item.gif)  
   
 After inserting menu items, close the Menu Editor window to get back to your form.  
   
@@ -63,13 +63,13 @@ You can skip all the mumbo jumbo and show the popup menu without writing any cod
   
 Drop a TButton on the form. Set its PopupMenu property to the TPopupMenu from the dropdown menu.  
   
-![](http://2.bp.blogspot.com/-18S131iLVZo/Uf-T2vH-8BI/AAAAAAAABPU/TlgKfLxxF3c/s1600/popupmenu-properties.gif)  
+![](3-ways-to-use-popup-menus-in-lazarus/popupmenu-properties.gif)  
 Now run the project (F9 or Run-> Run) and right click on the button to see the popup menu.  
   
 
 #### Way 2: Using code to show the popup menu
 
-![](http://2.bp.blogspot.com/-3Nzm7Gy9fLM/Uf-S_hnaKHI/AAAAAAAABPM/RlufkESQzTo/s1600/popupmenu-code-lazarus.gif)  
+![](3-ways-to-use-popup-menus-in-lazarus/popupmenu-code-lazarus.gif)  
 
 ### Download Sample Code ZIP
 

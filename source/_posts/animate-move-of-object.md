@@ -14,7 +14,7 @@ categories:
 date: 2013-05-13 14:25:00
 ---
 
-![](http://2.bp.blogspot.com/-25SPZHYcrfk/UZD3KbzdbtI/AAAAAAAAAwg/U-R7pQ-qVds/s1600/animation_icon.jpg)You have seen Windows 8 panels sliding and disappearing in and out of the screen. Now create such effects for your program! Here's a handy little procedure...  
+![](animate-move-of-object/animation_icon.jpg)You have seen Windows 8 panels sliding and disappearing in and out of the screen. Now create such effects for your program! Here's a handy little procedure...  
   
   
   
@@ -142,7 +142,7 @@ Here, the parameters are:
   
 Download, Extract and Run the sample code (F9 or Run-> Run).  
   
-![](http://4.bp.blogspot.com/-ofJPDeBoyJ4/UZD1zXcFOTI/AAAAAAAAAwU/-bNEdhCRe2M/s1600/form-component-animation.gif)  
+![](animate-move-of-object/form-component-animation.gif)  
   
 You can click the Options button to see the animation of our procedure. We also have a seesaw animation effect, where the Panel in our example moves from one side to another repeatedly.  
   

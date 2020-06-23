@@ -9,7 +9,7 @@ categories:
 date: 2013-03-26 01:57:00
 ---
 
-![](http://4.bp.blogspot.com/-_Mgd_cblvrc/UVD5AsMMFeI/AAAAAAAAAbo/lrj2vHjPhDQ/s1600/lazarus-exe-compression.jpg)By default, Lazarus makes EXEs including debug information which makes them extremely big. You can strip out this debug information easily and make your EXEs smaller. Here's how to...  
+![](how-to-reduce-exe-file-size-of-your/lazarus-exe-compression.jpg)By default, Lazarus makes EXEs including debug information which makes them extremely big. You can strip out this debug information easily and make your EXEs smaller. Here's how to...  
   
   
   
@@ -26,22 +26,22 @@ First of Strip-ing. There are two ways to how we can strip an EXE:
 
 ### Option 1: Adding to Tools Menu
 
-![](http://1.bp.blogspot.com/-orzqO5l59_g/UVDsJwiU_iI/AAAAAAAAAbI/TaLvXemQzqY/s1600/menu-strip.gif)![](http://1.bp.blogspot.com/-95yZZrbAbNc/U5feew9ukdI/AAAAAAAABmk/ZxuNUsYnSXA/s1600/build-modes-3.gif)  
+![](http://1.bp.blogspot.com/-orzqO5l59_g/UVDsJwiU_iI/AAAAAAAAAbI/TaLvXemQzqY/s1600/menu-strip.gif)![](how-to-reduce-exe-file-size-of-your/build-modes-3.gif)  
   
 Click the **\[...\]** button.  
   
-![](http://3.bp.blogspot.com/-c4I8a--BPfw/U5fhO4IRohI/AAAAAAAABm8/y9Z_gTliKTI/s1600/build-modes-2.gif)  
+![](how-to-reduce-exe-file-size-of-your/build-modes-2.gif)  
 Click the "**Create Release and Debug modes**" button. Then press OK and then OK again.  
   
-![](http://1.bp.blogspot.com/-8Bh7mEVdO20/U5fh_GH3mlI/AAAAAAAABnE/nGUcoiF2zzY/s1600/build-modes-5.gif)  
+![](how-to-reduce-exe-file-size-of-your/build-modes-5.gif)  
 Now you will see a cog icon beside the Run Button. This button lets us set the **build mode**.  
   
-![](http://3.bp.blogspot.com/-oFgmHlPeaJM/U5ff4hc1PqI/AAAAAAAABms/U1j8u0mxzNs/s1600/build-modes-4.gif)  
+![](how-to-reduce-exe-file-size-of-your/build-modes-4.gif)  
 Click the arrow beside it (not the button itself), and you will see 3 options: **Default**, **Release** and **Debug**. Default mode is the settings that you had set previously. Release mode is the settings that will get you smaller exe's, without the debug data. Debug mode is the mode to test your program for errors.  
   
 In our case, we suppose that our debugging is over, now want to get a smaller exe. So set it to **Release mode**.  
   
-![](http://3.bp.blogspot.com/-YeBJGG9t4Yc/U5fi0e6TaTI/AAAAAAAABnM/BxBYFXXS3DQ/s1600/build-modes-6.gif)  
+![](how-to-reduce-exe-file-size-of-your/build-modes-6.gif)  
  Then Click **Run** button (or click **Run -> Run** menu).  
   
 
@@ -55,7 +55,7 @@ We can Strip debugging information through changing project settings (or compile
 4.  Compiler Options|Linking|Link Style|Link Smart (-XX) -> Checked 
 5.  Compiler Options|Linking|Debugging| Leave generating debugging info checked and check use External gdb debug symbols _(This will create a separate .dbg file and store the debugging information in it, leaving the EXE small. The file is not needed to run the EXE. It is just separate file with debug info.)_
 
-![](http://1.bp.blogspot.com/-N2FG1tFWnhc/UVD1SXGSsNI/AAAAAAAAAbY/NJKDiJJp5A0/s1600/lazarus-strip-1.gif)![](http://2.bp.blogspot.com/-reQOzh-qU7s/UVD1XEpYWzI/AAAAAAAAAbg/FzuHiszHGuw/s1600/lazarus-strip-2.gif)
+![](http://1.bp.blogspot.com/-N2FG1tFWnhc/UVD1SXGSsNI/AAAAAAAAAbY/NJKDiJJp5A0/s1600/lazarus-strip-1.gif)![](how-to-reduce-exe-file-size-of-your/lazarus-strip-2.gif)
 
   
 

@@ -17,7 +17,7 @@ categories:
 date: 2013-05-07 03:36:00
 ---
 
-![](http://4.bp.blogspot.com/-zI5LKkOqdxw/UYh2HZ827fI/AAAAAAAAAsU/JLCA21bVJ4U/s1600/list.png)Learn how to code a program to list different things. Make your own lists with your own program! Utilize this article to list many things that you have never listed before!  
+![](how-to-add-delete-clear-items-of-listbox/list.png)Learn how to code a program to list different things. Make your own lists with your own program! Utilize this article to list many things that you have never listed before!  
   
   
   
@@ -28,12 +28,12 @@ There can be lists of every kind, list of foods, games, shopping items, books, l
 
 Create a new Application Project (Project->New Project->Application->OK).  
   
-![](http://4.bp.blogspot.com/-4UXxKRiTjnY/UYht7tXOYAI/AAAAAAAAArg/6xaWkS38o2Y/s1600/TListBox-toolbar-icon.jpg)  
+![](how-to-add-delete-clear-items-of-listbox/TListBox-toolbar-icon.jpg)  
 Create a TListBox in the form. We will perform our actions with this ListBox.  
   
 Now you can add some initial list items for the list to appear for testing. Select the ListBox. Go to Items property and click \[...\] button.  
   
-![](http://2.bp.blogspot.com/-AGaiIGiha7k/UYhu27XqrtI/AAAAAAAAAro/DkJKw0aO0L8/s1600/ListBox-items-editing-lazar.gif)  
+![](how-to-add-delete-clear-items-of-listbox/ListBox-items-editing-lazar.gif)  
 You will see a window titled String editor dialog. Enter your desired items each in new line. You can set the MultiSelect property to True for enabling the selection of multiple list items (by Ctrl+clicking).  
   
 Add 3 Tbuttons or TBitBtns, named: btnDelete, btnClear, btnAdd.  
@@ -43,7 +43,7 @@ Optionally, you can add a TLabel with Caption "Item Text:".
   
 You should have a layout like this:  
   
-![](http://2.bp.blogspot.com/-tamAFsXGnfc/UYhyOA4Cp2I/AAAAAAAAAr4/7kaai-2knog/s1600/List-add-delete-2.gif)  
+![](how-to-add-delete-clear-items-of-listbox/List-add-delete-2.gif)  
   
 
 ### Adding an Item
@@ -121,7 +121,7 @@ end;
 
 Run it (F9 or Run->Run). Test by using the buttons. Don't forget to test the CheckBox too.  
   
-![](http://4.bp.blogspot.com/-FRZp0MQEid8/UYhzNWKQJzI/AAAAAAAAAsE/S_G17IXO0NY/s1600/List-add-delete-1.gif)  
+![](how-to-add-delete-clear-items-of-listbox/List-add-delete-1.gif)  
   
 
 ### Download Sample Code ZIP

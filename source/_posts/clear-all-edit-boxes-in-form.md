@@ -14,7 +14,7 @@ categories:
 date: 2013-05-12 12:51:00
 ---
 
-![](http://4.bp.blogspot.com/-Zy6cYPlsU-I/UY-Py59XJzI/AAAAAAAAAv0/7cANYMAsp0g/s1600/reset-button-1.gif)It is a tedious job to create a "Reset Form" button and recall all the names of the Editboxes in the form. So we let Lazarus do that for us! ... with only 3 lines of code!  
+![](clear-all-edit-boxes-in-form/reset-button-1.gif)It is a tedious job to create a "Reset Form" button and recall all the names of the Editboxes in the form. So we let Lazarus do that for us! ... with only 3 lines of code!  
   
   
 There are sometimes tens and even thousands (if you know what I mean) Text edit fields in a form. If you are a lazy programer, you would be hesitant to add a Reset Form button to make their Text Property blank. And unfortunately, programers are lazy, because they have computers to do most of their jobs!  
@@ -73,7 +73,7 @@ We iterate (go through) all the components of the form. We add the name of each 
   
 We show the list with a message box.  
   
-![](http://4.bp.blogspot.com/-UsCsKTBdqKc/UY-TjX4__WI/AAAAAAAAAwE/w6pgVrwkaNs/s1600/Clear-all-edits-1.gif)  
+![](clear-all-edit-boxes-in-form/Clear-all-edits-1.gif)  
 Run the program (F9 or Run->Run). Click the button to see the magic!  
   
 

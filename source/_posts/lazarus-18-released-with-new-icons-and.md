@@ -12,7 +12,7 @@ categories:
 date: 2017-12-16 15:58:00
 ---
 
-![](http://3.bp.blogspot.com/-oA9UpWFum6w/Ubtes8bszUI/AAAAAAAABB0/R2a6EWkKgeE/s1600/Lazarus-Logo.png)Lazarus 1.8 has been released. It is the first version with FPC 3.0.4. It has many visible and under the hood changes.  
+![](lazarus-18-released-with-new-icons-and/Lazarus-Logo.png)Lazarus 1.8 has been released. It is the first version with FPC 3.0.4. It has many visible and under the hood changes.  
   
 As a fan it seems this version took the longest to release! Another stable version of the Lazarus of version 1.8, with FPC 3.0.4 has been announced on 7 December 2017. Some major changes include:  
   
@@ -26,7 +26,7 @@ As a fan it seems this version took the longest to release! Another stable versi
   
 The look has been changed slightly. The toolbar button icons have changed.  
   
-![](https://1.bp.blogspot.com/-38rFTPeQhzY/WjU-uKmaHeI/AAAAAAAACTw/vMqEUloQgqA_z2NE_H7dPxTXbS-QgsluACLcBGAs/s1600/Lazarus-1.8-on-windows.png)![](https://4.bp.blogspot.com/-s6m0aAEqAgY/WjVA-2mbzVI/AAAAAAAACT8/v9DBUQHvflAsdnplpyf4_azTWNXPzoZFgCLcBGAs/s1600/lazarus-1.8-run-menu.png)  
+![](https://1.bp.blogspot.com/-38rFTPeQhzY/WjU-uKmaHeI/AAAAAAAACTw/vMqEUloQgqA_z2NE_H7dPxTXbS-QgsluACLcBGAs/s1600/Lazarus-1.8-on-windows.png)![](lazarus-18-released-with-new-icons-and/lazarus-1.8-run-menu.png)  
 Also, I notice that the previous { public declarations } and { private declarations } are no more. That's a serious change for beginners, but I think professionals will like it.  
   
 I'm sure there are many more changes out there. Feel free to explore!  

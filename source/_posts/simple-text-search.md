@@ -12,7 +12,7 @@ categories:
 date: 2013-04-15 18:26:00
 ---
 
-![](http://3.bp.blogspot.com/-B_oJYO1RAPo/UWxFwnH5Q-I/AAAAAAAAAkI/inJhnJaRpT0/s1600/search.jpg)Searching is one of the tasks of programing that reduces so much of our work and hardship. Today we see a **very** simple string search sample code...  
+![](simple-text-search/search.jpg)Searching is one of the tasks of programing that reduces so much of our work and hardship. Today we see a **very** simple string search sample code...  
   
 For second variation/update of this program [see this article](http://lazplanet.blogspot.com/2013/04/search-text-all-words.html).  
   
@@ -80,7 +80,7 @@ begin
   
 end;  
 
-![](http://3.bp.blogspot.com/-1y-etlgflSI/UWxCcLrgjbI/AAAAAAAAAkA/LcBqHNWPFqM/s1600/Simple-text-search-lazarus.gif)
+![](simple-text-search/Simple-text-search-lazarus.gif)
 
   
 

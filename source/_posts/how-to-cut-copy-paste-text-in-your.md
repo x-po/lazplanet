@@ -14,7 +14,7 @@ categories:
 date: 2013-05-02 03:28:00
 ---
 
-![](http://2.bp.blogspot.com/-g8xcl80R8Gc/UYHdH91ZCNI/AAAAAAAAAms/uBiV7pP79oo/s1600/th.jpg)Word processors and even browsers have cut, copy, paste functions. You have used them many times in your life. But now make yours!  
+![](how-to-cut-copy-paste-text-in-your/th.jpg)Word processors and even browsers have cut, copy, paste functions. You have used them many times in your life. But now make yours!  
   
   
 When you cut or copy a text, it lives on the virtual space called "Clipboard". The clipboard is stored in the memory and Operating Systems manage the storage of it.  
@@ -91,7 +91,7 @@ You can see the Wiki for more information: [http://wiki.lazarus.freepascal.org/C
 
 ### Download Sample Code zip
 
-![](http://3.bp.blogspot.com/-lvGlxaoyYA8/UYHdNVh_K-I/AAAAAAAAAm0/QI2I7dS4Kdg/s1600/cut-copy-paste-text-clipboa.gif)You can download a sample source code zip as an example of the above discussion: [http://db.tt/5jI8AO61](http://db.tt/5jI8AO61)  
+![](how-to-cut-copy-paste-text-in-your/cut-copy-paste-text-clipboa.gif)You can download a sample source code zip as an example of the above discussion: [http://db.tt/5jI8AO61](http://db.tt/5jI8AO61)  
 Or here: [http://bit.ly/YnWIsL](http://bit.ly/YnWIsL)  
    
 Size: 520 KB  

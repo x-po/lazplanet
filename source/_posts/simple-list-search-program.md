@@ -13,7 +13,7 @@ categories:
 date: 2013-05-19 03:21:00
 ---
 
-![](http://3.bp.blogspot.com/-f9CGr_1Xf-o/UZhDc-JKHzI/AAAAAAAAA10/PUyt3QAI-Lg/s1600/search-list-thumb.gif)Searching a list is one of computer's specialties. If you are a programer, you at least need to know this simple list search technique.  
+![](simple-list-search-program/search-list-thumb.gif)Searching a list is one of computer's specialties. If you are a programer, you at least need to know this simple list search technique.  
   
   
 
@@ -37,7 +37,7 @@ Create a new Application Project (Project->New Project->Application->OK).
   
 Drop a TEdit, TButton and 2 TListBoxes. The TEdit (Edit1) is the search text box. The TButton (Button1) is our search button. Listbox1 is the list that we want to search. Listbox2 is the list where our search results will appear. (I have positioned the Listbox2 under the search box because it shows the search results, so it should be under the search box.)  
   
-![](http://1.bp.blogspot.com/-6o56Cus3Htk/UZg37eV59PI/AAAAAAAAA1U/y5dRRwwcBzo/s1600/search-form.gif)  
+![](simple-list-search-program/search-form.gif)  
 You can add TLabels to further decorate the form or for indication of components of what they do.  
   
 Now double click the TButton and enter the following code:  
@@ -87,7 +87,7 @@ Now add an onKeyPress event to the Edit1 (select it, then go to Object Inspector
   
 It is a simple code to virtually click the button when the user presses enter after entering search string.  
   
-![](http://3.bp.blogspot.com/-BocW5iBvAME/UZhA4LcQVII/AAAAAAAAA1k/rxiBYQZyeJA/s1600/list-search-lazarus.gif)  
+![](simple-list-search-program/list-search-lazarus.gif)  
   
 
 ### Download Sample Code ZIP

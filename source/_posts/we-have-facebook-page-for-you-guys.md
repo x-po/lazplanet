@@ -11,7 +11,7 @@ categories:
 date: 2013-05-22 00:42:00
 ---
 
-![](http://2.bp.blogspot.com/-zfPkAyQQEw0/UZwTYV4RbtI/AAAAAAAAA3E/n9IaDrOWBKI/s1600/lazplanet-like.gif)Facebook is something the trendy people can't live without. Now LazPlanet also has a Facebook Page. The link is available at the top of this website. Check it out!  
+![](we-have-facebook-page-for-you-guys/lazplanet-like.gif)Facebook is something the trendy people can't live without. Now LazPlanet also has a Facebook Page. The link is available at the top of this website. Check it out!  
   
   
   

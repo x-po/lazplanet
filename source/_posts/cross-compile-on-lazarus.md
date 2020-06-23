@@ -14,7 +14,7 @@ categories:
 date: 2020-05-12 17:29:00
 ---
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lazarus-cross-compile-postthumb.png)](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lazarus-cross-compile-postthumb.png)
+[![](cross-compile-on-lazarus/lazarus-cross-compile-postthumb.png)](cross-compile-on-lazarus/lazarus-cross-compile-postthumb.png)
 
 It's alive! It's working! We're compiling for other OSs that we don't have... easily!  
   

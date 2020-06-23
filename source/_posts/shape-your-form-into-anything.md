@@ -16,7 +16,7 @@ categories:
 date: 2014-04-14 13:56:00
 ---
 
-![](http://3.bp.blogspot.com/-LFWde0PNCvw/U0vnoawZ_VI/AAAAAAAABio/92hnmNeqA3w/s1600/lazarus-custom-form-shape-t.jpg)Forms are rectangular, right? In this article we prove it wrong. We will turn our form into circle, triangle and what not!  
+![](shape-your-form-into-anything/lazarus-custom-form-shape-t.jpg)Forms are rectangular, right? In this article we prove it wrong. We will turn our form into circle, triangle and what not!  
   
 Happy [_Pahela Baishakh_](http://lazplanet.blogspot.com/2013/04/shuvo-noboborsho-and-here-is-new-mascot.html) to all _Bangalees_. Have a good year 1421 (Bengali Year).  
   
@@ -27,7 +27,7 @@ Forms are pretty dull, boring rectangular shape. But who says we can't change th
 
 First time I saw a shaped form was the Sonique Player. It was back in 2001 or '02. I used to use it on Windows 98. I had no internet so I got it from a magazine CD. Its development stopped in 2002. [Wikipedia](http://www.wikipedia.org/) has a [great article about Sonique Player](http://en.wikipedia.org/wiki/Sonique_%28media_player%29). It was a good player with a cool interface. It had a intuitively shaped form. look at the screenshot below (click it to zoom):  
   
-![](http://2.bp.blogspot.com/-vCyja-S7X7k/U0uWIL42KcI/AAAAAAAABhU/litvLA3c5iM/s1600/Media_player_sonique-1.95.png)  
+![](shape-your-form-into-anything/Media_player_sonique-1.95.png)  
 The interface is cool even in this day at 2014! As the above screenshot suggests it had 3 modes or views. A player that takes shape and changes shapes too! Since then I was obsessed with shaped forms. I tried [Multimedia Builder](http://www.mediachance.com/mmb/). It was a premature software but I learned the very basics of programming with it. It had an option to set form mask / region / shape or whatever. And with it I made an MP3 Player with shaped form successfully. After some years, my hard-disk crashed. So I neither have a copy of it nor a screenshot.  
   
 Then the very famous [Windows Media Player 9](http://en.wikipedia.org/wiki/Windows_Media_Player) came out from Microsoft. And it had a shaped look too. And not only that. You can also resize the form and the shape changes with it! How amazing! Well, may be not today but it was very amazing back when it was released.  
@@ -121,7 +121,7 @@ The TButtons will be named Button1 through Button5. The code is given here assum
   
 You should now have a form that looks like this:  
   
-![](http://4.bp.blogspot.com/-bgVk2tTLTS4/U0vY2tjl9zI/AAAAAAAABhk/CJKe88W00Pc/s1600/form-shape-lazarus-1.gif)  
+![](shape-your-form-into-anything/form-shape-lazarus-1.gif)  
   
 Now double click The TButton with the caption "Circle" and enter the following code:  
   
@@ -267,13 +267,13 @@ Now run the project with Run -> Run (or F9).
 
 [Now click the buttons. The form will change shapes:  
   
-![](http://1.bp.blogspot.com/-pwaHamewU0s/U0vdPa3oWDI/AAAAAAAABiA/lSXOelYjPSI/s1600/form-shape-lazarus-3.gif)  
-![](http://2.bp.blogspot.com/-a4TV4hPbCCs/U0vdPX5BMuI/AAAAAAAABiE/YnqgullQX0s/s1600/form-shape-lazarus-4.gif)  
-![](http://1.bp.blogspot.com/-2rwckGHT60E/U0vdPtsLFCI/AAAAAAAABiI/qj2Rm37s9Nk/s1600/form-shape-lazarus-5.gif)  
-![](http://1.bp.blogspot.com/-0ylKx0tapgc/U0vdQX9esbI/AAAAAAAABiY/D7fohusTHIU/s1600/form-shape-lazarus-6.gif)  
+![](shape-your-form-into-anything/form-shape-lazarus-3.gif)  
+![](shape-your-form-into-anything/form-shape-lazarus-4.gif)  
+![](shape-your-form-into-anything/form-shape-lazarus-5.gif)  
+![](shape-your-form-into-anything/form-shape-lazarus-6.gif)  
 And clicking on the "None" button would restore the original shape of the form.  
   
-![](http://2.bp.blogspot.com/-n25iTavShyg/U0vcWYVHArI/AAAAAAAABh8/F6BwbE0_8Z0/s1600/form-shape-lazarus-2.gif)  
+![](shape-your-form-into-anything/form-shape-lazarus-2.gif)  
 In any point if you cant close the form or the titlebar is not appearing for any reason, try focusing the form if it's not focused and pressing Alt+F4. That will close the form.  
   
 
