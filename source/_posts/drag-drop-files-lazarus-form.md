@@ -9,14 +9,16 @@ tags:
   - Form Controls
   - System API
   - Tutorials
-url: 78.html
-id: 78
+id: '76'
 categories:
-  - Uncategorized
-date: 2013-05-26 21:19:00
+  - - true
+date: 2013-05-27 03:19:00
 ---
 
-![](drag-drop-files-lazarus-form/drag-drop-thumb.jpg)You can drag and drop files to softwares, that's old news. But can you drag & drop files over YOUR own software? Yes. And we learn how to...  
+![drag and drop on a window](drag-drop-files-lazarus-form/drag-drop-thumb.jpg "drag and drop on a window")
+
+You can drag and drop files to softwares, that's old news. But can you drag & drop files over YOUR own software? Yes. And we learn how to...
+<!-- more -->
   
   
 Dragging and dropping files over an application is a good thing. Especially, when you don't want to use the Open dialog when you have the files open in your File Explorer. Why would you want to navigate through the directories and find the file, when you can just drag and drop the files on the software? Simple- you wouldn't. Because we will implement Drag and Drop in your own little program!  
@@ -49,11 +51,17 @@ First, create a new Application Project (Project-> New Project-> Application-> O
 
 Then with the form being selected, go to the Object Inspector and change the AllowDropFiles to True.  
   
-![](drag-drop-files-lazarus-form/allowdropfiles-lazarus.gif)  
+
+![AllowDropFiles property on Lazarus form](drag-drop-files-lazarus-form/allowdropfiles-lazarus.gif "AllowDropFiles property on Lazarus form")
+
+  
 This will capture the files that are dragged over the form.  
   
 Create a TLabel, TListbox and a TButton to reproduce the form design below:  
-![](drag-drop-files-lazarus-form/drag-and-drop-form-layout.gif)  
+
+![Form layout of drag and drop file/folder program in Lazarus](drag-drop-files-lazarus-form/drag-and-drop-form-layout.gif "Form layout of drag and drop file/folder program in Lazarus")
+
+  
 
 #### Step-2
 
@@ -88,7 +96,10 @@ end;
 
 Now run the project (F9 or Run->Run).  
   
-![](drag-drop-files-lazarus-form/drag-drop-file-lazarus.gif)  
+
+![Lazarus IDE File drag and drop sample  program code](drag-drop-files-lazarus-form/drag-drop-file-lazarus.gif "Lazarus IDE File drag and drop sample  program code")
+
+  
 Now drag some files and folders and test if gets listed in the list. Clear the list if you wish. Enjoy!  
   
 

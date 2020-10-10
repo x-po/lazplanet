@@ -4,14 +4,16 @@ tags:
   - Algorithms
   - Console
   - Text Operation
-url: 114.html
-id: 114
+id: '112'
 categories:
-  - Uncategorized
-date: 2013-03-27 18:40:00
+  - - true
+date: 2013-03-28 00:40:00
 ---
 
-![](vowel-detection-prog-freepascal/letters-flying-out-of.jpg)Have you tried finding anything in your life?! You sure did! But now we will let our program find/detect a vowel. User is asked to enter a letter until he enters a vowel. The user will be asked again and again when the user enters consonants. When the user enters a vowel, the program quits saying thanks.  
+![](vowel-detection-prog-freepascal/letters-flying-out-of.jpg)
+
+Have you tried finding anything in your life?! You sure did! But now we will let our program find/detect a vowel. User is asked to enter a letter until he enters a vowel. The user will be asked again and again when the user enters consonants. When the user enters a vowel, the program quits saying thanks.
+<!-- more -->
   
   
 This idea came to me while writing the FAQ page.  
@@ -60,7 +62,12 @@ end.
 
 ### Run it!
 
-![](vowel-detection-prog-freepascal/VowelDetector-lazarus-fpc.gif)  
+Press F9 to compile and run the tiny little program.  
+  
+
+![](vowel-detection-prog-freepascal/VowelDetector-lazarus-fpc.gif)
+
+  
 You will be asked to enter a letter. If you enter a consonant, it will ask again to enter a letter. Try different consonants first. You may enter lowercase or uppercase. That is why we used the lowercase() commands. (See below for explanation.) It will keep asking. When you enter any of the vowels (a, e, i, o, u)the program will thank you and end.  
   
 

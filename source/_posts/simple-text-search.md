@@ -5,14 +5,16 @@ tags:
   - Sample Code
   - Text Operation
   - Tutorials
-url: 102.html
-id: 102
+id: '100'
 categories:
-  - Uncategorized
-date: 2013-04-15 18:26:00
+  - - true
+date: 2013-04-16 00:26:00
 ---
 
-![](simple-text-search/search.jpg)Searching is one of the tasks of programing that reduces so much of our work and hardship. Today we see a **very** simple string search sample code...  
+![](simple-text-search/search.jpg)
+
+Searching is one of the tasks of programing that reduces so much of our work and hardship. Today we see a **very** simple string search sample code...
+<!-- more -->
   
 For second variation/update of this program [see this article](http://lazplanet.blogspot.com/2013/04/search-text-all-words.html).  
   
@@ -79,6 +81,22 @@ begin
   Memo1.SetFocus;  
   
 end;  
+
+  
+
+### Explanation
+
+Memo1.SelStart := findpos - 1;
+
+  
+
+SelStart is 0-based (starts from 0). PosEx on the other hand is 1-based (starts from 1). So findpos is 1-based. We -1 from findpos to make it zero-based, for SelStart.
+
+### Run It
+
+Go to Run->Run. Write something in the memo and then write something in the editbox then click the button.
+
+  
 
 ![](simple-text-search/Simple-text-search-lazarus.gif)
 

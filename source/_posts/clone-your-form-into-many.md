@@ -4,14 +4,16 @@ tags:
   - Form Controls
   - Sample Code
   - Tutorials
-url: 110.html
-id: 110
+id: '108'
 categories:
-  - Uncategorized
-date: 2013-04-03 01:30:00
+  - - true
+date: 2013-04-03 07:30:00
 ---
 
-![](clone-your-form-into-many/duplicate-form-lazarus.jpg)This is a fun code example to try. When you open up a new Application project, you get a form. To have fun, we can create hundreds of "copies" of this form! On runtime. Here's how...  
+![](clone-your-form-into-many/duplicate-form-lazarus.jpg)
+
+This is a fun code example to try. When you open up a new Application project, you get a form. To have fun, we can create hundreds of "copies" of this form! On runtime. Here's how...
+<!-- more -->
   
 
 ### Concept 
@@ -64,10 +66,16 @@ Press **F9**. Click the button and a new form will appear on top each time you c
   
 With the form selected, go to **Object Inspector** and set **Position** to **poDefaultPosOnly**. This will position every new form  in cascading style (one lower to another).  
   
-![](clone-your-form-into-many/properties.gif)  
+
+![](clone-your-form-into-many/properties.gif)
+
+  
 Now again press **F9**. Now you will see pure fun! Forms and forms everywhere! Keep copying until your heart desires.  
   
-![](clone-your-form-into-many/duplicate-form-lazarus.jpg)  
+
+![](clone-your-form-into-many/duplicate-form-lazarus.jpg)
+
+  
 
 ### Sample code zip
 

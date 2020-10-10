@@ -8,14 +8,16 @@ tags:
   - random
   - Sample Code
   - Tutorials
-url: 81.html
-id: 81
+id: '79'
 categories:
-  - Uncategorized
-date: 2013-05-23 01:28:00
+  - - true
+date: 2013-05-23 07:28:00
 ---
 
-![](how-to-generate-random-number/random-number-thumb.gif)Do you know what face of dice is going to come up before throwing? That's what random means. We learn how to create a program that shows a random number each time you click a button.  
+![Random numbers](how-to-generate-random-number/random-number-thumb.gif "Random numbers")
+
+Do you know what face of dice is going to come up before throwing? That's what random means. We learn how to create a program that shows a random number each time you click a button.
+<!-- more -->
   
   
 
@@ -125,7 +127,10 @@ Let's see a Quick Tutorial for a GUI program.
 
 Create a new Application Project (Project-> New Project-> Application-> OK). Prepare the form layout like the following:  
   
-![](how-to-generate-random-number/rand-layout.gif)  
+
+![Random number gen form design Lazarus IDE](how-to-generate-random-number/rand-layout.gif "Random number gen form design Lazarus IDE")
+
+  
 Name the Editbox near to "From" as edtFrom and the other one as edtTo. Name the tButton as btnRandom and name also the TLabel which will show the random number as lblRandom. Set the text of both Editboxes as a numeric value.  
   
 Now double click the button and enter:  
@@ -155,7 +160,10 @@ end;
   
 Now Run the project (F9 or Run-> Run). You will see the form like below:  
   
-![](how-to-generate-random-number/random-number-generator.gif)  
+
+![Random number generator program code running](how-to-generate-random-number/random-number-generator.gif "Random number generator program code running")
+
+  
 Enter desired values and click the button.  
   
 This is a basic implementation of the program. If you enter non-numeric or non-integer inputs, the program will crash. You will have to apply [Val()](http://lazarus-ccr.sourceforge.net/docs/rtl/system/val.html) function in order to face this error. Such as:  

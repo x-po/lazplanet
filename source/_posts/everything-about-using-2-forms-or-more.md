@@ -9,14 +9,16 @@ tags:
   - units
   - use
   - window
-url: 31.html
-id: 31
+id: '29'
 categories:
-  - Uncategorized
-date: 2015-01-12 18:33:00
+  - - true
+date: 2015-01-13 00:33:00
 ---
 
-![](everything-about-using-2-forms-or-more/lazarus-multi-forms.gif)We love forms, right? So why have only one? Why not two?! Let's learn how to create multiple forms, manage them and use them as dialog boxes.  
+![Multiple forms in Lazarus IDE](everything-about-using-2-forms-or-more/lazarus-multi-forms.gif "Multiple forms in Lazarus IDE")
+
+We love forms, right? So why have only one? Why not two?! Let's learn how to create multiple forms, manage them and use them as dialog boxes.
+<!-- more -->
   
 When we create a new Application Project, we get one form with our project. We love forms because every GUI project that we start, it starts from a form, a blank form. Then it gradually grows to a full application. We could consider it a building block for our applications.  
   
@@ -38,7 +40,10 @@ This will create a project with one Form in it. It is of no surprise that by def
 
 We already have a single form. Now we want to add another form. So, **click File -> New Form**. You will see a new form titled "Form2" in the screen.  
   
-![](everything-about-using-2-forms-or-more/lazarus-new-form-menu.gif)  
+
+![Lazarus New form on menu](everything-about-using-2-forms-or-more/lazarus-new-form-menu.gif "Lazarus New form on menu")
+
+  
 Now that you have created another form it is better to save the project to understand how they work. So, go ahead and click File -> Save All... and save the project. You can use the default file names, don't worry!  
   
 So you have saved project1.lpi, unit1.pas and unit2.pas.  
@@ -48,10 +53,16 @@ So you have saved project1.lpi, unit1.pas and unit2.pas.
 
 If you have followed the instructions correctly, now you have 2 forms in your project. If you don't trust me, press **Shift + F12** to bring up the "View Project Forms" dialog. In this dialog you will see all the forms the current project has.  
   
-![](everything-about-using-2-forms-or-more/View-project-forms-1.jpg)  
+
+![View Project Forms window in Lazarus IDE, triggered by Shift + F12](everything-about-using-2-forms-or-more/View-project-forms-1.jpg "View Project Forms window in Lazarus IDE, triggered by Shift + F12")
+
+  
 You can **double click** on the forms from the list of that dialog to bring it up in the form design view. This will switch to that form to let you design it. You can also try the Window menu to switch between forms.  
   
-![](everything-about-using-2-forms-or-more/switch-forms-menu-lazarus.gif)Additionally, I hope you remember that we press **F12** to switch between form and code view.  
+
+![Switching forms in Lazarus is also possible with menus](everything-about-using-2-forms-or-more/switch-forms-menu-lazarus.gif "Switching forms in Lazarus is also possible with menus")
+
+Additionally, I hope you remember that we press **F12** to switch between form and code view.  
   
 
 ### Showing one Form from another Form
@@ -189,7 +200,10 @@ When we run the project, Form1 usually comes first on the screen. How can we set
   
 Go to Project -> Project Options. Then under Project Options click Forms. You would see 2 lists. The list on the right doesn't matter to us right now.  
   
-![](everything-about-using-2-forms-or-more/first-form-lazarus.gif)  
+
+![How to set the default form to form2 in Lazarus ](everything-about-using-2-forms-or-more/first-form-lazarus.gif "How to set the default form to form2 in Lazarus ")
+
+  
 Select Form2 from the list on the left and click the Up arrow icon. Make sure that Form2 is the topmost item. Then click OK.  
   
 The topmost item on that list appears first.  

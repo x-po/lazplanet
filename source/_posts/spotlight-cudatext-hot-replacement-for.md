@@ -6,16 +6,16 @@ tags:
   - Spotlight
   - text editor
   - Text Operation
-url: 18.html
-id: 18
+id: '16'
 categories:
-  - Uncategorized
-date: 2018-05-01 07:45:00
+  - - true
+date: 2018-05-01 13:45:00
 ---
 
-[![](spotlight-cudatext-hot-replacement-for/cudatext_thumb.png)](spotlight-cudatext-hot-replacement-for/cudatext_thumb.png)
+![](spotlight-cudatext-hot-replacement-for/cudatext_thumb.png)
 
-Care for a replacement of Sublime Text, but Open Source? We got you covered...!  
+Care for a replacement of Sublime Text, but Open Source? We got you covered...!
+<!-- more -->
   
 By the way, congrats to LazPlanet for its 100th post! Congrats to you all readers for such a great community!  
   
@@ -69,7 +69,7 @@ yaourt -S cudatext --noconfirm
 If you are on linux, when you run it, you will probably get a screen like this:  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/05/001-300x216.png)](spotlight-cudatext-hot-replacement-for/001.png)
+![](spotlight-cudatext-hot-replacement-for/001.png)
 
   
   
@@ -105,7 +105,7 @@ We would need that in a minute. Now go to **Options - Settings - user**. Now pas
 Notice that I have used only filename and not path. If this filename does not work, try the above code with the filenames you get on your system. Save and Restart. The error should be gone.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/05/0002-300x216.png)](spotlight-cudatext-hot-replacement-for/0002.png)
+![](spotlight-cudatext-hot-replacement-for/0002.png)
 
   
   
@@ -115,7 +115,7 @@ Then you can also click on the Project icon on the Sidebar to reveal the Project
   
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/05/0003-300x216.png)](spotlight-cudatext-hot-replacement-for/0003.png)
+![](spotlight-cudatext-hot-replacement-for/0003.png)
 
   
   
@@ -124,14 +124,14 @@ To spice up things a bit, you can choose an UI theme from **Options - Color Them
 To get the same look as Sublime, you can choose ebony or sub. If you like the color of Atom, you should choose darkwolf or zeus. Although they are not exact, you can finetune it by mixing different Syntax themes with UI themes.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/05/0004-300x216.png)](spotlight-cudatext-hot-replacement-for/0004.png)
+![](spotlight-cudatext-hot-replacement-for/0004.png)
 
   
   
 I am a fan of the darker ones, but there are lighter themes if you feel like it.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/05/0005-300x216.png)](spotlight-cudatext-hot-replacement-for/0005.png)
+![](spotlight-cudatext-hot-replacement-for/0005.png)
 
   
   
@@ -169,7 +169,7 @@ If I miss something dearly, I can install the sublime plugin for that thing.
 Which brings us to a great feature - _Sublime Plugins on CudaText_. To install such a plugin simply go to **Plugins - Addons Manager - Install**. Now you can type in some name of a plugin, for example, "find in files". Select your desired option and press enter. Within some seconds you will get a message if you are sure you want to install it.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/05/0006-300x188.png)](spotlight-cudatext-hot-replacement-for/0006.png)
+![](spotlight-cudatext-hot-replacement-for/0006.png)
 
   
   

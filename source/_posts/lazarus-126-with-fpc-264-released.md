@@ -7,14 +7,16 @@ tags:
   - Lazarus
   - News
   - version
-url: 33.html
-id: 33
+id: '31'
 categories:
-  - Uncategorized
-date: 2014-10-16 11:37:00
+  - - true
+date: 2014-10-16 17:37:00
 ---
 
-![](lazarus-126-with-fpc-264-released/Lazarus-Logo.png)Lazarus 1.2.6 has been released. It is the third version with FPC 2.6.4. It is basically a bug fix release but worth upgrading.  
+![](lazarus-126-with-fpc-264-released/Lazarus-Logo.png)
+
+Lazarus 1.2.6 has been released. It is the third version with FPC 2.6.4. It is basically a bug fix release but worth upgrading.
+<!-- more -->
   
   
 Lazarus is getting bug-free everyday. Here is another stable release of Lazarus - version 1.2.6. It has FPC 2.6.4. The previous version 1.2.4 also had this version of FPC. This version has many new bug fixes. You can look at the [changes here](http://wiki.lazarus.freepascal.org/Lazarus_1.2_fixes_branch#Fixes_for_1.2.6_.28Merged.29).  
@@ -23,7 +25,8 @@ Lazarus 1.2.6 is a better version than 1.2.4 because many bugs have been fixed a
   
 The look of this version is similar to the previous version of Lazarus. No real change there...  
   
-![](lazarus-126-with-fpc-264-released/Lazarus-1.2.6-fpc-2.6.4.gif)
+
+![Screenshot of Lazarus 1.2.6 with FPC 2.6.4 running under Windows 7](lazarus-126-with-fpc-264-released/Lazarus-1.2.6-fpc-2.6.4.gif "Screenshot of Lazarus 1.2.6 with FPC 2.6.4 running under Windows 7")
 
   
   

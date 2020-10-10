@@ -7,14 +7,16 @@ tags:
   - Math Dates
   - minimum
   - numbers
-url: 32.html
-id: 32
+id: '30'
 categories:
-  - Uncategorized
-date: 2014-11-18 09:09:00
+  - - true
+date: 2014-11-18 15:09:00
 ---
 
-![](find-out-smallest-number-from-two/min-number.jpg)This is usually a very basic task for beginner programmers. Find out the smaller from two numbers.  
+![minimum number between two numbers in Lazarus, Free Pascal](find-out-smallest-number-from-two/min-number.jpg "minimum number between two numbers in Lazarus, Free Pascal")
+
+This is usually a very basic task for beginner programmers. Find out the smaller from two numbers.
+<!-- more -->
   
   
 There are many basic problems that a beginner programmer has to solve. One of the most popular is finding the smallest number out of two.  
@@ -123,7 +125,10 @@ end.
   
 Now Run the Project (Run-> Run or press F9).  
   
-![](find-out-smallest-number-from-two/min-number-lazarus.gif)  
+
+![Minimum number between two numbers in Lazarus, Free Pascal](find-out-smallest-number-from-two/min-number-lazarus.gif "Minimum number between two numbers in Lazarus, Free Pascal")
+
+  
 Test it with two numbers on each line. You should get the minimum number between the two inputs.  
 
 ### Download Sample Code ZIP

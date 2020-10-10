@@ -5,14 +5,16 @@ tags:
   - News
   - release
   - version
-url: 15.html
-id: 15
+id: '13'
 categories:
-  - Uncategorized
-date: 2019-02-14 10:20:00
+  - - true
+date: 2019-02-14 16:20:00
 ---
 
-![](lazarus-200-released-with-many-tiny/Lazarus-Logo.png)Lazarus 2.0 has been released. It is the second major release with FPC 3.0.4. It has many new minor changes to look for.  
+![](lazarus-200-released-with-many-tiny/Lazarus-Logo.png)
+
+Lazarus 2.0 has been released. It is the second major release with FPC 3.0.4. It has many new minor changes to look for.
+<!-- more -->
   
 I think you'll agree it is always a pleasure to see a new version of Lazarus. The stable version of the Lazarus of version 2.0, with FPC 3.0.4 has been announced on 5 February 2019. Some major changes include:  
   
@@ -26,7 +28,17 @@ I think you'll agree it is always a pleasure to see a new version of Lazarus. Th
   
 Here is how it looks on a typical Windows install:  
   
-![](https://1.bp.blogspot.com/-_0wdkVZ5KW4/XGU_lOSf3EI/AAAAAAAACeE/fcXmAKe0r8wFI11hzAaohVHHkzLMWWKwgCLcBGAs/s1600/Lazarus-2.0.0-on-windows.png)![](lazarus-200-released-with-many-tiny/Lazarus-2.0.0-menu1.png)  
+
+![](lazarus-200-released-with-many-tiny/Lazarus-2.0.0-on-windows.png)
+
+  
+
+I am not quite sure, but it seems menu icons had some minor changes, which makes it look even more professional than before. It brings out contrast between different features better, which was missing on the previous icons.  
+  
+
+![](lazarus-200-released-with-many-tiny/Lazarus-2.0.0-menu1.png)
+
+  
   
 
 There are many other changes which are yours to explore! Go ahead, download Lazarus and try for yourself.

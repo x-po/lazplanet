@@ -6,14 +6,16 @@ tags:
   - objects
   - OOP
   - Sample Code
-url: 41.html
-id: 41
+id: '39'
 categories:
-  - Uncategorized
-date: 2014-07-30 08:47:00
+  - - true
+date: 2014-07-30 14:47:00
 ---
 
-![](oop-example-artificial-persons-that/bionic-thumb.jpg)Today we create bionic, robotic, futuristic human beings! That can even respond to your question! A virtual TPerson to be precise!  
+![](oop-example-artificial-persons-that/bionic-thumb.jpg)
+
+Today we create bionic, robotic, futuristic human beings! That can even respond to your question! A virtual TPerson to be precise!
+<!-- more -->
   
   
   

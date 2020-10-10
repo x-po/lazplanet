@@ -6,14 +6,16 @@ tags:
   - HTML Web
   - internet
   - Tutorials
-url: 25.html
-id: 25
+id: '23'
 categories:
-  - Uncategorized
-date: 2015-09-15 23:54:00
+  - - true
+date: 2015-09-16 05:54:00
 ---
 
-![](create-web-browser-in-3-minutes-using/thumb-lazarus-chrome-webbrowser-1.jpg)We'll learn how to create a web browser even quicker than you can install one! All using the people's favorite chromium engine!  
+![](create-web-browser-in-3-minutes-using/thumb-lazarus-chrome-webbrowser-1.jpg)
+
+We'll learn how to create a web browser even quicker than you can install one! All using the people's favorite chromium engine!
+<!-- more -->
   
 Well, we had a popular post on LazPlanet about [creating a web browser using the GeckoPort v1](http://localhost/wp-lazplanet/2013/10/29/create-a-web-browser-in-lazarus-with-gecko-part-1/). That was a great way to create a browser and I love Gecko because it is the darling of open source! But it was an old version of Gecko and the newer version does not seem to work.  
   
@@ -44,23 +46,38 @@ svn co https://github.com/dliw/fpCEF3
   
 2\. **Extract & Copy** the folder to the **Components** directory inside your **Lazarus installation** (this is usually **C:LazarusComponenets**).  
   
-![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-1.gif)  
+
+![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-1.gif)
+
+  
   
 3\. Now go inside the folder, then inside "**Component**" folder, then double click **cef3.lpk**. (You can also use Package->Open Package file (lpk)... from inside Lazarus to open this file.)  
   
 This will open up Lazarus with a "Package" window for CEF3 like below:  
   
-![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-2.gif)  
+
+![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-2.gif)
+
+  
   
 4\. Click on **Compile**.  
   
-![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-3.gif)  
+
+![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-3.gif)
+
+  
 5\. After the Compiling has completed (the messages window will show a "**Success**" message), click **Use -> Install**. Click **Yes** to rebuild Lazarus.  
   
-![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-4.gif)  
+
+![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-4.gif)
+
+  
 Give it some time to rebuild. Lazarus will restart. Upon restart you'll now see a new "Chromium" tab in the toolbar.  
   
-![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-5.gif)  
+
+![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-5.gif)
+
+  
   
 In the meanwhile let's download CEF...  
   
@@ -88,10 +105,16 @@ Save the Project (**File -> Save All**) in a directory.
   
 Now, in the project directory copy the **Resources** Folder from **CEF package**.  
   
-![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-6.gif)  
+
+![lazarus, freepascal, webbrowser, chromium](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-6.gif "lazarus, freepascal, webbrowser, chromium")
+
+  
 And then copy all the **files inside** the **Release** folder from CEF package, and paste it directly into the **project directory**. See the screenshot below if you need help understanding (click to enlarge).  
   
-![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-7.jpg)  
+
+![Copy the files inside the Release folder into the project folder, fpCEF, web browser, lazarus, free pascal](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-7.jpg "Copy the files inside the Release folder into the project folder, fpCEF, web browser, lazarus, free pascal")
+
+  
 Drop a new TEditButton (from Misc tab) in to the form. Set its properties like this:  
 Name = edtURL  
 Align = alTop  
@@ -99,7 +122,10 @@ ButtonCaption = Go
   
 The result is as follows:  
   
-![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-8.gif)  
+
+![First, we add the location bar - lazarus, freepascal, webbrowser, chromium](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-8.gif "First, we add the location bar - lazarus, freepascal, webbrowser, chromium")
+
+  
 Now we'll have a nice Location bar/Address bar at the top.  
   
 Now Drop a new TChromium (from Chromium tab) in the form. Set its properties:  
@@ -109,7 +135,10 @@ Align = alClient
   
 It will fit the Chromium component nicely in the form's blank area.  
   
-![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-9.gif)  
+
+![Simple Chromium Web Browser with fpCEF, lazarus ide, free pascal](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-9.gif "Simple Chromium Web Browser with fpCEF, lazarus ide, free pascal")
+
+  
   
 Now double click the Form1 item in the Object Inspector and enter the code:  
   
@@ -158,7 +187,10 @@ Voila! Done! Well under 3 minutes!
   
 Now Run the project (F9 or Run -> Run). Click the "Go" button.  
   
-![](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-10.gif)  
+
+![running the web browser , lazarus, freepascal, webbrowser, chromium](create-web-browser-in-3-minutes-using/CEF-browser-in-Lazarus-10.gif "running the web browser , lazarus, freepascal, webbrowser, chromium")
+
+  
 You'll see the LazPlanet website load in your newly made web browser! You can change the code on the TForm1.FormCreate procedure to set another URL as the homepage.  
   
 Now browse all you want with your new browser! Happy surfing!  

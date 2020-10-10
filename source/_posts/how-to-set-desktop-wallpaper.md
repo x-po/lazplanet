@@ -7,14 +7,16 @@ tags:
   - wallpaper
   - Windows API
   - Windows Only
-url: 39.html
-id: 39
+id: '37'
 categories:
-  - Uncategorized
-date: 2014-08-31 10:11:00
+  - - true
+date: 2014-08-31 16:11:00
 ---
 
-![](how-to-set-desktop-wallpaper/lazarus-wallp-thumb.gif)Do you know how to change a single image and change the whole feeling of how your computer looks? Get your seatbelt on!  
+![](how-to-set-desktop-wallpaper/lazarus-wallp-thumb.gif)
+
+Do you know how to change a single image and change the whole feeling of how your computer looks? Get your seatbelt on!
+<!-- more -->
   
   
 The desktop wallpaper is a great part that makes our desktop. Although its just an image shown behind the desktop icons, even after that it can totally change the way our desktop looks. What if you want to make a Desktop Wallpaper manager? Then you will have to learn how to set the wallpaper. That's why I am writing this short article today.  
@@ -42,7 +44,10 @@ Create a new project (Project -> New Project -> Application -> OK).
   
 Draw a TFileNameEdit (from Misc tab) and a TButton (from Standard tab). Set the name of TButton as btnWallpaper and set its Caption as "Set Wallpaper". You can use any Tlabels if you like. In that case set its Caption to something appropriate. Here is a screenshot of mine:  
   
-![](how-to-set-desktop-wallpaper/wallpaper-1.gif)  
+
+![](how-to-set-desktop-wallpaper/wallpaper-1.gif)
+
+  
   
 Now double click the TButton and enter:  
 
@@ -61,7 +66,10 @@ As we are using the Windows API, the code is not cross platform. It will only wo
   
 Now Run the project (F9 or Run -> Run).  
   
-![](how-to-set-desktop-wallpaper/wallpaper-lazarus-2.jpg)  
+
+![](how-to-set-desktop-wallpaper/wallpaper-lazarus-2.jpg)
+
+  
 Now open a JPG file and click the Set Wallpaper button. The wallpaper should change.  
   
 This is the simplest working example for changing the wallpaper. But it has a problem. It only changes the wallpaper image. But it does not change the wallpaper style (such as tiled, stretched). So if the last wallpaper was set to tiled, then setting the wallpaper through this program would just change the image and keep it tiled.  
@@ -97,7 +105,10 @@ end;
   
 Put some labels to help the user understand which component does what. Here's how my form looks like:  
   
-![](how-to-set-desktop-wallpaper/wallpaper-2.gif)  
+
+![](how-to-set-desktop-wallpaper/wallpaper-2.gif)
+
+  
 Now to coding. We will use the [code from chami.com](http://www.chami.com/tips/delphi/123096D.html). Thanks goes to the author for his contribution. But first add the "registry" unit in the uses clause. Just remember we have added windows unit before, so we don't need to add it again.  
   
 
@@ -228,7 +239,10 @@ end;
   
 Now Run the Project (F9 or Run -> Run).  
   
-![](how-to-set-desktop-wallpaper/wallpaper-setter-in-lazarus.gif)  
+
+![](how-to-set-desktop-wallpaper/wallpaper-setter-in-lazarus.gif)
+
+  
   
   
   

@@ -2,11 +2,10 @@
 title: Test post 2
 tags:
   - Introduction
-url: 121.html
-id: 121
+id: '119'
 categories:
-  - Uncategorized
-date: 2013-03-20 09:54:00
+  - - true
+date: 2013-03-20 15:54:00
 ---
 
   
@@ -15,7 +14,8 @@ B: I'm fine. How about yourself?
 A: I'm pretty good. Thanks for asking.  
 B: No problem. So how have you been?  
 A: I've been great. What about you?  
-B: I've been good. I'm in school right now.  
+B: I've been good. I'm in school right now.
+<!-- more -->
   
 [Test link](http://lazplanet.blogspot.com/2013/03/test-post-2.html#hhh)  
 A: What school do you go to?  

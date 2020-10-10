@@ -5,14 +5,16 @@ tags:
   - Console
   - Math Dates
   - Sample Code
-url: 113.html
-id: 113
+id: '111'
 categories:
-  - Uncategorized
-date: 2013-03-28 23:42:00
+  - - true
+date: 2013-03-29 05:42:00
 ---
 
-![](how-to-add-two-numbers/2_2_4.jpg)Okey. Adding is not the first thing you did. But teaching a computer how to add two numbers is something worth learning.  
+![](how-to-add-two-numbers/2_2_4.jpg)
+
+Okey. Adding is not the first thing you did. But teaching a computer how to add two numbers is something worth learning.
+<!-- more -->
   
   
 
@@ -48,7 +50,10 @@ end.
 Now press F9 to run the program. Test it with as many numbers as you like, for as many times. Hey, that's a good thing about computers - they never get tired!  
   
 But try a number with decimals. For example: 2.5 or 10.6. And you will get an error like this:  
-![](how-to-add-two-numbers/debug-106.gif)  
+
+![](how-to-add-two-numbers/debug-106.gif)
+
+  
   
 
 ### Enhancing the program
@@ -92,7 +97,10 @@ end;
   
   
 Now Run it. Then test it with the decimal place numbers or whatever.  
-![](how-to-add-two-numbers/add-two-numbers-lazarus.gif)  
+
+![](how-to-add-two-numbers/add-two-numbers-lazarus.gif)
+
+  
 Now you have it! your very own adding machine! Add your modifications to the form design to make it perfect.  
   
 

@@ -11,14 +11,16 @@ tags:
   - show
   - System API
   - tooltip
-url: 96.html
-id: 96
+id: '94'
 categories:
-  - Uncategorized
-date: 2013-05-06 10:38:00
+  - - true
+date: 2013-05-06 16:38:00
 ---
 
-![](how-to-show-tooltip-balloon-tip-and/Tooltip-1.jpg)Tooltips are text that appears as a short help for a component when we keep our mouse over it for a while. We can add single line or multiline tooltips easily. Here's how...  
+![Tooltip icon decoration](how-to-show-tooltip-balloon-tip-and/Tooltip-1.jpg "Tooltip icon decoration")
+
+Tooltips are text that appears as a short help for a component when we keep our mouse over it for a while. We can add single line or multiline tooltips easily. Here's how...
+<!-- more -->
   
   
 
@@ -26,7 +28,10 @@ date: 2013-05-06 10:38:00
 
 [Tooltips](http://en.wikipedia.org/wiki/Tooltip) are a popular and common feature in the modern Operating Systems. Tooltips are also seen in HTML webpages (by using title attribute to a tag). It is a great way to let the user understand what a button or a particular clickable object does. It is excellent for the users who are learning the operation of your software by himself, giving him a hint of the function of an object/component.  
   
-![](how-to-show-tooltip-balloon-tip-and/Tooltip-ms-paint.jpg)  
+
+![Example of Tooltip in Microsoft Paint](how-to-show-tooltip-balloon-tip-and/Tooltip-ms-paint.jpg "Example of Tooltip in Microsoft Paint")
+
+  
   
 Tooltips also help the interface to be cleaner. If you have to put label Texts all around the form to just explain the functions of the buttons (or components), then your design would be cluttered. Tooltip saves that valuable space in your User Interface design and makes your forms look neat.  
   
@@ -37,7 +42,10 @@ We are also going to look at some other Help options which keep the form neat as
 
 First, select the component for which you want Tool Tip for. Go to the Object Inspector window. Scroll a little and find an item titled "Hint". You can write the Tooltip Text that you want in the box next to it, or you can click the button at the right to enter a Tooltip/Hint of multiple lines.  
   
-![](how-to-show-tooltip-balloon-tip-and/Lazarus-tooltip-1.gif)  
+
+![Showing how to add single line and multiple line Tool tip in Lazarus GUI](how-to-show-tooltip-balloon-tip-and/Lazarus-tooltip-1.gif "Showing how to add single line and multiple line Tool tip in Lazarus GUI")
+
+  
   
 Second, find out another property titled "ShowHint" and set it to True. If you don't set it to True then the Tooltip will not appear.  
   
@@ -51,20 +59,29 @@ Another variation is the TPopupNotifier which can be used as a popup help which 
 You can use it like this:  
 Drop TPopupNotifier (from Common Controls tab). From its properties set an Icon, Text and Title. Create a help button (or BitBtn) somewhere and on its click event enter (we are assuming the button name is Button2):  
   
-![](how-to-show-tooltip-balloon-tip-and/popup-notifier-lazarus-1.gif)  
+
+![Layout to test TPopupNotifier](how-to-show-tooltip-balloon-tip-and/popup-notifier-lazarus-1.gif "Layout to test TPopupNotifier")
+
+  
 
   PopupNotifier1.ShowAtPos(Left+Button2.Left, Top+Button2.Top+80);
 
   
 Now Run the program and click on the button. You will see a popup help.  
   
-![](how-to-show-tooltip-balloon-tip-and/TpopupNotifier-example.jpg)  
+
+![Popup help window made in Lazarus](how-to-show-tooltip-balloon-tip-and/TpopupNotifier-example.jpg "Popup help window made in Lazarus")
+
+  
 
 ### Variation 2: TrayIcon's Balloon Tooltip
 
 Another modern variation is the Balloon Tooltip (or ScreenTip). For that we can drop a TTrayIcon (from Additional tab) and we need a TButton to run the ShowBalloonHint command for our Balloon Tooltip to appear. Set the BalloonTitle and BalloonHint of TrayIcon1 as you wish and set Visible to True. You should also select an Icon for it to appear in the System Tray.  
   
-![](how-to-show-tooltip-balloon-tip-and/Tooltip-balloon-lazarus.gif)  
+
+![Form design for Balloon Tooltip](how-to-show-tooltip-balloon-tip-and/Tooltip-balloon-lazarus.gif "Form design for Balloon Tooltip")
+
+  
 Double click the button and enter:  
   
 
@@ -73,7 +90,10 @@ Double click the button and enter:
   
 Now Run the program and click the button. You will notice a Balloon Tooltip in the System Tray Area.  
   
-![](how-to-show-tooltip-balloon-tip-and/balloon-tooltip-example.jpg)  
+
+![Balloon tooltip example made with Lazarus](how-to-show-tooltip-balloon-tip-and/balloon-tooltip-example.jpg "Balloon tooltip example made with Lazarus")
+
+  
 
 ### Variation 3: Help in Statusbar
 
@@ -130,7 +150,10 @@ end;
   
 Now run the Program and hover your mouse over the button. You will see the text in the Hint property of the Button4.  
   
-![](how-to-show-tooltip-balloon-tip-and/statusbar-text-help.gif)  
+
+![Mouse hover help text on statusbar made in Lazarus](how-to-show-tooltip-balloon-tip-and/statusbar-text-help.gif "Mouse hover help text on statusbar made in Lazarus")
+
+  
 
 ### Download Sample Code ZIP
 

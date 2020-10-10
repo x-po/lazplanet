@@ -9,14 +9,16 @@ tags:
   - Screen Graphics
   - Text Operation
   - Tutorials
-url: 87.html
-id: 87
+id: '85'
 categories:
-  - Uncategorized
-date: 2013-05-15 00:24:00
+  - - true
+date: 2013-05-15 06:24:00
 ---
 
-![](how-to-use-text-and-background-color-in/console-colors-thumbs.gif)Console applications are not of entertaining type. They have that whitish dull color in a black background. But who says you cannot change it! Here is a tip to change the text color of console programs.  
+![Using colors in Free Pascal console apps](how-to-use-text-and-background-color-in/console-colors-thumbs.gif "Using colors in Free Pascal console apps")
+
+Console applications are not of entertaining type. They have that whitish dull color in a black background. But who says you cannot change it! Here is a tip to change the text color of console programs.
+<!-- more -->
   
   
 Console programs written by any language uses the default color to show text. Which is white on black background. It is the usual color for any program written in Free Pascal as well. But what if you need to change it? What if you want to highlight the results of your program with a different color to separate it from other text? We have an option.  
@@ -143,7 +145,10 @@ end.
   
 You can try the above code with a New Program Project in Lazarus, like stated above.  
   
-![](how-to-use-text-and-background-color-in/console-text-bg-color.gif)  
+
+![Using colors for text and text background in Free Pascal Lazarus](how-to-use-text-and-background-color-in/console-text-bg-color.gif "Using colors for text and text background in Free Pascal Lazarus")
+
+  
   
 
 ### Download Sample Code ZIP

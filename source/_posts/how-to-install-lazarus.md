@@ -2,45 +2,127 @@
 title: How to install Lazarus
 tags:
   - Articles
-url: 120.html
-id: 120
+id: '118'
 categories:
-  - Uncategorized
-date: 2013-03-20 18:35:00
+  - - true
+date: 2013-03-21 00:35:00
 ---
 
-![](how-to-install-lazarus/windows-mac-os-linux-logo1.jpg)Lazarus is a cross-platform IDE. It runs on Windows, Ubuntu/Linux, Mac OS and BSD Operating systems.  
+![](how-to-install-lazarus/windows-mac-os-linux-logo1.jpg)
+
+Lazarus is a cross-platform IDE. It runs on Windows, Ubuntu/Linux, Mac OS and BSD Operating systems.  
   
-Below is a guide of how to install Lazarus in Windows and Ubuntu (Linux).  
-  
+Below is a guide of how to install Lazarus in Windows and Ubuntu (Linux).
+<!-- more -->
   
   
 
 ### Installing Lazarus in Windows
 
-![](how-to-install-lazarus/download-lazarus.gif)  
+Installing Lazarus in Windows is the easiest. Follow these steps below:
+
   
-![](http://2.bp.blogspot.com/-Tm7k-wuulIE/UU3mbGiYhaI/AAAAAAAAAUc/ncf4NyEc64E/s1600/01.gif)![](how-to-install-lazarus/02.gif)  
-![](how-to-install-lazarus/03.gif)  
-![](how-to-install-lazarus/04.gif)  
+
+#### Step-1: Download Lazarus for Windows
+
+[Download Lazarus from here (32 bit)](http://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2032%20bits/). It is normally 32 bit version that works for all. But If you have a 64 Bit OS then [Go here](http://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2064%20bits/). If you are blocked from SourceForge.net then try [here](http://mirrors.iwi.me/lazarus/), [here](ftp://freepascal.dfmk.hu/pub/lazarus/releases/), or [here](http://michael-ep3.physik.uni-halle.de/Lazarus/releases/).
+
+  
+
+Click on the Latest version folder directory. For example, the current version while writing this article is [1.0.8](http://www.lazarus.freepascal.org/index.php/topic,20297.0.html). So we are going to "Lazarus 1.0.8" directory.
+
+  
+
+![](how-to-install-lazarus/download-lazarus.gif)
+
+  
+  
+
+Now click on the lazarus-x.x.x-fpc-x-win32.exe or ...win64.exe (x is the version number) link. Be careful not to download the winCE version.
+
+  
+
+#### Step-2: Install
+
+Double click the downloaded .exe file and install it like any other software. Here's a more detailed view:  
+  
+
+![](how-to-install-lazarus/01.gif)
+
+![](how-to-install-lazarus/02.gif)
+
+  
+
+![](how-to-install-lazarus/03.gif)
+
+  
+
+![](how-to-install-lazarus/04.gif)
+
+  
   
 Notice that Lazarus is installed in C:Lazarus directory. You can choose any other drives if you want (like D:Lazarus) but you should not install it in a folder with spaces in its name (such as C:lazarus ide).  
   
-![](how-to-install-lazarus/05.gif)The rest of the installation is self-explanatory. For  starters, it is better that you select Full Installation.  
-![](http://2.bp.blogspot.com/-3xOYseuywMA/UU3pL5o_dtI/AAAAAAAAAVE/HEeKXKZskuo/s1600/06.gif)![](how-to-install-lazarus/07.gif)  
-You can keep a shortcut in the desktop or not. ;-) ![](how-to-install-lazarus/08.gif)  
-![](how-to-install-lazarus/09.gif)  
+
+![](how-to-install-lazarus/05.gif)
+
+The rest of the installation is self-explanatory. For  starters, it is better that you select Full Installation.  
+
+![](how-to-install-lazarus/06.gif)
+
+![](how-to-install-lazarus/07.gif)
+
+  
+You can keep a shortcut in the desktop or not. ;-)
+
+![](how-to-install-lazarus/08.gif)
+
+  
+
+![](how-to-install-lazarus/09.gif)
+
+  
 The install will take a couple of minutes. After all it is installing more than 700 MB of data.  
-![](how-to-install-lazarus/10.gif)  
+
+![](how-to-install-lazarus/10.gif)
+
+  
 Click Finish, and the installation is complete.  
-![](how-to-install-lazarus/11.gif)Double click the icon in  the desktop to run  Lazarus.  
-![](how-to-install-lazarus/12.gif)  
+
+![](how-to-install-lazarus/11.gif)
+
+Double click the icon in  the desktop to run  Lazarus.  
+
+![](how-to-install-lazarus/12.gif)
+
+  
 Lazarus running in Windows:  
-![](how-to-install-lazarus/13.gif)  
+
+![Lazarus IDE in Windows](how-to-install-lazarus/13.gif "Lazarus IDE in Windows")
+
+  
 
 ### Installing \*Latest\* Lazarus in Ubuntu (or any other Linux)
 
-![](how-to-install-lazarus/download-lazarus2.gif)  
+Here we look into the steps of installing Lazarus in Ubuntu. This guide has been tested in Ubuntu version 12.04 LTS but should work on other versions and other debian based distros as well. If your distro is RPM based, you can [follow instructions here](http://wiki.freepascal.org/Installing_Lazarus#Installing_using_rpms). If you face any trouble, post a comment and let us know. ;)
+
+  
+
+You can always run **sudo apt-get install lazarus** in terminal to install Lazarus from the Ubuntu Repository. But the version you will get is probably backdated. So read this guide to install the latest Lazarus:
+
+  
+
+#### Step-1: Downloading
+
+  
+
+[Go here](http://sourceforge.net/projects/lazarus/files/), or [here](http://mirrors.iwi.me/lazarus/). Then click "Lazarus Linux i386 DEB" (or Lazarus Linux amd64 DEB if you use 64 bit). Then click the latest version link, for example "Lazarus 1.0.8"
+
+  
+
+![Download the 3 files necessary for the installation](how-to-install-lazarus/download-lazarus2.gif "Download the 3 files necessary for the installation")
+
+  
   
 
 Download the 3 .deb files that are available. For example, fpc\_2.6.2-0\_i386.deb, fpc-src\_2.6.2-0\_i386.deb, lazarus\_1.0.8-0\_i386.deb . (The filenames may differ based on the version chosen.)  
@@ -110,4 +192,4 @@ For [instruction on PC-BSD click here](http://wiki.freepascal.org/Installing_Laz
 
 Lazarus can also be installed in a Raspberry Pi, a credit-card-sized computer motherboard. Go here to find out an installation guide: [http://wiki.freepascal.org/Lazarus\_on\_Raspberry\_Pi](http://wiki.freepascal.org/Lazarus_on_Raspberry_Pi)  
 
-[![](https://wiki.freepascal.org/images/thumb/e/ef/Lazarus_on_Raspberry_Pi_Raspian_Wheezy_version_2012-10-28.png/200px-Lazarus_on_Raspberry_Pi_Raspian_Wheezy_version_2012-10-28.png)](how-to-install-lazarus/750px-Lazarus_on_Raspberry_Pi_Raspian_Wheezy_version_2012-10-28.png)
+![](how-to-install-lazarus/750px-Lazarus_on_Raspberry_Pi_Raspian_Wheezy_version_2012-10-28.png)

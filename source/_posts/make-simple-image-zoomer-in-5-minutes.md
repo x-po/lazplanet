@@ -7,23 +7,23 @@ tags:
   - image
   - Screen Graphics
   - zoom
-url: 22.html
-id: 22
+id: '20'
 categories:
-  - Uncategorized
-date: 2017-05-20 18:00:00
+  - - true
+date: 2017-05-21 00:00:00
 ---
 
-[![](make-simple-image-zoomer-in-5-minutes/image-zoomer-in-lazarus.gif)](make-simple-image-zoomer-in-5-minutes/image-zoomer-in-lazarus.gif)
+![](make-simple-image-zoomer-in-5-minutes/image-zoomer-in-lazarus.gif)
 
-Zooming is kind of fun! Here is a 5 minute image zoom tutorial with mouse scroll fun!  
+Zooming is kind of fun! Here is a 5 minute image zoom tutorial with mouse scroll fun!
+<!-- more -->
   
 We have 2 nifty events named **OnMouseWheelUp** and **OnMouseWheelDown** to tell when the user scrolled his mouse wheel.  
   
   
   
 
-[![](make-simple-image-zoomer-in-5-minutes/mouse-3.gif)](make-simple-image-zoomer-in-5-minutes/mouse-3.gif)
+![](make-simple-image-zoomer-in-5-minutes/mouse-3.gif)
 
   
 Zooming is basically stretching the image to place it in a bigger area than the original. then the image looks bigger. We can use **StretchDraw** for this.  
@@ -31,7 +31,7 @@ Zooming is basically stretching the image to place it in a bigger area than the 
 We can combine these 2 and you will be seeing a result before you know it!  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2017/05/mouse-on-wheel-261x300.jpg)](make-simple-image-zoomer-in-5-minutes/mouse-on-wheel.jpg)
+![](make-simple-image-zoomer-in-5-minutes/mouse-on-wheel.jpg)
 
   
   
@@ -133,7 +133,7 @@ Now run the project (F9 or Run->Run).
 This would show your shiny new form on your screen ready to be played with.  
   
 
-[![Image zoom in zoom out made with Lazarus in 5 minutes!](http://localhost/wp-lazplanet/wp-content/uploads/2017/05/zoom-final-300x198.gif "Image zoom in zoom out made with Lazarus in 5 minutes!")](make-simple-image-zoomer-in-5-minutes/zoom-final.gif)
+![Image zoom in zoom out made with Lazarus in 5 minutes!](make-simple-image-zoomer-in-5-minutes/zoom-final.gif "Image zoom in zoom out made with Lazarus in 5 minutes!")
 
   
 This is just a quick example of how to use mouse scroll and image stretching in simple code. You can enhance it if you like.  

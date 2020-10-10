@@ -9,14 +9,16 @@ tags:
   - system wide
   - Windows API
   - Windows Only
-url: 23.html
-id: 23
+id: '21'
 categories:
-  - Uncategorized
-date: 2016-06-22 07:59:00
+  - - true
+date: 2016-06-22 13:59:00
 ---
 
-![](how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-thumb.gif)In this article we find out what the user is doing with his mouse, even outside of the program. Let's conquer the whole system!  
+![Form design for Systemwide mouse event capture in Free Pascal, Lazarus](how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-thumb.gif "Form design for Systemwide mouse event capture in Free Pascal, Lazarus")
+
+In this article we find out what the user is doing with his mouse, even outside of the program. Let's conquer the whole system!
+<!-- more -->
   
   
 We have events on components, such as OnClick, OnMouseDown, OnScrollDown etc. But unfortunately these events only work when the mouse is inside the form. But sometimes we need to get a view of what the user is doing on other programs or other windows (or in other words "System-wide"). These "System wide" events can be "caught" through a crazy thing called "hooks".  
@@ -30,7 +32,26 @@ We will catch when the left, middle and right mouse button is pressed, and addit
   
   
 
-#### ![](how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-1.gif)  
+#### 
+
+Any DLL need to be made?
+
+Nope.  
+Some Delphi/Pascal codes found on the internet demand to create a DLL file. DLL files are a mess and don't forget the [DLL hell](https://en.wikipedia.org/wiki/DLL_Hell). In this article, the whole code is Lazarus based and resides in the single .exe file with no DLL involved. Cool, right!  
+  
+
+### Tutorial
+
+Start [Lazarus](http://lazarus-ide.org/).  
+  
+Create a new Application Project (Project->New Project->Application->OK).  
+  
+Draw a **TLabel** and a **TMemo**. Empty the **Lines** property and set the **Scrollbars** property to **ssVertical** of the Memo. Customize the form the way you like it.  
+  
+
+![Form design for Systemwide mouse event capture in Free Pascal, Lazarus](how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-1.gif "Form design for Systemwide mouse event capture in Free Pascal, Lazarus")
+
+  
   
 Optionally, you can set the **FormStyle** to **fsSystemStayOnTop**. It will [keep the form always on top](http://localhost/wp-lazplanet/2014/01/12/how-to-make-your-form-always-on-top/) and let you see the events even when you click outside of the form.  
   
@@ -137,7 +158,10 @@ end;
   
 Now run the project (F9 or Run -> Run).  
   
-![](how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-2.gif)  
+
+![Systemwide mouse event capture in Free Pascal, Lazarus](how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-2.gif "Systemwide mouse event capture in Free Pascal, Lazarus")
+
+  
 Now, when you use this code on your project you will need to customize the LowLevelMouseHookProc() function to suit your needs. Try things yourself. The sky is the limit here!  
   
 ...And for the mouse position, it is better to [use the Mouse.CursorPos.x or .y](http://localhost/wp-lazplanet/2013/04/06/how-to-get-your-mouse-cursor-position-bonus-set-position-also/) because the solution in this article sometimes begets negative values, which might not be what you would like. The code is kept just to show how it is done in the hooks style.  

@@ -7,15 +7,16 @@ tags:
   - shortcuts
   - Tutorials
   - unit
-url: 14.html
-id: 14
+id: '12'
 categories:
-  - Uncategorized
-date: 2019-03-07 10:36:00
+  - - true
+date: 2019-03-07 16:36:00
 ---
 
-![](how-to-create-calculator-in-under-5/lazarus-easy-calculator-thu.jpg)Computers are huge calculators. But how about making your own program to calculate things?! ...And under 5 minutes? How is it even possible?! Let's find out!  
-  
+![](how-to-create-calculator-in-under-5/lazarus-easy-calculator-thu.jpg)
+
+Computers are huge calculators. But how about making your own program to calculate things?! ...And under 5 minutes? How is it even possible?! Let's find out!
+<!-- more -->
   
   
 We have made [calculators](http://localhost/wp-lazplanet/2013/05/01/a-simple-calculator-project/) in the past. It was a simple one, just to get an idea on how to do things around. But what about something more practical? Here you go, a nice new tutorial just for you.  
@@ -75,10 +76,16 @@ Now place a **TEdit** on the form. From **Object Inspector - Properties**, set�
   
 Is it done? Not yet. If you look at calculators, you would see that they always start showing the digits from the right and when digit gets longer it gradually gets to the left. To achieve this, we will have to set the **Alignment** property to **taRightJustify**.  
   
-![](how-to-create-calculator-in-under-5/01-added-tedit-c.png)  
+
+![](how-to-create-calculator-in-under-5/01-added-tedit-c.png)
+
+  
 Next we'll create the buttons. Draw a single **TButton** on the form to make the start.  
   
-![](how-to-create-calculator-in-under-5/02-added-tbutton-c.png)  
+
+![](how-to-create-calculator-in-under-5/02-added-tbutton-c.png)
+
+  
   
 Set its **Font size** property to be a bit bigger, maybe 12. Now double click on the button and enter:  
   
@@ -98,24 +105,36 @@ Also, we can use the same procedure for all the buttons. We'll now copy the butt
   
 Below you can see, that if we copy the button, the original Button1Click procedure is also copied to the new button.  
   
-![](how-to-create-calculator-in-under-5/03-procedure-stays-after-copy-c.png)  
+
+![Copying button also copies the event procedure in Lazarus](how-to-create-calculator-in-under-5/03-procedure-stays-after-copy-c.png "Copying button also copies the event procedure in Lazarus")
+
+  
   
 Sweet!  
   
 Now, your our work is easy. Just copy the button around and change **Captions** to make it something like this:  
   
-![](how-to-create-calculator-in-under-5/04-added-all-buttons--c.png)  
+
+![](how-to-create-calculator-in-under-5/04-added-all-buttons--c.png)
+
+  
 I have used Font size 12 for smaller buttons and 14 for number buttons.  
 For backspace/erase button I used this character: ←  
   
 That's it! You are done with building, now try running. Run the project (F9 or Run - Run).  
   
-![](how-to-create-calculator-in-under-5/05-first-run-c.png)  
+
+![edtDisplay shows a focus on running. We can fix this easily.](how-to-create-calculator-in-under-5/05-first-run-c.png "edtDisplay shows a focus on running. We can fix this easily.")
+
+  
 You will see that the calculator is working as it should. But when it is run, a selection selects the 0 in the edtDisplay. To fix that select edtDisplay and set TabStop to False.  
   
 Now run again (F9) and enjoy!  
   
-![](how-to-create-calculator-in-under-5/06-calculator-second-run.png)  
+
+![](how-to-create-calculator-in-under-5/06-calculator-second-run.png)
+
+  
 This is not the end of course. How about a retro styled calculator? We can search for a [retro electric calculator](https://commons.wikimedia.org/wiki/File:Vintage_Texas_Instruments_TI-1250_Red_LED_Pocket_Electronic_Calculator,_Made_in_USA,_Circa_1975_-_Price_Was_19.95_USD_(10649611933).jpg), then [shape the form into the image](http://localhost/wp-lazplanet/2014/04/14/shape-your-form-into-anything/). Also, we can show the digits in the exact glowing way the original electric calculator shows by following the digit display method used on the [talking clock](http://localhost/wp-lazplanet/2013/12/30/create-a-digital-clock-that-talks/) tutorial. The possibilities are endless!  
 
 ### Download Sample Code ZIP

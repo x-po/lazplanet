@@ -9,14 +9,16 @@ tags:
   - Sample Code
   - tips
   - Tutorials
-url: 52.html
-id: 52
+id: '50'
 categories:
-  - Uncategorized
-date: 2014-02-21 15:53:00
+  - - true
+date: 2014-02-21 21:53:00
 ---
 
-![](make-your-form-fullscreen/fullscreen-form-thumb.gif)Fullscreen is a common option in many of the popular programs we use. Today we learn the simple trick of making our program fullscreen.  
+![Lazarus Fullscreen Form project source code + article](make-your-form-fullscreen/fullscreen-form-thumb.gif "Lazarus Fullscreen Form project source code + article")
+
+Fullscreen is a common option in many of the popular programs we use. Today we learn the simple trick of making our program fullscreen.
+<!-- more -->
   
   
 
@@ -67,7 +69,10 @@ Create a new Application Project (Project -> New Project -> Application -> OK).
   
 Draw 2 TButtons in the form. They will be named as Button1 and Button2. Set Button1's Caption to "Fullscreen" and Button2's "Exit Fullscreen".  
   
-![](make-your-form-fullscreen/fullscreen-buttons-lazarus.gif)  
+
+![](make-your-form-fullscreen/fullscreen-buttons-lazarus.gif)
+
+  
 We'll code the Fullscreen button. Double click **Button1** and enter:  
   
 
@@ -127,7 +132,10 @@ If by chance you got stuck in the fullscreen mode and can't close the form, use 
   
 Now Run the project (F9 or Run->Run).  
   
-![](make-your-form-fullscreen/fullscreen-form-lazarus-pro.gif)  
+
+![How to fullscreen a form in Lazarus, cross-platform way](make-your-form-fullscreen/fullscreen-form-lazarus-pro.gif "How to fullscreen a form in Lazarus, cross-platform way")
+
+  
   
 Click the buttons to test if it goes fullscreen and back.  
   

@@ -3,20 +3,18 @@ title: Welcome to LazPlanet!
 tags:
   - Articles
   - Introduction
-url: 122.html
-id: 122
+id: '120'
 categories:
-  - Uncategorized
-date: 2013-03-20 00:14:00
+  - - true
+date: 2013-03-20 06:14:00
 ---
 
-[![](welcome/public-speaking-robot-simple.jpg)](welcome/public-speaking-robot-simple.jpg)
+![](welcome/public-speaking-robot-simple.jpg)
 
 ### Welcome to LazPlanet!
 
 Laz Planet is devoted to providing you with [Lazarus](http://www.lazarus.freepascal.org/) source code examples and tutorials. The categories range from everything to simple file managers, image viewers to advanced system utilities.
-
-  
+<!-- more -->
   
 
 Lazarus is a Delphi-like open source free IDE which uses [Free Pascal](http://en.wikipedia.org/wiki/Free_Pascal) as its language. (See [Wikipedia](http://en.wikipedia.org/wiki/Lazarus_%28IDE%29)) FreePascal (FPC) is known for its easy, readable syntax and its cross platform compatibility. With Lazarus you can design your forms graphically and compile the same code under Windows/Linux/Mac OS. Thus the slogan "Write Once, Compile Anywhere". It is like a VB6 with cross-platform compatibility.  

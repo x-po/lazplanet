@@ -7,14 +7,16 @@ tags:
   - Lazarus
   - News
   - version
-url: 43.html
-id: 43
+id: '41'
 categories:
-  - Uncategorized
-date: 2014-06-21 12:46:00
+  - - true
+date: 2014-06-21 18:46:00
 ---
 
-![](lazarus-124-with-fpc-264-released/Lazarus-Logo.png)Lazarus 1.2.4 has been released. It is the second version with FPC 2.6.4. It is basically a bug fix release but worth upgrading.  
+![](lazarus-124-with-fpc-264-released/Lazarus-Logo.png)
+
+Lazarus 1.2.4 has been released. It is the second version with FPC 2.6.4. It is basically a bug fix release but worth upgrading.
+<!-- more -->
   
   
 Lazarus is getting bug-free everyday. Here is another stable release of Lazarus - version 1.2.4. It has FPC 2.6.4. The previous version 1.2.2 also had this version of FPC. This version has many new bug fixes. You can look at the [changes here](http://wiki.lazarus.freepascal.org/Lazarus_1.2_fixes_branch#Fixes_for_1.2.4_.28Merged.29).  
@@ -23,7 +25,10 @@ Lazarus is getting bug-free everyday. Here is another stable release of Lazarus 
   
 The look is similar to Lazarus version 1.2. No huge change there...  
   
-![](lazarus-124-with-fpc-264-released/lazarus-1.2.4-winxp.gif)  
+
+![Lazarus IDE version 1.2.4 with FPC 2.6.4 screenshot in Windows XP](lazarus-124-with-fpc-264-released/lazarus-1.2.4-winxp.gif "Lazarus IDE version 1.2.4 with FPC 2.6.4 screenshot in Windows XP")
+
+  
   
 Thanks to the Lazarus Developers for their hard work in this valuable project.  
   

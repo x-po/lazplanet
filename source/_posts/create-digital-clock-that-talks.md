@@ -8,14 +8,16 @@ tags:
   - Screen Graphics
   - TTS
   - Tutorials
-url: 56.html
-id: 56
+id: '54'
 categories:
-  - Uncategorized
-date: 2013-12-30 16:36:00
+  - - true
+date: 2013-12-30 22:36:00
 ---
 
-![](create-digital-clock-that-talks/pacman-clock.jpg)We are going to make a digital clock that has LCD Screen looking digits. Not only that. It can also speak the time!  
+![Digital Clock in Lazarus, that speaks!](create-digital-clock-that-talks/pacman-clock.jpg "Digital Clock in Lazarus, that speaks!")
+
+We are going to make a digital clock that has LCD Screen looking digits. Not only that. It can also speak the time!
+<!-- more -->
   
   
 Clock is an essential part of our daily lives. Wherever the new technology taking us, we're rediscovering the clock but can't avoid it. We now have smartwatches that shows time, takes photos, receives messages and more.  
@@ -33,7 +35,10 @@ So I thought of a different approach. I would use an image to store digits. That
 ### The Image
 
 I have come up with this image:  
-![](http://3.bp.blogspot.com/-9KjDq-HhusY/UsF5SiDVg4I/AAAAAAAABYw/DmEFLN4OHxE/s1600/digits.bmp)![digits.bmp for digital clock.](https://3.bp.blogspot.com/-9KjDq-HhusY/UsF5SiDVg4I/AAAAAAAABYw/DmEFLN4OHxE/s320/digits.bmp "digits.bmp for digital clock.")  
+
+[![digits.bmp for digital clock.](https://3.bp.blogspot.com/-9KjDq-HhusY/UsF5SiDVg4I/AAAAAAAABYw/DmEFLN4OHxE/s320/digits.bmp "digits.bmp for digital clock.")](http://3.bp.blogspot.com/-9KjDq-HhusY/UsF5SiDVg4I/AAAAAAAABYw/DmEFLN4OHxE/s1600/digits.bmp)
+
+  
 (You can right click and select "Save Image as..." to download and use the image in your project.)  
   
   
@@ -231,9 +236,14 @@ Now Run the project again.
 This time it looks more perfect.  
   
 
-[### Let it talk!
+![Our Digital Clock project source code Lazarus, cross platform](create-digital-clock-that-talks/digital-clock-lazarus.jpg "Our Digital Clock project source code Lazarus, cross platform")
 
-It would be cool if our little digital clock could talk the time! It is possible, thanks to TTS (Text to Speech). Here is a good wiki about TTS in Lazarus/FPC. We can either use](create-digital-clock-that-talks/digital-clock-lazarus.jpg) [Microsoft Speech API (SAPI)](http://wiki.freepascal.org/SAPI) or [eSpeak](http://wiki.freepascal.org/espeak). SAPI is Windows-only. We are going to use SAPI here for a shortcut way. You can implement eSpeak with the code very easily.  
+  
+  
+
+### Let it talk!
+
+It would be cool if our little digital clock could talk the time! It is possible, thanks to TTS (Text to Speech). Here is a good wiki about TTS in Lazarus/FPC. We can either use [Microsoft Speech API (SAPI)](http://wiki.freepascal.org/SAPI) or [eSpeak](http://wiki.freepascal.org/espeak). SAPI is Windows-only. We are going to use SAPI here for a shortcut way. You can implement eSpeak with the code very easily.  
   
 Add comobj in your uses clause:  
 
@@ -290,7 +300,14 @@ end;
   
 You can also set the FormStyle of the form to fsStaysOnTop to set it as a "Always on Top" mode (it won't disappear even if you focus on other windows).  
   
-![](create-digital-clock-that-talks/digital-clock-lazarus.jpg)  
+
+  
+Now run it and enjoy!  
+  
+
+![](create-digital-clock-that-talks/digital-clock-lazarus.jpg)
+
+  
 
 ### Further experiments
 

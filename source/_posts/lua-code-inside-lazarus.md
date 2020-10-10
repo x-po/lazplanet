@@ -5,16 +5,16 @@ tags:
   - Linux
   - lua
   - Tutorials
-url: 9.html
-id: 9
+id: '7'
 categories:
-  - Uncategorized
-date: 2020-05-01 10:37:00
+  - - true
+date: 2020-05-01 16:37:00
 ---
 
-[![Lua inside Lazarus projects blog thumbnail](lua-code-inside-lazarus/lua-inside-lazarus-thumb.jpg "Lua inside Lazarus projects blog thumbnail")](lua-code-inside-lazarus/lua-inside-lazarus-thumb.jpg)
+![Lua inside Lazarus projects blog thumbnail](lua-code-inside-lazarus/lua-inside-lazarus-thumb.jpg "Lua inside Lazarus projects blog thumbnail")
 
-We're crazy! We're out of our minds! We're going to run Lua code, from inside our Lazarus code! 2 Languages at once!  
+We're crazy! We're out of our minds! We're going to run Lua code, from inside our Lazarus code! 2 Languages at once!
+<!-- more -->
   
 Lua is a programming language. Lazarus' Free Pascal is a programming language too. But did you know we can use Lua from Free Pascal? Interesting, right? One language inside the other.  
   
@@ -55,7 +55,7 @@ End of Common tasks. Now let's get back to tutorial...
   
 Copy-paste this on your pascal unit:  
   
-```
+```pascal
 program Project1;  
 {$mode objfpc}{$H+}  
   
@@ -80,7 +80,7 @@ end.
 So after all these my project folder looks like this:  
   
 
-[![Project files](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lua-project-setup-01-300x131.png "Project files")](lua-code-inside-lazarus/lua-project-setup-01.png)
+![Project files](lua-code-inside-lazarus/lua-project-setup-01.png "Project files")
 
   
 Now we are ready to run our program. Hit **Run - Run** (or F9).  
@@ -88,7 +88,7 @@ Now we are ready to run our program. Hit **Run - Run** (or F9).
 It should print the message from Lua as expected:  
   
 
-[![Lua code running inside a Free Pascal program in a Console program](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/lua-cli-01-300x152.png "Lua code running inside a Free Pascal program in a Console program")](lua-code-inside-lazarus/lua-cli-01.png)
+![Lua code running inside a Free Pascal program in a Console program](lua-code-inside-lazarus/lua-cli-01.png "Lua code running inside a Free Pascal program in a Console program")
 
   
   
@@ -108,21 +108,21 @@ Don't forget to follow the things under "**Common tasks**" heading above.
   
 Place 2 TMemos and a TButton. Change the Lines property of Memo1 to something like:  
   
-
+```lua
 print ("I'm Lua, but I'm running inside".." Lazarus!!")  
-
+```
   
 This way we'll have a simple code to execute when we run our program. We should also empty the Lines property of **Memo2** to let our output fill it in later. Add TLabels as you wish.  
   
 Set the Caption property of Button1 to something like "Execute!" or anything you like. Your form should now look something like this:  
   
 
-[![Form design of the GUI program](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-form-design-01-300x173.gif "Form design of the GUI program")](lua-code-inside-lazarus/Lua-form-design-01.gif)
+![Form design of the GUI program](lua-code-inside-lazarus/Lua-form-design-01.gif "Form design of the GUI program")
 
   
 Double click the Button1 and enter:  
   
-```
+```pascal
 procedure TForm1.Button1Click(Sender: TObject);  
 var  
   L: Plua\_State;  
@@ -152,14 +152,14 @@ end;
   
 Now put these functions before the **TForm1.Button1Click** procedure that you just edited:  
   
-```
-function print\_func(L : Plua\_State) : Integer; cdecl;  
+```pascal
+function print_func(L : Plua_State) : Integer; cdecl;  
 var  
   i, c: integer;  
 begin  
-  c:= lua\_gettop(L);  
+  c:= lua_gettop(L);  
   for i:= 1 to c do  
-    Form1.Memo2.Lines.Add(lua\_tostring(L, i));  
+    Form1.Memo2.Lines.Add(lua_tostring(L, i));  
   
   Form1.Memo2.SelStart:= 0;  
   Form1.Memo2.SelLength:= 0;  
@@ -167,7 +167,7 @@ begin
   Result := 0;  
 end;  
   
-function Alloc({%H-}ud, ptr: Pointer; {%H-}osize, nsize: size\_t) : Pointer; cdecl;  
+function Alloc({%H-}ud, ptr: Pointer; {%H-}osize, nsize: size_t) : Pointer; cdecl;  
 begin  
   try  
     Result:= ptr;  
@@ -182,13 +182,13 @@ end;
   
 **Note:** If you put them before the procedure you won't need [forward declaration](https://en.wikipedia.org/wiki/Forward_declaration). If you want to put them anywhere you want (before or after) you can just copy and paste just the whole function line before the **implementation** line, something like this:  
   
-```
+```pascal
 ...  
 var  
   Form1: TForm1;  
   
-  function print\_func(L : Plua\_State) : Integer; cdecl;  
-  function Alloc({%H-}ud, ptr: Pointer; {%H-}osize, nsize: size\_t) : Pointer; cdecl;  
+  function print_func(L : Plua_State) : Integer; cdecl;  
+  function Alloc({%H-}ud, ptr: Pointer; {%H-}osize, nsize: size_t) : Pointer; cdecl;  
   
 implementation  
 ...  
@@ -199,27 +199,27 @@ You will also notice there is a word "cdecl" at the end of the function lines. T
   
 Now add **lua53** under uses clause:  
   
-
+```pascal
 uses  
   ...  
   , lua53;  
-
+```
   
 Now click Run - Run (or F9). It will show up on screen.  
   
 
-[![Lua GUI application for running Lua code from inside Free Pascal program](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-form-design-02-300x173.gif "Lua GUI application for running Lua code from inside Lazarus program")](lua-code-inside-lazarus/Lua-form-design-02.gif)
+![Lua GUI application for running Lua code from inside Free Pascal program](lua-code-inside-lazarus/Lua-form-design-02.gif "Lua GUI application for running Lua code from inside Free Pascal program")
 
   
 Now click the Execute button and it should show a message on the Memo to the right.  
   
 
-[![Basic functionality is working](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-gui-03-300x173.gif "Basic functionality is working")](lua-code-inside-lazarus/Lua-gui-03.gif)
+![Basic functionality is working](lua-code-inside-lazarus/Lua-gui-03.gif "Basic functionality is working")
 
   
 You can paste any Lua code and it should work. I tried a code example from [tutorialspoint.com](https://www.tutorialspoint.com/lua/lua_variables.htm) (love their work by the way) which is something like this:  
   
-
+```lua
 \-- Variable definition:  
 local a, b  
   
@@ -240,12 +240,12 @@ print("value of b:", b)
   
 f = 70.0/3.0  
 print("value of f", f)  
-
+```
   
 Which should output like the screenshot below:  
   
 
-[![Lazarus program running a variable example code written in Lua](http://localhost/wp-lazplanet/wp-content/uploads/2020/05/Lua-gui-04-300x173.gif "Lazarus program running a variable example code written in Lua")](lua-code-inside-lazarus/Lua-gui-04.gif)
+![Lazarus program running a variable example code written in Lua](lua-code-inside-lazarus/Lua-gui-04.gif "Lazarus program running a variable example code written in Lua")
 
   
 Have fun with this amazing trick!  
@@ -268,6 +268,6 @@ We now have a GitLab.com page where (hopefully) all future project source codes 
 \- Basics: [http://lua-users.org/wiki/LuaInFreePascal](http://lua-users.org/wiki/LuaInFreePascal)  
 \- Lots of examples: [https://github.com/lainz/lainzcodestudio](https://github.com/lainz/lainzcodestudio)  
 \- Lua4Lazarus bridge unit project: [https://github.com/malcome/Lua4Lazarus](https://github.com/malcome/Lua4Lazarus)  
-\- Example Lua code: [https://www.tutorialspoint.com/lua/lua\_variables.htm](https://www.tutorialspoint.com/lua/lua_variables.htm)  
+\- Example Lua code: [https://www.tutorialspoint.com/lua/lua_variables.htm](https://www.tutorialspoint.com/lua/lua_variables.htm)  
 \- Some more examples of Lua code usage: [https://github.com/mvdhoning/dlua](https://github.com/mvdhoning/dlua)  
 \- cdecl: [https://freepascal.org/docs-html/ref/refsu71.html](https://freepascal.org/docs-html/ref/refsu71.html)

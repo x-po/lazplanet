@@ -7,16 +7,16 @@ tags:
   - Linux
   - Tutorials
   - Ubuntu
-url: 10.html
-id: 10
+id: '8'
 categories:
-  - Uncategorized
-date: 2020-04-27 07:56:00
+  - - true
+date: 2020-04-27 13:56:00
 ---
 
-[![](install-lazarus-ubuntu-20-04/lazarus-install-ubuntu-thumb.png)](install-lazarus-ubuntu-20-04/lazarus-install-ubuntu-thumb.png)
+![](install-lazarus-ubuntu-20-04/lazarus-install-ubuntu-thumb.png)
 
-Ubuntu 20.04 LTS has been released recently, but installing Lazarus there from the official repos won't get you up and running. Let's see how Lazarus can be installed on 20.04 without issues.  
+Ubuntu 20.04 LTS has been released recently, but installing Lazarus there from the official repos won't get you up and running. Let's see how Lazarus can be installed on 20.04 without issues.
+<!-- more -->
   
   
 You can install Lazarus from Ubuntu Software. But wait till you see it burp a surprize error message!  

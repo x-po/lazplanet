@@ -5,14 +5,16 @@ tags:
   - create
   - Form Controls
   - runtime
-url: 29.html
-id: 29
+id: '27'
 categories:
-  - Uncategorized
-date: 2015-05-05 19:16:00
+  - - true
+date: 2015-05-06 01:16:00
 ---
 
-![](how-to-create-components-on-runtime/create-components-thumb.jpg)The good thing about programming is that you can do almost anything you wish. Even create components out of thin air!  
+![Creating components on runtime on exe](how-to-create-components-on-runtime/create-components-thumb.jpg "Creating components on runtime on exe")
+
+The good thing about programming is that you can do almost anything you wish. Even create components out of thin air!
+<!-- more -->
   
 Today we are going to learn how to create Buttons, Labels, Edits right at the time when the exe is running.  
   
@@ -144,11 +146,17 @@ end;
   
 Now run the project (F9 or Run->Run).  
   
-![](how-to-create-components-on-runtime/clone-buttons-lazarus-1.jpg)  
+
+![Creating components on runtime on exe](how-to-create-components-on-runtime/clone-buttons-lazarus-1.jpg "Creating components on runtime on exe")
+
+  
   
 Now click the Button several times. You will see the button get 'cloned'.  
   
-![](how-to-create-components-on-runtime/clone-buttons-lazarus-2.jpg)  
+
+![Creating components on runtime on exe](how-to-create-components-on-runtime/clone-buttons-lazarus-2.jpg "Creating components on runtime on exe")
+
+  
 
 ### Real Project
 
@@ -165,15 +173,24 @@ button3 -> Create Shapes
   
 Resize the form if you need to.  
   
-![](how-to-create-components-on-runtime/clone-real-project-1.jpg)  
+
+![Place 3 buttons on your form](how-to-create-components-on-runtime/clone-real-project-1.jpg "Place 3 buttons on your form")
+
+  
 Now Draw 1 TPanel below the first Tbutton. While you have it selected change some properties from the Object Inspector. Set its BevelOuter to bvLowered. Also, empty its Caption, so that there is no "Panel 1" text in the middle of the panel.  
   
-![](how-to-create-components-on-runtime/clone-real-project-2.jpg)  
+
+![lazarus, Set properties of TPanel](how-to-create-components-on-runtime/clone-real-project-2.jpg "lazarus, Set properties of TPanel")
+
+  
 Now right click the TPanel and select Copy. Then right click the form and choose Paste. The Panel will be copied with the name Panel2. Position it under the second Tbutton.  
   
 Again Copy the last TPanel, select the form and paste. The new Tpanel will be automatically named Panel3. Position it under the third Tbutton.  
   
-![](how-to-create-components-on-runtime/clone-real-project-3.gif)  
+
+![lazarus, Form layout is done](how-to-create-components-on-runtime/clone-real-project-3.gif "lazarus, Form layout is done")
+
+  
 Double click the button1 and enter the code below:  
   
 
@@ -357,10 +374,16 @@ Here, the command is like before. We only give our shapes a random shape and we 
   
 Now Run the project to see your hard work! (Press F9 or Run-> Run.)  
   
-![](how-to-create-components-on-runtime/clone-real-project-4.gif)  
+
+![](how-to-create-components-on-runtime/clone-real-project-4.gif)
+
+  
 Now click the buttons to test!  
   
-![](how-to-create-components-on-runtime/clone-real-project-5.gif)  
+
+![](how-to-create-components-on-runtime/clone-real-project-5.gif)
+
+  
 
 ### Download Sample Code ZIP
 

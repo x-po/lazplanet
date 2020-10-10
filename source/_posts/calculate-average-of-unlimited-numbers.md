@@ -7,21 +7,28 @@ tags:
   - Math Dates
   - program
   - Sample Code
-url: 93.html
-id: 93
+id: '91'
 categories:
-  - Uncategorized
-date: 2013-05-09 12:20:00
+  - - true
+date: 2013-05-09 18:20:00
 ---
 
-![](calculate-average-of-unlimited-numbers/average-thumb.gif)We have seen a lot of average calculation programs. They have limit to their numbers of input. So we have a code that will let you enter number to your heart's content.  
+  
+
+![](calculate-average-of-unlimited-numbers/average-thumb.gif)
+
+We have seen a lot of average calculation programs. They have limit to their numbers of input. So we have a code that will let you enter number to your heart's content.
+<!-- more -->
   
   
 Do you know how to calculate average? How do we do it in Lazarus / Free pascal?  
   
 Average is the number which we get by dividing the sum of numbers by the count of the numbers. The average number helps us to get an overall look at a whole bunch of numbers. If we get that the average height of the students of a class is 5.5' (5 feet 5 inches) then we can understand that all the students have a height more or less than 5.5'.  
   
-![](calculate-average-of-unlimited-numbers/average-graph-1.gif)  
+
+![average calculation formula for use with lazarus](calculate-average-of-unlimited-numbers/average-graph-1.gif "average calculation formula for use with lazarus")
+
+  
   
 The average calculation is a very easy one. We only need to add the numbers and store it in a variable. At the same time we need to keep the count of the numbers that have been entered. After the numbers are finished entering we need to just Divide the sum with the count of numbers. That's it!  
   
@@ -97,7 +104,10 @@ end.
   
 Run the program (F9 or Run->Run).  
   
-![](calculate-average-of-unlimited-numbers/average-calculation-lazarus.gif)  
+
+![](calculate-average-of-unlimited-numbers/average-calculation-lazarus.gif)
+
+  
 You could enter many numbers you desire. Just leave the input blank and press enter to calculate the average.  
 
 ### Explanation

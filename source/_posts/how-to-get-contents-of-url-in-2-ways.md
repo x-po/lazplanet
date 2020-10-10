@@ -11,14 +11,16 @@ tags:
   - REST API
   - wallpaper
   - website
-url: 13.html
-id: 13
+id: '11'
 categories:
-  - Uncategorized
-date: 2019-03-15 17:47:00
+  - - true
+date: 2019-03-15 23:47:00
 ---
 
-![](how-to-get-contents-of-url-in-2-ways/download-file-thumb.jpg)The Web is an amazing place. What if we could download the contents of a link on the web to our own Lazarus program? Let's find out how!  
+![](how-to-get-contents-of-url-in-2-ways/download-file-thumb.jpg)
+
+The Web is an amazing place. What if we could download the contents of a link on the web to our own Lazarus program? Let's find out how!
+<!-- more -->
   
 Getting the contents of a link can give us so much to do. We can communicate with servers or websites, get data from them, then parse and present the data in our program window just like we want to. And we can even use REST APIs to do amazing things.  
   
@@ -43,7 +45,10 @@ But what happens when we get large outputs and we need to resize the form? We ca
   
 Your form should look something like this:  
   
-![](how-to-get-contents-of-url-in-2-ways/01.fphc-form-design.png)  
+
+![](how-to-get-contents-of-url-in-2-ways/01.fphc-form-design.png)
+
+  
 Switch to **Code View (F12)** and simply include **fphttpclient** in the uses clause:  
   
 
@@ -117,10 +122,16 @@ If you don't include these dlls, it will raise an error when you would try to ac
   
 Now **Run** the project **(F9 or Run - Run)** and test both buttons.  
   
-![](how-to-get-contents-of-url-in-2-ways/02.fphc-running-c.png)  
+
+![](how-to-get-contents-of-url-in-2-ways/02.fphc-running-c.png)
+
+  
 You may have to give these some time to download the data. Eventually you should see the content on the **Memo1** and also a test.txt file on the project directory.  
   
-![](how-to-get-contents-of-url-in-2-ways/03.fphc-file-downloaded-c.png)  
+
+![](how-to-get-contents-of-url-in-2-ways/03.fphc-file-downloaded-c.png)
+
+  
 We'll do the same project in Synapse...  
   
 
@@ -131,10 +142,16 @@ Click **File - Save All** and save the project in a folder.
   
 Now [get Synapse from here](http://www.ararat.cz/synapse/doku.php/download). Download the **synapse.zip** file from under the title Stable release. Extract and put the folder inside your project folder.  
   
-![](how-to-get-contents-of-url-in-2-ways/04.save-synapse-lib-files-c.png)  
+
+![Save the synapse package content on your project folder](how-to-get-contents-of-url-in-2-ways/04.save-synapse-lib-files-c.png "Save the synapse package content on your project folder")
+
+  
 You should have a folder named **synapse40** or something similar inside your project folder. Now go to **Project - Project Options - Compiler Options - Paths** and click the **\[...\]** button beside **Other unit files** and browse the source folder inside lib folder from the synapse folder. For example, **synapse40sourcelib**.  
   
-![](how-to-get-contents-of-url-in-2-ways/05.synapse-lib-path-c.png)  
+
+![Setting project options - other unit files - for synapse](how-to-get-contents-of-url-in-2-ways/05.synapse-lib-path-c.png "Setting project options - other unit files - for synapse")
+
+  
 Now switch to **Code view (F12)** and add **httpsend** in the **uses** clause.  
   
 
@@ -196,7 +213,12 @@ Set the Text of TEdit to: **http://lazplanet.blogspot.com**
 Set **Lines** property of **Memo1** to empty and set its **ScrollBars** to **ssAutoVertical**.  
   
 Like previous project, you can enable the **akRight** for **Edit1** under **Anchors**. And **akRight** and **akBottom** for **Memo1** so that when the form is resized the components fill the form.  
-![](how-to-get-contents-of-url-in-2-ways/06.synapse-form-design-c.png)  
+
+  
+
+![](how-to-get-contents-of-url-in-2-ways/06.synapse-form-design-c.png)
+
+  
 Double click **button1** and enter:  
   
 
@@ -219,7 +241,10 @@ If you want your program to be able to access **https** links, then save the pro
   
 Now **Run** the project (**F9 or Run - Run**). Now click the buttons to test. **button1** should show the contents on the **Memo1**, **button2** should download the contents on "test.txt".  
   
-![](how-to-get-contents-of-url-in-2-ways/07.synapse-running-c.png)  
+
+![](how-to-get-contents-of-url-in-2-ways/07.synapse-running-c.png)
+
+  
   
 You can also fetch links like: https://api.desktoppr.co/1/wallpapers/random  
 This will give you JSON data about a random wallpaper everytime. You can then [parse the JSON data](http://localhost/wp-lazplanet/2014/09/03/a-simple-json-parsing-example/) to get the random wallpaper image URL, then download and [set it as wallpaper](http://localhost/wp-lazplanet/2014/08/31/how-to-set-the-desktop-wallpaper/). This way you will get yourself a random wallpaper setter!  

@@ -5,14 +5,16 @@ tags:
   - Sample Code
   - Text Operation
   - Tutorials
-url: 108.html
-id: 108
+id: '106'
 categories:
-  - Uncategorized
-date: 2013-04-06 08:56:00
+  - - true
+date: 2013-04-06 14:56:00
 ---
 
-![](convert-number-to-roman/Roman-Numerals-I-size.gif)Roman characters look very formal. I, II, III, IV ... BBC uses Roman for their copyright statement (e.g. BBC (c) MMVI). And it looks exceptional. What is your birth year in Roman? Let your program find that for you! Here's how:  
+![](convert-number-to-roman/Roman-Numerals-I-size.gif)
+
+Roman characters look very formal. I, II, III, IV ... BBC uses Roman for their copyright statement (e.g. BBC (c) MMVI). And it looks exceptional. What is your birth year in Roman? Let your program find that for you! Here's how:
+<!-- more -->
   
   
 We can do this through a [strutils](http://www.freepascal.org/docs-html/rtl/strutils/index-5.html) function named: [IntToRoman](http://www.freepascal.org/docs-html/rtl/strutils/inttoroman.html)  
@@ -38,11 +40,17 @@ lblRoman.Caption := IntToRoman(StrToInt(Edit1.Text));
   
 Now Run the Project (Run->Run). Enter a number such as 3, 23, 2013 on the editbox and click the button. You will see that the program works fine and returns the Roman equivalent.  
   
-![](convert-number-to-roman/Roman-converter-lazarus.gif)  
+
+![](convert-number-to-roman/Roman-converter-lazarus.gif)
+
+  
   
 But if you Enter characters, such as abc, the program will crash with the message below:  
   
-![](convert-number-to-roman/lazarus-debug-error-1.gif)  
+
+![](convert-number-to-roman/lazarus-debug-error-1.gif)
+
+  
 Click break. Now get back to the code.  
   
 The problem with the code is that IntToRoman accepts only Integers as inputs. And we have used StrToInt function to convert user's input into integer. But the function cannot convert strings containing any non-numeric character (character which is not a number). So we will need to detect if the user has entered integer or there is non-numeric character. We can use a function named [Val](http://lazarus-ccr.sourceforge.net/docs/rtl/system/val.html)  for this detection. The function has the following syntax:  

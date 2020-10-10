@@ -8,14 +8,16 @@ tags:
   - rectangle
   - Screen Graphics
   - Tutorials
-url: 66.html
-id: 66
+id: '64'
 categories:
-  - Uncategorized
-date: 2013-07-16 22:23:00
+  - - true
+date: 2013-07-17 04:23:00
 ---
 
-![](how-to-crop-image-and-save-to-file/image-crop-thumb.jpg)Not every pixel of a photo is important. Sometimes we need to just crop out some of the area of a photo. We learn how to crop an image and save the cropped version in a file.  
+![](how-to-crop-image-and-save-to-file/image-crop-thumb.jpg)
+
+Not every pixel of a photo is important. Sometimes we need to just crop out some of the area of a photo. We learn how to crop an image and save the cropped version in a file.
+<!-- more -->
   
   
   
@@ -26,7 +28,10 @@ We all take photos. We take photos of people, trees, sky, objects and many unima
 
 Cropping an image means basically to eliminate some pixels and draw the rest of the picture. The user opens a photo, then selects a rectangular area to be cropped. We, the programers, then take only the part of the image that is inside the rectangular area and draw it somewhere. The image that we draw is the cropped image. We actually copy certain part of the image.  
   
-![](how-to-crop-image-and-save-to-file/how-cropping-works-lazplane.jpg)  
+
+![the procedure by which an image is cropped- opening, selection, drawing](how-to-crop-image-and-save-to-file/how-cropping-works-lazplane.jpg "the procedure by which an image is cropped- opening, selection, drawing")
+
+  
   
   
 It is very easy if you know how to use [TCanvas.CopyRect](http://lazarus-ccr.sourceforge.net/docs/lcl/graphics/tcanvas.copyrect.html) procedure. It has the following syntax:  
@@ -57,29 +62,44 @@ Start [Lazarus IDE](http://www.lazarus.freepascal.org/).
   
 Create a new Application Project (Project-> New Project-> Application-> OK). Now drop a TFileNameEdit \[from Misc tab\] and a TButton on the form (or TBitBtn \[Additional tab\] if you are interested in using an icon for the button). Name the TButton as btnSave. These 2 components are for opening an image and then saving the cropped image.  
   
-![](how-to-crop-image-and-save-to-file/form-layout-1.gif)  
-You can set the Filter property of FileNameEdit1 as "\*.bmp;\*.xpm;\*.png;\*.pbm;\*.ppm;\*.ico;\*.icns;\*.cur;\*.jpg;\*.jpeg;\*.jpe;\*.jfif;\*.tif;\*.tiff;\*.gif" (without the quotes). For saving the cropped file we would also need a TSaveDialog. Drop one TSaveDialog from the Dialogs tab and set its filter as "Bitmap File (\*.bmp)|\*.bmp" without the quotes.  
+
+![Image crop project form layout, pic 1.](how-to-crop-image-and-save-to-file/form-layout-1.gif "Image crop project form layout, pic 1.")
+
+  
+You can set the Filter property of FileNameEdit1 as "\*.bmp;\*.xpm;\*.png;\*.pbm;\*.ppm;\*.ico;\*.icns;\*.cur;\*.jpg;\*.jpeg;\*.jpe;\*.jfif;\*.tif;\*.tiff;\*.gif" (without the quotes). For saving the cropped file we would also need a TSaveDialog. Drop one TSaveDialog from the Dialogs tab and set its filter as "Bitmap File (\*.bmp)\*.bmp" without the quotes.  
   
 We will have 2 TImages. One will have the original image and another one will have the cropped image. The image will be cropped when the user drags a rectangle over the first TImage. But if the user opens a large image, then the TImage will have to have a scrolling function. So we will have to create a TScrollbox and put our TImage in it. We know that everything we put inside a TScrollbox automatically has scrollbars if its dimensions are outside its area.  
   
 So, we will create 2 TScrollbox components on the form. Tscrollbox component can be found on Additional tab of the toolbar.  
   
-![](how-to-crop-image-and-save-to-file/form-layout-2.gif)  
+
+![Image crop project form layout, pic 2.](how-to-crop-image-and-save-to-file/form-layout-2.gif "Image crop project form layout, pic 2.")
+
+  
   
 Now, put 2 Timages inside those. If you are not sure how to put them inside the TScrollbox then I'd suggest you select the Timage tool from the toolbar then start dragging in the area of a TScrollbox. Then the TImage will be created inside the TScrollbox. Event the Object Inspector will show the hierarchy you achieved.  
   
   
-![](how-to-crop-image-and-save-to-file/form-layout-3.gif)  
+
+![Creating Timage inside a container, view on Object Inspector.](how-to-crop-image-and-save-to-file/form-layout-3.gif "Creating Timage inside a container, view on Object Inspector.")
+
+  
 Create another TImage inside the other TScrollBox. Image1 on the left will be our original image and Image2 at the right will be our cropped image. Set Image1's AutoSize property to True, so that it sizes automatically according to image size. Also, set the Left and Top property of both the images to 0 (zero).  
   
 Now, to have a smoother scrolling behavior, we need to set the HorzScrollBar->Tracking and VertScrollBar->Tracking property to True.  
   
-![](how-to-crop-image-and-save-to-file/form-layout-4.gif)  
+
+![](how-to-crop-image-and-save-to-file/form-layout-4.gif)
+
+  
 I'm sure you have done all the things I have said. Another little thing is the selection rectangle. Create a TShape \[form Additional tab\] inside the ScrollBox1 in the left. Set its Name property to Sel. You can customize it the way you like. I have set its Brush->Style property to bsClear; Pen->Color to clGreen and Pen->Style to psDot. Set its Visible property to False because we only want to show it when the user selects an area of the image, but not always.  
   
 My form design is like below. I have also opened a default image for testing in Image1.  
   
-![](how-to-crop-image-and-save-to-file/form-layout-5.gif)  
+
+![](how-to-crop-image-and-save-to-file/form-layout-5.gif)
+
+  
   
 
 #### Now to coding...
@@ -226,11 +246,17 @@ end;
 
 Now Run the project (F9 or Run-> Run).  
   
-![](how-to-crop-image-and-save-to-file/Image-Crop-Lazarus.gif)  
+
+![Lazarus Image crop example with open and save options (runtime)](how-to-crop-image-and-save-to-file/Image-Crop-Lazarus.gif "Lazarus Image crop example with open and save options (runtime)")
+
+  
   
 Now open an image using the FileNameEdit. The image will show in the left TImage. Now drag to select a rectangular area over the image. It will produce a cropped image on the right. Click the button to save the cropped image to a file of your choice.  
   
-![](how-to-crop-image-and-save-to-file/image-crop-lazplanet.jpg)  
+
+![Image crop example lazarus ide](how-to-crop-image-and-save-to-file/image-crop-lazplanet.jpg "Image crop example lazarus ide")
+
+  
   
 Let me know if you need explanations of these codes. I'd be happy to explain it for you. Just post a comment and ask.  
   

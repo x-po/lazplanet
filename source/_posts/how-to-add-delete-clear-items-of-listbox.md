@@ -10,14 +10,16 @@ tags:
   - manipulation
   - Sample Code
   - Tutorials
-url: 95.html
-id: 95
+id: '93'
 categories:
-  - Uncategorized
-date: 2013-05-07 03:36:00
+  - - true
+date: 2013-05-07 09:36:00
 ---
 
-![](how-to-add-delete-clear-items-of-listbox/list.png)Learn how to code a program to list different things. Make your own lists with your own program! Utilize this article to list many things that you have never listed before!  
+![Learn how to manipulate a list](how-to-add-delete-clear-items-of-listbox/list.png "Learn how to manipulate a list")
+
+Learn how to code a program to list different things. Make your own lists with your own program! Utilize this article to list many things that you have never listed before!
+<!-- more -->
   
   
   
@@ -28,12 +30,18 @@ There can be lists of every kind, list of foods, games, shopping items, books, l
 
 Create a new Application Project (Project->New Project->Application->OK).  
   
-![](how-to-add-delete-clear-items-of-listbox/TListBox-toolbar-icon.jpg)  
+
+![TListBox component icon in Toolbar of Lazarus](how-to-add-delete-clear-items-of-listbox/TListBox-toolbar-icon.jpg "TListBox component icon in Toolbar of Lazarus")
+
+  
 Create a TListBox in the form. We will perform our actions with this ListBox.  
   
 Now you can add some initial list items for the list to appear for testing. Select the ListBox. Go to Items property and click \[...\] button.  
   
-![](how-to-add-delete-clear-items-of-listbox/ListBox-items-editing-lazar.gif)  
+
+![](how-to-add-delete-clear-items-of-listbox/ListBox-items-editing-lazar.gif)
+
+  
 You will see a window titled String editor dialog. Enter your desired items each in new line. You can set the MultiSelect property to True for enabling the selection of multiple list items (by Ctrl+clicking).  
   
 Add 3 Tbuttons or TBitBtns, named: btnDelete, btnClear, btnAdd.  
@@ -43,7 +51,10 @@ Optionally, you can add a TLabel with Caption "Item Text:".
   
 You should have a layout like this:  
   
-![](how-to-add-delete-clear-items-of-listbox/List-add-delete-2.gif)  
+
+![](how-to-add-delete-clear-items-of-listbox/List-add-delete-2.gif)
+
+  
   
 
 ### Adding an Item
@@ -121,7 +132,10 @@ end;
 
 Run it (F9 or Run->Run). Test by using the buttons. Don't forget to test the CheckBox too.  
   
-![](how-to-add-delete-clear-items-of-listbox/List-add-delete-1.gif)  
+
+![](how-to-add-delete-clear-items-of-listbox/List-add-delete-1.gif)
+
+  
   
 
 ### Download Sample Code ZIP

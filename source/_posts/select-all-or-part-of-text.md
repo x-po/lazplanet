@@ -7,14 +7,16 @@ tags:
   - select
   - Text Operation
   - Tutorials
-url: 76.html
-id: 76
+id: '74'
 categories:
-  - Uncategorized
-date: 2013-05-31 09:55:00
+  - - true
+date: 2013-05-31 15:55:00
 ---
 
-![](select-all-or-part-of-text/select-text-thumb.gif)Sometimes highlighting or selecting some part, not all, becomes necessary. We look into the method of how we can do it.  
+![Select text article thumb](select-all-or-part-of-text/select-text-thumb.gif "Select text article thumb")
+
+Sometimes highlighting or selecting some part, not all, becomes necessary. We look into the method of how we can do it.
+<!-- more -->
   
   
 How can you highlight or select a part of Text in a TEdit? Well, you can select all text using the TEdit.SelectAll procedure. But what if we want to select a portion of the input that is in a TEdit?  
@@ -44,7 +46,10 @@ Suppose we have "The quick brown fox jumps over the lazy dog." text in the TEdit
   
 But the length is 1-based (it starts from 1). So we set the length 5 to select "quick".  
   
-![](select-all-or-part-of-text/Char-Select-1.gif)  
+
+![The way SelStart and SelLength differ](select-all-or-part-of-text/Char-Select-1.gif "The way SelStart and SelLength differ")
+
+  
   
 We have a sample Application to test how both SelectAll and SelStart & SelLength works. You can either try the Quick Tutorial or download the sample from below.  
   
@@ -83,7 +88,10 @@ end;
   
 Now Run the Project (F9 or Run-> Run).  
   
-![](select-all-or-part-of-text/select-text-app.gif)  
+
+![](select-all-or-part-of-text/select-text-app.gif)
+
+  
 And test the program!  
   
 

@@ -6,14 +6,16 @@ tags:
   - Math Dates
   - Screen Graphics
   - Tutorials
-url: 73.html
-id: 73
+id: '71'
 categories:
-  - Uncategorized
-date: 2013-06-09 19:35:00
+  - - true
+date: 2013-06-10 01:35:00
 ---
 
-![](how-to-roll-dice-in-your-program/stock-illustration-15736915.gif)Learn how to Roll a Dice in your own program and stay ahead in the Game! We learn how to use an Image List to store the images (self-contained) in the program and show the images on a TImage. (Images are included in sample zip file. Easy-peasy!)  
+![Roll a dice Lazarus software code - decoration](how-to-roll-dice-in-your-program/stock-illustration-15736915.gif "Roll a dice Lazarus software code - decoration")
+
+Learn how to Roll a Dice in your own program and stay ahead in the Game! We learn how to use an Image List to store the images (self-contained) in the program and show the images on a TImage. (Images are included in sample zip file. Easy-peasy!)
+<!-- more -->
   
   
 Are you familiar with a dice? If you are not a game person, a dice has 6 faces with dots of various numbers. We roll a dice and we see which face comes at the top so that we can move our position according to the number of dots on that face. There are many games that we play with dice.  
@@ -24,7 +26,10 @@ Are you familiar with a dice? If you are not a game person, a dice has 6 faces w
   
 Which persons did you meet today? Yesterday? Day before yesterday? You don't meet the same people everyday, right? So we can say that you meet random people everyday. Random means which is not in a specific order. When you are shuffling cards, you are not doing it to arrange the cards in a specific order. So you are setting the cards in a random order.  
   
-![](how-to-roll-dice-in-your-program/Shuffle-cards2.jpg)  
+
+![Shuffle cards](how-to-roll-dice-in-your-program/Shuffle-cards2.jpg "Shuffle cards")
+
+  
   
 When you roll a dice you don't know which side is going to come up. So which side will be up is random. We have a function for randomizing in Free Pascal (or Lazarus). The function is named, well, Random(). But we have to run a Randomize function in order to "Initialize random number generator". We had another post about random numbers: [How to Generate Random Number (with/without a range)](http://lazplanet.blogspot.com/2013/05/how-to-generate-random-number.html)  
   
@@ -81,16 +86,25 @@ Create 2 TImage, 1 TButton and a TImageList. We are going to show our random dic
   
 Now download the sample code zip file mentioned below to get the dice images. The images are not necessary for the sample code to run (because they are in a TImageList and the images in a TImageList is embedded in the project automatically when you save the project). I have just included them for you, so that you can use them in this tutorial. But if you are good with Gimp or Photoshop, you can create 100 by 100 pixel images of the dice faces.  
   
-![](how-to-roll-dice-in-your-program/dice-images-files.jpg)Once you have got them ready. Select the TImageList, ImageList1 then set the Width & Height property to 100. It is set in pixels, of course. If you have made the images with different size, you need to set it accordingly. If we do not set it accordingly, the images will be cropped to the Value given here.  
+
+![Dice image files having each face in a seperate file](how-to-roll-dice-in-your-program/dice-images-files.jpg "Dice image files having each face in a seperate file")
+
+Once you have got them ready. Select the TImageList, ImageList1 then set the Width & Height property to 100. It is set in pixels, of course. If you have made the images with different size, you need to set it accordingly. If we do not set it accordingly, the images will be cropped to the Value given here.  
   
 Remember to set the width and height of the TImages to 100 (or the dimension you like).  
   
 Now right click the ImageList1 component in the Form designer and click ImageList Editor.  
   
-![](how-to-roll-dice-in-your-program/imagelist-editor-lazarus.gif)  
+
+![How to add images to the TImageList](how-to-roll-dice-in-your-program/imagelist-editor-lazarus.gif "How to add images to the TImageList")
+
+  
 Now in the ImageList Editor dialog select the images one after another in an increasing order (from 1-dot image through 6-dot image).  
   
-![](how-to-roll-dice-in-your-program/imagelist-editor-lazarus-2.gif)  
+
+![How to add images to the TImageList](how-to-roll-dice-in-your-program/imagelist-editor-lazarus-2.gif "How to add images to the TImageList")
+
+  
   
 Make sure the index is right. It should be 1 less than the dots of the image. Refer to the above image if you are in confusion. Click it to see a larger version of the screenshot.  
   
@@ -131,7 +145,10 @@ end;
   
 Now run the Project (F9 or Run-> Run).  
   
-![](how-to-roll-dice-in-your-program/dice-rolling-program-lazaru.gif)  
+
+![Roll dice program in Lazarus](how-to-roll-dice-in-your-program/dice-rolling-program-lazaru.gif "Roll dice program in Lazarus")
+
+  
   
 Click the button to see the random dice face you have been waiting for.  
   

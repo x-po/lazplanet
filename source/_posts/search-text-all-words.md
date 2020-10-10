@@ -7,14 +7,16 @@ tags:
   - Sample Code
   - Search
   - Text Operation
-url: 101.html
-id: 101
+id: '99'
 categories:
-  - Uncategorized
-date: 2013-04-18 18:28:00
+  - - true
+date: 2013-04-19 00:28:00
 ---
 
-![](search-text-all-words/Search-Logo.jpg)Another example of simple text search which implements a Search Next button, which continuously searches for the given text. Its very easy. Heres how...  
+![](search-text-all-words/Search-Logo.jpg)
+
+Another example of simple text search which implements a Search Next button, which continuously searches for the given text. Its very easy. Heres how...
+<!-- more -->
   
   
 We had a [previous post about a simple text search example](http://lazplanet.blogspot.com/2013/04/simple-text-search.html). The example searches for only the first occurrence of the word. Today we will update our knowledge. We will create a continuous text search which will search for every instance of the word that are in the text.  
@@ -102,7 +104,10 @@ Add the declaration at the top under the first var (before the implementation li
 
 Run the program (F9 or Run->Run). Fill up the memo with some text. To search for a text type the word in the TEdit. (You can pick up a word from your text for testing.) Press the button. It will search for the text. If the text is found then it will be selected. If not found, it will show a message.  
   
-![](search-text-all-words/lazarus-search-next-text.gif)  
+
+![](search-text-all-words/lazarus-search-next-text.gif)
+
+  
 Here you go, your own text search utility!  
   
 
@@ -173,7 +178,10 @@ You can also add the "Case Sensitive" Function to the code. Just use Uppercase c
   
 Add the above lines of code just after the s := Copy(... line. Replace with target\_s where Edit1.Text is used in the rest of the code. Don't forget to declare target\_s:string; in the procedure's var clause.  
   
-![](search-text-all-words/lazarus-search-next-text-2.gif)  
+
+![](search-text-all-words/lazarus-search-next-text-2.gif)
+
+  
   
 This is it! You are now literate in text search function!  
   

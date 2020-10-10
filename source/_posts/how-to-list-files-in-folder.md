@@ -10,14 +10,16 @@ tags:
   - manager
   - ShellExecute
   - Tutorials
-url: 67.html
-id: 67
+id: '65'
 categories:
-  - Uncategorized
-date: 2013-07-07 19:50:00
+  - - true
+date: 2013-07-08 01:50:00
 ---
 
-![](how-to-list-files-in-folder/file-browser-2-thumb.jpg)We all have these gigabytes and terabytes of hard disks in our computers. But what's the use of this huge storage if we cannot see where our files are and in which folder they are located? Of course we can. With our very own IDE, Lazarus!  
+![](how-to-list-files-in-folder/file-browser-2-thumb.jpg)
+
+We all have these gigabytes and terabytes of hard disks in our computers. But what's the use of this huge storage if we cannot see where our files are and in which folder they are located? Of course we can. With our very own IDE, Lazarus!
+<!-- more -->
   
   
 There are many file managers out there. Ther's a file manager made with Lazarus which is being served in the internet, named [Double commander](http://sourceforge.net/projects/doublecmd/). And I am sure there are many others made with Lazarus. But as a programer you would want a file manager of your own, right? The one with fancy stuff that you care about and design the interface you always like. That's when this may help you.  
@@ -196,7 +198,10 @@ Create a new Application Project (Project-> New Project-> Application-> OK).
   
 Drop a TDirectoryEdit from Misc tab and also drop a TListBox from the Standard tab in the form.  
   
-![](how-to-list-files-in-folder/file-browser-gui-frm-layout.gif)  
+
+![](how-to-list-files-in-folder/file-browser-gui-frm-layout.gif)
+
+  
   
 Now switch to Code view (F12) and enter the following procedure after the "{$R \*.lfm}" line:  
   
@@ -258,16 +263,28 @@ end;
   
 Now Run the project (F9 or Run-> Run). Now open some directory and you will see the list in the List box.  
   
-![](how-to-list-files-in-folder/file-browser-gui-runtime.gif)  
+
+![](how-to-list-files-in-folder/file-browser-gui-runtime.gif)
+
+  
   
 It is a very basic example. You can use TListview to show file name, size and modified date etc. I have made such a project for you. It is available from the download at the end of the post. In our [2 minute File Browser example](http://lazplanet.blogspot.com/2013/06/create-simple-file-browser-in-2-minutes.html), we don't actually get the file list in our code. All the file list viewing is done with communicating between the components. But if we use FindFirst, FindNext, FindClose method, we really get the file names. We can do many things with it. We can only show the jpg files in a folder. We can also draw the image thumbnails in a TPaintbox to emulate a really cool image thumbnail app.  
   
 The form layout is as follows:  
-![](how-to-list-files-in-folder/file-browser-2-frm-layout.gif)  
+
+![](how-to-list-files-in-folder/file-browser-2-frm-layout.gif)
+
+  
 The components are:  
-![](how-to-list-files-in-folder/file-browser-2-obj-insp.gif)  
+
+![](how-to-list-files-in-folder/file-browser-2-obj-insp.gif)
+
+  
 And a screenshot of it on runtime:  
-![](how-to-list-files-in-folder/file-browser-2-runtime.gif)  
+
+![](how-to-list-files-in-folder/file-browser-2-runtime.gif)
+
+  
 The above one is very much of understandable interface. While the first one is pretty much elementary. So it is better to choose to show files in a TListView. You can show your own icons for the folders and files.  
   
 So what I have done is I have dropped a TListView and made 3 columns (by clicking \[...\] button in Columns property and then setting its Caption and Width with the Object Inspector). I have dropped a TShellTreeView to show the drives in a tree.  

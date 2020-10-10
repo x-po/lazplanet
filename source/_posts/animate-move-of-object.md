@@ -7,14 +7,16 @@ tags:
   - Metro
   - Tutorials
   - Windows 8
-url: 89.html
-id: 89
+id: '87'
 categories:
-  - Uncategorized
-date: 2013-05-13 14:25:00
+  - - true
+date: 2013-05-13 20:25:00
 ---
 
-![](animate-move-of-object/animation_icon.jpg)You have seen Windows 8 panels sliding and disappearing in and out of the screen. Now create such effects for your program! Here's a handy little procedure...  
+![Component Move Animation in Lazarus](animate-move-of-object/animation_icon.jpg "Component Move Animation in Lazarus")
+
+You have seen Windows 8 panels sliding and disappearing in and out of the screen. Now create such effects for your program! Here's a handy little procedure...
+<!-- more -->
   
   
   
@@ -142,7 +144,10 @@ Here, the parameters are:
   
 Download, Extract and Run the sample code (F9 or Run-> Run).  
   
-![](animate-move-of-object/form-component-animation.gif)  
+
+![Component Move Animation in Lazarus](animate-move-of-object/form-component-animation.gif "Component Move Animation in Lazarus")
+
+  
   
 You can click the Options button to see the animation of our procedure. We also have a seesaw animation effect, where the Panel in our example moves from one side to another repeatedly.  
   

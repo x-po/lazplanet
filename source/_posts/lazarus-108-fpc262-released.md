@@ -2,15 +2,14 @@
 title: Lazarus 1.0.8 (FPC2.6.2) Released!
 tags:
   - News
-url: 119.html
-id: 119
+id: '117'
 categories:
-  - Uncategorized
-date: 2013-03-20 18:50:00
+  - - true
+date: 2013-03-21 00:50:00
 ---
 
-This release is generally a bug fix release. The most important thing is that this version supports FPC 2.6.2. So no more installing FPC yourself! And the loading time is freakin' fast!  
-  
+This release is generally a bug fix release. The most important thing is that this version supports FPC 2.6.2. So no more installing FPC yourself! And the loading time is freakin' fast!
+<!-- more -->
   
   
 

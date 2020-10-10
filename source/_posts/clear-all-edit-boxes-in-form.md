@@ -7,14 +7,16 @@ tags:
   - List Iteration
   - owner
   - Tutorials
-url: 90.html
-id: 90
+id: '88'
 categories:
-  - Uncategorized
-date: 2013-05-12 12:51:00
+  - - true
+date: 2013-05-12 18:51:00
 ---
 
-![](clear-all-edit-boxes-in-form/reset-button-1.gif)It is a tedious job to create a "Reset Form" button and recall all the names of the Editboxes in the form. So we let Lazarus do that for us! ... with only 3 lines of code!  
+![Reset values thumbnail](clear-all-edit-boxes-in-form/reset-button-1.gif "Reset values thumbnail")
+
+It is a tedious job to create a "Reset Form" button and recall all the names of the Editboxes in the form. So we let Lazarus do that for us! ... with only 3 lines of code!
+<!-- more -->
   
   
 There are sometimes tens and even thousands (if you know what I mean) Text edit fields in a form. If you are a lazy programer, you would be hesitant to add a Reset Form button to make their Text Property blank. And unfortunately, programers are lazy, because they have computers to do most of their jobs!  
@@ -73,7 +75,10 @@ We iterate (go through) all the components of the form. We add the name of each 
   
 We show the list with a message box.  
   
-![](clear-all-edit-boxes-in-form/Clear-all-edits-1.gif)  
+
+![](clear-all-edit-boxes-in-form/Clear-all-edits-1.gif)
+
+  
 Run the program (F9 or Run->Run). Click the button to see the magic!  
   
 

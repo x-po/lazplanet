@@ -6,14 +6,16 @@ tags:
   - list
   - List Iteration
   - Search
-url: 84.html
-id: 84
+id: '82'
 categories:
-  - Uncategorized
-date: 2013-05-19 03:21:00
+  - - true
+date: 2013-05-19 09:21:00
 ---
 
-![](simple-list-search-program/search-list-thumb.gif)Searching a list is one of computer's specialties. If you are a programer, you at least need to know this simple list search technique.  
+![Simple list search in Lazarus](simple-list-search-program/search-list-thumb.gif "Simple list search in Lazarus")
+
+Searching a list is one of computer's specialties. If you are a programer, you at least need to know this simple list search technique.
+<!-- more -->
   
   
 
@@ -37,7 +39,10 @@ Create a new Application Project (Project->New Project->Application->OK).
   
 Drop a TEdit, TButton and 2 TListBoxes. The TEdit (Edit1) is the search text box. The TButton (Button1) is our search button. Listbox1 is the list that we want to search. Listbox2 is the list where our search results will appear. (I have positioned the Listbox2 under the search box because it shows the search results, so it should be under the search box.)  
   
-![](simple-list-search-program/search-form.gif)  
+
+![Simple list search form in Lazarus form designer](simple-list-search-program/search-form.gif "Simple list search form in Lazarus form designer")
+
+  
 You can add TLabels to further decorate the form or for indication of components of what they do.  
   
 Now double click the TButton and enter the following code:  
@@ -87,7 +92,10 @@ Now add an onKeyPress event to the Edit1 (select it, then go to Object Inspector
   
 It is a simple code to virtually click the button when the user presses enter after entering search string.  
   
-![](simple-list-search-program/list-search-lazarus.gif)  
+
+![Simple list search in Lazarus (runtime)](simple-list-search-program/list-search-lazarus.gif "Simple list search in Lazarus (runtime)")
+
+  
   
 
 ### Download Sample Code ZIP

@@ -7,16 +7,16 @@ tags:
   - News
   - reference
   - resource
-url: 21.html
-id: 21
+id: '19'
 categories:
-  - Uncategorized
-date: 2017-12-15 17:33:00
+  - - true
+date: 2017-12-15 23:33:00
 ---
 
-[![](supercharge-your-beginner-friends-with/e-book-cover-thumb.png)](supercharge-your-beginner-friends-with/e-book-cover-thumb.png)
+![](supercharge-your-beginner-friends-with/e-book-cover-thumb.png)
 
-Many have the will to start learning Lazarus, but could not find an easy way to start. This e-book will give them the fuel to get started.  
+Many have the will to start learning Lazarus, but could not find an easy way to start. This e-book will give them the fuel to get started.
+<!-- more -->
   
   
 Happy Holidays! What a joyful time of the year to get an e-book!  
@@ -24,7 +24,7 @@ Happy Holidays! What a joyful time of the year to get an e-book!
 I have written an e-book for beginners in Lazarus. This is great for people who want the very basics of programming and just wants to start somewhere. This free e-book is very short, concise and organized in such a way that anyone with a least effort can follow along, have fun and start coding in Lazarus.  
   
 
-[![Lazarus E-book - Beginners' Guide to Lazarus IDE](http://localhost/wp-lazplanet/wp-content/uploads/2017/12/lazarus-ebook-preview-300x207.png "Lazarus E-book - Beginners' Guide to Lazarus IDE")](supercharge-your-beginner-friends-with/lazarus-ebook-preview.png)
+![Lazarus E-book - Beginners' Guide to Lazarus IDE](supercharge-your-beginner-friends-with/lazarus-ebook-preview.png "Lazarus E-book - Beginners' Guide to Lazarus IDE")
 
 The pages are colorful so that it is fun to read and engaging
 
@@ -46,7 +46,7 @@ The pages are colorful so that it is fun to read and engaging
 The chapters are so short and so basic that anyone should be able to enjoy the journey towards the end.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2017/12/lazarus-e-book-cover-211x300.jpg)](supercharge-your-beginner-friends-with/lazarus-e-book-cover.jpg)
+![](supercharge-your-beginner-friends-with/lazarus-e-book-cover.jpg)
 
 Cover of the E-book. Let's charge towards LazPlanet!
 

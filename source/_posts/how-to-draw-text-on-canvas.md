@@ -8,14 +8,16 @@ tags:
   - Text
   - Text Operation
   - Tutorials
-url: 70.html
-id: 70
+id: '68'
 categories:
-  - Uncategorized
-date: 2013-06-17 00:59:00
+  - - true
+date: 2013-06-17 06:59:00
 ---
 
-![](how-to-draw-text-on-canvas/draw-text-thumb.gif)We can use TLabel to show any text just to show any text, not editing. But what could we do to show text on a canvas? Then we would need to draw the text. Here's how...  
+![Tutorial and Example code on Drawing Text on a Canvas in Lazarus](how-to-draw-text-on-canvas/draw-text-thumb.gif "Tutorial and Example code on Drawing Text on a Canvas in Lazarus")
+
+We can use TLabel to show any text just to show any text, not editing. But what could we do to show text on a canvas? Then we would need to draw the text. Here's how...
+<!-- more -->
   
   
 For showing any normal text that doesn't usually react to any user events, which only lies idle on the form can be made by using a TLabel. We use TLabels for captions for input fields and instructions to how to use the program we have made.  
@@ -42,7 +44,10 @@ begin
 end;
 
   
-![](how-to-draw-text-on-canvas/draw-text-example-1.gif)  
+
+![Simple Drawing Text on Top Left corner Lazarus](how-to-draw-text-on-canvas/draw-text-example-1.gif "Simple Drawing Text on Top Left corner Lazarus")
+
+  
 The text will be printed on the form's canvas in the top left position (0,0...).  
   
 
@@ -55,7 +60,10 @@ begin
 end;
 
   
-![](how-to-draw-text-on-canvas/draw-text-example-2.gif)  
+
+![Example 2 of Drawing text on a specific position](how-to-draw-text-on-canvas/draw-text-example-2.gif "Example 2 of Drawing text on a specific position")
+
+  
 The text will be drawn at 50 pixels from left and 60 pixels to the right.  
   
 
@@ -72,7 +80,10 @@ begin
 end;
 
   
-![](how-to-draw-text-on-canvas/draw-text-example-3.gif)  
+
+![Drawing Text with customized color and background in Lazarus](how-to-draw-text-on-canvas/draw-text-example-3.gif "Drawing Text with customized color and background in Lazarus")
+
+  
 The background is set by Brush.Color and the text color is set by Font.Color. You can also set any TColor as a value, such as clGreen, clBlack, clWhite etc.  
   
 
@@ -88,7 +99,10 @@ begin
 end;
 
   
-![](how-to-draw-text-on-canvas/draw-text-example-4.gif)  
+
+![Drawing Text with clean background, using bsClear in Lazarus](how-to-draw-text-on-canvas/draw-text-example-4.gif "Drawing Text with clean background, using bsClear in Lazarus")
+
+  
   
 
 #### Example 5: Setting text size
@@ -103,7 +117,10 @@ begin
 end;
 
   
-![](how-to-draw-text-on-canvas/draw-text-example-5.gif)  
+
+![Drawing Text with any size in Lazarus](how-to-draw-text-on-canvas/draw-text-example-5.gif "Drawing Text with any size in Lazarus")
+
+  
   
 
 #### Example 6: Getting the text size before drawing (and drawing a rectangle around it as border)
@@ -129,7 +146,10 @@ begin
 end;
 
   
-![](how-to-draw-text-on-canvas/draw-text-example-6.gif)  
+
+![Getting how much area a text is going to take, in Lazarus](how-to-draw-text-on-canvas/draw-text-example-6.gif "Getting how much area a text is going to take, in Lazarus")
+
+  
 Canvas.TextWidth returns the width and Canvas.TextHeight returns the height of the probable drawing area before actually printing the text. We can also use Canvas.GetTextSize, which assigns the width and height to the variables given (without returning anything).  
   
 
@@ -152,7 +172,10 @@ begin
 end;
 
   
-![](how-to-draw-text-on-canvas/draw-text-example-7.gif)  
+
+![Centering a text by getting its width in Lazarus](how-to-draw-text-on-canvas/draw-text-example-7.gif "Centering a text by getting its width in Lazarus")
+
+  
 
 #### Example 8: Drawing text in a rectangular area (good for paragraphs)
 
@@ -178,7 +201,10 @@ begin
   Canvas.FrameRect(20, 20, textarea.Right, textarea.Bottom);  
 end;  
   
-![](how-to-draw-text-on-canvas/draw-text-example-8.gif)  
+
+![How to draw text in a rectangular area in Lazarus](how-to-draw-text-on-canvas/draw-text-example-8.gif "How to draw text in a rectangular area in Lazarus")
+
+  
   
 We set the the Brush.color for the FrameRect procedure later on, which will draw a rectangle showing the area in which we have drawn the text. We define a TRect to define the area in which we want our text to be shown. We use a variable mytextstyle to tweak the drawing rules for our text. We set wordbreak to True and SingleLine to False just to indicate that we want to have our text not in a single line but in a paragraph style inside the TRect. Be my guest and comment out the 2 lines to see what happens if we wouldn't have written these lines.  
   
@@ -190,10 +216,16 @@ We have learned quite a bit from the examples above. Now we would create a sampl
 Create a new Application project (Project-> New Project-> Application-> OK).  
   
 Create components and name them seeing the screenshot below of the Object Inspector.  
-![](how-to-draw-text-on-canvas/drawtext-object-ins.gif)  
+
+![Objects in the sample project in Lazarus Object Inspector](how-to-draw-text-on-canvas/drawtext-object-ins.gif "Objects in the sample project in Lazarus Object Inspector")
+
+  
 The form layout would be something like this: If you don't find a component then use Ctrl+Alt+P (or View-> Components) to find that naughty little component that was hiding from you.  
   
-![](how-to-draw-text-on-canvas/draw-text-frm-layout.gif)  
+
+![Form design of the sample project](how-to-draw-text-on-canvas/draw-text-frm-layout.gif "Form design of the sample project")
+
+  
 At the top we have edtText. Change its default Text property to something like "This is a sample text".  
 Then its the cboFonts. Set its Style property to csDropDownList. Set it also for the cboSize. For cboSize, set its Items property with variaous font sizes, such as:  
 8  
@@ -314,7 +346,10 @@ end;
   
 Now, Run it (F9 or Run-> Run).  
   
-![](how-to-draw-text-on-canvas/draw-text-rect.gif)  
+
+![Project with options to choose text, font, size, color etc.](how-to-draw-text-on-canvas/draw-text-rect.gif "Project with options to choose text, font, size, color etc.")
+
+  
 Now choose a font, size, color, text and then drag a rectangular area on the Paintbox to your text drawn on it. Simple!  
   
 

@@ -3,14 +3,16 @@ title: Count how many words are in a string
 tags:
   - Text Operation
   - Tutorials
-url: 109.html
-id: 109
+id: '107'
 categories:
-  - Uncategorized
-date: 2013-04-04 06:23:00
+  - - true
+date: 2013-04-04 12:23:00
 ---
 
-![](count-words-in-string/necklace-measure-words.jpg)Suppose you have found a huge paragraph. How many words are in that paragraph? Do you want to count yourself? No. We can let our program count the words! Here's how...  
+![](count-words-in-string/necklace-measure-words.jpg)
+
+Suppose you have found a huge paragraph. How many words are in that paragraph? Do you want to count yourself? No. We can let our program count the words! Here's how...
+<!-- more -->
   
   
 The [strutils](http://www.freepascal.org/docs-html/rtl/strutils/index-5.html) unit has an useful function: [wordcount](http://www.freepascal.org/docs-html/rtl/strutils/wordcount.html)  
@@ -50,7 +52,10 @@ uses
   
 Now Run the Project (F9). Write something in the Memo. You will see the count in the Label.  
   
-![](count-words-in-string/wordcount-1.gif)  
+
+![](count-words-in-string/wordcount-1.gif)
+
+  
   
 Now the problem is that when you use a new line, the word count is not right. For example enter:  
 I  

@@ -9,14 +9,16 @@ tags:
   - pencil
   - Screen Graphics
   - Tutorials
-url: 77.html
-id: 77
+id: '75'
 categories:
-  - Uncategorized
-date: 2013-05-29 17:09:00
+  - - true
+date: 2013-05-29 23:09:00
 ---
 
-![](how-to-scribble-with-virtual-pencil/pencil-thumb.jpg)Drawing is fun. Learn how to create a drawing software that can let the user draw like a pencil in a virtual canvas in his computer screen. We are also going to use colors!  
+![Scribble pencil art decoration](how-to-scribble-with-virtual-pencil/pencil-thumb.jpg "Scribble pencil art decoration")
+
+Drawing is fun. Learn how to create a drawing software that can let the user draw like a pencil in a virtual canvas in his computer screen. We are also going to use colors!
+<!-- more -->
   
   
 If you have a piece of paper and a pencil and loads of time to waste, what would you do? You will scribble. You will draw random shapes and lines in that piece of paper. That's what you are going to do today in your own program. Plus, you will find out the secrets how the computer draws what you draw!  
@@ -30,7 +32,10 @@ Create a new Application project (Project-> New Project-> Application-> OK).
   
 Create a TColorButton and a TSpinEdit (both from Misc tab) and a TButton. You can also use a TBitBtn instead of TButton, to use an icon for the button. It is a graphics application, you know. But it is upto you. Also, create a TPaintbox. Then select the TButton and set its Name property to btnNew. Add TLabels and set Captions as you desire. Your form layout may resemble the following:  
   
-![](how-to-scribble-with-virtual-pencil/scribble-frm-layout.gif)  
+
+![Scribble application form layout in Lazarus Form Designer](how-to-scribble-with-virtual-pencil/scribble-frm-layout.gif "Scribble application form layout in Lazarus Form Designer")
+
+  
 Set the MinValue and Value of SpinButton1 to 1. You can set the AkBottom and AkRight of PaintBox1-> Anchors property to True for sizing the Paintbox in resize event.  
   
 Switch to Code View (F12) and add these variables under the first var clause at the top:  
@@ -159,7 +164,10 @@ We need to Free the TBitmap because it has been Create-ed. Remember to Free anyt
   
 Now Run it (F9 or Run-> Run).  
   
-![](how-to-scribble-with-virtual-pencil/scribble-run-time.gif)  
+
+![Scribble application runtime](how-to-scribble-with-virtual-pencil/scribble-run-time.gif "Scribble application runtime")
+
+  
   
 
 ### Explanations:
@@ -203,10 +211,16 @@ To create a virtual pencil work is a hardwork in computers. Do you think these d
   
 First, lets look at how a line tool works. When the user presses the mouse button (OnMouseDown event) 2 variables store the X and Y position where the mouse was down. (Assume they are PrevX = X and Prev = Y.). When the mouse is up a line is drawn from the point (PrevX, PrevY) to point (X, Y).  
   
-![](how-to-scribble-with-virtual-pencil/line-tool-works.gif)  
+
+![](how-to-scribble-with-virtual-pencil/line-tool-works.gif)
+
+  
 In the case of Pencil tool, we just have to update the PrevX and PrevY in the OnMouseMove event. So that we get a path of the mouse position where the cursor has been going.  
   
-![](how-to-scribble-with-virtual-pencil/pencil-tool-works.gif)  
+
+![](how-to-scribble-with-virtual-pencil/pencil-tool-works.gif)
+
+  
 We have to keep updating the PrevX & PrevY just after we have drawn a line.  
   
 procedure TForm1.PaintBox1MouseMove(Sender: TObject; Shift: TShiftState; X,  

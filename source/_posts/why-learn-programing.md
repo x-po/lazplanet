@@ -2,14 +2,16 @@
 title: Why should you learn programing/coding?
 tags:
   - Articles
-url: 116.html
-id: 116
+id: '114'
 categories:
-  - Uncategorized
-date: 2013-03-25 11:58:00
+  - - true
+date: 2013-03-25 17:58:00
 ---
 
-![](why-learn-programing/why-learn-programing.jpg)Programing is like a magic. Programmers are like wizards of future. With programing "you can ... sit down and make something completely new from scratch."-Mark Zuckerberg (Founder of Facebook) There are thousands more reasons why you should learn to code.  
+![](why-learn-programing/why-learn-programing.jpg)
+
+Programing is like a magic. Programmers are like wizards of future. With programing "you can ... sit down and make something completely new from scratch."-Mark Zuckerberg (Founder of Facebook) There are thousands more reasons why you should learn to code.
+<!-- more -->
   
   
 Computer is a dumb machine. It has power of millions of brain cells, complex circuits, amazing calculation power and yet it cannot do anything on its own. If you don't instruct it to do something, it would sit idle the whole day. It would be a complete waste of this marvelous power if we keep it idle. Computers need somebody to tell them what to do. That's why use Operating Systems and Softwares for listening to songs, drawing pictures and what not. Computers need instructions to operate. Instructing the computer with code is programing.  
@@ -28,7 +30,9 @@ If you drive a car, you should learn how the car engine works, right? Similarly 
 
 ### Play with it
 
-![](why-learn-programing/ec05_c_jump_computer_programming_game_detail.jpg)What do you want it to do? You have processing power of nearly super computers sitting in your desktop. You can do anything with it if you learn programing. Do you want it to say "Hello World" to you, add 1 to 1000 numbers, convert Celsius to Ferenheit temperature, calculate distance between two places, draw a circle or a rectangle, record how much distance your mouse cursor has traveled during a day? It is all possible with a bit of programing knowledge.  
+![](why-learn-programing/ec05_c_jump_computer_programming_game_detail.jpg)
+
+What do you want it to do? You have processing power of nearly super computers sitting in your desktop. You can do anything with it if you learn programing. Do you want it to say "Hello World" to you, add 1 to 1000 numbers, convert Celsius to Ferenheit temperature, calculate distance between two places, draw a circle or a rectangle, record how much distance your mouse cursor has traveled during a day? It is all possible with a bit of programing knowledge.  
   
 You can create what you want. You can turn your imaginations into reality. You can learn magic!  
   
@@ -44,7 +48,9 @@ Is facebook that complex? Not too much, because there are other facebook clones 
 
 Is Facebook, Youtube, Dropbox creative? According to me- yes. Mark Juckerberg, the founder of Facebook says:  
 
-> ![](why-learn-programing/markzuckerbergheadshot.jpg)"Programing is one of the only things in the world that you can do where you can sit down and make something completely new from scratch, ... whatever you want."
+> ![](why-learn-programing/markzuckerbergheadshot.jpg)
+> 
+> "Programing is one of the only things in the world that you can do where you can sit down and make something completely new from scratch, ... whatever you want."
 
   
   
@@ -54,7 +60,9 @@ You can be a boss of your own computer. What you tell it, it would  do it.
 
 ### Be proud of yourself
 
-![](why-learn-programing/learn-prog.jpg)You friends know how to _use_ a computer. But not all of them know how to _code_. Creating softwares and sharing with them and other people would make you feel proud of yourself.  
+![](why-learn-programing/learn-prog.jpg)
+
+You friends know how to _use_ a computer. But not all of them know how to _code_. Creating softwares and sharing with them and other people would make you feel proud of yourself.  
   
 It is like painting a picture like an artist and showing it to them. You will feel proud when they praise your software (or your art).  
   

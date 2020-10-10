@@ -9,14 +9,16 @@ tags:
   - Screen Graphics
   - System API
   - Tutorials
-url: 72.html
-id: 72
+id: '70'
 categories:
-  - Uncategorized
-date: 2013-06-11 18:44:00
+  - - true
+date: 2013-06-12 00:44:00
 ---
 
-![](how-to-create-basic-paint-software/paint-icon.jpg)Today, in our special post, we see how to create a basic paint software in Lazarus with some basic drawing tools and Open, Save, Resize options. A must see for Lazarians!  
+![](how-to-create-basic-paint-software/paint-icon.jpg)
+
+Today, in our special post, we see how to create a basic paint software in Lazarus with some basic drawing tools and Open, Save, Resize options. A must see for Lazarians!
+<!-- more -->
   
   
 Painting is a fun exercise of creativity. People form kids to professionals like to draw something just to have fun. Creating a drawing software is more fun than drawing (at least to me ;-) ). As the 50th post of [LazPlanet](http://lazplanet.blogspot.com/), I am honored to present to you a simple paint software code made in Lazarus (Free Pascal). Enjoy!  
@@ -73,16 +75,25 @@ Start [Lazarus](http://www.lazarus.freepascal.org/).
   
 Here is a screenshot of the component's names and their type straight from the Object Inspector.  
   
-![](how-to-create-basic-paint-software/basic-paint-lazarus-obj.gif)  
+
+![Objects for a basic paint project in Lazarus IDE](how-to-create-basic-paint-software/basic-paint-lazarus-obj.gif "Objects for a basic paint project in Lazarus IDE")
+
+  
 That seems to be a lot of components! But remember the impressive result that you will get after doing such a hard work. (Plus, keep imagining what the Photoshop and Gimp programmers has done for those software! They are indeed hard workers.)  
   
 Add those components and name them according to the screenshot. Here is a screenshot of the form's design view to make positioning the components easier for you:  
   
-![](how-to-create-basic-paint-software/basic-paint-frm-layout.gif)  
+
+![Form layout for a basic paint project in Lazarus IDE form view](how-to-create-basic-paint-software/basic-paint-frm-layout.gif "Form layout for a basic paint project in Lazarus IDE form view")
+
+  
   
 Use appropriate Glyphs/Icons for the toolbar icons. (I have used icons from [Silk Companion](http://damieng.com/creative/icons/silk-companion-1-icons) and [famfamfam Mini Icons](http://www.famfamfam.com/lab/icons/mini/) collection. I have used these because they free for any project, even commercial ones. Cool, right?) I have included the icons that I have used in the sample code zip file available from below this article. They are in the "icons4u" folder.  
   
-![](how-to-create-basic-paint-software/icons-basic-paint.gif)  
+
+![Icons used in the basic paint project](how-to-create-basic-paint-software/icons-basic-paint.gif "Icons used in the basic paint project")
+
+  
   
 Now we would make the tools' buttons to toggle on click. Have you noticed that when you select a tool in a drawing software (such as [MS Paint](http://en.wikipedia.org/wiki/Paint_%28software%29)/[Gimp](http://www.gimp.org/)/[Photoshop](http://en.wikipedia.org/wiki/Adobe_Photoshop)/[Illustrator](http://en.wikipedia.org/wiki/Illustrator) etc.) another tool gets de-selected. Select all the Tool Buttons and set its GroupIndex to 1. Select the first tool (Pencil tool SpeedButton). Make its Down property to True.  
   
@@ -95,7 +106,7 @@ Set the "Value" and "MinValue" property of TSpinButton to 1.
   
 Set Filter property of both OpenDialog1 and SaveDialog1 to:  
 
-Bitmap Files (\*.bmp)|\*.bmp
+Bitmap Files (\*.bmp)\*.bmp
 
   
 Without further ado let's get to coding--  
@@ -475,7 +486,10 @@ end;
 
 Run the project (F9 or Run-> Run).  
   
-![](how-to-create-basic-paint-software/basic-paint-lazarus.gif)  
+
+![Basic paint program with many drawing tools made with Lazarus IDE](how-to-create-basic-paint-software/basic-paint-lazarus.gif "Basic paint program with many drawing tools made with Lazarus IDE")
+
+  
 Now, do your thing! Create your next masterpiece!  
   
 

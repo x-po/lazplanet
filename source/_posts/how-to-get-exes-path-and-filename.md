@@ -6,14 +6,16 @@ tags:
   - Graphics
   - Screen Graphics
   - Tutorials
-url: 112.html
-id: 112
+id: '110'
 categories:
-  - Uncategorized
-date: 2013-03-30 21:44:00
+  - - true
+date: 2013-03-31 03:44:00
 ---
 
-![](how-to-get-exes-path-and-filename/exe-file.jpg)It is a common question. In your code, sometimes you need to define where your EXE is running from. Then you can load any file from the application's directory or subdirectories. Let's learn how to.  
+![](how-to-get-exes-path-and-filename/exe-file.jpg)
+
+It is a common question. In your code, sometimes you need to define where your EXE is running from. Then you can load any file from the application's directory or subdirectories. Let's learn how to.
+<!-- more -->
   
   
 **The easy way to put it is:**  
@@ -33,7 +35,10 @@ Switch to form view (F12). Place a TLabel and a TEdit on the form. Set the TEdit
 Now place a TButton and a Timage. Set the Timage's autosize property to true.  
   
 Your form will look like this:  
-![](how-to-get-exes-path-and-filename/apppath-1.gif)  
+
+![](how-to-get-exes-path-and-filename/apppath-1.gif)
+
+  
   
 Double click on form and enter:  
 
@@ -57,7 +62,10 @@ _Change the image filename according to what image you are using._
 ### Run it
 
 Now run it (F9). You will see the application path, exe file path and exe filename on the editboxes. Click the tButton and you will see your image loading in the timage.  
-![](how-to-get-exes-path-and-filename/apppath-2.gif)  
+
+![](how-to-get-exes-path-and-filename/apppath-2.gif)
+
+  
 
 ### Sample code download
 

@@ -6,19 +6,24 @@ tags:
   - canvas
   - Math Dates
   - Screen Graphics
-url: 88.html
-id: 88
+id: '86'
 categories:
-  - Uncategorized
-date: 2013-05-14 01:00:00
+  - - true
+date: 2013-05-14 07:00:00
 ---
 
-![](measure-angle-of-line/angle-1.gif)When you draw a line, does that come to you that how many degrees is that line? How much is it steep or flat? Learn through your own program.  
+![Find Angle from two points](measure-angle-of-line/angle-1.gif "Find Angle from two points")
+
+When you draw a line, does that come to you that how many degrees is that line? How much is it steep or flat? Learn through your own program.
+<!-- more -->
   
   
 A line can be of any angle. It can be parallel to earth, or steep like a pole, or angular, like it is leaning towards something. We all know the name of Tower of Pisa. It is famous for its leaning nature. It is not perpendicular/staright/vertcal like all the other usual buildings of the world. It is not standing 90 degrees upright, but its leaning by 5.5 degrees.  
   
-![](measure-angle-of-line/tower-of-pisa2.jpg)  
+
+![Leaning tower of pisa](measure-angle-of-line/tower-of-pisa2.jpg "Leaning tower of pisa")
+
+  
 So if we get a imaginary line at the at the right side of the tower, then can we calculate the angle of pisa? Yes. But we need math. Specifically Geometry and more specifically Trigonometry.  
   
 
@@ -45,7 +50,10 @@ uses
   ..., math;
 
   
-![](measure-angle-of-line/angle-1.gif)  
+
+![Find Angle from two points](measure-angle-of-line/angle-1.gif "Find Angle from two points")
+
+  
 Suppose that we want to calculate the angle of the diagonal line. The line starts at (0, 0) position \[where it is (x, y)\] and ends at (100, 100) position. From the image above, it is obvious that the angle is 45 degrees. But let our program find the angle  
   
 Switch to Form Designer (F12). Now Double click the form and enter:  
@@ -62,7 +70,10 @@ You will see 45 in the Title bar of the form. It will be able to detect the angl
   
 You can utilize this function to show your creativity to implement this function in many ways. We have a sample code zip file downloadable below. It is a graphical implementation of the function.  
   
-![](measure-angle-of-line/measure-line-angle.gif)  
+
+![](measure-angle-of-line/measure-line-angle.gif)
+
+  
   
   
   

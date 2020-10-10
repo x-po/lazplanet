@@ -10,14 +10,16 @@ tags:
   - png
   - Screen Graphics
   - Tutorials
-url: 68.html
-id: 68
+id: '66'
 categories:
-  - Uncategorized
-date: 2013-06-28 16:06:00
+  - - true
+date: 2013-06-28 22:06:00
 ---
 
-![](how-to-create-airbrush-tool-for-drawing/airbrush-thumb.jpg)You know [how to draw like a pencil](http://lazplanet.blogspot.com/2013/05/how-to-scribble-with-virtual-pencil.html) and [circles and rectangles and stuff](http://lazplanet.blogspot.com/2013/06/how-to-create-basic-paint-software.html). But how do you make an airbrush tool in Lazarus? Here's how...  
+![Airbrush tool in Lazarus IDE](how-to-create-airbrush-tool-for-drawing/airbrush-thumb.jpg "Airbrush tool in Lazarus IDE")
+
+You know [how to draw like a pencil](http://lazplanet.blogspot.com/2013/05/how-to-scribble-with-virtual-pencil.html) and [circles and rectangles and stuff](http://lazplanet.blogspot.com/2013/06/how-to-create-basic-paint-software.html). But how do you make an airbrush tool in Lazarus? Here's how...
+<!-- more -->
   
   
   
@@ -30,8 +32,23 @@ Well, first of all, airbrush has a soft, gradually blending transparent area. Se
   
 First, look at the image below to have a proper understanding of how airbrush tool works:  
   
-![](how-to-create-airbrush-tool-for-drawing/airbrush-works.jpg)  
-![](how-to-create-airbrush-tool-for-drawing/300px-Bresenham.svg.png)  
+
+![](how-to-create-airbrush-tool-for-drawing/airbrush-works.jpg)
+
+  
+
+  
+From the image above, we can see that, there is a brush image. The image gets repeated after certain intervals (displayed by circles). If the image gets repeated in more intervals, the airbrush tool will not work (as shown in the second image).  
+  
+Now, the question is how would we draw the brush instead of a line?  
+We know that Lazarus's Line() procedure can't draw a "airbrushy" line, so we need our own procedure to draw our kind of airbrushy line. A custom procedure would give us more freedom to draw whatever we like instead of plain lines.  
+  
+There are many line drawing algorithms. But [Bresenham's line algorithm](http://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm) is known to be mush simpler. As you can see in the image below, if you provide the algorithm of Bresenham, the two points, then it can calculate and draw the pixels needed to make a line.  
+  
+
+![Graphical representation of Bresenham's line algorithm](how-to-create-airbrush-tool-for-drawing/300px-Bresenham.svg.png "Graphical representation of Bresenham's line algorithm")
+
+  
   
 The basic version of the algorithm is given below in [pseudocode](http://en.wikipedia.org/wiki/Pseudocode). (If you don't understand it, then you can skip it):  
   
@@ -66,12 +83,18 @@ Create a new Application Project (Project-> New Project-> Application-> OK). Sav
   
 Now create the brush image as a png file. I have used Photoshop but you can use [Gimp](http://www.gimp.org/) too, which is free. I have created a new file, 20 by 20 pixels. Then chose a 21 size brush to draw a brush image.  
   
-![](how-to-create-airbrush-tool-for-drawing/airbrush-ps.jpg)  
+
+![Airbrush image made in Photoshop used in Lazarus](how-to-create-airbrush-tool-for-drawing/airbrush-ps.jpg "Airbrush image made in Photoshop used in Lazarus")
+
+  
   
 You can also use a gradient, but that may take bit of tweaking to make it perfect. You can also create bigger or smaller size image if you like.  
   
 You can download the image below if you can't reproduce it (right click it then choose Save image as):  
-![](how-to-create-airbrush-tool-for-drawing/brush.png)  
+
+![Brush image png](how-to-create-airbrush-tool-for-drawing/brush.png "Brush image png")
+
+  
 Save the image as "brush.png" in the same directory in the project that you saved earlier.  
   
   
@@ -212,7 +235,10 @@ end;
   
 Now run the project (F9 or Run-> Run).  
   
-![](how-to-create-airbrush-tool-for-drawing/airbrush-test-runtime.jpg)  
+
+![Airbrush tool in Lazarus IDE sample code](how-to-create-airbrush-tool-for-drawing/airbrush-test-runtime.jpg "Airbrush tool in Lazarus IDE sample code")
+
+  
 Drag you mouse to draw with airbrush mode. Right click and drag your mouse to draw with Paintbrush mode.  
   
 You can also [use BGRA Bitmap Library](http://wiki.freepascal.org/BGRABitmap_tutorial_5) to create the brush image in the memory by making a gradient. Then you can change the color and size of the brush by generating a gradient of according to the size and color chosen.  

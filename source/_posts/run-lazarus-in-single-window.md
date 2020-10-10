@@ -6,15 +6,16 @@ tags:
   - Interface
   - single window
   - Tutorials
-url: 118.html
-id: 118
+id: '116'
 categories:
-  - Uncategorized
-date: 2013-03-23 17:10:00
+  - - true
+date: 2013-03-23 23:10:00
 ---
 
-![](run-lazarus-in-single-window/single-window.gif)This tutorial shows you how to make lazarus run with just one window. It is a good docking solution which will be integrated in Lazarus in future, when it becomes stable.  
-  
+![](run-lazarus-in-single-window/single-window.gif)
+
+This tutorial shows you how to make lazarus run with just one window. It is a good docking solution which will be integrated in Lazarus in future, when it becomes stable.
+<!-- more -->
   
 Lazarus is a good piece of software. It can create cross platform applications, no sweat! It can also convert Delphi projects and help them run on Mac and Linux machines. But let's face it, it has windows running on over the screen. It is sometimes difficult to manage all the cluttered windows and do the actual coding. In this scenerio, you might choose to use single window interface. And the good news is, there is a way to turn those messy windows into a disciplined interface.  
   
@@ -36,7 +37,10 @@ Go here to download the package:
 [http://sourceforge.net/projects/kzdesktop/files/](http://sourceforge.net/projects/kzdesktop/files/)  
 or here for a direct link: [http://sourceforge.net/projects/kzdesktop/files/?source=navbar](http://sourceforge.net/projects/kzdesktop/files/?source=navbar)  
   
-![](run-lazarus-in-single-window/01.gif)Extract the downloaded package in C:lazaruscomponents (Assuming that you have [installed](http://lazplanet.blogspot.com/2013/03/how-to-install-lazarus.html) Lazarus in C:lazarus directory)  
+
+![](run-lazarus-in-single-window/01.gif)
+
+Extract the downloaded package in C:lazaruscomponents (Assuming that you have [installed](http://lazplanet.blogspot.com/2013/03/how-to-install-lazarus.html) Lazarus in C:lazarus directory)  
 
 ### 2.Prepare Lazarus
 
@@ -44,30 +48,76 @@ Start Lazarus.
   
 Then go to Package -> Open package file (.lpk)  
   
-![](run-lazarus-in-single-window/02.gif)Then Open the C:lazaruscomponentskzdesktop\_beta01kzdesktop\_ide.lpk  
-![](run-lazarus-in-single-window/03.gif)  
+
+![](run-lazarus-in-single-window/02.gif)
+
+Then Open the C:lazaruscomponentskzdesktop\_beta01kzdesktop\_ide.lpk  
+
+![](run-lazarus-in-single-window/03.gif)
+
+  
   
 Click compile. It will take some time to compile.  
-![](run-lazarus-in-single-window/04.gif)  
+
+![](run-lazarus-in-single-window/04.gif)
+
+  
   
 Click Use -> Install. Press yes on a messagebox that appears. It will rebuild the whole Lazarus IDE. It is very interesting as Lazarus will re-create Lazarus itself! After rebuilding, Lazarus will restart.  
-![](http://2.bp.blogspot.com/-F1UrTyTyaAM/UU89Wn_KADI/AAAAAAAAAXM/GkeJfIN7Y6E/s1600/05.gif)![](run-lazarus-in-single-window/06.gif)  
+
+![](run-lazarus-in-single-window/05.gif)
+
+![](run-lazarus-in-single-window/06.gif)
+
+  
 
 ### 3.Use KZDesktop
 
   
 Click **Tools -> KZ Desktop-Start**. Press OK.  
-![](http://2.bp.blogspot.com/-HP14Q6pm13o/UU8-5wY2ubI/AAAAAAAAAXc/Txsm8lIA3_o/s1600/07.gif)![](run-lazarus-in-single-window/08.gif)  
+
+![](run-lazarus-in-single-window/07.gif)
+
+![](run-lazarus-in-single-window/08.gif)
+
+  
   
 Then Click **File -> Restart** and voila! It is in single window!  
   
 Now look at your Lazarus with proud as it puts the windows, where they belong! ... In a single window!!  
   
-![](run-lazarus-in-single-window/09.gif)  
+
+![](run-lazarus-in-single-window/09.gif)
+
   
-![](run-lazarus-in-single-window/Lazar.gif)
+  
+
+![Lazarus running in a single window screenshot](run-lazarus-in-single-window/Lazar.gif "Lazarus running in a single window screenshot")
 
 ### Disabling KZDesktop
+
+If you have any problem with KZDesktop or just don't like it, then you can disable it.
+
+  
+
+Click Tools -> KZDesktop - Stop.
+
+Press OK.
+
+Click File -> Restart.  
+  
+
+### Anchor Docking Way...
+
+Anchor docking is available in your lazarus installation directory by default. So it is a more stable solution than kzDesktop. Simple instruction to install it:  
+1\. Double click c:lazaruscomponentsanchordockingdesignanchordockingdsgn.lpk  
+2\. It will start lazarus with an extra package window. Click Compile on it. After the compilation, click Use->Install.  
+3\. You will be prompted anchordocking package will be installed as well, click OK. Another message would ask would you like to rebuild Lazarus, click Yes.  
+  
+Lazarus will be restarted after the installation and you will see the windows docked. If you see any window undocked, then drag its titlebar and drop over the docked windows to dock it. Then Click Tools -> Save layout to save the layout. (Otherwise the layout will not be saved for the next time.)  
+  
+Here is a screenshot of the single window Lazarus made possible with Anchor Docking:  
+  
 
 ![](run-lazarus-in-single-window/lazarus.gif)
 

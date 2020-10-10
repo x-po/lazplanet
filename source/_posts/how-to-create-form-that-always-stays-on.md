@@ -6,14 +6,16 @@ tags:
   - Tutorials
   - Windows API
   - Windows Only
-url: 40.html
-id: 40
+id: '38'
 categories:
-  - Uncategorized
-date: 2014-08-25 10:27:00
+  - - true
+date: 2014-08-25 16:27:00
 ---
 
-![](how-to-create-form-that-always-stays-on/widgets2.jpg)Discover the path to cool widget programming. Learn how to show your form only on desktop and nowhere else. Great for Widgets and To-do apps.  
+![](how-to-create-form-that-always-stays-on/widgets2.jpg)
+
+Discover the path to cool widget programming. Learn how to show your form only on desktop and nowhere else. Great for Widgets and To-do apps.
+<!-- more -->
   
   
 Every developer wants to develop something fancy in his life. And what is more fancy than a desktop widget? Widgets are such a "Form" or "Window" which **always stays on bottom** or on the desktop and provides eyecandy or displays information (such as weather, calendar etc.) which is the exact opposite of [Always on Top](http://lazplanet.blogspot.com/2014/01/always-on-top-lazarus-form.html). It is also great for creating tiny desktop apps, such as a To-do list app. Or if you want to to something special, why not [create an analog clock widget](http://lazplanet.blogspot.com/2014/06/how-to-make-simple-analog-clock.html)?  
@@ -21,19 +23,19 @@ Every developer wants to develop something fancy in his life. And what is more f
 Here's some examples from 3 OS platforms to inspire you to create newer ideas:  
   
 
-[![Desktop widgets](https://4.bp.blogspot.com/-BS_mYWYrWdQ/U_sMvfoh8OI/AAAAAAAABpE/dtvkPHHTCoc/s1600/widgets1.jpg "Desktop widgets")](how-to-create-form-that-always-stays-on/widgets1.jpg)
+![Desktop widgets](how-to-create-form-that-always-stays-on/widgets1.jpg "Desktop widgets")
 
 Widgets on MacOSX Mountain Lion
 
   
 
-[![Desktop widgets on Windows](https://4.bp.blogspot.com/-Khmh-aJo5y0/U_sNh9vVRyI/AAAAAAAABpM/AIdXR1MbPpA/s1600/widgets2.jpg "Desktop widgets on Windows")](how-to-create-form-that-always-stays-on/widgets2.jpg)
+![Desktop widgets on Windows](how-to-create-form-that-always-stays-on/widgets2.jpg "Desktop widgets on Windows")
 
 Desktop Widgets on Windows
 
   
 
-[![KDE Desktop Widgets](https://3.bp.blogspot.com/-J52Hov5Ojio/U_sOeqpH23I/AAAAAAAABpY/McC2MksXHbU/s1600/widgets3.png "KDE Desktop Widgets")](how-to-create-form-that-always-stays-on/widgets3.png)
+![KDE Desktop Widgets](how-to-create-form-that-always-stays-on/widgets3.png "KDE Desktop Widgets")
 
 Desktop Widgets in KDE (Linux)
 

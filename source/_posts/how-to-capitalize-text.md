@@ -5,14 +5,16 @@ tags:
   - Sample Code
   - Text Operation
   - Tutorials
-url: 104.html
-id: 104
+id: '102'
 categories:
-  - Uncategorized
-date: 2013-04-13 18:28:00
+  - - true
+date: 2013-04-14 00:28:00
 ---
 
-![](how-to-capitalize-text/croppercapture2.jpg)We write the words in the middle of the sentence in lowercase letters. Capitalizing is sometimes necessary to emphasize things. Any text (or string) can be converted to uppercase (capitalize). Here's how...  
+![](how-to-capitalize-text/croppercapture2.jpg)
+
+We write the words in the middle of the sentence in lowercase letters. Capitalizing is sometimes necessary to emphasize things. Any text (or string) can be converted to uppercase (capitalize). Here's how...
+<!-- more -->
   
   
 
@@ -37,6 +39,7 @@ end;
 
 Press F9 (Run->Run). Enter some text in the memo and then click the button.  
   
+
 ![](how-to-capitalize-text/lazarus-lazarus-uppercase.gif)
 
 ### Concept

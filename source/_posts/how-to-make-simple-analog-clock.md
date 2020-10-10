@@ -10,14 +10,16 @@ tags:
   - Screen Graphics
   - time
   - Tutorials
-url: 44.html
-id: 44
+id: '42'
 categories:
-  - Uncategorized
-date: 2014-06-13 18:03:00
+  - - true
+date: 2014-06-14 00:03:00
 ---
 
-![](how-to-make-simple-analog-clock/analog-clock-project-thumb.gif)Digital clocks are cool. But Analog clocks are cooler... when you make them yourself! In this little article we are gonna create an analog clock!  
+![](how-to-make-simple-analog-clock/analog-clock-project-thumb.gif)
+
+Digital clocks are cool. But Analog clocks are cooler... when you make them yourself! In this little article we are gonna create an analog clock!
+<!-- more -->
   
 Although digital clocks are the trend these days, analog clocks also hold a very special place in our hearts. Many luxury brands are still selling analong clocks. (If you are interested about digital clocks, [see this previous tutorial on making a digital clock](http://lazplanet.blogspot.com/2013/12/create-digital-clock-that-talks.html).)  
   
@@ -27,7 +29,10 @@ We will draw the entire interface with code, so it should be super lightweight a
   
 Take a look at our final result.  
   
-![](how-to-make-simple-analog-clock/analog-clock-in-lazarus.gif)  
+
+![A cross platform analog clock project made with Lazarus (Free Pascal)](how-to-make-simple-analog-clock/analog-clock-in-lazarus.gif "A cross platform analog clock project made with Lazarus (Free Pascal)")
+
+  
   
 This clock is not written by me from scratch. Actually, I have translated it from [another java source code written by Abhishek Dubey](http://www.c-sharpcorner.com/UploadFile/433c33/creating-analog-clock-in-java/) and converted to Free Pascal to make it available for Lazarus. I am thankful to him for writing the code in simple words. ;)  
   
@@ -237,7 +242,10 @@ This is basically drawing the clockbg, our background for the clock. Then it cal
 Now hit F9 (or Run-> Run).  
 Hopefully you will see your new shiny analog clock on your screen.  
   
-![](how-to-make-simple-analog-clock/analog-clock-in-lazarus.gif)  
+
+![A cross platform analog clock project made with Lazarus (Free Pascal)](how-to-make-simple-analog-clock/analog-clock-in-lazarus.gif "A cross platform analog clock project made with Lazarus (Free Pascal)")
+
+  
 
 #### Things to try further
 

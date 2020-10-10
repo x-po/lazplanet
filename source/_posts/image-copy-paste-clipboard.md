@@ -10,14 +10,16 @@ tags:
   - Sample Code
   - Screen Graphics
   - System API
-url: 97.html
-id: 97
+id: '95'
 categories:
-  - Uncategorized
-date: 2013-05-05 12:10:00
+  - - true
+date: 2013-05-05 18:10:00
 ---
 
-![](image-copy-paste-clipboard/clipboard_icon.jpg)In paint programs, we see a function to copy an image to clipboard and paste it from there. Paste an image from anywhere, Photoshop, Firefox in your own program! Here's how...  
+![](image-copy-paste-clipboard/clipboard_icon.jpg)
+
+In paint programs, we see a function to copy an image to clipboard and paste it from there. Paste an image from anywhere, Photoshop, Firefox in your own program! Here's how...
+<!-- more -->
   
   
 Clipboard is a virtual space where content is stored when we cut or copy anything. I suppose you use cut, copy, paste menu items almost everyday, from browsers or word processors and even image editors like photoshop. When we copy (or cut) something, the content is stored in the clipboard which is a virtual space for such stuff. It can hold text, images, html and what not.  
@@ -162,7 +164,10 @@ You can also look [in this Lazarus wiki](http://wiki.lazarus.freepascal.org/Clip
   
 You can download a sample program from below which illustrates the above article practically.  
   
-![](image-copy-paste-clipboard/image-clipboard-copy-paste-.jpg)  
+
+![](image-copy-paste-clipboard/image-clipboard-copy-paste-.jpg)
+
+  
 You can open an image and use Copy-Paste buttons to test the program. You can also test it by Pressing Print Screen button on your keyboard then using the Paste button paste the screenshot. You can also copy image from MS Paint or Photoshop or GIMP to this program to test if the program works.  
   
 

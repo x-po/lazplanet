@@ -10,18 +10,63 @@ tags:
   - TRichMemo
   - Tutorials
   - word
-url: 57.html
-id: 57
+id: '55'
 categories:
-  - Uncategorized
-date: 2013-12-24 17:56:00
+  - - true
+date: 2013-12-24 23:56:00
 ---
 
-![](create-rich-text-editor-for-yourself/rich-editor-thumb.jpg)In this holiday, gift yourself a nice little word processor that you can use yourself! You can further develop it. It happily supports Unicode and lets you learn the use of Toolbar, RichMemo, ImageLists, File Save Management and more.  
-![](create-rich-text-editor-for-yourself/richmemo-components-dir.jpg)  
+![penguin, linux, word processor](create-rich-text-editor-for-yourself/rich-editor-thumb.jpg "penguin, linux, word processor")
+
+In this holiday, gift yourself a nice little word processor that you can use yourself! You can further develop it. It happily supports Unicode and lets you learn the use of Toolbar, RichMemo, ImageLists, File Save Management and more.
+<!-- more -->
+  
+
+  
+[**Plain text**](http://en.wikipedia.org/wiki/Plain_text) means any text which has no special styling or formatting. All the text from start to end is of same style. It's just plain simple text and nothing else. For example, you can create plain text in [Windows Notepad](http://en.wikipedia.org/wiki/Notepad_%28software%29), [Notepad++](http://notepad-plus-plus.org/), [GEdit](http://en.wikipedia.org/wiki/Gedit) etc.  
+  
+[**Rich text**](http://en.wikipedia.org/wiki/Rich_Text_Format) on the other hand has special formatting added to it behind the scenes. For example, if you create documents in [MS Word](http://en.wikipedia.org/wiki/Microsoft_Word) or [Libre Office](http://en.wikipedia.org/wiki/LibreOffice), you can add styles to it, like bold, underline etc. Under the hood those style information are saved with the text. So it is not only the text. There has to be some style saved with it. It has complex styling involved.  
+  
+Today, we are going to make a simple rich text editor. Think of it as a Christmas gift to yourself!  
+  
+Lazarus has a good [component for rich text editing](http://wiki.freepascal.org/RichMemo) -- [TRichMemo](http://wiki.freepascal.org/RichMemo). If you think of all the complexities of managing all the characters and their styles then let me assure you that it is easier than you think. Don't worry a bit, it is going to be a breeze making that rich text editor. Just keep following my _gifty_ words. ;)  
+  
+( Thanks to [Jørn Erik](http://www.blogger.com/profile/00527934400910886340) for [requesting](http://lazplanet.blogspot.com/2013/07/how-to-crop-image-and-save-to-file.html) a tutorial for RichMemo. )  
+  
+
+### Tutorial
+
+  
+
+#### Install RichMemo
+
+TRichMemo component doesn't come pre-installed with Lazarus. So first, download RichMemo component package.  
+  
+[The wiki](http://wiki.freepascal.org/RichMemo) has a direct download link. But for [this bug](http://bugs.freepascal.org/view.php?id=16758) **it is recommended to use the SVN** or Subversion ([Wikipedia](http://en.wikipedia.org/wiki/Apache_Subversion)). I have also used the SVN version. But if you are afraid to use SVN you can use [my copy which is RichMemo 3400 revision](https://www.dropbox.com/s/fn0ji6ec32bqexp/richmemo-revision-3400.zip?dl=1).  
+  
+For SVN, the URL is:  
+https://lazarus-ccr.svn.sourceforge.net/svnroot/lazarus-ccr/components/richmemo  
+  
+
+> \[ If you want to use the svn version, install [Subversion for windows](http://sourceforge.net/projects/win32svn/files/latest/download), then cd to a directory that you want to download. Such as:  
+> **cd /D C:lazaruscomponents**  
+> After that run:  
+> **svn co https://lazarus-ccr.svn.sourceforge.net/svnroot/lazarus-ccr/components/richmemo richmemo**  
+> The above command will save the package in richmemo folder in the components folder of Lazarus. So you won't have to manually copy it. Cool! Just check if the Lazarus installation directory is ok in the cd command. \]
+
+  
+Now copy the directory to **C:lazaruscomponents** (if you used the direct link option).  
+  
+
+![The richmemo component directory](create-rich-text-editor-for-yourself/richmemo-components-dir.jpg "The richmemo component directory")
+
+  
 Now enter into the directory and double click **richmemopackage.lpk** file. [Lazarus](http://www.lazarus.freepascal.org/) will open with an extra window having the title package name.  
   
-![](create-rich-text-editor-for-yourself/package-window-richmemo.gif)  
+
+![RichMemoPackage package window](create-rich-text-editor-for-yourself/package-window-richmemo.gif "RichMemoPackage package window")
+
+  
   
 Now click **Compile**. After the compiling is completed, you will see a message in the Messages window. Then click **Use** -> **Install**. A message will appear that if we want to rebuild Lazarus. Click **Yes**.  
   
@@ -38,26 +83,44 @@ Now the toolbar. Draw a **TToolBar** on the form (from Common Controls tab). Res
   
 Here is our form so far:  
   
-![](create-rich-text-editor-for-yourself/1.basic-layout-with-toolbar-richmemo.gif)  
+
+![Basic components in the form](create-rich-text-editor-for-yourself/1.basic-layout-with-toolbar-richmemo.gif "Basic components in the form")
+
+  
   
 We'll now add items to the toolbar. Right click the **Toolbar1** component then select **New Button**.  
   
-![](create-rich-text-editor-for-yourself/2.right-click-toolbar-new-button.gif)  
+
+![How to create a Toolbar button](create-rich-text-editor-for-yourself/2.right-click-toolbar-new-button.gif "How to create a Toolbar button")
+
+  
 You will notice that a new TToolButton appearing on the **Object Inspector**.  
   
-![](create-rich-text-editor-for-yourself/3.toolbar-button-object-inspector.gif)  
+
+![Toolbar button created on the Object Inspector](create-rich-text-editor-for-yourself/3.toolbar-button-object-inspector.gif "Toolbar button created on the Object Inspector")
+
+  
 The Ttoolbar and TToolButton is two separate object. You will see a little area at the top left corner of TToolbar.  
   
-![](create-rich-text-editor-for-yourself/4.ttoolbutton-created-on-toolbar.gif)  
+
+![Toolbar button selected](create-rich-text-editor-for-yourself/4.ttoolbutton-created-on-toolbar.gif "Toolbar button selected")
+
+  
 If you click on it you can select the toolbar button. On the other hand you can click on the sunk area to select the TToolbar object. To make the buttons more visible to us, go ahead and select the TToolbar object. Then set its **ShowCaptions** property to **True**. Now you can easily see the toolbar buttons' **Caption**s.  
   
-![](create-rich-text-editor-for-yourself/5.ttoolbutton-after-showcaptions.gif)  
+
+![Toolbar button after setting ShowCaption to True](create-rich-text-editor-for-yourself/5.ttoolbutton-after-showcaptions.gif "Toolbar button after setting ShowCaption to True")
+
+  
 
 #### Prepping the Image List
 
 We will now prepare our Image list. Yes, the little component that will keep our toolbar icons. **Right click** it and select **ImageList Editor**... (or you can **double click** it as well).  
   
-![](create-rich-text-editor-for-yourself/6.ImageList-editor-right-click.gif)  
+
+![How to open the Image list editor](create-rich-text-editor-for-yourself/6.ImageList-editor-right-click.gif "How to open the Image list editor")
+
+  
   
 Now add the images for the toolbar in the following manner. I have used [FamFamFam.com Slik Icons](http://www.famfamfam.com/lab/icons/silk/). You can also download it. So here are the indexes and the file names for icons:  
   
@@ -70,7 +133,10 @@ Now add the images for the toolbar in the following manner. I have used [FamFamF
   
 Your ImageList Editor dialog should look like this:  
   
-![](create-rich-text-editor-for-yourself/7.ImageList-editor.gif)  
+
+![Toolbar icons in the Image List editor](create-rich-text-editor-for-yourself/7.ImageList-editor.gif "Toolbar icons in the Image List editor")
+
+  
 Now select the **Toolbar1** component and set its **Images** property as **ImageList1**. This will let us set images from the ImageList through the index of the icons. You will get it in a moment.  
   
   
@@ -114,18 +180,30 @@ New CheckButton creates a TToolButton but sets its Style as tbsCheck. You can cr
   
 **8.** Now we have to create a Font selector combobox. Since TCombobox cannot be created with right clicking toolbar, we will create it manually. And we will also include with it a Label saying "Font:". We can nicely blanket the label and the combobox in a Panel so that we can keep some space. If we create those two without the panel, there can be no space between components. Also, when you will resize the form and the toolbar buttons has to be shown in two or more lines, the whole Panel would stay together:  
   
-![](create-rich-text-editor-for-yourself/toolbar-font-list-resize-scenario.gif)  
+
+![The whole Font and Font size panel stays together even on resize](create-rich-text-editor-for-yourself/toolbar-font-list-resize-scenario.gif "The whole Font and Font size panel stays together even on resize")
+
+  
   
 So, first create a **TPanel** inside the Toolbar (when drawing it, **start drawing from inside the toolbar** are to create the panel as a child of the toolbar.) Its height will be automatically set to ButtonHeight of the toolbar.  
   
-![](create-rich-text-editor-for-yourself/8.toolbar-font-list-panel.gif)  
+
+![Panel for Font List](create-rich-text-editor-for-yourself/8.toolbar-font-list-panel.gif "Panel for Font List")
+
+  
   
 **Empty its caption**. Create a **TLabel** inside it and set its **Caption to "Font:"**.  
   
-![](create-rich-text-editor-for-yourself/9.font-list-label.gif)  
+
+![A label created on the panel](create-rich-text-editor-for-yourself/9.font-list-label.gif "A label created on the panel")
+
+  
 Now create a **TComboBox** inside it. Set its Name as **cboFont**. Now you will see that you can freely keep space between these two and you can even center them vertically, which would've been impossible without the Panel. Keep the combobox the way it is. We are going to load the fonts with the help code, later.  
   
-![](create-rich-text-editor-for-yourself/10.font-list-combo-added.gif)  
+
+![A combobox for Font list created on the panel](create-rich-text-editor-for-yourself/10.font-list-combo-added.gif "A combobox for Font list created on the panel")
+
+  
   
 Oh! and set the **BevelOuter** to **bvNone** of the **Panel** to get rid of the border.  
   
@@ -141,7 +219,10 @@ Oh! and set the **BevelOuter** to **bvNone** of the **Panel** to get rid of the 
 36  
 72  
   
-![](create-rich-text-editor-for-yourself/11.font-size-combo-in-panel.gif)  
+
+![Font size panel inside the Toolbar](create-rich-text-editor-for-yourself/11.font-size-combo-in-panel.gif "Font size panel inside the Toolbar")
+
+  
 You can optionally set its **ItemIndex** as 1, just as a default value.  
   
 Yaaay! The Toolbar is finished! It was the greatest complexities of this project! Now you are ready to face the rest of the project with a shine in your eyes.  
@@ -153,7 +234,10 @@ Now for giving it more professional look, draw a TStatusBar on the form (from Co
   
 Go ahead and test it (Run->Run or F9).  
   
-![](create-rich-text-editor-for-yourself/12.first-run-rich-text-editor.gif)  
+
+![First run of the rich text editor project](create-rich-text-editor-for-yourself/12.first-run-rich-text-editor.gif "First run of the rich text editor project")
+
+  
 It certainly _looks_ good but its not functional. So let's get cookin'!  
   
 
@@ -190,7 +274,7 @@ end;
   
   
 Now to Open button. For a open dialog to show up we need TOpenDialog. Create one (from the Dialogs tab). Set its DefaultExt to .rtf and Filter as:  
-RTF Files (\*.rtf)|\*.rtf  
+RTF Files (\*.rtf)\*.rtf  
   
 Now double click **btnOpen** and enter:  
   
@@ -217,7 +301,7 @@ end;
 (I have copied the above code from the accompanying sample project of RichMemo package. B-) )  
   
 For the Save button, create a **TSaveDialog** (from Dialogs tab). Set its **DefaultExt** to **.rtf**, and **Filter** to:  
-RTF Files (\*.rtf)|\*.rtf  
+RTF Files (\*.rtf)\*.rtf  
   
 Double click **btnSave** and enter:  
 procedure TForm1.btnSaveClick(Sender: TObject);  
@@ -394,7 +478,10 @@ Optionally, you can add some menus if you like to give it more professional look
   
 Now Run it (F9 or Run->Run).  
   
-![](create-rich-text-editor-for-yourself/14.rtf-editor-1.gif)  
+
+![The Word processor made with Lazarus / Free Pascal](create-rich-text-editor-for-yourself/14.rtf-editor-1.gif "The Word processor made with Lazarus / Free Pascal")
+
+  
   
   
   
@@ -403,7 +490,10 @@ Now Run it (F9 or Run->Run).
   
 Type in, open documents and test it.  
   
-![](create-rich-text-editor-for-yourself/15.rtf-editor-2.gif)  
+
+![Word processor in Lazarus screenshot](create-rich-text-editor-for-yourself/15.rtf-editor-2.gif "Word processor in Lazarus screenshot")
+
+  
   
 There you have it! Your very own Christmas Gift! :-)  
   

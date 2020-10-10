@@ -7,17 +7,16 @@ tags:
   - cross
   - Linux
   - Windows
-url: 8.html
-id: 8
+id: '6'
 categories:
-  - Uncategorized
-date: 2020-05-12 17:29:00
+  - - true
+date: 2020-05-12 23:29:00
 ---
 
-[![](cross-compile-on-lazarus/lazarus-cross-compile-postthumb.png)](cross-compile-on-lazarus/lazarus-cross-compile-postthumb.png)
+![](cross-compile-on-lazarus/lazarus-cross-compile-postthumb.png)
 
-It's alive! It's working! We're compiling for other OSs that we don't have... easily!  
-  
+It's alive! It's working! We're compiling for other OSs that we don't have... easily!
+<!-- more -->
   
 How many times have you thought of providing your software for a platform and was planning on running that OS just to create executables for it? I don't know about you, but it recently struck my mind, when I was attaching binaries to one of the [LazPlanet example](https://gitlab.com/lazplanet/lua-inside-fpc) [releases](https://gitlab.com/lazplanet/lua-inside-fpc/-/releases) on GitLab.  
   
@@ -27,8 +26,7 @@ I use Linux most of the times and reduced the use of Windows as much as I can.
   
 I was thinking if I could build EXEs for Windows users, without going to a Windows machine. And it turns out it was possible! Through Cross Compilation!  
 
-What is cross compiling and why is it important?
-------------------------------------------------
+## What is cross compiling and why is it important?
 
 Simply put, cross compile lets us to create executables for a platform that we are not currently running.  
   
@@ -41,8 +39,7 @@ You also get to streamline your development within a single platform, without ev
   
 In this article we'll learn how to cross compile in Windows and Linux. Mac is a bit limiting for cross compilation. We can't compile for Mac unless we have a Mac machine. I don't have a Mac, so skipping Mac altogether. But if you're interested on Mac, [try the wiki](https://wiki.lazarus.freepascal.org/Cross_compiling). There are loads of examples on how to do things.  
 
-What's up with 32bit and 64bit?
--------------------------------
+## What's up with 32bit and 64bit?
 
 Some basic terminologies:  
 
@@ -61,15 +58,13 @@ Remember that 64bit is a later architecture and 64bit operating systems can run 
 Another reason would be to avoid pushing [planned obsolescence](https://en.wikipedia.org/wiki/Planned_obsolescence) to the users who use our software. I think it's a nice idea that we should try to use our computers as long as possible or if that's not possible, pass it to who needs it. There are lots of people who need a computer but can't afford it. The world is filled with computer garbage already, so we should not try to make this worse.  
   
 
-Video
------
+## Video
 
 Find the steps of this article in the [video](https://youtu.be/7cQw8M3QwuQ) below:  
   
   
 
-From Win64 to Win32
--------------------
+## From Win64 to Win32
 
 This is if you have Lazarus 64 bit installation and want to build for Win32:  
 
@@ -85,8 +80,7 @@ This is if you have Lazarus 64 bit installation and want to build for Win32:
 *   Go to **Project Options - Compiler Options - Config and Target** and set: Target OS (-T) to Win32 Target CPU family (-P) to i386
 *   Go to **Tools - Options - Environment** then set **Compiler executable** from default `C:lazarusfpc3.0.4binx86_64-win64fpc.exe` to `$(LazarusDir)fpc$(FPCVer)bin$(TargetCPU)-$(TargetOS)fpc.exe`
 
-From Win32 to Win64
--------------------
+## From Win32 to Win64
 
 This is if you have Lazarus 32 bit installation and want to build for Win64:  
 
@@ -95,8 +89,7 @@ This is if you have Lazarus 32 bit installation and want to build for Win64:
 *   Go to **Project Options - Compiler Options - Config and Target** and set: Target OS (-T) to Win64 Target CPU family (-P) to x86\_64
 *   Go to **Tools - Options - Environment** then make sure **Compiler executable** is set to `C:lazarusfpc3.0.4bini386-Win32fpc.exe`
 
-Use Build modes for more peace of mind
---------------------------------------
+## Use Build modes for more peace of mind
 
 Think about your software. You wrote an awesome piece of software, and you want your friends with Windows, both 32bit and 64bit, use them. You can surely change those settings everytime and hit build. But changing the settings and building 4 times is a nasty time-killer. Let's get it automated.  
   
@@ -127,8 +120,7 @@ To simplify the instructions above I have skipped Debug build modes. But it is d
   
 Wanna learn a neat trick? To easily determine if an executable file is 32bit or 64bit, you can open it in [7-zip](https://7-zip.org/) and click **Info** button on the toolbar. It should show the `CPU` value as either `x86` or `x64`.  
 
-Cross Compiling from Ubuntu / Linux to Windows
-----------------------------------------------
+## Cross Compiling from Ubuntu / Linux to Windows
 
 We would be compiling the cross compiler, so we'd need `make` installed. Don't worry, compiling won't be something difficult. It is just a matter of running a command, that's it. On Ubuntu/Debian you can run `sudo apt install make`, on Arch Linux you can run `sudo pacman -S make` on Terminal to install it. For other distros, consult your distro documentation.  
   
@@ -141,7 +133,7 @@ The fpcsrc path may be something like `/usr/lib/fpc/src/` or `/usr/share/fpcs
 export FPCVER=\`fpc -iV\`  
 \# Navigate to the fpc source folder.  
 \# One of them will fail, but this is normal. If it changes into a directory, you're fine.  
-cd /usr/lib/fpc/src/ || cd /usr/share/fpcsrc/$FPCVER  
+cd /usr/lib/fpc/src/  cd /usr/share/fpcsrc/$FPCVER  
   
 \# Compile the cross-compiler for win32.  
 sudo make clean all OS\_TARGET=win32 CPU\_TARGET=i386  
@@ -157,7 +149,7 @@ sudo ln -sf /usr/lib/fpc/$FPCVER/ppcross386 /usr/bin/ppcross386
 \# You can do the same using Windows 64 bit as target.  
 export FPCVER=\`fpc -iV\`
 
-cd /usr/lib/fpc/src/ || cd /usr/share/fpcsrc/$FPCVER
+cd /usr/lib/fpc/src/  cd /usr/share/fpcsrc/$FPCVER
 
 sudo make clean all OS\_TARGET=win64 CPU\_TARGET=x86\_64 sudo make crossinstall OS\_TARGET=win64 CPU\_TARGET=x86\_64 INSTALL\_PREFIX=/usr sudo ln -sf /usr/lib/fpc/$FPCVER/ppcrossx64 /usr/bin/ppcrossx64 
 
@@ -209,7 +201,7 @@ If you want to check in a moment what it would look like on Windows, you can ins
   
 To easily determine if an executable is 32bit or 64bit on Linux, run `file /path/to/executable` and it should show something like `...PE32+ executable (GUI) x86-64..`. or `...PE32 executable (GUI) Intel 80386...` depending on the architecture.  
   
-[Download project source files](https://gitlab.com/lazplanet/cross-compile/-/releases) | [Browser source code](https://gitlab.com/lazplanet/cross-compile)  
+[Download project source files](https://gitlab.com/lazplanet/cross-compile/-/releases)  [Browser source code](https://gitlab.com/lazplanet/cross-compile)  
   
 **Ref:**  
 

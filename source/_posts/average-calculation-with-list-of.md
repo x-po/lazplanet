@@ -6,14 +6,16 @@ tags:
   - List Iteration
   - Math Dates
   - Tutorials
-url: 92.html
-id: 92
+id: '90'
 categories:
-  - Uncategorized
-date: 2013-05-10 12:02:00
+  - - true
+date: 2013-05-10 18:02:00
 ---
 
-![](average-calculation-with-list-of/average-thumb.gif)Average calculation is a easy formula to practice your programing skills. We have seen a [CLI average calculator program](http://lazplanet.blogspot.com/2013/05/calculate-average-of-unlimited-numbers.html) of unlimited numbers, now its time for a GUI project.  
+![](average-calculation-with-list-of/average-thumb.gif)
+
+Average calculation is a easy formula to practice your programing skills. We have seen a [CLI average calculator program](http://lazplanet.blogspot.com/2013/05/calculate-average-of-unlimited-numbers.html) of unlimited numbers, now its time for a GUI project.
+<!-- more -->
   
   
 Yesterday you have seen a [Free Pascal](http://www.freepascal.org/) [sample code for calculating average of unlimited numbers](http://lazplanet.blogspot.com/2013/05/calculate-average-of-unlimited-numbers.html) using Lazarus. We have used a while do loop to calculate the final result. It is much more easier to create such a program in GUI ([Graphical User Interface](http://en.wikipedia.org/wiki/Graphical_user_interface)).  
@@ -23,7 +25,10 @@ Yesterday you have seen a [Free Pascal](http://www.freepascal.org/) [sample code
 
 In our little program we will have a EditBox. The user will type in the numbers and press enter. After pressing enter, the number will be automatically added to the list and the average will be calculated automatically.  
   
-![](average-calculation-with-list-of/average-in-list-form.gif)  
+
+![](average-calculation-with-list-of/average-in-list-form.gif)
+
+  
 We will need the basics of list management- [adding item to list](http://lazplanet.blogspot.com/2013/05/how-to-add-delete-clear-items-of-listbox.html) (because we will add the input numbers to a ListBox) and [the basics of average calculation](http://lazplanet.blogspot.com/2013/05/calculate-average-of-unlimited-numbers.html). And for enhancing the program we also add a Remove from list button \[ - \] and a Clear button for clearing the list and starting new calculation.  
   
 
@@ -165,7 +170,10 @@ end;
   
 Now Run the program (F9 or Run->Run).  
   
-![](average-calculation-with-list-of/Average-in-list-lazarus.gif)  
+
+![](average-calculation-with-list-of/Average-in-list-lazarus.gif)
+
+  
   
 Now input numbers and press enter. You will see the average of the numbers in the lblAverage.  
   

@@ -6,14 +6,16 @@ tags:
   - HTML Web
   - online
   - Tutorials
-url: 54.html
-id: 54
+id: '52'
 categories:
-  - Uncategorized
-date: 2014-02-13 12:06:00
+  - - true
+date: 2014-02-13 18:06:00
 ---
 
-![](run-free-pascal-programs-online/fpc-compiler-online.jpg)Today we explore a painless online solution for running your Free Pascal programs online, without installing and configuring a compiler yourself! Neat!  
+![](run-free-pascal-programs-online/fpc-compiler-online.jpg)
+
+Today we explore a painless online solution for running your Free Pascal programs online, without installing and configuring a compiler yourself! Neat!
+<!-- more -->
   
   
 
@@ -22,7 +24,10 @@ date: 2014-02-13 12:06:00
   
 Very often we are at a public PC where we don't have a [compiler](http://en.wikipedia.org/wiki/Compiler) installed. And may be your friend is asking to test a bit of code that he wants you to debug. Installing a compiler may not be an option at times. That's when an online compiler comes in handy. Presenting [IdeOne.com](http://ideone.com/).  
   
-![](run-free-pascal-programs-online/ideone-online-compiler-for-fpc.gif)  
+
+![](run-free-pascal-programs-online/ideone-online-compiler-for-fpc.gif)
+
+  
   
 With this website you can **compile your code online without the need of any special hardware resources and without a compiler** in your computer. With an online compiler you can compile your Free Pascal code from **any platform/OS** in any location of the world, wherever you can run a web browser. You can even run your code from a mobile device, an **iPhone** or an **Android** device and what not -- the sky is the limit.  
   
@@ -51,10 +56,16 @@ First, go to [http://www.ideone.com](http://www.ideone.com/)
   
 Now you will see a text area showing up for entering code. It is set as Java by default. We will change it to Free Pascal. Click on the Choose Language dropdown menu and select Pascal (fpc).  
   
-![](run-free-pascal-programs-online/how-to-run-free-pascal-online-1.gif)  
+
+![](run-free-pascal-programs-online/how-to-run-free-pascal-online-1.gif)
+
+  
 You can now see a template for free pascal in the text box.  
   
-![](run-free-pascal-programs-online/how-to-run-free-pascal-online-2.gif)  
+
+![](run-free-pascal-programs-online/how-to-run-free-pascal-online-2.gif)
+
+  
 Now copy the code from the [Add 2 numbers](http://lazplanet.blogspot.com/2013/03/how-to-add-two-numbers.html) article, or the code below:  
   
 
@@ -85,16 +96,28 @@ In this situation, we could run the code straight away. But it couldn't add the 
   
 So, we open the StdIn input box through the button.  
   
-![](run-free-pascal-programs-online/how-to-run-free-pascal-online-3.gif)  
+
+![](run-free-pascal-programs-online/how-to-run-free-pascal-online-3.gif)
+
+  
 Now we have an input box for writing inputs. Go through the code and find ReadLn (or Read) lines. Done? Now check what the first ReadLn wants. See the previous line, it says- "Enter the first number:". So enter a number in the first line of stdin. For example, 10  
   
-![](run-free-pascal-programs-online/how-to-run-free-pascal-online-4.gif)  
+
+![](run-free-pascal-programs-online/how-to-run-free-pascal-online-4.gif)
+
+  
 Now go to the next ReadLn in the above code. The WriteLn before the line says- "Enter the second number:". So you enter another number in the stdin field. For example, 5  
   
-![](run-free-pascal-programs-online/how-to-run-free-pascal-online-5.gif)  
+
+![](run-free-pascal-programs-online/how-to-run-free-pascal-online-5.gif)
+
+  
 You can set the visibility of the code with these buttons:  
   
-![](run-free-pascal-programs-online/how-to-run-free-pascal-online-6.gif)  
+
+![](run-free-pascal-programs-online/how-to-run-free-pascal-online-6.gif)
+
+  
 According to the [FAQ](http://ideone.com/faq) of ideone.com:  
 
 > Visibility determines how the program is visible on ideone.com and who can access it. Possible values are:  
@@ -107,7 +130,10 @@ As you can see, you have greater option for customizing the visibility of your p
   
 Now, click on the "Run" button (or alternatively you can press Ctrl+E). Eventually, in a few seconds, you will see your code being executed.  
   
-![](run-free-pascal-programs-online/how-to-run-free-pascal-online-8.gif)  
+
+![](run-free-pascal-programs-online/how-to-run-free-pascal-online-8.gif)
+
+  
 See the output shown with a red arrow in the above image.  
   
 I have made the code public. [Click here to see it in action!](http://ideone.com/04UpJs)  

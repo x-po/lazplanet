@@ -10,16 +10,16 @@ tags:
   - Tutorials
   - video
   - vlc
-url: 19.html
-id: 19
+id: '17'
 categories:
-  - Uncategorized
-date: 2018-01-27 20:49:00
+  - - true
+date: 2018-01-28 02:49:00
 ---
 
-[![](how-to-make-simple-video-player-in/vlc_video_player_thumb.png)](how-to-make-simple-video-player-in/vlc_video_player_thumb.png)
+![](how-to-make-simple-video-player-in/vlc_video_player_thumb.png)
 
-We like to watch videos. How about playing videos on our own player? In this article, we are going to create a fun, simple video player.  
+We like to watch videos. How about playing videos on our own player? In this article, we are going to create a fun, simple video player.
+<!-- more -->
   
 Video players always fascinate me. I used to code with my brother to create many kinds of video players. We had fun creating them. We used Visual Basic 6 back then, because it was popular back then and easy to learn. We got to design our video players how we want them and used to implement creative features that we thought was cool. Such as, video players that change color, had custom themes, ID3 tagging, audio visualizers etc. Fun times!  
   
@@ -59,7 +59,7 @@ After restart, you should see a new tab in the top toolbar named **PasLibVlc**.
 You can find very useful examples on "C:lazaruscomponentsPasLibVlcFreePascal". To try something basic, I would recommend "DemoPasLibVlc" for checking out basic playback. Just double click "DemoPasLibVlc.lpi" and Run - Run (or F9).  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/01/Demo-1-300x229.png)](how-to-make-simple-video-player-in/Demo-1.png)
+![](how-to-make-simple-video-player-in/Demo-1.png)
 
   
 Open a file and it should play. You will notice that it is slow and not responsive. To solve this, you can run the "DemoPasLibVlc.exe" outside Lazarus, from the project directory and it should run fine.  
@@ -77,26 +77,26 @@ Create a new Application Project (Project->New Project->Application->OK).
 Resize the form a bit to make some room. Click on **PasLibVlc** tab on toolbar and draw a **TPasLibVlcPlayer** on the form. It will be named **PasLibVlcPlayer1** by default. What a mouthfull! Change its Name property to **vlcPlayer**.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/01/paslibvlc-01-300x206.png)](how-to-make-simple-video-player-in/paslibvlc-01.png)
+![](how-to-make-simple-video-player-in/paslibvlc-01.png)
 
   
   
 Set its **akBottom**, **akRight** Anchors to **True**.  
   
 
-[![](how-to-make-simple-video-player-in/paslibvlc-02.png)](how-to-make-simple-video-player-in/paslibvlc-02.png)
+![](how-to-make-simple-video-player-in/paslibvlc-02.png)
 
   
 Switch to **General** tab. Draw a **TPanel**. Position it at the bottom. This will have our buttons and controls.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/01/paslibvlc-03-300x206.png)](how-to-make-simple-video-player-in/paslibvlc-03.png)
+![](how-to-make-simple-video-player-in/paslibvlc-03.png)
 
   
 Set all the **Anchors** to **True** except **akTop**.  
   
 
-[![](how-to-make-simple-video-player-in/paslibvlc-04.png)](how-to-make-simple-video-player-in/paslibvlc-04.png)
+![](how-to-make-simple-video-player-in/paslibvlc-04.png)
 
   
 Empty its **Caption** and set **BevelOuter** to **bvNone**.  
@@ -105,13 +105,13 @@ Go to **Additional** tab on toolbar. Draw a **TBitBtn**. You can also use TButto
 Create **TBitBtns** for **btnPlay**, **btnPause**, **btnOpen**, **btnOpenURL**. Give them appropriate **Caption** and set their icons with **Glyph** property.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/01/paslibvlc-05-300x200.png)](how-to-make-simple-video-player-in/paslibvlc-05.png)
+![](how-to-make-simple-video-player-in/paslibvlc-05.png)
 
   
 Go to **Common Controls** tab, and Draw 2 **TTrackBars** on the form, big one for position and smaller one for volume.  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/01/paslibvlc-06-300x200.png)](how-to-make-simple-video-player-in/paslibvlc-06.png)
+![](how-to-make-simple-video-player-in/paslibvlc-06.png)
 
   
 Name the bigger one **trkPosition** and smaller one **trkVolume**. Set **Max** for trkVolume to 200, **Min** to 1 and **Position** to 100. Set **TickStyle** for both of them to **tsNone**.  
@@ -125,7 +125,7 @@ Oh! I almost forgot. Go to **Dialogs** tab and place a **TOpenDialog** on the fo
 Now your form should look something like this:  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/01/paslibvlc-07-300x200.png)](how-to-make-simple-video-player-in/paslibvlc-07.png)
+![](how-to-make-simple-video-player-in/paslibvlc-07.png)
 
   
 Now, there is a draw issue when the form is maximized and restored again. So right click the **vlcPlayer** component and Choose **Z-Order - Move to Front**.  
@@ -240,13 +240,13 @@ end;
 And... you are done! Now hit Run - Run (or press F9).  
   
 
-[![Video Player made in Lazarus with PasLibVLC (preview)](http://localhost/wp-lazplanet/wp-content/uploads/2018/01/lazplanet-video-player-lazarus-1-300x200.png "Video Player made in Lazarus with PasLibVLC (preview)")](how-to-make-simple-video-player-in/lazplanet-video-player-lazarus-1.png)
+![Video Player made in Lazarus with PasLibVLC (preview)](how-to-make-simple-video-player-in/lazplanet-video-player-lazarus-1.png "Video Player made in Lazarus with PasLibVLC (preview)")
 
   
 You can hit Open to open a media from your hard disk, or click Open URL button to open any stream URL to play in the player. For example, click Open URL and enter **https://www.youtube.com/watch?v=YE7VzlLtp-4** and it should play it for you! Awesome!  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2018/01/lazplanet-video-player-lazarus-2-300x200.png)](how-to-make-simple-video-player-in/lazplanet-video-player-lazarus-2.png)
+![](how-to-make-simple-video-player-in/lazplanet-video-player-lazarus-2.png)
 
   
 You can do all sorts of stuff with it. You can also research on the player component. This is just a basic for this component. There are lots of other useful features. Maybe it can simplify your daily tasks somehow, who knows!  

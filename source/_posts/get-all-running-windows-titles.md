@@ -5,14 +5,16 @@ tags:
   - Sample Code
   - System API
   - Tutorials
-url: 106.html
-id: 106
+id: '104'
 categories:
-  - Uncategorized
-date: 2013-04-09 04:42:00
+  - - true
+date: 2013-04-09 10:42:00
 ---
 
-![](get-all-running-windows-titles/tooManyWindows2.jpg)With this simple little code you can list the windows/software that are running. You can identify if some specific software is running or do some magic tricks with Windows API. It is up to you...  
+![](get-all-running-windows-titles/tooManyWindows2.jpg)
+
+With this simple little code you can list the windows/software that are running. You can identify if some specific software is running or do some magic tricks with Windows API. It is up to you...
+<!-- more -->
   
   
 
@@ -73,7 +75,10 @@ Do additional changes to beautify your form.
 
 Press F9 or Run->Run. The program will compile and run. Click the button. You will see a bunch of programs' titles that are currently running. Click the button again to get an updated list. (You may also implement a timer.)  
   
-![](get-all-running-windows-titles/get-running-windows-lazarus.gif)  
+
+![Get all the windows' titles with Lazarus+FreePascal](get-all-running-windows-titles/get-running-windows-lazarus.gif "Get all the windows' titles with Lazarus+FreePascal")
+
+  
 
 ### Concept
 

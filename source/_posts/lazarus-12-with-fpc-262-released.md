@@ -5,14 +5,16 @@ tags:
   - latest
   - News
   - version
-url: 49.html
-id: 49
+id: '47'
 categories:
-  - Uncategorized
-date: 2014-03-05 12:33:00
+  - - true
+date: 2014-03-05 18:33:00
 ---
 
-![](lazarus-12-with-fpc-262-released/Lazarus-Logo.png)The long awaited stable version Lazarus 1.2 has been released yesterday. It has FPC 2.6.2 like its previous versions. It has huge number of improvements. Plus, it can have multiple installations in Windows.  
+![](lazarus-12-with-fpc-262-released/Lazarus-Logo.png)
+
+The long awaited stable version Lazarus 1.2 has been released yesterday. It has FPC 2.6.2 like its previous versions. It has huge number of improvements. Plus, it can have multiple installations in Windows.
+<!-- more -->
   
   
 Lazarus is getting bug-free everyday. Here is another stable release of Lazarus - version 1.2. It has many new features and bug fixes. On top of that it supports 2 installations in Windows machines.  

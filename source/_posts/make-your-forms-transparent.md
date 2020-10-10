@@ -5,15 +5,16 @@ tags:
   - Form Controls
   - Sample Code
   - Tutorials
-url: 105.html
-id: 105
+id: '103'
 categories:
-  - Uncategorized
-date: 2013-04-11 23:06:00
+  - - true
+date: 2013-04-12 05:06:00
 ---
 
-![](make-your-forms-transparent/lazarus-form-transparency-2.gif)Forms are boring solid objects. But you can make it fun in many ways. One of them is transparency. Here's how...  
-  
+![](make-your-forms-transparent/lazarus-form-transparency-2.gif)
+
+Forms are boring solid objects. But you can make it fun in many ways. One of them is transparency. Here's how...
+<!-- more -->
   
   
 
@@ -98,7 +99,10 @@ end;
 
 Did you entered them correctly? Let's test it out. Press F9 (Run->Run).  
   
-![](make-your-forms-transparent/lazarus-form-transparency.gif)  
+
+![Look-through Transparent form based on color](make-your-forms-transparent/lazarus-form-transparency.gif "Look-through Transparent form based on color")
+
+  
 Are you satisfied? Your form is look-through.  
   
 The above code uses windows unit and Windows API so it is not cross platform.  

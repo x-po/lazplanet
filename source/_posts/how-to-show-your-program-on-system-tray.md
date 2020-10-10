@@ -10,14 +10,16 @@ tags:
   - system tray
   - tooltip
   - Tutorials
-url: 45.html
-id: 45
+id: '43'
 categories:
-  - Uncategorized
-date: 2014-05-24 08:26:00
+  - - true
+date: 2014-05-24 14:26:00
 ---
 
-![](how-to-show-your-program-on-system-tray/TrayIcon-Article-Thumb.gif)Some programs can minimize, but some very special programs can squeeze themselves to the system tray! Users can even use right click menu to do most of the stuff while minimized.  
+![](how-to-show-your-program-on-system-tray/TrayIcon-Article-Thumb.gif)
+
+Some programs can minimize, but some very special programs can squeeze themselves to the system tray! Users can even use right click menu to do most of the stuff while minimized.
+<!-- more -->
   
   
 System tray is the area where various icons stay, to denote that they are running. The icons can be right clicked (sometimes left clicked) to get a menu to do further things. Some audio and video players use this feature to make them controllable even when they are minimized.  
@@ -30,26 +32,44 @@ In this little article we will learn how to show your application icon in the sy
   
 The component we will use is TTrayIcon (from Additional tab).  
   
-![](how-to-show-your-program-on-system-tray/TrayIcon-Component.gif)  
+
+![](how-to-show-your-program-on-system-tray/TrayIcon-Component.gif)
+
+  
   
 To try it, let's create a new project (Project-> New Project-> Application-> OK). Draw a TTrayIcon in the form anywhere. It will show up in the form. But don't worry, it will not be visible in runtime.  
   
 Now if you Run the program (Run-> Run), it will not show anything on the system tray.  
   
-![](how-to-show-your-program-on-system-tray/system-tray-1.gif)  
+
+![](how-to-show-your-program-on-system-tray/system-tray-1.gif)
+
+  
   
 That's because the Visible property of the TTrayIcon is set to False. Set it to True.  
   
-![](how-to-show-your-program-on-system-tray/system-tray-2.gif)  
+
+![](how-to-show-your-program-on-system-tray/system-tray-2.gif)
+
+  
 Now Run it again.  
   
-![](how-to-show-your-program-on-system-tray/system-tray-3.gif)  
+
+![](how-to-show-your-program-on-system-tray/system-tray-3.gif)
+
+  
 Now you will see that no icon appears! That's because we haven't set an icon for the component.  
   
-![](how-to-show-your-program-on-system-tray/system-tray-4.gif)  
+
+![](how-to-show-your-program-on-system-tray/system-tray-4.gif)
+
+  
 Set the Icon property, like the above screenshot. Choose an icon. (If you don't have an icon in hand, you can save the project somewhere and then use the icon in the project directory.) Then Run again.  
   
-![](how-to-show-your-program-on-system-tray/system-tray-5.gif)  
+
+![](how-to-show-your-program-on-system-tray/system-tray-5.gif)
+
+  
   
 Now you will see an icon.  
   
@@ -75,7 +95,10 @@ This is very easy:
   
 Now Run the program and hover over the icon to see your tooltip.  
   
-![](how-to-show-your-program-on-system-tray/system-tray-8.gif)  
+
+![](how-to-show-your-program-on-system-tray/system-tray-8.gif)
+
+  
   
 
 #### Showing a menu on the icon
@@ -87,10 +110,16 @@ If you have a wish to show a menu when the user right clicks on the tray icon, i
 2\. Double click it and [create a menu like you wish](http://lazplanet.blogspot.com/2013/08/3-ways-to-use-popup-menus-in-lazarus.html). ([See how](http://lazplanet.blogspot.com/2013/08/3-ways-to-use-popup-menus-in-lazarus.html))  
 2\. Select your TTrayIcon and set its PopUpMenu property to "PopupMenu1" (or whatever you named your TPopupMenu)  
   
-![](how-to-show-your-program-on-system-tray/system-tray-6.gif)  
+
+![](how-to-show-your-program-on-system-tray/system-tray-6.gif)
+
+  
 Now Run the project and you will see your menu on right clicking the icon in the system tray.  
   
-![](how-to-show-your-program-on-system-tray/system-tray-7.gif)  
+
+![](how-to-show-your-program-on-system-tray/system-tray-7.gif)
+
+  
 You can prepare the TPopupMenu anyway you like and it will automatically appear when you right click.  
   
 
@@ -108,7 +137,10 @@ TrayIcon1.ShowBalloonHint;
 You can draw a TButton on the form and double click it then enter the code.  
   
 Here is the result:  
-![](how-to-show-your-program-on-system-tray/system-tray-9.gif)  
+
+![](how-to-show-your-program-on-system-tray/system-tray-9.gif)
+
+  
   
 
 #### How to Minimize to Tray
@@ -167,7 +199,10 @@ The TTrayIcon component has events to handle how the user interacts with the Tra
   
 Well, that's it! The basics of the TrayIcon component and how to use it. I have put together a little project for you to test these functions. The download link for the project is given below.  
   
-![](how-to-show-your-program-on-system-tray/TrayIconTest-Project.gif)  
+
+![](how-to-show-your-program-on-system-tray/TrayIconTest-Project.gif)
+
+  
 With the functionality already built in to the Lazarus/LCL, the possibilities are endless.  
   
   

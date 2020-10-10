@@ -9,14 +9,16 @@ tags:
   - formula
   - Math Dates
   - Tutorials
-url: 86.html
-id: 86
+id: '84'
 categories:
-  - Uncategorized
-date: 2013-05-16 08:44:00
+  - - true
+date: 2013-05-16 14:44:00
 ---
 
-![](a-simple-celsius-to-fahrenheit-to/thermometer-thumb.gif)Another good way to practice your programing skills- Celsius to Fahrenheit converter. There is a good formula for the conversion which makes it easy to create converter programs. We have a basic console program...  
+![](a-simple-celsius-to-fahrenheit-to/thermometer-thumb.gif)
+
+Another good way to practice your programing skills- Celsius to Fahrenheit converter. There is a good formula for the conversion which makes it easy to create converter programs. We have a basic console program...
+<!-- more -->
   
   
 The cyclone named "Mohasen" (or Mahasen) is crossing Bangladesh. Unfortunately 4 people were dead because of this. Where I live it is a rainy weather here, but no sign of Mohasen here. But the weather is a excuse for today's post. I have a Thermometer in my room. Due to the rainy nature of weather it is 21 degree Celsius and 65 degree Fahrenheit here.  
@@ -34,7 +36,10 @@ Celsius is usually used to measure the temperature of the climate/weather, and F
 
 The converter formula is as follows:  
   
-![](a-simple-celsius-to-fahrenheit-to/cel-fah-convert-formula.gif)  
+
+![](a-simple-celsius-to-fahrenheit-to/cel-fah-convert-formula.gif)
+
+  
 In the above formula  C refers to the Celsius and F refers to Fahrenheit. We can convert Celsius to Fahrenheit and back with the above function/formula.  
   
 ReadLn(Cel);  
@@ -157,7 +162,10 @@ The user is given 3 options. The first 2 would let the user select either Celsiu
   
 The Val procedure tries to convert the input string to inputint (integer). If it cannot convert the string to Integer then it returns non-zero number in the Code variable. If an error occurs, we return to choices menu. That's why we have used a "intro" Label. If there is no error in the input then the conversion will take place.  
   
-![](a-simple-celsius-to-fahrenheit-to/console-program-cel-fah.gif)  
+
+![](a-simple-celsius-to-fahrenheit-to/console-program-cel-fah.gif)
+
+  
 
 ### Download Sample Code ZIP
 

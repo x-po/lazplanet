@@ -6,14 +6,16 @@ tags:
   - Explanation
   - Sample Code
   - Tutorials
-url: 42.html
-id: 42
+id: '40'
 categories:
-  - Uncategorized
-date: 2014-07-22 09:06:00
+  - - true
+date: 2014-07-22 15:06:00
 ---
 
-![](what-are-classes-and-what-they-can-do/oop-thumb.jpg)Learn one of the most powerful features of any language. We will be talking about things that come alive! Plus, learn how to build a robot with the keystrokes!  
+![](what-are-classes-and-what-they-can-do/oop-thumb.jpg)
+
+Learn one of the most powerful features of any language. We will be talking about things that come alive! Plus, learn how to build a robot with the keystrokes!
+<!-- more -->
   
   
 Don't let anyone confuse you. The Classes I am talking about are not classes full of students. In the world of programming, classes have a different meaning. It is what that makes a language "Object oriented". Objects are "things" that can respond to your question. Think of them as a "thing" that has life!  

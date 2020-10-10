@@ -11,14 +11,16 @@ tags:
   - System API
   - time
   - Tutorials
-url: 64.html
-id: 64
+id: '62'
 categories:
-  - Uncategorized
-date: 2013-07-31 16:33:00
+  - - true
+date: 2013-07-31 22:33:00
 ---
 
-![](how-to-get-computer-running-time/pc-running-time-code.jpg)If you are reading this text then most probably you have your computer turned on. But for how long? You can get the time for how long the computer is running for.  
+![](how-to-get-computer-running-time/pc-running-time-code.jpg)
+
+If you are reading this text then most probably you have your computer turned on. But for how long? You can get the time for how long the computer is running for.
+<!-- more -->
   
   
 The operating system, such as Windows, Ubuntu, Mac OS, keeps a record of how long the computer is running for. We can simply get the running time and use it in our program.  
@@ -64,7 +66,10 @@ We have used TickCount Div 1000 to get the time in seconds. We have used Div to 
   
 Run the project with F9 (or Run-> Run).  
   
-![](how-to-get-computer-running-time/pc-running-time-lazarus.gif)  
+
+![](how-to-get-computer-running-time/pc-running-time-lazarus.gif)
+
+  
   
   
   
@@ -99,7 +104,10 @@ end;
   
 Now run the project. The result would be similar to the above.  
   
-![](how-to-get-computer-running-time/pc-running-time-lazarus2.gif)  
+
+![](how-to-get-computer-running-time/pc-running-time-lazarus2.gif)
+
+  
 
 ### Demo Project
 
@@ -166,7 +174,10 @@ Now, decorate your form with other explanatory labels. Resize the form to approp
   
 Now Run the project (F9 or Run-> Run).  
   
-![](how-to-get-computer-running-time/running-time-sample-lazarus.gif)  
+
+![](how-to-get-computer-running-time/running-time-sample-lazarus.gif)
+
+  
 You can take further challenges with this code. It is great for learning new stuff and making your learning permanent. You can save the user's daily computer usage in a text file or database (maybe with Sqlite). You can also create a statistics form and show for how much time the user keeps the computer running in a week, month or even a year. This could be an interesting app. Also if you could keep it synchronized with multiple computers (for example, across desktops and laptops and even multiple platforms) then it would be a delicacy!  
   
 

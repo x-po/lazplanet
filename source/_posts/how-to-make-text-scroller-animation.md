@@ -7,16 +7,16 @@ tags:
   - Form Controls
   - Text Operation
   - Tutorials
-url: 24.html
-id: 24
+id: '22'
 categories:
-  - Uncategorized
-date: 2016-04-25 08:11:00
+  - - true
+date: 2016-04-25 14:11:00
 ---
 
-[![](how-to-make-text-scroller-animation/text-scroller-thumb.jpg)](how-to-make-text-scroller-animation/text-scroller-thumb.jpg)
+![](how-to-make-text-scroller-animation/text-scroller-thumb.jpg)
 
-At the end of a movie or in our application, we could use some text scrolling fun! But how to do that? Let's see...  
+At the end of a movie or in our application, we could use some text scrolling fun! But how to do that? Let's see...
+<!-- more -->
   
 The text scroller in the Lazarus About dialog box made me think of the days when I used to code text scrollers all day in VB6! Component based, owner drawn, timer based, loop based and all that stuff! Inspired and fired up I was hitting keystrokes and writing this article at the middle of the night.  
   
@@ -44,7 +44,7 @@ Now, with the Label still selected, change the "Alignment" (not "Align") propert
 Now our form should look something like this:  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-form-design-lazarus-1-300x253.gif)](how-to-make-text-scroller-animation/Text-scroller-form-design-lazarus-1.gif)
+![](how-to-make-text-scroller-animation/Text-scroller-form-design-lazarus-1.gif)
 
   
   
@@ -79,14 +79,14 @@ Or may be like this:
 Now move the label a bit to the bottom so that it appears to be rising from the bottom. My form layout now looks something like this...  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-form-design-lazarus-2-300x253.gif)](how-to-make-text-scroller-animation/Text-scroller-form-design-lazarus-2.gif)
+![](how-to-make-text-scroller-animation/Text-scroller-form-design-lazarus-2.gif)
 
   
   
 Now Run the Project (F9 or Run -> Run).  
   
 
-[![](http://localhost/wp-lazplanet/wp-content/uploads/2016/04/Text-scroller-lazarus-simple-1-300x253.gif)](how-to-make-text-scroller-animation/Text-scroller-lazarus-simple-1.gif)
+![](how-to-make-text-scroller-animation/Text-scroller-lazarus-simple-1.gif)
 
   
   

@@ -7,14 +7,16 @@ tags:
   - Sample Code
   - System API
   - Text Operation
-url: 99.html
-id: 99
+id: '97'
 categories:
-  - Uncategorized
-date: 2013-05-02 03:28:00
+  - - true
+date: 2013-05-02 09:28:00
 ---
 
-![](how-to-cut-copy-paste-text-in-your/th.jpg)Word processors and even browsers have cut, copy, paste functions. You have used them many times in your life. But now make yours!  
+![](how-to-cut-copy-paste-text-in-your/th.jpg)
+
+Word processors and even browsers have cut, copy, paste functions. You have used them many times in your life. But now make yours!
+<!-- more -->
   
   
 When you cut or copy a text, it lives on the virtual space called "Clipboard". The clipboard is stored in the memory and Operating Systems manage the storage of it.  
@@ -91,7 +93,9 @@ You can see the Wiki for more information: [http://wiki.lazarus.freepascal.org/C
 
 ### Download Sample Code zip
 
-![](how-to-cut-copy-paste-text-in-your/cut-copy-paste-text-clipboa.gif)You can download a sample source code zip as an example of the above discussion: [http://db.tt/5jI8AO61](http://db.tt/5jI8AO61)  
+![](how-to-cut-copy-paste-text-in-your/cut-copy-paste-text-clipboa.gif)
+
+You can download a sample source code zip as an example of the above discussion: [http://db.tt/5jI8AO61](http://db.tt/5jI8AO61)  
 Or here: [http://bit.ly/YnWIsL](http://bit.ly/YnWIsL)  
    
 Size: 520 KB  

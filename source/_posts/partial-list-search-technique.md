@@ -6,14 +6,16 @@ tags:
   - List Iteration
   - Search
   - Tutorials
-url: 83.html
-id: 83
+id: '81'
 categories:
-  - Uncategorized
-date: 2013-05-20 18:05:00
+  - - true
+date: 2013-05-21 00:05:00
 ---
 
-![](partial-list-search-technique/search-list-thumb.gif)Lists are interesting to do programing tricks. In this session we learn how to search partial inputs with only the first part of the list items.  
+![Partial list search in Lazarus](partial-list-search-technique/search-list-thumb.gif "Partial list search in Lazarus")
+
+Lists are interesting to do programing tricks. In this session we learn how to search partial inputs with only the first part of the list items.
+<!-- more -->
   
   
 
@@ -64,7 +66,10 @@ Drop a TEdit, TCheckbox and 2 TListboxes. Name the TCheckbox to chkCase. Listbox
   
 Your layout  may resemble this:  
   
-![](partial-list-search-technique/partial-list-search-lazarus.gif)  
+
+![Partial list search program in Lazarus](partial-list-search-technique/partial-list-search-lazarus.gif "Partial list search program in Lazarus")
+
+  
 Select the TEdit, then go to Object Inspector -> Events tab. Then click the \[...\] button in front of OnChange event. Now enter the following:  
   
 var  
@@ -92,7 +97,10 @@ end;
   
 Now run the project (F9 or Run -> Run).  
   
-![](partial-list-search-technique/partial-list-search-lazarus.gif)  
+
+![Partial list search program with case senstive option in Lazarus](partial-list-search-technique/partial-list-search-lazarus.gif "Partial list search program with case senstive option in Lazarus")
+
+  
 Now type in "app". You will see matching items in the result list. Now type in "App" and click on the checkbox. You will not see the result change. It is a bug. To fix it, we will have to add a code.  
   
 Double click on the TCheckbox and  enter:  

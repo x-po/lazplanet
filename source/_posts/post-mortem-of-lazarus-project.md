@@ -12,14 +12,16 @@ tags:
   - Project
   - structure
   - unit
-url: 46.html
-id: 46
+id: '44'
 categories:
-  - Uncategorized
-date: 2014-05-19 09:25:00
+  - - true
+date: 2014-05-19 15:25:00
 ---
 
-![](post-mortem-of-lazarus-project/Lazarus-project.jpg)How do Lazarus projects work? Each Project file have their own purpose. Today, we do an autopsy or a post-mortem to learn about their function!  
+![](post-mortem-of-lazarus-project/Lazarus-project.jpg)
+
+How do Lazarus projects work? Each Project file have their own purpose. Today, we do an autopsy or a post-mortem to learn about their function!
+<!-- more -->
   
   
   
@@ -61,7 +63,10 @@ Great! Now close Lazarus and open the "**Program1**" folder in File explorer.
   
 You will see 3 files: **project1.lpi**, **project1.lpr**, **project1.lps**. Now we will open these files one by one in a plain text editor and see what's in them.  
   
-![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-1.gif)  
+
+![Project files of a "Program" project](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-1.gif "Project files of a "Program" project")
+
+  
   
 
 #### project1.lpi
@@ -79,7 +84,10 @@ You can double click this file to open the project in Lazarus. But we are not in
   
 The extension .lpr is a confusing abbreviation. Because according to _Tools-> Options-> Environment-> File Filters_, .lpr means "Lazarus project source" file. It should have been .lps, but it is not.  
   
-![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-2.gif)  
+
+![Lazarus IDE File Filters option](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-2.gif "Lazarus IDE File Filters option")
+
+  
 Well, from the name "Lazarus project source", you can guess that this file contains the source code for our project.  
   
 This .lpr file should contain the following:  
@@ -124,7 +132,39 @@ This folder contains backups that Lazarus keeps of the project files in case you
   
 Now open the project in Lazarus (by double clicking the lpi or lpr or using **File-> Open**). Click **Run -> Compile**. (You can also try **Run-> Run**.) When the compiling finishes you will see a "**lib**" folder to be created in the project folder. It has a .compiled and .o file. They are the result of compiling.  
   
-![](http://2.bp.blogspot.com/-yxJ4d8uNIz4/U3nBV4_3CGI/AAAAAAAABjs/bnZI5iJ_TeE/s1600/Lazarus-Project-Post-Mortem-3.gif)![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-4.gif)  
+
+![Program project after compilation](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-3.gif "Program project after compilation")
+
+  
+You should also see a **project1.exe** in the project folder which is our executable. This executable is not ready to be published. It has debugging data. To strip off this data check out Build modes.  
+  
+
+### Now to GUI project
+
+  
+Start Lazarus. Now click Project-> New Project-> Application-> OK.  
+  
+Now draw a TButton on the form, set its Caption property to "Click me!", double click and enter:  
+  
+
+procedure TForm1.Button1Click(Sender: TObject);  
+begin  
+  ShowMessage('Hello World!');  
+end;  
+
+  
+Don't run or build it yet.  
+  
+Create a folder in the desktop named "Application1". In Lazarus, click File-> Save all. Keep the default file names while saving.  
+  
+Close Lazarus.  
+  
+Go the folder "Application1" folder you just created.  
+  
+
+![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-4.gif)
+
+  
 Now there are 7 files! (Compared to only 3 files in the console project.) This is because GUI application need more data than a console project. It has to have the source code, of course, plus the component properties, resource file and an icon and so on.  
   
 So let's see what these files do...  
@@ -137,7 +177,10 @@ The lpi and lps files are basically the same as the console project. So we can s
   
 As your common sense may indicate, .ico means "Icon" file. Unlike console programs, the GUI project has to have an icon for the exe (or dmg or any other binary format). This is currently a Lazarus "paw" icon. When you set an icon for the project, this will be replaced by that icon.  
   
-![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-5.gif)  
+
+![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-5.gif)
+
+  
 
 #### project1.lpr
 
@@ -221,7 +264,10 @@ Now, Running it...
   
 Click **Run-> Compile**.  
   
-![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-6.gif)  
+
+![](post-mortem-of-lazarus-project/Lazarus-Project-Post-Mortem-6.gif)
+
+  
 Similar to the console program, a "lib" folder is created and the result of the compilation are kept there as files. Also, the project1.exe is created which is around 14mb. This is huge. Because it contains debugging data. You can strip off this data and make it weigh around 700kb. Read more about Build modes.  
   
 So, that's it. I wish I had this article when I first started using Lazarus. It would've made my understanding of Pascal way better as I didn't know a clear difference between a Pascal unit and a main Program. You are very lucky to have this article in your hands.  
