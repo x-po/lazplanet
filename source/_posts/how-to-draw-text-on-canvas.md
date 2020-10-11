@@ -4,13 +4,12 @@ tags:
   - canvas
   - draw
   - paint
-  - Screen Graphics
   - Text
-  - Text Operation
   - Tutorials
 id: '68'
 categories:
-  - - true
+  - [Screen Graphics]
+  - [Text Operation]
 date: 2013-06-17 06:59:00
 ---
 

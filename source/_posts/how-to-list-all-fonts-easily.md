@@ -1,15 +1,14 @@
 ---
 title: How to list all the Fonts easily
 tags:
-  - Code Snippets
   - fonts
-  - List Iteration
   - Sample Code
-  - System API
   - Tutorials
 id: '56'
 categories:
-  - - true
+  - [Code Snippets]
+  - [List Iteration]
+  - [System API]
 date: 2013-12-13 16:21:00
 ---
 

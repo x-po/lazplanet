@@ -1,13 +1,12 @@
 ---
 title: 'How to get your mouse cursor position (+Bonus: set position also!!)'
 tags:
-  - Form Controls
   - Hardware
-  - Screen Graphics
-  - System API
 id: '105'
 categories:
-  - - true
+  - [Form Controls]
+  - [Screen Graphics]
+  - [System API]
 date: 2013-04-07 05:14:00
 ---
 

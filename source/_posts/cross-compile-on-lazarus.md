@@ -9,7 +9,9 @@ tags:
   - Windows
 id: '6'
 categories:
-  - - true
+  - [Console]
+  - [System API]
+  - [Hardware]
 date: 2020-05-12 23:29:00
 ---
 

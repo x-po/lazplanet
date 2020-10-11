@@ -1,15 +1,14 @@
 ---
 title: Simple Text Search 2 (with "search next")
 tags:
-  - Code Snippets
   - Explanation
   - Next
   - Sample Code
   - Search
-  - Text Operation
 id: '99'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Text Operation]
 date: 2013-04-19 00:28:00
 ---
 

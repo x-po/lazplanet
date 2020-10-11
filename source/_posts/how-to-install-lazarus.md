@@ -2,9 +2,10 @@
 title: How to install Lazarus
 tags:
   - Articles
+  - Tutorials
 id: '118'
 categories:
-  - - true
+  - [Guides]
 date: 2013-03-21 00:35:00
 ---
 

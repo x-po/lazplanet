@@ -1,11 +1,10 @@
 ---
 title: Count how many words are in a string
 tags:
-  - Text Operation
   - Tutorials
 id: '107'
 categories:
-  - - true
+  - [Text Operation]
 date: 2013-04-04 12:23:00
 ---
 

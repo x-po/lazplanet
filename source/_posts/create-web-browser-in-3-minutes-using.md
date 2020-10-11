@@ -3,12 +3,11 @@ title: Create a web browser in 3 minutes using Chromium engine! (fpCEF3)
 tags:
   - Articles
   - browser
-  - HTML Web
   - internet
   - Tutorials
 id: '23'
 categories:
-  - - true
+  - [HTML Web]
 date: 2015-09-16 05:54:00
 ---
 

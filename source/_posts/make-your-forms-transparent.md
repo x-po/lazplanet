@@ -1,13 +1,12 @@
 ---
 title: Make your forms transparent!
 tags:
-  - Code Snippets
-  - Form Controls
   - Sample Code
   - Tutorials
 id: '103'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Form Controls]
 date: 2013-04-12 05:06:00
 ---
 

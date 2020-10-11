@@ -7,7 +7,7 @@ tags:
   - version
 id: '13'
 categories:
-  - - true
+  - 
 date: 2019-02-14 16:20:00
 ---
 

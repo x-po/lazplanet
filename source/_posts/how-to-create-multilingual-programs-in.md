@@ -11,7 +11,7 @@ tags:
   - Tutorials
 id: '14'
 categories:
-  - - true
+  - [Text Operation]
 date: 2018-12-16 00:54:00
 ---
 

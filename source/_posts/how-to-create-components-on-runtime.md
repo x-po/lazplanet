@@ -3,11 +3,10 @@ title: How to Create Components on Runtime
 tags:
   - components
   - create
-  - Form Controls
   - runtime
 id: '27'
 categories:
-  - - true
+  - [Form Controls]
 date: 2015-05-06 01:16:00
 ---
 

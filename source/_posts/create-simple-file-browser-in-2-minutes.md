@@ -3,12 +3,11 @@ title: Create a Simple File Browser in 2 Minutes!
 tags:
   - browser
   - explorer
-  - Files Directories
   - Sample Code
   - Tutorials
 id: '73'
 categories:
-  - - true
+  - [Files Directories]
 date: 2013-06-03 09:13:00
 ---
 

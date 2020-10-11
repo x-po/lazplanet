@@ -1,16 +1,16 @@
 ---
 title: How to Generate Random Number (with/without a range)
 tags:
-  - Algorithms
   - Articles
-  - Console
-  - Math Dates
   - random
   - Sample Code
   - Tutorials
 id: '79'
 categories:
-  - - true
+  - [Algorithms]
+  - [Console]
+  - [Math Dates]
+  - [Code Snippets]
 date: 2013-05-23 07:28:00
 ---
 

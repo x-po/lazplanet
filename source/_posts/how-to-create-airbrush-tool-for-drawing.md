@@ -8,11 +8,10 @@ tags:
   - canvas
   - effect
   - png
-  - Screen Graphics
   - Tutorials
 id: '66'
 categories:
-  - - true
+  - [Screen Graphics]
 date: 2013-06-28 22:06:00
 ---
 

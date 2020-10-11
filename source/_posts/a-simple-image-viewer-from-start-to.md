@@ -2,14 +2,13 @@
 title: A Simple Image Viewer from Start to Finish
 tags:
   - Articles
-  - Code Snippets
   - Explanation
   - Sample Code
-  - Screen Graphics
   - Tutorials
 id: '96'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Screen Graphics]
 date: 2013-05-04 18:28:00
 ---
 

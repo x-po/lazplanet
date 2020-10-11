@@ -4,15 +4,14 @@ tags:
   - browser
   - Explanation
   - file
-  - Files Directories
   - folder
-  - List Iteration
   - manager
   - ShellExecute
   - Tutorials
 id: '65'
 categories:
-  - - true
+  - [Files Directories]
+  - [List Iteration]
 date: 2013-07-08 01:50:00
 ---
 

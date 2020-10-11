@@ -7,11 +7,11 @@ tags:
   - Explanation
   - plain text
   - tab delimited
-  - Text Operation
   - Tutorials
 id: '24'
 categories:
-  - - true
+  - [Text Operation]
+  - [Databases]
 date: 2015-07-19 16:09:00
 ---
 

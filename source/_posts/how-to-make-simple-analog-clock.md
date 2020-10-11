@@ -6,13 +6,12 @@ tags:
   - clock
   - draw
   - Explanation
-  - Math Dates
-  - Screen Graphics
   - time
   - Tutorials
 id: '42'
 categories:
-  - - true
+  - [Math Dates]
+  - [Screen Graphics]
 date: 2014-06-14 00:03:00
 ---
 

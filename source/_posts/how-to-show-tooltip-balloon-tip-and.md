@@ -3,17 +3,16 @@ title: 'How to show ToolTip, Balloon Tip and other short help text'
 tags:
   - add
   - Articles
-  - Form Controls
   - help
   - hint
   - hover
   - mouse
   - show
-  - System API
   - tooltip
 id: '94'
 categories:
-  - - true
+  - [Form Controls]
+  - [System API]
 date: 2013-05-06 16:38:00
 ---
 

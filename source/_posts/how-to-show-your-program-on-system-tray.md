@@ -3,7 +3,6 @@ title: How to show your program on System Tray!
 tags:
   - Articles
   - Balloon
-  - Code Snippets
   - hint
   - icon
   - menu
@@ -12,7 +11,7 @@ tags:
   - Tutorials
 id: '43'
 categories:
-  - - true
+  - [Code Snippets]
 date: 2014-05-24 14:26:00
 ---
 

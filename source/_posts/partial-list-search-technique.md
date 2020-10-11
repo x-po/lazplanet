@@ -1,14 +1,14 @@
 ---
 title: Partial List search technique
 tags:
-  - Algorithms
   - Articles
-  - List Iteration
   - Search
   - Tutorials
 id: '81'
 categories:
-  - - true
+  - [Algorithms]
+  - [List Iteration]
+  - [Text Operation]
 date: 2013-05-21 00:05:00
 ---
 

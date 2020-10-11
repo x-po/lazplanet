@@ -8,11 +8,10 @@ tags:
   - News
   - Project
   - Raring
-  - Tutorials
   - Ubuntu
 id: '92'
 categories:
-  - - true
+  - [Guides]
 date: 2013-05-08 18:26:00
 ---
 

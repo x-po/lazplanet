@@ -3,13 +3,12 @@ title: Create a Web Browser in Lazarus with Gecko (Part 1)
 tags:
   - browser
   - GeckoPort
-  - HTML Web
   - internet
   - lpk
   - Tutorials
 id: '59'
 categories:
-  - - true
+  - [HTML Web]
 date: 2013-10-29 18:43:00
 ---
 

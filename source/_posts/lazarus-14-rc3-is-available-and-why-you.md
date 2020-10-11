@@ -9,7 +9,7 @@ tags:
   - version
 id: '28'
 categories:
-  - - true
+  - 
 date: 2015-04-08 01:12:00
 ---
 

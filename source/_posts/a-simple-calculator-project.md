@@ -1,14 +1,13 @@
 ---
 title: A simple calculator project
 tags:
-  - Code Snippets
   - Explanation
-  - Math Dates
   - Sample Code
   - Tutorials
 id: '98'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Math Dates]
 date: 2013-05-01 14:46:00
 ---
 

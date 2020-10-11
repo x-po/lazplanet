@@ -1,14 +1,13 @@
 ---
 title: How to get the EXEs path and load an Image
 tags:
-  - Code Snippets
-  - Files Directories
   - Graphics
-  - Screen Graphics
   - Tutorials
 id: '110'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Files Directories]
+  - [Screen Graphics]
 date: 2013-03-31 03:44:00
 ---
 

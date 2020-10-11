@@ -1,14 +1,13 @@
 ---
 title: How to Create a Form That Always Stays on Desktop
 tags:
-  - Form Controls
-  - System API
   - Tutorials
   - Windows API
   - Windows Only
 id: '38'
 categories:
-  - - true
+  - [Form Controls]
+  - [System API]
 date: 2014-08-25 16:27:00
 ---
 

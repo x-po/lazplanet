@@ -1,13 +1,12 @@
 ---
 title: How to add two numbers
 tags:
-  - Code Snippets
   - Console
-  - Math Dates
   - Sample Code
 id: '111'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Math Dates]
 date: 2013-03-29 05:42:00
 ---
 

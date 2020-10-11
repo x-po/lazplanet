@@ -6,11 +6,10 @@ tags:
   - 3D Graphics
   - Articles
   - install
-  - Screen Graphics
   - Tutorials
 id: '83'
 categories:
-  - - true
+  - [Screen Graphics]
 date: 2013-05-18 00:21:00
 ---
 

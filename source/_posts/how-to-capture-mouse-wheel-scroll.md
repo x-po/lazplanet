@@ -5,13 +5,12 @@ tags:
   - Explanation
   - mouse
   - scroll
-  - System API
-  - Text Operation
   - Tutorials
   - wheel
 id: '67'
 categories:
-  - - true
+  - [System API]
+  - [Text Operation]
 date: 2013-06-22 15:31:00
 ---
 

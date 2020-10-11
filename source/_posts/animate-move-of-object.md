@@ -2,14 +2,13 @@
 title: Animate the Move of an Object
 tags:
   - animation
-  - Form Controls
-  - List Iteration
   - Metro
   - Tutorials
   - Windows 8
 id: '87'
 categories:
-  - - true
+  - [Form Controls]
+  - [List Iteration]
 date: 2013-05-13 20:25:00
 ---
 

@@ -9,7 +9,7 @@ tags:
   - resource
 id: '19'
 categories:
-  - - true
+  - 
 date: 2017-12-15 23:33:00
 ---
 

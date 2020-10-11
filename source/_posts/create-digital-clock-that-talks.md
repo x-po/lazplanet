@@ -5,12 +5,11 @@ tags:
   - digital
   - Explanation
   - SAPI
-  - Screen Graphics
   - TTS
   - Tutorials
 id: '54'
 categories:
-  - - true
+  - [Screen Graphics]
 date: 2013-12-30 22:36:00
 ---
 

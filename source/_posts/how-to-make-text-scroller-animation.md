@@ -4,12 +4,11 @@ tags:
   - animation
   - Articles
   - Explanation
-  - Form Controls
-  - Text Operation
   - Tutorials
 id: '22'
 categories:
-  - - true
+  - [Form Controls]
+  - [Text Operation]
 date: 2016-04-25 14:11:00
 ---
 

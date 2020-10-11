@@ -4,7 +4,7 @@ tags:
   - News
 id: '117'
 categories:
-  - - true
+  - 
 date: 2013-03-21 00:50:00
 ---
 

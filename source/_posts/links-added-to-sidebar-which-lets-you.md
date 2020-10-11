@@ -6,7 +6,7 @@ tags:
   - sidebar
 id: '49'
 categories:
-  - - true
+  - 
 date: 2014-02-26 13:46:00
 ---
 

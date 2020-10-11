@@ -2,10 +2,8 @@
 title: How to Get Contents of a URL (in 2 Ways)
 tags:
   - basic
-  - Code Snippets
   - download
   - Explanation
-  - HTML Web
   - internet
   - JSON
   - REST API
@@ -13,7 +11,8 @@ tags:
   - website
 id: '11'
 categories:
-  - - true
+  - [Code Snippets]
+  - [HTML Web]
 date: 2019-03-15 23:47:00
 ---
 

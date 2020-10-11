@@ -3,12 +3,11 @@ title: How to use tabs in your form
 tags:
   - components
   - Explanation
-  - Form Controls
   - tabs
   - Tutorials
 id: '63'
 categories:
-  - - true
+  - [Form Controls]
 date: 2013-07-22 23:59:00
 ---
 

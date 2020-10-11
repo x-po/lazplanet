@@ -1,13 +1,12 @@
 ---
 title: Convert a number to Roman
 tags:
-  - Math Dates
   - Sample Code
-  - Text Operation
   - Tutorials
 id: '106'
 categories:
-  - - true
+  - [Math Dates]
+  - [Text Operation]
 date: 2013-04-06 14:56:00
 ---
 

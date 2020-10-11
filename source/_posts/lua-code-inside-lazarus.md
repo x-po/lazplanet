@@ -7,7 +7,7 @@ tags:
   - Tutorials
 id: '7'
 categories:
-  - - true
+  - [System API]
 date: 2020-05-01 16:37:00
 thumbnail: lua-code-inside-lazarus/lua-inside-lazarus-thumb.jpg
 ---

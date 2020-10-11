@@ -3,17 +3,16 @@ title: How to get Computer Running Time
 tags:
   - Articles
   - calculate
-  - Code Snippets
   - Explanation
   - GetTickCount
-  - Math Dates
   - running
-  - System API
   - time
   - Tutorials
 id: '62'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Math Dates]
+  - [System API]
 date: 2013-07-31 22:33:00
 ---
 

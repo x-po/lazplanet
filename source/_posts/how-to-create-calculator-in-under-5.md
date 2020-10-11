@@ -3,13 +3,12 @@ title: How to Create a Calculator in Under 5 Minutes
 tags:
   - calculate
   - Explanation
-  - Math Dates
   - shortcuts
   - Tutorials
   - unit
 id: '12'
 categories:
-  - - true
+  - [Math Dates]
 date: 2019-03-07 16:36:00
 ---
 

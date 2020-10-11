@@ -6,7 +6,7 @@ tags:
   - social
 id: '80'
 categories:
-  - - true
+  - 
 date: 2013-05-22 06:42:00
 ---
 

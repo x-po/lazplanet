@@ -1,16 +1,15 @@
 ---
 title: Find out if the Computer is Connected to the Internet
 tags:
-  - Code Snippets
   - connection
-  - HTML Web
   - internet
   - status
   - Windows Only
   - wininet
 id: '32'
 categories:
-  - - true
+  - [Code Snippets]
+  - [HTML Web]
 date: 2014-10-13 16:54:00
 ---
 

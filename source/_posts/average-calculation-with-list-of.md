@@ -3,12 +3,11 @@ title: Average Calculation with List of Numbers (GUI)
 tags:
   - average
   - calculate
-  - List Iteration
-  - Math Dates
   - Tutorials
 id: '90'
 categories:
-  - - true
+  - [List Iteration]
+  - [Math Dates]
 date: 2013-05-10 18:02:00
 ---
 

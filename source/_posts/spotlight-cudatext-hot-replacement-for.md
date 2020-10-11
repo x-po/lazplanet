@@ -8,7 +8,7 @@ tags:
   - Text Operation
 id: '16'
 categories:
-  - - true
+  - 
 date: 2018-05-01 13:45:00
 ---
 

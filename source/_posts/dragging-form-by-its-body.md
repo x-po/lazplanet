@@ -1,18 +1,17 @@
 ---
 title: Dragging a Form by its body
 tags:
-  - Code Snippets
   - custom
   - drag and drop
   - Explanation
-  - Form Controls
   - Interface
   - move
   - title bar
   - Tutorials
 id: '72'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Form Controls]
 date: 2013-06-05 01:59:00
 ---
 

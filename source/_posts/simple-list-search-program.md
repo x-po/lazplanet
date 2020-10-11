@@ -1,14 +1,13 @@
 ---
 title: Simple List search program
 tags:
-  - Algorithms
-  - Code Snippets
   - list
-  - List Iteration
   - Search
 id: '82'
 categories:
-  - - true
+  - [Algorithms]
+  - [Code Snippets]
+  - [List Iteration]
 date: 2013-05-19 09:21:00
 ---
 

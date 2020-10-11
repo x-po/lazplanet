@@ -2,16 +2,15 @@
 title: How to get Drag and Drop files on your Program
 tags:
   - Articles
-  - Code Snippets
   - drag and drop
   - Explanation
-  - Files Directories
-  - Form Controls
-  - System API
   - Tutorials
 id: '76'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Files Directories]
+  - [Form Controls]
+  - [System API]
 date: 2013-05-27 03:19:00
 ---
 

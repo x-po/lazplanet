@@ -6,13 +6,12 @@ tags:
   - processing
   - processor
   - rich
-  - Text Operation
   - TRichMemo
   - Tutorials
   - word
 id: '55'
 categories:
-  - - true
+  - [Text Operation]
 date: 2013-12-24 23:56:00
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: How to make a Simple Video Player in Lazarus
 tags:
-  - Audio Video
-  - Code Snippets
   - Explanation
   - media
   - multimedia
@@ -12,7 +10,8 @@ tags:
   - vlc
 id: '17'
 categories:
-  - - true
+  - [Audio Video]
+  - [Code Snippets]
 date: 2018-01-28 02:49:00
 ---
 

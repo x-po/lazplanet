@@ -3,16 +3,15 @@ title: 'How to Add, Delete, Clear Items of a ListBox'
 tags:
   - add
   - clear
-  - Code Snippets
   - delete
   - list
-  - List Iteration
   - manipulation
   - Sample Code
   - Tutorials
 id: '93'
 categories:
-  - - true
+  - [Code Snippets]
+  - [List Iteration]
 date: 2013-05-07 09:36:00
 ---
 

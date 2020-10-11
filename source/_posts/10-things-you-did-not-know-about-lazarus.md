@@ -7,7 +7,7 @@ tags:
   - tips
 id: '26'
 categories:
-  - - true
+  - [Misc]
 date: 2015-06-25 22:24:00
 ---
 

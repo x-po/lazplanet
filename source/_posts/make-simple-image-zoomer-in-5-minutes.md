@@ -5,11 +5,10 @@ tags:
   - canvas
   - Graphics
   - image
-  - Screen Graphics
   - zoom
 id: '20'
 categories:
-  - - true
+  - [Screen Graphics]
 date: 2017-05-21 00:00:00
 ---
 

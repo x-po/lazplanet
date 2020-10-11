@@ -3,14 +3,13 @@ title: Create a Form Fade in Effect
 tags:
   - animation
   - Articles
-  - Code Snippets
   - effect
-  - Form Controls
   - Sample Code
   - Tutorials
 id: '89'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Form Controls]
 date: 2013-05-12 01:21:00
 ---
 

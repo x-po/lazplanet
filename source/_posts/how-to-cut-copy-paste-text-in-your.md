@@ -2,14 +2,13 @@
 title: How to Cut Copy Paste Text with code
 tags:
   - Articles
-  - Code Snippets
   - Explanation
   - Sample Code
-  - System API
-  - Text Operation
 id: '97'
 categories:
-  - - true
+  - [Code Snippets]
+  - [System API]
+  - [Text Operation]
 date: 2013-05-02 09:28:00
 ---
 

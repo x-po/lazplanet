@@ -3,14 +3,13 @@ title: How to use Arrays in Lazarus/FPC
 tags:
   - Array
   - list
-  - List Iteration
-  - Math Dates
   - Multidimensional
   - Tutorials
   - virtual
 id: '60'
 categories:
-  - - true
+  - [List Iteration]
+  - [Math Dates]
 date: 2013-10-19 12:13:00
 ---
 

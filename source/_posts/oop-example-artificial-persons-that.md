@@ -1,14 +1,13 @@
 ---
 title: 'OOP Example: Artificial Persons that Respond!'
 tags:
-  - Code Snippets
   - Explanation
   - objects
   - OOP
   - Sample Code
 id: '39'
 categories:
-  - - true
+  - [Code Snippets]
 date: 2014-07-30 14:47:00
 ---
 

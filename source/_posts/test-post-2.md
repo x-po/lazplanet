@@ -4,7 +4,7 @@ tags:
   - Introduction
 id: '119'
 categories:
-  - - true
+  - 
 date: 2013-03-20 15:54:00
 ---
 

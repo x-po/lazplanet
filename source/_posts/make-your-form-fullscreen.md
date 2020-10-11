@@ -1,9 +1,7 @@
 ---
 title: How to make your form Fullscreen & Restore
 tags:
-  - Code Snippets
   - Explanation
-  - Form Controls
   - fullscreen
   - restore
   - Sample Code
@@ -11,7 +9,8 @@ tags:
   - Tutorials
 id: '50'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Form Controls]
 date: 2014-02-21 21:53:00
 ---
 

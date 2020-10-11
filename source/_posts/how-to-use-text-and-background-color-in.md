@@ -1,17 +1,16 @@
 ---
 title: How to use Text and Background Color in FPC
 tags:
-  - Code Snippets
   - Console
   - Free Pascal
   - Lazarus
   - Sample Code
-  - Screen Graphics
-  - Text Operation
   - Tutorials
 id: '85'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Screen Graphics]
+  - [Text Operation]
 date: 2013-05-15 06:24:00
 ---
 

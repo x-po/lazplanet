@@ -3,13 +3,12 @@ title: Clear all edit boxes in a form
 tags:
   - components
   - Explanation
-  - Form Controls
-  - List Iteration
   - owner
   - Tutorials
 id: '88'
 categories:
-  - - true
+  - [Form Controls]
+  - [List Iteration]
 date: 2013-05-12 18:51:00
 ---
 

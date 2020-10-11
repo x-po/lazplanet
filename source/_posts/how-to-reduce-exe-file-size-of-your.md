@@ -4,7 +4,7 @@ tags:
   - Articles
 id: '113'
 categories:
-  - - true
+  - [Guides]
 date: 2013-03-26 07:57:00
 ---
 

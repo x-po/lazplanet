@@ -4,7 +4,7 @@ tags:
   - Articles
 id: '115'
 categories:
-  - - true
+  - 
 date: 2013-03-25 02:12:00
 ---
 

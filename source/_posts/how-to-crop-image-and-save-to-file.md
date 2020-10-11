@@ -6,11 +6,10 @@ tags:
   - image
   - photo
   - rectangle
-  - Screen Graphics
   - Tutorials
 id: '64'
 categories:
-  - - true
+  - [Screen Graphics]
 date: 2013-07-17 04:23:00
 ---
 

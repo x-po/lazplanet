@@ -1,7 +1,6 @@
 ---
 title: How to compress an Image to JPG (w/o preview)
 tags:
-  - Code Snippets
   - compression
   - converter
   - Explanation
@@ -13,7 +12,9 @@ tags:
   - Tutorials
 id: '46'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Screen Graphics]
+  - [Code Snippets]
 date: 2014-03-24 17:35:00
 ---
 

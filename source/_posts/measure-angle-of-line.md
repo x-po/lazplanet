@@ -4,11 +4,10 @@ tags:
   - angle
   - arc
   - canvas
-  - Math Dates
-  - Screen Graphics
 id: '86'
 categories:
-  - - true
+  - [Math Dates]
+  - [Screen Graphics]
 date: 2013-05-14 07:00:00
 ---
 

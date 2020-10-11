@@ -2,13 +2,12 @@
 title: What are Classes and What They Can Do for You
 tags:
   - Articles
-  - Code Snippets
   - Explanation
   - Sample Code
   - Tutorials
 id: '40'
 categories:
-  - - true
+  - [Code Snippets]
 date: 2014-07-22 15:06:00
 ---
 

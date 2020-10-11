@@ -1,20 +1,19 @@
 ---
 title: How to Show / Hide the Windows Taskbar with Lazarus
 tags:
-  - Code Snippets
   - Explanation
-  - Form Controls
   - hide
   - Sample Code
   - show
-  - System API
   - taskbar
   - toggle
   - Tutorials
   - Windows API
 id: '51'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Form Controls]
+  - [System API]
 date: 2014-02-20 14:22:00
 ---
 

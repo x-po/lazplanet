@@ -1,12 +1,12 @@
 ---
 title: A Fun Vowel Detection Program!!
 tags:
-  - Algorithms
-  - Console
-  - Text Operation
+  - Explanation
 id: '112'
 categories:
-  - - true
+  - [Algorithms]
+  - [Console]
+  - [Text Operation]
 date: 2013-03-28 00:40:00
 ---
 

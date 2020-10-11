@@ -1,17 +1,16 @@
 ---
 title: How to Open a Folder in Windows Explorer
 tags:
-  - Code Snippets
-  - Files Directories
   - folder
   - open
   - Sample Code
-  - System API
   - Tutorials
   - Windows Only
 id: '48'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Files Directories]
+  - [System API]
 date: 2014-03-03 18:04:00
 ---
 

@@ -7,11 +7,10 @@ tags:
   - line
   - paint
   - pencil
-  - Screen Graphics
   - Tutorials
 id: '75'
 categories:
-  - - true
+  - [Screen Graphics]
 date: 2013-05-29 23:09:00
 ---
 

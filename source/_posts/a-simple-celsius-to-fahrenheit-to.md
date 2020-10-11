@@ -7,11 +7,10 @@ tags:
   - convert
   - Fahrenheit
   - formula
-  - Math Dates
   - Tutorials
 id: '84'
 categories:
-  - - true
+  - [Math Dates]
 date: 2013-05-16 14:44:00
 ---
 

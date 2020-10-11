@@ -8,7 +8,7 @@ tags:
   - Tutorials
 id: '116'
 categories:
-  - - true
+  - [Guides]
 date: 2013-03-23 23:10:00
 ---
 

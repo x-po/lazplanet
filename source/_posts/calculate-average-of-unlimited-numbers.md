@@ -3,13 +3,12 @@ title: Calculate Average of Unlimited Numbers
 tags:
   - average
   - calculate
-  - Console
-  - Math Dates
   - program
   - Sample Code
 id: '91'
 categories:
-  - - true
+  - [Console]
+  - [Math Dates]
 date: 2013-05-09 18:20:00
 ---
 

@@ -1,13 +1,12 @@
 ---
 title: How to Capitalize Text
 tags:
-  - Code Snippets
   - Sample Code
-  - Text Operation
   - Tutorials
 id: '102'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Text Operation]
 date: 2013-04-14 00:28:00
 ---
 

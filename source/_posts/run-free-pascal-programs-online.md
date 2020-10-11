@@ -3,12 +3,11 @@ title: Run Free Pascal programs without installing compiler (online)
 tags:
   - Compiler
   - Console
-  - HTML Web
   - online
   - Tutorials
 id: '52'
 categories:
-  - - true
+  - [HTML Web]
 date: 2014-02-13 18:06:00
 ---
 

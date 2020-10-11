@@ -2,14 +2,13 @@
 title: How to get the files/folders inside a ZIP file
 tags:
   - Articles
-  - Code Snippets
   - compression
-  - Files Directories
   - Sample Code
   - zip
 id: '78'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Files Directories]
 date: 2013-05-25 01:02:00
 ---
 

@@ -9,7 +9,7 @@ tags:
   - Ubuntu
 id: '8'
 categories:
-  - - true
+  - [Guides]
 date: 2020-04-27 13:56:00
 ---
 

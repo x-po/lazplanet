@@ -1,13 +1,12 @@
 ---
 title: Get all running windows' titles
 tags:
-  - Code Snippets
   - Sample Code
-  - System API
   - Tutorials
 id: '104'
 categories:
-  - - true
+  - [Code Snippets]
+  - [System API]
 date: 2013-04-09 10:42:00
 ---
 

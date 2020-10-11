@@ -1,15 +1,14 @@
 ---
 title: Highlight a part or all of Text in TEdit
 tags:
-  - Code Snippets
   - input
   - Sample Code
   - select
-  - Text Operation
   - Tutorials
 id: '74'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Text Operation]
 date: 2013-05-31 15:55:00
 ---
 

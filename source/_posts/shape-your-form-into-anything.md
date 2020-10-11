@@ -3,7 +3,6 @@ title: Shape Your Form Into Anything!
 tags:
   - custom
   - Explanation
-  - Form Controls
   - mask
   - region
   - shape
@@ -11,7 +10,7 @@ tags:
   - Tutorials
 id: '45'
 categories:
-  - - true
+  - [Form Controls]
 date: 2014-04-14 19:56:00
 ---
 

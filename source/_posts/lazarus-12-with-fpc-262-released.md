@@ -7,7 +7,7 @@ tags:
   - version
 id: '47'
 categories:
-  - - true
+  - 
 date: 2014-03-05 18:33:00
 ---
 

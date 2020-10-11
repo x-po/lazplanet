@@ -1,12 +1,11 @@
 ---
 title: Clone your form into many !!!
 tags:
-  - Form Controls
   - Sample Code
   - Tutorials
 id: '108'
 categories:
-  - - true
+  - [Form Controls]
 date: 2013-04-03 07:30:00
 ---
 

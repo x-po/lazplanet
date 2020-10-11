@@ -3,13 +3,13 @@ title: Create a Pong game for yourself
 tags:
   - 2D Game
   - 2D Graphics
-  - Artificial Intelligence
   - Explanation
-  - Games
   - Tennis
 id: '34'
 categories:
-  - - true
+  - [Artificial Intelligence]
+  - [Screen Graphics]
+  - [Games]
 date: 2014-10-04 12:33:00
 ---
 

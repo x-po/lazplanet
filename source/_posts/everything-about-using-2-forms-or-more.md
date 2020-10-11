@@ -2,7 +2,6 @@
 title: Everything about using 2 forms... or more!
 tags:
   - create
-  - Form Controls
   - forms
   - modal
   - multiple
@@ -11,7 +10,7 @@ tags:
   - window
 id: '29'
 categories:
-  - - true
+  - [Form Controls]
 date: 2015-01-13 00:33:00
 ---
 

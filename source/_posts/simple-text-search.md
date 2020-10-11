@@ -1,13 +1,12 @@
 ---
 title: Simple text search
 tags:
-  - Code Snippets
   - Sample Code
-  - Text Operation
   - Tutorials
 id: '100'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Text Operation]
 date: 2013-04-16 00:26:00
 ---
 

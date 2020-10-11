@@ -2,17 +2,16 @@
 title: 'Image Copy Paste: Storing an Image in Clipboard & Retrieving it'
 tags:
   - clipboard
-  - Code Snippets
   - copy
   - image
   - open
   - paste
   - Sample Code
-  - Screen Graphics
-  - System API
 id: '95'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Screen Graphics]
+  - [System API]
 date: 2013-05-05 18:10:00
 ---
 

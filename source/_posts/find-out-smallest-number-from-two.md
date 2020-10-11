@@ -1,15 +1,14 @@
 ---
 title: Find out the smallest number from two numbers
 tags:
-  - Algorithms
-  - Console
   - Explanation
-  - Math Dates
   - minimum
   - numbers
 id: '30'
 categories:
-  - - true
+  - [Algorithms]
+  - [Math Dates]
+  - [Console]
 date: 2014-11-18 15:09:00
 ---
 

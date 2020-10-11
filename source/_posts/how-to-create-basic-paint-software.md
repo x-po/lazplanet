@@ -2,16 +2,15 @@
 title: How to create a Basic Paint Software in Lazarus
 tags:
   - canvas
-  - Code Snippets
-  - Form Controls
   - paint
   - Sample Code
-  - Screen Graphics
-  - System API
   - Tutorials
 id: '70'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Form Controls]
+  - [Screen Graphics]
+  - [System API]
 date: 2013-06-12 00:44:00
 ---
 

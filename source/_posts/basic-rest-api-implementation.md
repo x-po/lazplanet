@@ -1,17 +1,16 @@
 ---
 title: How to do Basic REST API Implementation in Lazarus (with Weather API example)
 tags:
-  - Code Snippets
   - Explanation
-  - HTML Web
   - REST API
-  - System API
   - temperature
   - Tutorials
   - weather
 id: '10'
 categories:
-  - - true
+  - [Code Snippets]
+  - [HTML Web]
+  - [System API]
 date: 2019-03-22 16:16:00
 ---
 

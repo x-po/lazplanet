@@ -6,7 +6,7 @@ tags:
   - version
 id: '69'
 categories:
-  - - true
+  - 
 date: 2013-06-15 00:28:00
 ---
 

@@ -1,12 +1,11 @@
 ---
 title: How to create a .Zip File with your own program
 tags:
-  - Files Directories
   - Sample Code
   - Tutorials
 id: '109'
 categories:
-  - - true
+  - [Files Directories]
 date: 2013-04-02 05:22:00
 ---
 

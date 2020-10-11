@@ -1,14 +1,13 @@
 ---
 title: How to Roll a Dice in your Program
 tags:
-  - Code Snippets
   - Explanation
-  - Math Dates
-  - Screen Graphics
   - Tutorials
 id: '71'
 categories:
-  - - true
+  - [Code Snippets]
+  - [Math Dates]
+  - [Screen Graphics]
 date: 2013-06-10 01:35:00
 ---
 

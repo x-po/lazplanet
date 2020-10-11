@@ -6,11 +6,10 @@ tags:
   - parse
   - request
   - response
-  - System API
-  - Text Operation
 id: '35'
 categories:
-  - - true
+  - [System API]
+  - [Text Operation]
 date: 2014-09-03 17:46:00
 ---
 
