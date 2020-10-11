@@ -11,6 +11,9 @@ categories:
   - [Math Dates]
 date: 2013-05-09 18:20:00
 thumbnail: calculate-average-of-unlimited-numbers/average-thumb.gif
+downloads:
+  - http://bit.ly/15seTRc
+  - http://bit.ly/10twoJ6
 ---
 
 We have seen a lot of average calculation programs. They have limit to their numbers of input. So we have a code that will let you enter number to your heart's content.
@@ -139,11 +142,3 @@ If the count is zero then we cannot do division for calculating. If we divide an
 The average variable is a single type variable. We need a string to use in the WriteLn. The FormatFloat function does 2 things: 1, it converts the number into float format given and it turns it into a string. You can change the format to '0.0000' to show four decimal points of the average.  
   
 You can also make an average calculation function based on these codes.  
-  
-
-### Download Sample Code ZIP
-
-Download the example source code zip file from here: [http://bit.ly/15seTRc](http://bit.ly/15seTRc)  
-Or here: [http://bit.ly/10twoJ6](http://bit.ly/10twoJ6)  
-Size: 67 KB  
-The zip package contains compiled executable EXE file.

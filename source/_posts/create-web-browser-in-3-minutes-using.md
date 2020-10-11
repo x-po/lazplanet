@@ -10,6 +10,9 @@ categories:
   - [HTML Web]
 date: 2015-09-16 05:54:00
 thumbnail: create-web-browser-in-3-minutes-using/thumb-lazarus-chrome-webbrowser-1.jpg
+downloads:
+  - https://db.tt/MWPFjW2v
+  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSUncyc3Q0MWUyU2c
 ---
 
 We'll learn how to create a web browser even quicker than you can install one! All using the people's favorite chromium engine!
@@ -192,15 +195,7 @@ Now Run the project (F9 or Run -> Run). Click the "Go" button.
 You'll see the LazPlanet website load in your newly made web browser! You can change the code on the TForm1.FormCreate procedure to set another URL as the homepage.  
   
 Now browse all you want with your new browser! Happy surfing!  
-  
 
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://db.tt/MWPFjW2v).  
-[](https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSUncyc3Q0MWUyU2c)  
-Size: 926 KB  
-The package contains compiled executable EXE file.  
-  
 **Ref:**  
 [http://wiki.freepascal.org/fpCEF3](http://wiki.freepascal.org/fpCEF3)  
 [https://github.com/dliw/fpCEF3](https://github.com/dliw/fpCEF3)  

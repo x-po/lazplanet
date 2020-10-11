@@ -11,6 +11,9 @@ categories:
   - [Files Directories]
 date: 2013-05-25 01:02:00
 thumbnail: how-to-get-filesfolders-inside-zip-file/compress-icon-zip.jpg
+downloads:
+  - http://db.tt/BkhyiN9i
+  - http://bit.ly/18cGsOG
 ---
 
 Ever wanted to make your own Zip Viewer? In this article we look at a simple code for listing the files/folders inside a ZIP file, without any third party libraries.
@@ -116,11 +119,3 @@ Now run the Project (F9 or Run-> Run). Open a .ZIP file and click the button. Yo
 
   
 Zipper (a.k.a. paszlib) can also be used in Console projects. So [you can create command line programs with paszlib library](http://wiki.freepascal.org/paszlib#Examples).  
-  
-
-### Download the Sample Code ZIP
-
-You can download an example source code zip file from here: [http://db.tt/BkhyiN9i](http://db.tt/BkhyiN9i)  
-Or here: [http://bit.ly/18cGsOG](http://bit.ly/18cGsOG)  
-Size: 548 KB  
-The package contains compiled executable EXE file.

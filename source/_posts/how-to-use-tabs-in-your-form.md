@@ -10,6 +10,8 @@ categories:
   - [Form Controls]
 date: 2013-07-22 23:59:00
 thumbnail: how-to-use-tabs-in-your-form/tab-components-thumb.gif
+downloads:
+  - https://www.dropbox.com/s/pk701y03xg08gvn/TabTest.zip?dl=1
 ---
 
 Tabs are a good way to tidy up your form and give a perfect look to a hundred checkboxes. Today we learn how to use this inevitable UI element in our forms.
@@ -146,11 +148,3 @@ You can also arrange the tabs' order. For example, if you want to bring Tab 2 be
 Using TTabControl is similar to using TPageControl, as I have mentioned earlier. The only major difference is that you need only one set of components for the TTabControl. Those will be changed/updated as you wish on selecting each tab. You can create a TTabControl in the form and right click it, select Add Tab. You can create components in the content area. You can change their properties or whatever in its OnChange event.  
   
 You can use Add Tab, Insert Tab, Delete Tab, Move Tab Left, Move Tab Right as you can for TPageControl.  
-  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project source code from [here](https://www.dropbox.com/s/pk701y03xg08gvn/TabTest.zip?dl=1)  
-Size: 521 KB  
-The package contains compiled executable EXE.

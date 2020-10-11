@@ -10,6 +10,9 @@ categories:
   - [System API]
 date: 2014-08-25 16:27:00
 thumbnail: how-to-create-form-that-always-stays-on/widgets2.jpg
+downloads:
+  - https://www.dropbox.com/s/oobn0w8nyjwlhom/Form-on-desktop.zip?dl=1
+  - http://bit.ly/form-on-desktop
 ---
 
 Discover the path to cool widget programming. Learn how to show your form only on desktop and nowhere else. Great for Widgets and To-do apps.
@@ -114,15 +117,7 @@ end;
 Now run the project (F9 or Run-> Run). The form window will appear on desktop and stay on desktop. Try opening some windows and test it.  
   
 Now that you have a window that stays on desktop you can create desktop widgets. If you can't, wait a few days and I'll write a weather widget project.  
-  
 
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/oobn0w8nyjwlhom/Form-on-desktop.zip?dl=1)  
-Or here: [http://bit.ly/form-on-desktop](http://bit.ly/form-on-desktop)  
-Size: 590 KB  
-The package contains compiled executable EXE file.  
-  
 **Ref:**  
 [http://forum.lazarus.freepascal.org/index.php?topic=1574.0](http://forum.lazarus.freepascal.org/index.php?topic=1574.0)  
 [http://stackoverflow.com/questions/365094/window-on-desktop](http://stackoverflow.com/questions/365094/window-on-desktop)

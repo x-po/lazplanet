@@ -14,6 +14,8 @@ categories:
   - [Screen Graphics]
 date: 2013-06-28 22:06:00
 thumbnail: how-to-create-airbrush-tool-for-drawing/airbrush-thumb.jpg
+downloads:
+  - https://www.dropbox.com/s/xvzz70o3kdentj3/AirbrushTest.zip?dl=1
 ---
 
 You know [how to draw like a pencil](http://lazplanet.blogspot.com/2013/05/how-to-scribble-with-virtual-pencil.html) and [circles and rectangles and stuff](http://lazplanet.blogspot.com/2013/06/how-to-create-basic-paint-software.html). But how do you make an airbrush tool in Lazarus? Here's how...
@@ -240,11 +242,3 @@ Now run the project (F9 or Run-> Run).
 Drag you mouse to draw with airbrush mode. Right click and drag your mouse to draw with Paintbrush mode.  
   
 You can also [use BGRA Bitmap Library](http://wiki.freepascal.org/BGRABitmap_tutorial_5) to create the brush image in the memory by making a gradient. Then you can change the color and size of the brush by generating a gradient of according to the size and color chosen.  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project source code from [here](https://www.dropbox.com/s/xvzz70o3kdentj3/AirbrushTest.zip?dl=1)  
-  
-Size: 583 KB  
-The package contains compiled executable EXE.

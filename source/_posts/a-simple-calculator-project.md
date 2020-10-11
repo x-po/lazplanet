@@ -10,6 +10,8 @@ categories:
   - [Math Dates]
 date: 2013-05-01 14:46:00
 thumbnail: a-simple-calculator-project/simple-calculator.jpg
+downloads:
+  - http://db.tt/2mZrTg7n
 ---
 
 There are many calculator programs out there... with hundreds of buttons to click and thousands of lines of codes to implement those functions. But in this little project we discover a simple calculator...by hand...
@@ -171,10 +173,5 @@ For example the Tag property of the Add button is 1. So in the CalculateMe funct
 Here, the Index variable contains the Tag value.  
   
 Good luck on your journey! Have your own calculators made!  
-  
 
-### Source Zip Download
-
-You can download the sample source code zip file from here: [http://db.tt/2mZrTg7n](http://db.tt/2mZrTg7n)  
-Size: 519 KB  
 _Image: rfclipart.com_

@@ -9,6 +9,9 @@ categories:
   - [Text Operation]
 date: 2013-04-14 00:28:00
 thumbnail: how-to-capitalize-text/croppercapture2.jpg
+downloads:
+  - http://db.tt/lKVYnRYc
+  - http://bit.ly/111WGlk
 ---
 
 We write the words in the middle of the sentence in lowercase letters. Capitalizing is sometimes necessary to emphasize things. Any text (or string) can be converted to uppercase (capitalize). Here's how...
@@ -66,14 +69,3 @@ function UpperCase(
   const s:  
 ):;
 
-  
-It will return the uppercase/capitalized version of s. You can capitalize letters, words, sentences etc.  
-
-### Download source zip
-
-Download the sample source code zip file from here: [http://db.tt/lKVYnRYc](http://db.tt/lKVYnRYc)  
-Or from here: [http://bit.ly/111WGlk](http://bit.ly/111WGlk)  
-  
-Size: 518 KB  
-  
-The zip file contains executable EXE file.

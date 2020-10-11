@@ -9,6 +9,8 @@ categories:
   - [Form Controls]
 date: 2013-04-12 05:06:00
 thumbnail: make-your-forms-transparent/lazarus-form-transparency-2.gif
+downloads:
+  - https://dl.dropboxusercontent.com/u/6459514/LazPlanet/Form-Controls/formtrans_color.zip
 ---
 
 Forms are boring solid objects. But you can make it fun in many ways. One of them is transparency. Here's how...
@@ -113,12 +115,7 @@ The procedures let the Windows' window manager say that "Where you find x color 
 If you want better options, then use form regions. You can define in a better way the shape of the form.  
   
 You can also have translucency effect, which is widely used in splash screens.  
-  
 
-### Download Sample code zip
 
-You can [download the sample source code here](https://dl.dropboxusercontent.com/u/6459514/LazPlanet/Form-Controls/formtrans_color.zip)  
-Size: 0.98 MB  
-  
 **Ref:**  
 [http://www.lazarus.freepascal.org/index.php/topic,8488.0.html](http://www.lazarus.freepascal.org/index.php/topic,8488.0.html)

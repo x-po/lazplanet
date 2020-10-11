@@ -7,6 +7,8 @@ categories:
   - [Text Operation]
 date: 2013-04-04 12:23:00
 thumbnail: count-words-in-string/necklace-measure-words.jpg
+downloads:
+  - http://db.tt/hz89LpUW
 ---
 
 Suppose you have found a huge paragraph. How many words are in that paragraph? Do you want to count yourself? No. We can let our program count the words! Here's how...
@@ -74,10 +76,4 @@ We have added 4 characters as delimiters. You can add more such as, ( ) - @ = : 
   
 You can add other components to decorate the form. Such as another TLabel with caption "You have typed: ". May be implement resize anchors to change size of the memo according to the form's size.  
 
-### Sample code download
-
-Download the sample code zip from here: [http://db.tt/hz89LpUW](http://db.tt/hz89LpUW)  
-Size: 671 KB  
-  
-The zip file contains executable (exe) file.  
 _Photo: http://thelinecontinuestoblur.blogspot.com_

@@ -14,6 +14,9 @@ categories:
   - [Screen Graphics]
 date: 2014-06-14 00:03:00
 thumbnail: how-to-make-simple-analog-clock/analog-clock-project-thumb.gif
+downloads:
+  - https://www.dropbox.com/s/5bugnivorzdef3t/analog-clock.zip?dl=1
+  - http://bit.ly/analog-clock
 ---
 
 Digital clocks are cool. But Analog clocks are cooler... when you make them yourself! In this little article we are gonna create an analog clock!
@@ -253,11 +256,3 @@ If you try to expand this project to fit in these features, I think it will bene
 \- Set its form shape to match the contents  
 \- Always on top feature  
 \- Tray icon to quit or set alarm  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/5bugnivorzdef3t/analog-clock.zip?dl=1)  
-Or here: [http://bit.ly/analog-clock](http://bit.ly/analog-clock)  
-Size: 593 KB  
-The package contains compiled executable EXE file.

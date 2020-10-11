@@ -14,6 +14,9 @@ categories:
   - [Code Snippets]
 date: 2018-01-28 02:49:00
 thumbnail: how-to-make-simple-video-player-in/vlc_video_player_thumb.png
+downloads:
+  - https://www.dropbox.com/s/c4w0c9vnetwktcy/vlc_video_player.zip?dl=0
+  - https://drive.google.com/uc?export=download&id=1yufROefQsbAXVjwAK9F0xvGJSBB4dmdz
 ---
 
 We like to watch videos. How about playing videos on our own player? In this article, we are going to create a fun, simple video player.
@@ -248,11 +251,3 @@ You can hit Open to open a media from your hard disk, or click Open URL button t
 
   
 You can do all sorts of stuff with it. You can also research on the player component. This is just a basic for this component. There are lots of other useful features. Maybe it can simplify your daily tasks somehow, who knows!  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/c4w0c9vnetwktcy/vlc_video_player.zip?dl=0).  
-Or [here](https://drive.google.com/uc?export=download&id=1yufROefQsbAXVjwAK9F0xvGJSBB4dmdz).  
-Size: 630KB  
-The package contains compiled executable EXE file.

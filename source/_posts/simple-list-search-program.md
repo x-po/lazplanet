@@ -10,6 +10,9 @@ categories:
   - [List Iteration]
 date: 2013-05-19 09:21:00
 thumbnail: simple-list-search-program/search-list-thumb.gif
+downloads:
+  - http://db.tt/6cIeojH9
+  - http://bit.ly/18cGUwa
 ---
 
 Searching a list is one of computer's specialties. If you are a programer, you at least need to know this simple list search technique.
@@ -92,13 +95,3 @@ It is a simple code to virtually click the button when the user presses enter af
   
 
 ![Simple list search in Lazarus (runtime)](simple-list-search-program/list-search-lazarus.gif "Simple list search in Lazarus (runtime)")
-
-  
-  
-
-### Download Sample Code ZIP
-
-You can download an example source code from here: [http://db.tt/6cIeojH9](http://db.tt/6cIeojH9)  
-Or here: [http://bit.ly/18cGUwa](http://bit.ly/18cGUwa)  
-Size: 519 KB  
-The package contains compiled executable EXE file.

@@ -10,6 +10,9 @@ categories:
   - [Math Dates]
 date: 2013-05-10 18:02:00
 thumbnail: average-calculation-with-list-of/average-thumb.gif
+downloads:
+  - http://db.tt/FlizcsXt
+  - http://bit.ly/10z6mZH
 ---
 
 Average calculation is a easy formula to practice your programing skills. We have seen a [CLI average calculator program](http://lazplanet.blogspot.com/2013/05/calculate-average-of-unlimited-numbers.html) of unlimited numbers, now its time for a GUI project.
@@ -176,11 +179,3 @@ Now Run the program (F9 or Run->Run).
 Now input numbers and press enter. You will see the average of the numbers in the lblAverage.  
   
 The code is pretty much self explanatory. For further explanations of the code you can look at the [average](http://lazplanet.blogspot.com/2013/05/calculate-average-of-unlimited-numbers.html) and [list manipulation](http://lazplanet.blogspot.com/2013/05/how-to-add-delete-clear-items-of-listbox.html) example. You can also extend the capacity of the program by by declaring sum, count, and average variable in the CalcAverage procedure, with a variable type of greater capacity.  
-  
-
-### Download Sample Code ZIP
-
-Download the example source code zip file from here: [http://db.tt/FlizcsXt](http://db.tt/FlizcsXt)  
-Or here: [http://bit.ly/10z6mZH](http://bit.ly/10z6mZH)  
-Size: 522 KB  
-The package contains the compiled executable EXE file.

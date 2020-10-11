@@ -13,6 +13,9 @@ categories:
   - [System API]
 date: 2019-03-22 16:16:00
 thumbnail: basic-rest-api-implementation/rest-api-thumb.jpg
+downloads:
+  - https://www.dropbox.com/s/1y4dtttcxmfzul5/RESTApiBasics.zip?dl=1
+  - https://drive.google.com/uc?export=download&id=19QvnjNUpOEdXUpGQcd_MJ7eCQigUufVE
 ---
 
 REST APIs are "the thing" to learn these days. But how should we get it to work on Lazarus? Let's see...
@@ -310,10 +313,3 @@ Now search for a location. Choose an item from the list on the right. It will ma
 
   
 This is a basic weather API implementation. There are many other out there. Feel free to try them out!  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/1y4dtttcxmfzul5/RESTApiBasics.zip?dl=1) or [here](https://drive.google.com/uc?export=download&id=19QvnjNUpOEdXUpGQcd_MJ7eCQigUufVE).  
-Size: 2.93MB  
-The package contains compiled executable EXE file. It has been compressed with UPX so some antivirus programs may see it as a false positive.

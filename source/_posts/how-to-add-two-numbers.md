@@ -9,6 +9,9 @@ categories:
   - [Math Dates]
 date: 2013-03-29 05:42:00
 thumbnail: how-to-add-two-numbers/2_2_4.jpg
+downloads:
+  - http://db.tt/QamzMLhC
+  - http://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSY2JmZGkzaERDTkk
 ---
 
 Okey. Adding is not the first thing you did. But teaching a computer how to add two numbers is something worth learning.
@@ -107,10 +110,3 @@ Now you have it! your very own adding machine! Add your modifications to the for
 We use StrToFloat to convert our Editbox text to double. If we did not convert the string (TEdit.Text) to Double then we could not sum them up (num1 + num2). We cannot sum strings! That's why the conversion.  
   
 Then again we cannot assign a double value to a string/TCaption (Tedit.Text). So we need to convert the numerical result to a string through FloatToStr() function. That's why Edit3.Text := FloatToStr(num1+num2);  
-
-### Download Sample Zip
-
-Download source code here: [http://db.tt/QamzMLhC](http://db.tt/QamzMLhC)  
-or [http://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSY2JmZGkzaERDTkk](http://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSY2JmZGkzaERDTkk)  
-  
-It includes compiled executable file (exe).

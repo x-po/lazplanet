@@ -14,6 +14,9 @@ categories:
   - [List Iteration]
 date: 2013-07-08 01:50:00
 thumbnail: how-to-list-files-in-folder/file-browser-2-thumb.jpg
+downloads:
+  - https://www.dropbox.com/s/ft6ig0dekkknk3n/ZipViewer.zip?dl=1
+  - http://bit.ly/18cGsOG
 ---
 
 We all have these gigabytes and terabytes of hard disks in our computers. But what's the use of this huge storage if we cannot see where our files are and in which folder they are located? Of course we can. With our very own IDE, Lazarus!
@@ -426,11 +429,3 @@ end;
 
   
 The [wiki suggests](http://wiki.freepascal.org/Executing_External_Programs#MS_Windows_:_CreateProcess.2C_ShellExecute_and_WinExec) to use TProcess instead of Shell Execute. Because this command will only work on windows. [TProcess](http://wiki.freepascal.org/Executing_External_Programs#TProcess) on the other hand works on all platforms.  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project source code from [here](https://www.dropbox.com/s/ft6ig0dekkknk3n/ZipViewer.zip?dl=1)  
-Or here: [http://bit.ly/18cGsOG](http://bit.ly/18cGsOG)  
-Size: 562 KB  
-The package contains compiled executable EXE.

@@ -13,6 +13,9 @@ categories:
   - [System API]
 date: 2016-06-22 13:59:00
 thumbnail: how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-thumb.gif
+downloads:
+  - https://db.tt/VSs3JIJ9
+  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSYlgtWGRIQmdrcjQ
 ---
 
 In this article we find out what the user is doing with his mouse, even outside of the program. Let's conquer the whole system!
@@ -163,14 +166,6 @@ Now run the project (F9 or Run -> Run).
 Now, when you use this code on your project you will need to customize the LowLevelMouseHookProc() function to suit your needs. Try things yourself. The sky is the limit here!  
   
 ...And for the mouse position, it is better to [use the Mouse.CursorPos.x or .y](http://localhost/wp-lazplanet/2013/04/06/how-to-get-your-mouse-cursor-position-bonus-set-position-also/) because the solution in this article sometimes begets negative values, which might not be what you would like. The code is kept just to show how it is done in the hooks style.  
-  
 
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://db.tt/VSs3JIJ9).  
-Or [here](https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSYlgtWGRIQmdrcjQ).  
-Size: 561KB  
-The package contains compiled executable EXE file.  
-  
 Ref:  
 [https://www.experts-exchange.com/questions/21838717/Delphi-detect-a-left-right-mouse-click-anywhere-on-the-screen.html](https://www.experts-exchange.com/questions/21838717/Delphi-detect-a-left-right-mouse-click-anywhere-on-the-screen.html) - thanks to ZhaawZ, his answer helped greatly

@@ -8,6 +8,9 @@ categories:
   - [Files Directories]
 date: 2013-04-02 05:22:00
 thumbnail: how-to-create-zip-file/lazarus-exe-compression.jpg
+downloads:
+  - http://dl.dropbox.com/u/6459514/LazPlanet/File-Functions/add-to-zip.zip
+  - https://docs.google.com/file/d/0B9WrDtlrEzlSVUFkOGw3MWM4TzA/edit?usp=sharing
 ---
 
 Zip files are a very common way of sharing multiple files compressed into a single file. Zip files are supported in various platforms (Windows, Mac, Linux etc.). We can use many softwares to create a zip file, such as [7-zip](http://www.7-zip.org/), [WinZip](http://www.winzip.com/), [WinRAR](http://www.rarlab.com/) etc. But today we are going to make zip files on our own program!
@@ -105,12 +108,7 @@ Press F9 to Run the program we have made.
   
   
 Click the button. And then visit the project directory. You  will see a "test.zip" file created by the program.  
-  
 
-### Download the Sample Code Files
 
-You can download the project source code here: [http://dl.dropbox.com/u/6459514/LazPlanet/File-Functions/add-to-zip.zip](http://dl.dropbox.com/u/6459514/LazPlanet/File-Functions/add-to-zip.zip)  
-Or here: [https://docs.google.com/file/d/0B9WrDtlrEzlSVUFkOGw3MWM4TzA/edit?usp=sharing](https://docs.google.com/file/d/0B9WrDtlrEzlSVUFkOGw3MWM4TzA/edit?usp=sharing)  
-  
 You can see here to use ZipFile as a package component to use in the form view:  
 [http://wiki.freepascal.org/ZipFile](http://wiki.freepascal.org/ZipFile)

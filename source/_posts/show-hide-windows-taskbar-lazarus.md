@@ -16,6 +16,8 @@ categories:
   - [System API]
 date: 2014-02-20 14:22:00
 thumbnail: show-hide-windows-taskbar-lazarus/task-bar-show-hide-lazplanet-thumb.jpg
+downloads:
+  - https://db.tt/Nca39jNf
 ---
 
 If you want to build some uncommon software which needs hiding the taskbar then check out this article.
@@ -164,12 +166,3 @@ Now Run the project (Run -> Run or F9).
 
   
 Click both the buttons to show and hide task bar.  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from here: [https://db.tt/Nca39jNf](https://db.tt/Nca39jNf)[](https://db.tt/t6JS2cAZ)  
-Size: 522 KB  
-The package contains compiled executable EXE file.  
-  
-Ref: [http://embarcadero.newsgroups.archived.at/public.delphi.nativeapi/201008/1008113955.html](http://embarcadero.newsgroups.archived.at/public.delphi.nativeapi/201008/1008113955.html)

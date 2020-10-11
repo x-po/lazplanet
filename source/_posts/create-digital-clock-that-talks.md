@@ -12,6 +12,8 @@ categories:
   - [Screen Graphics]
 date: 2013-12-30 22:36:00
 thumbnail: create-digital-clock-that-talks/pacman-clock.jpg
+downloads:
+  - https://www.dropbox.com/s/6yycr85ynjoukuf/Digital_Clock.zip?dl=1
 ---
 
 We are going to make a digital clock that has LCD Screen looking digits. Not only that. It can also speak the time!
@@ -314,10 +316,3 @@ Enhancing a source code is a great way of learning, the fun way. Try these:
 \- Implement an alarm feature. That'd be cool.  
 \- Give the user the option to choose "skin" image (a.k.a. digits.bmp). So that they can change the appearance of the clock as they wish. You can also change the values of digitWidth and digitHeight according to the new image, so that users can use skins of different sizes.  
 \- Implement eSpeak for cross-platform compatibility  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/6yycr85ynjoukuf/Digital_Clock.zip?dl=1)  
-Size: 680 KB  
-The package contains compiled executable EXE file.

@@ -12,6 +12,9 @@ categories:
   - [Text Operation]
 date: 2013-06-17 06:59:00
 thumbnail: how-to-draw-text-on-canvas/draw-text-thumb.gif
+downloads:
+  - https://www.dropbox.com/s/zncc8kggdirvh06/DrawTextCanvas.zip?dl=1
+  - http://bit.ly/12ftOdL
 ---
 
 We can use TLabel to show any text just to show any text, not editing. But what could we do to show text on a canvas? Then we would need to draw the text. Here's how...
@@ -349,15 +352,7 @@ Now, Run it (F9 or Run-> Run).
 
   
 Now choose a font, size, color, text and then drag a rectangular area on the Paintbox to your text drawn on it. Simple!  
-  
 
-### Download Sample Code ZIP
-
-You can download an example source code zip file from [here](https://www.dropbox.com/s/zncc8kggdirvh06/DrawTextCanvas.zip?dl=1)  
-Or here: [http://bit.ly/12ftOdL](http://bit.ly/12ftOdL)  
-Size: 528 KB  
-The package contains compiled executable EXE file.  
-  
 **Ref:**  
 [http://www.lazarus.freepascal.org/index.php?topic=21118.0](http://www.lazarus.freepascal.org/index.php?topic=21118.0)  
 [http://msdn.microsoft.com/en-us/library/aa911421.aspx](http://msdn.microsoft.com/en-us/library/aa911421.aspx)  

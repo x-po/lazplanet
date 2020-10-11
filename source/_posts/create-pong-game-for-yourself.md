@@ -12,6 +12,9 @@ categories:
   - [Games]
 date: 2014-10-04 12:33:00
 thumbnail: create-pong-game-for-yourself/ping_pong.png
+downloads:
+  - https://www.dropbox.com/s/0mo8d0vx23o6j9a/PingPong.zip?dl=1
+  - http://bit.ly/pascal_pong_game
 ---
 
 Everybody likes to play games. It gets even better if you play the game you made yourself.
@@ -259,11 +262,3 @@ We don't want the paddle to move when it's on pause mode. So we add an if statem
 Now whenever the user presses the P key, the game will pause. Another press on P will resume the game.  
   
 So, there you have it. Your very own game made by you! Go on, have fun with it!  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/0mo8d0vx23o6j9a/PingPong.zip?dl=1)  
-Or here: [http://bit.ly/pascal\_pong\_game](http://bit.ly/pascal_pong_game)  
-Size: 592 KB  
-The package contains compiled executable EXE file.

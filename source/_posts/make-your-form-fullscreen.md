@@ -13,6 +13,8 @@ categories:
   - [Form Controls]
 date: 2014-02-21 21:53:00
 thumbnail: make-your-form-fullscreen/fullscreen-form-thumb.gif
+downloads:
+  - https://db.tt/TzCldWJU
 ---
 
 Fullscreen is a common option in many of the popular programs we use. Today we learn the simple trick of making our program fullscreen.
@@ -143,10 +145,3 @@ You can use this in an Image viewer, a web browser or a media player. May be eve
 This is a basic example code for making your form fullscreen. It has some limitations that it doesn't remember the last state and it always restores to wsNormal.  
   
 If you want more advanced version with keyboard shortcut and form size & state remembering and linux troubleshooting, see [this wiki for code](http://wiki.lazarus.freepascal.org/Application_full_screen_mode).  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from here: [https://db.tt/TzCldWJU](https://db.tt/TzCldWJU)  
-Size: 518 KB  
-The package contains compiled executable EXE file.

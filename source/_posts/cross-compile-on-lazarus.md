@@ -14,6 +14,8 @@ categories:
   - [Hardware]
 date: 2020-05-12 23:29:00
 thumbnail: cross-compile-on-lazarus/lazarus-cross-compile-postthumb.png
+downloads:
+  - https://gitlab.com/lazplanet/cross-compile/-/releases
 ---
 
 It's alive! It's working! We're compiling for other OSs that we don't have... easily!
@@ -201,9 +203,7 @@ You can do the same for Win64:
 If you want to check in a moment what it would look like on Windows, you can install `wine` and right click and run the .exe file with wine. It will emulate more of less how it would in Windows. You can even run this on ReactOS (the win32 version) if you want to.  
   
 To easily determine if an executable is 32bit or 64bit on Linux, run `file /path/to/executable` and it should show something like `...PE32+ executable (GUI) x86-64..`. or `...PE32 executable (GUI) Intel 80386...` depending on the architecture.  
-  
-[Download project source files](https://gitlab.com/lazplanet/cross-compile/-/releases)  [Browser source code](https://gitlab.com/lazplanet/cross-compile)  
-  
+
 **Ref:**  
 
 *   Instructions for any other platform: [https://wiki.lazarus.freepascal.org/Cross\_compiling](https://wiki.lazarus.freepascal.org/Cross_compiling)

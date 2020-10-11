@@ -13,6 +13,9 @@ categories:
   - [Text Operation]
 date: 2013-06-22 15:31:00
 thumbnail: how-to-capture-mouse-wheel-scroll/mouse-scroll-thumb.jpg
+downloads:
+  - https://www.dropbox.com/s/ohlyiwu6e1mlqmk/MouseWheel.zip?dl=1
+  - http://bit.ly/12fuoYV
 ---
 
 Mouse wheel is very common in modern day mouse. It helps us scroll text, image and sometimes do something amazing in 3D software. So how do we know when the user has scrolled the mouse wheel?
@@ -117,11 +120,3 @@ Run the project (F9 or Run-> Run).
 Now point your mouse in the form and scroll in any direction to make the value increase or decrease. If you take your mouse pointer over the TMemo and scroll, then it will not work. Because we haven't written any code for it to use the mouse scroll event. It works only when you place the mouse over the component and scroll.  
   
 You can utilize this concept to create a image viewer which uses mouse scroll to zoom in or zoom out... or may be even scrolling the image to a specific part.  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project source code from [here](https://www.dropbox.com/s/ohlyiwu6e1mlqmk/MouseWheel.zip?dl=1)  
-Or here: [http://bit.ly/12fuoYV](http://bit.ly/12fuoYV)  
-Size: 518 KB  
-The package contains compiled executable EXE.

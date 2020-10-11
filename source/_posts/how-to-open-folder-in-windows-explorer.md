@@ -13,6 +13,8 @@ categories:
   - [System API]
 date: 2014-03-03 18:04:00
 thumbnail: how-to-open-folder-in-windows-explorer/open-directory-explorer-thumb.gif
+downloads:
+  - https://db.tt/YBYWmfgX
 ---
 
 We often need to open a directory/folder in a File Manager to show its contents. Today we learn how to run [Windows Explorer](http://en.wikipedia.org/wiki/File_Explorer) to automatically show the content of a directory of our choice.
@@ -142,16 +144,8 @@ Now run the project (F9 or Run->Run).
 
   
 Now test both the features. Open a directory in the DirectoryEdit and click the button beside it.  
-  
-  
 
-### Download Sample Code ZIP
 
-You can download the above example tutorial project's source code from here: [https://db.tt/YBYWmfgX](https://db.tt/YBYWmfgX)  
-Size: 547 KB  
-The package contains compiled executable EXE file.  
-  
-  
 **Ref:**  
 [http://wiki.freepascal.org/Executing\_External\_Programs](http://wiki.freepascal.org/Executing_External_Programs)  
 [http://stackoverflow.com/questions/15300999/open-windows-explorer-directory-select-a-specific-file-in-delphi](http://stackoverflow.com/questions/15300999/open-windows-explorer-directory-select-a-specific-file-in-delphi)

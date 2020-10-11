@@ -14,6 +14,9 @@ categories:
   - [Code Snippets]
 date: 2014-05-24 14:26:00
 thumbnail: how-to-show-your-program-on-system-tray/TrayIcon-Article-Thumb.gif
+downloads:
+  - https://www.dropbox.com/s/xvmap95ydvgjxop/TrayIcon_Test.zip?dl=1
+  - http://bit.ly/LazTray
 ---
 
 Some programs can minimize, but some very special programs can squeeze themselves to the system tray! Users can even use right click menu to do most of the stuff while minimized.
@@ -202,12 +205,3 @@ Well, that's it! The basics of the TrayIcon component and how to use it. I have 
 
   
 With the functionality already built in to the Lazarus/LCL, the possibilities are endless.  
-  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/xvmap95ydvgjxop/TrayIcon_Test.zip?dl=1)  
-Or here: [http://bit.ly/LazTray](http://bit.ly/LazTray)  
-Size: 605 KB  
-The package contains compiled executable EXE file.

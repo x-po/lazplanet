@@ -11,6 +11,9 @@ categories:
   - [Math Dates]
 date: 2019-03-07 16:36:00
 thumbnail: how-to-create-calculator-in-under-5/lazarus-easy-calculator-thu.jpg
+downloads:
+  - https://drive.google.com/uc?export=download&id=1j8O_gmt36u3ApRZFWkn0FJRh_ZMFyM2e
+  - https://www.dropbox.com/s/9vh7bhffumt4hwx/easycalc.zip?dl=1
 ---
 
 Computers are huge calculators. But how about making your own program to calculate things?! ...And under 5 minutes? How is it even possible?! Let's find out!
@@ -134,9 +137,3 @@ Now run again (F9) and enjoy!
 
   
 This is not the end of course. How about a retro styled calculator? We can search for a [retro electric calculator](https://commons.wikimedia.org/wiki/File:Vintage_Texas_Instruments_TI-1250_Red_LED_Pocket_Electronic_Calculator,_Made_in_USA,_Circa_1975_-_Price_Was_19.95_USD_(10649611933).jpg), then [shape the form into the image](http://localhost/wp-lazplanet/2014/04/14/shape-your-form-into-anything/). Also, we can show the digits in the exact glowing way the original electric calculator shows by following the digit display method used on the [talking clock](http://localhost/wp-lazplanet/2013/12/30/create-a-digital-clock-that-talks/) tutorial. The possibilities are endless!  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://drive.google.com/uc?export=download&id=1j8O_gmt36u3ApRZFWkn0FJRh_ZMFyM2e) or [here](https://www.dropbox.com/s/9vh7bhffumt4hwx/easycalc.zip?dl=1).  
-Size: 761KB  
-The package contains compiled executable EXE file. It has been compressed with UPX so some antivirus may see it as a false positive.

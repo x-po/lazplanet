@@ -9,6 +9,9 @@ categories:
   - [Form Controls]
 date: 2015-05-06 01:16:00
 thumbnail: how-to-create-components-on-runtime/create-components-thumb.jpg
+downloads:
+  - https://db.tt/Ivkd1Pbq
+  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSYmFNNldUaWphbnc
 ---
 
 The good thing about programming is that you can do almost anything you wish. Even create components out of thin air!
@@ -380,12 +383,3 @@ Now click the buttons to test!
   
 
 ![](how-to-create-components-on-runtime/clone-real-project-5.gif)
-
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://db.tt/Ivkd1Pbq).[](https://db.tt/XCO9id6W)  
-Or [here](https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSYmFNNldUaWphbnc)[](http://bit.ly/pascal_pong_game)  
-Size: 588 KB  
-The package contains compiled executable EXE file.

@@ -11,6 +11,9 @@ categories:
   - [Screen Graphics]
 date: 2013-05-04 18:28:00
 thumbnail: a-simple-image-viewer-from-start-to/th.jpg
+downloads:
+  - http://db.tt/nivChy58
+  - http://bit.ly/ZxpHFz
 ---
   
 Today we are going to make a simple image viewer. It will have a lot of functionality but with only 5 lines of code!
@@ -112,12 +115,4 @@ The icon that I have used for the open button comes from the [Silk Companion Ico
 Now we can have a final run. I hope you will be happy with the results. You have got an image viewer having: scrollbars for large images,  
 resize window resizes the image viewer area,  
 open button having a nice icon which opens a dialog with appropriate filters etc.  
-  
-
-### Download Sample Code zip
-
-Download the example source code zip file from here: [http://db.tt/nivChy58](http://db.tt/nivChy58)  
-Or here: [http://bit.ly/ZxpHFz](http://bit.ly/ZxpHFz)  
-Size: 527 KB  
-  
-The zip file contains compiled executable EXE file.
+ 

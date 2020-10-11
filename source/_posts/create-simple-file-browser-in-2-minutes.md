@@ -10,6 +10,8 @@ categories:
   - [Files Directories]
 date: 2013-06-03 09:13:00
 thumbnail: create-simple-file-browser-in-2-minutes/folder-thumb.jpg
+downloads:
+  - http://db.tt/LOmni33C
 ---
 
 File browsers are very useful in our everyday lives. What if you can create a file browser in 2 Minutes? ...without writing code? Yes! That's how we do it in Lazarus.
@@ -71,17 +73,7 @@ Now Run it (F9 or Run-> Run).
 
 ![File browser made with Lazarus in 2 Minutes!](create-simple-file-browser-in-2-minutes/file-browser-2-min.gif "File browser made with Lazarus in 2 Minutes!")
 
-  
-  
-
-### Download Sample Code
-
-You can download an example source code zip file from here: [http://db.tt/LOmni33C](http://db.tt/LOmni33C)  
-Size: 550 KB  
-The package contains compiled executable EXE file.  
-  
 _Image: [http://www.iconarchive.com](http://www.iconarchive.com/show/hydropro-v2-icons-by-media-design/Folder-icon.html)_  
-  
-  
+
 Ref:  
 [http://www.youtube.com/watch?v=Vee9x90Qm4E](http://www.youtube.com/watch?v=Vee9x90Qm4E)

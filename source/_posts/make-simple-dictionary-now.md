@@ -14,6 +14,9 @@ categories:
   - [Databases]
 date: 2015-07-19 16:09:00
 thumbnail: make-simple-dictionary-now/funny-pictures-cat-dictionary-cheezburger.jpg
+downloads:
+  - https://db.tt/NYKh4Nbf
+  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSUncyc3Q0MWUyU2c
 ---
 
 Dictionary is one of the fun challenges of programming. Learn how to make a dictionary in this quick tutorial.
@@ -277,11 +280,3 @@ Write something to search in our new dictionary...
 
   
 There you go! A simple dictionary for your enjoyment.  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://db.tt/NYKh4Nbf).[](https://db.tt/XCO9id6W)  
-Or [here](https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSUncyc3Q0MWUyU2c)[](http://bit.ly/pascal_pong_game)  
-Size: 609 KB  
-The package contains compiled executable EXE file.

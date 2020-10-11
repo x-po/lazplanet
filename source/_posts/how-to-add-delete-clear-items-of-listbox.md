@@ -14,6 +14,9 @@ categories:
   - [List Iteration]
 date: 2013-05-07 09:36:00
 thumbnail: how-to-add-delete-clear-items-of-listbox/list.png
+downloads:
+  - http://db.tt/VPbShvQ1
+  - http://bit.ly/107Klzf
 ---
 
 Learn how to code a program to list different things. Make your own lists with your own program! Utilize this article to list many things that you have never listed before!
@@ -133,14 +136,4 @@ Run it (F9 or Run->Run). Test by using the buttons. Don't forget to test the Che
 
 ![](how-to-add-delete-clear-items-of-listbox/List-add-delete-1.gif)
 
-  
-  
-
-### Download Sample Code ZIP
-
-Download Example code Zip file from here: [http://db.tt/VPbShvQ1](http://db.tt/VPbShvQ1)  
-Or here: [http://bit.ly/107Klzf](http://bit.ly/107Klzf)  
-Size: 519 KB  
-The zip file contains compiled executable EXE file.  
-  
 _Image: iphoneicon.net_

@@ -14,6 +14,8 @@ categories:
   - [Text Operation]
 date: 2018-12-16 00:54:00
 thumbnail: how-to-create-multilingual-programs-in/lazarus-i18n-thumb.jpg
+downloads:
+  - https://drive.google.com/uc?export=download&id=1dCVx3biUCYGh5540kT27WTHArYuOjS7A
 ---
 
 Hola, ciào, bonjour! Today we're making our program speak different languages!
@@ -301,14 +303,6 @@ The messages should also work. If you click the message button you should see th
 
 ![](how-to-create-multilingual-programs-in/i18n-run-message-.png)
 
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://drive.google.com/uc?export=download&id=1dCVx3biUCYGh5540kT27WTHArYuOjS7A).  
-Size: 783KB  
-The package contains compiled executable EXE file. It has been compressed with UPX so some antivirus may see it as a false positive.  
-  
 Ref:  
 [http://wiki.lazarus.freepascal.org/Step-by-step\_instructions\_for\_creating\_multi-language\_applications](http://wiki.lazarus.freepascal.org/Step-by-step_instructions_for_creating_multi-language_applications)  
 [http://wiki.lazarus.freepascal.org/Translations\_/\_i18n\_/\_localizations\_for\_programs](http://wiki.lazarus.freepascal.org/Translations_/_i18n_/_localizations_for_programs)  

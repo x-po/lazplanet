@@ -12,6 +12,8 @@ categories:
   - [Math Dates]
 date: 2013-10-19 12:13:00
 thumbnail: how-to-use-arrays-in-lazarusfpc/arrays2.jpg
+downloads:
+  - https://db.tt/VPbShvQ1
 ---
 
 Come, discover the wonderful way to store and manage virtual lists on the computer memory.
@@ -389,15 +391,7 @@ Now press the button a few times. You will see some random numbers being added t
 
   
 This way you can create virtual lists in the memory (RAM) and then render it on screen the way you want it. If you are interested in virtual lists then check out TStringList as well.  
-  
 
-### Download Sample Code ZIP
-
-You can download the above example tutorial project source code from here: [https://db.tt/VPbShvQ1](https://db.tt/VPbShvQ1)  
-Size: 515 KB  
-The package contains compiled executable EXE.  
-  
-  
 **Ref:**  
 [http://wiki.freepascal.org/DYNAMIC\_ARRAY](http://wiki.freepascal.org/DYNAMIC_ARRAY)  
 [http://wiki.freepascal.org/array](http://wiki.freepascal.org/array)  

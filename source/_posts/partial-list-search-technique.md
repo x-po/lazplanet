@@ -11,6 +11,8 @@ categories:
   - [Text Operation]
 date: 2013-05-21 00:05:00
 thumbnail: partial-list-search-technique/search-list-thumb.gif
+downloads:
+  - http://db.tt/DLaoSjba
 ---
 
 Lists are interesting to do programing tricks. In this session we learn how to search partial inputs with only the first part of the list items.
@@ -109,10 +111,3 @@ end;
   
 Now run the program again and test yourself.  
 You can also [add buttons for list manipulation](http://lazplanet.blogspot.com/2013/05/how-to-add-delete-clear-items-of-listbox.html) to enhance the program, such as Add, Delete, Clear item.  
-  
-
-### Download Sample Code ZIP
-
-You can download example source code zip file from here: [http://db.tt/DLaoSjba](http://db.tt/DLaoSjba)  
-Size: 514 KB  
-The package contains compiled executable EXE file.

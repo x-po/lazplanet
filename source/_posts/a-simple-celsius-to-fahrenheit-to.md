@@ -13,6 +13,9 @@ categories:
   - [Math Dates]
 date: 2013-05-16 14:44:00
 thumbnail: a-simple-celsius-to-fahrenheit-to/thermometer-thumb.gif
+downloads:
+  - http://db.tt/ZO5eXPFG
+  - http://bit.ly/17yfRLm
 ---
 
 Another good way to practice your programing skills- Celsius to Fahrenheit converter. There is a good formula for the conversion which makes it easy to create converter programs. We have a basic console program...
@@ -163,14 +166,7 @@ The Val procedure tries to convert the input string to inputint (integer). If it
 
 ![](a-simple-celsius-to-fahrenheit-to/console-program-cel-fah.gif)
 
-  
 
-### Download Sample Code ZIP
-
-You can download an example source code zip file from here: [http://db.tt/ZO5eXPFG](http://db.tt/ZO5eXPFG)  
-Or here: [http://bit.ly/17yfRLm](http://bit.ly/17yfRLm)  
-Size: 65 KB  
-  
 **Ref:**  
 [http://www.freepascal.org/docs-html/ref/refsu48.html](http://www.freepascal.org/docs-html/ref/refsu48.html)  
 [http://www.freepascal.org/docs-html/ref/refse7.html](http://www.freepascal.org/docs-html/ref/refse7.html)  

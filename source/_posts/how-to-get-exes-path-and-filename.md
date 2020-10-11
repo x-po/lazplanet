@@ -10,6 +10,9 @@ categories:
   - [Screen Graphics]
 date: 2013-03-31 03:44:00
 thumbnail: how-to-get-exes-path-and-filename/exe-file.jpg
+downloads:
+  - http://db.tt/CQSN7hcI
+  - http://bit.ly/10bEVCf
 ---
 
 It is a common question. In your code, sometimes you need to define where your EXE is running from. Then you can load any file from the application's directory or subdirectories. Let's learn how to.
@@ -62,12 +65,3 @@ _Change the image filename according to what image you are using._
 Now run it (F9). You will see the application path, exe file path and exe filename on the editboxes. Click the tButton and you will see your image loading in the timage.  
 
 ![](how-to-get-exes-path-and-filename/apppath-2.gif)
-
-  
-
-### Sample code download
-
-Download it here: [http://db.tt/CQSN7hcI](http://db.tt/CQSN7hcI)  
-or here: [http://bit.ly/10bEVCf](http://bit.ly/10bEVCf)  
-Size: 709kb  
-It includes a compiled executable (exe).

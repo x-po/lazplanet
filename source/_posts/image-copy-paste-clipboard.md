@@ -14,6 +14,9 @@ categories:
   - [System API]
 date: 2013-05-05 18:10:00
 thumbnail: image-copy-paste-clipboard/clipboard_icon.jpg
+downloads:
+  - http://db.tt/NQdGyKX5
+  - http://bit.ly/13l0L7G
 ---
 
 In paint programs, we see a function to copy an image to clipboard and paste it from there. Paste an image from anywhere, Photoshop, Firefox in your own program! Here's how...
@@ -167,13 +170,5 @@ You can download a sample program from below which illustrates the above article
 
   
 You can open an image and use Copy-Paste buttons to test the program. You can also test it by Pressing Print Screen button on your keyboard then using the Paste button paste the screenshot. You can also copy image from MS Paint or Photoshop or GIMP to this program to test if the program works.  
-  
 
-### Download Sample Code ZIP
-
-Download the example source code zip file from here: [http://db.tt/NQdGyKX5](http://db.tt/NQdGyKX5)  
-Or here: [http://bit.ly/13l0L7G](http://bit.ly/13l0L7G)  
-Size: 537 KB  
-The zip file contains compiled executable EXE file.  
-  
 _(Image: http://cityofcorinthms.com/business/permits-inspections/)_

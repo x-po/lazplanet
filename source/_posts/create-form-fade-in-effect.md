@@ -12,6 +12,9 @@ categories:
   - [Form Controls]
 date: 2013-05-12 01:21:00
 thumbnail: create-form-fade-in-effect/Form-alpha-blending.gif
+downloads:
+  - http://db.tt/DKJZ6LSb
+  - http://bit.ly/ZQmIs8
 ---
 
 Forms are a bit boring sometimes, right? Spice it a little bit with a Fade In animation effect on startup. That boring square area of form will amuse the users a bit more.
@@ -120,11 +123,3 @@ Now Run the Project (F9 or Run->Run). You will see the form appear slowly fading
   
   
 We have used "Show Again" button that's why we used the Tbutton's OnClick procedure. You can use separate procedure and no button to produce same results.  
-  
-
-### Download Sample Code ZIP
-
-You can download the example source code from here: [http://db.tt/DKJZ6LSb](http://db.tt/DKJZ6LSb)  
-Or here: [http://bit.ly/ZQmIs8](http://bit.ly/ZQmIs8)  
-Size: 518 KB  
-The package contains compiled executable EXE file.

@@ -11,6 +11,9 @@ categories:
   - [Console]
 date: 2014-11-18 15:09:00
 thumbnail: find-out-smallest-number-from-two/min-number.jpg
+downloads:
+  - https://db.tt/aSea8hOp
+  - http://bit.ly/min-number
 ---
 
 This is usually a very basic task for beginner programmers. Find out the smaller from two numbers.
@@ -129,12 +132,5 @@ Now Run the Project (Run-> Run or press F9).
   
 Test it with two numbers on each line. You should get the minimum number between the two inputs.  
 
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://db.tt/aSea8hOp).  
-Or [here](http://bit.ly/min-number)  
-Size: 71 KB  
-The package contains compiled executable EXE file.  
-  
 Ref:  
 [http://www.freepascal.org/docs-html/rtl/math/min.html](http://www.freepascal.org/docs-html/rtl/math/min.html)

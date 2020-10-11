@@ -13,6 +13,8 @@ categories:
   - [System API]
 date: 2013-05-27 03:19:00
 thumbnail: drag-drop-files-lazarus-form/drag-drop-thumb.jpg
+downloads:
+  - http://db.tt/BrvWq8WL
 ---
 
 You can drag and drop files to softwares, that's old news. But can you drag & drop files over YOUR own software? Yes. And we learn how to...
@@ -99,13 +101,6 @@ Now run the project (F9 or Run->Run).
 
   
 Now drag some files and folders and test if gets listed in the list. Clear the list if you wish. Enjoy!  
-  
 
-### Download Sample Code ZIP
-
-You can download example source code zip file from here: [http://db.tt/BrvWq8WL](http://db.tt/BrvWq8WL)  
-Size: 514 KB  
-The package contains compiled executable EXE file.  
-  
 Ref:  
 [http://forum.lazarus.freepascal.org/index.php?topic=17336.0](http://forum.lazarus.freepascal.org/index.php?topic=17336.0)

@@ -10,6 +10,9 @@ categories:
   - [Screen Graphics]
 date: 2013-06-10 01:35:00
 thumbnail: how-to-roll-dice-in-your-program/stock-illustration-15736915.gif
+downloads:
+  - http://db.tt/tIoPETn4
+  - http://bit.ly/ZHUDq1
 ---
 
 Learn how to Roll a Dice in your own program and stay ahead in the Game! We learn how to use an Image List to store the images (self-contained) in the program and show the images on a TImage. (Images are included in sample zip file. Easy-peasy!)
@@ -176,14 +179,6 @@ We get a random number. We set the image with the random number as index.
   finally  
     bmp.Free;  
   end;  
-  
-  
 
-### Download Sample Code ZIP
 
-You can download an example source code from here: [http://db.tt/tIoPETn4](http://db.tt/tIoPETn4)  
-Or here: [http://bit.ly/ZHUDq1](http://bit.ly/ZHUDq1)  
-Size: 584 KB  
-The package includes compiled executable EXE.  
-  
 _Image: alegriphotos.com, [istockphoto.com](http://i.istockimg.com/file_thumbview_approve/15736915/2/stock-illustration-15736915-funny-dice-smiling.jpg)_

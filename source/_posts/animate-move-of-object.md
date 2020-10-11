@@ -11,6 +11,9 @@ categories:
   - [List Iteration]
 date: 2013-05-13 20:25:00
 thumbnail: animate-move-of-object/animation_icon.jpg
+downloads:
+  - http://db.tt/3SnFTFfj
+  - http://bit.ly/ZUJajK
 ---
 
 You have seen Windows 8 panels sliding and disappearing in and out of the screen. Now create such effects for your program! Here's a handy little procedure...
@@ -150,14 +153,6 @@ Download, Extract and Run the sample code (F9 or Run-> Run).
 You can click the Options button to see the animation of our procedure. We also have a seesaw animation effect, where the Panel in our example moves from one side to another repeatedly.  
   
 The procedure described in the Quick Tutorial above is in action in the Sample Code button.  
-  
-  
 
-### Download Sample Code ZIP
 
-You can download the example source code zip file from here: [http://db.tt/3SnFTFfj](http://db.tt/3SnFTFfj)  
-Or here: [http://bit.ly/ZUJajK](http://bit.ly/ZUJajK)  
-Size: 520 KB  
-The package contains compiled executable EXE file.  
-  
 Image: [iconshock.com](http://www.iconshock.com/img_jpg/STROKE/graphics/jpg/128/animation_icon.jpg)

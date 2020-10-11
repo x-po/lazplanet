@@ -13,6 +13,9 @@ categories:
   - [Screen Graphics]
 date: 2014-08-31 16:11:00
 thumbnail: how-to-set-desktop-wallpaper/lazarus-wallp-thumb.gif
+downloads:
+  - https://www.dropbox.com/s/kn8oxl5z47tpow4/WallpaperSetter.zip?dl=1
+  - http://bit.ly/wallpaper-setter
 ---
 
 Do you know how to change a single image and change the whole feeling of how your computer looks? Get your seatbelt on!
@@ -251,15 +254,8 @@ Now Run the Project (F9 or Run -> Run).
 Test the Program with as many images as you want. Change the options and apply them.  
   
 Hope you had fun making this little Wallpaper setter. There is no limit of what you can do with this. You can create a Desktop Wallpaper Collection Manager or a program that can download a wallpaper everyday and set it as wallpaper. (There are also a bunch of wallpaper APIs to use: [1](https://www.desktoppr.co/api) [2](http://wall.alphacoders.com/api.php) ) Making such different variations of programs will make your coding skills improve.  
-  
 
-### Download Sample Code ZIP
 
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/kn8oxl5z47tpow4/WallpaperSetter.zip?dl=1)  
-Or here: [http://bit.ly/wallpaper-setter](http://bit.ly/wallpaper-setter)  
-Size: 726 KB  
-The package contains compiled executable EXE file.  
-  
 **Ref:**  
 [http://stackoverflow.com/questions/1929721/how-to-change-desktop-wallpaper](http://stackoverflow.com/questions/1929721/how-to-change-desktop-wallpaper)  
 [http://channel9.msdn.com/coding4fun/articles/Setting-Wallpaper](http://channel9.msdn.com/coding4fun/articles/Setting-Wallpaper)  

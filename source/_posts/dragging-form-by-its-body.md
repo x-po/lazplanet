@@ -14,6 +14,9 @@ categories:
   - [Form Controls]
 date: 2013-06-05 01:59:00
 thumbnail: dragging-form-by-its-body/drag-form-lazarus.jpg
+downloads:
+  - http://db.tt/vRg1pRtf
+  - http://bit.ly/17YkrUA
 ---
 
 Moving a window is not new! We move windows by its title bar at the top. But what if we want to move a window/form by dragging its body? Could we remove the title bar of our form and have fancy interface going on? Yes. And here's how...
@@ -89,11 +92,3 @@ You can see a simple utilization of the code above to create a custom looking fo
   
   
 How did I make the Close and Minimize buttons work? The button image is from the background image. There must be some invisible component to do that, right? :-) No. I have created some "invisible hotspots" by creating a TLabels and making their caption blank. Then you can double click it and enter any command. You can create invisible components with this method.  
-  
-
-### Download Sample Code ZIP
-
-You can download an example source code zip file from here: [http://db.tt/vRg1pRtf](http://db.tt/vRg1pRtf)  
-Or here: [http://bit.ly/17YkrUA](http://bit.ly/17YkrUA)  
-Size: 638 KB  
-The package contains compiled executable EXE file.

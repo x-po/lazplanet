@@ -11,6 +11,8 @@ categories:
   - [System API]
 date: 2013-12-13 16:21:00
 thumbnail: how-to-list-all-fonts-easily/font-list-3.gif
+downloads:
+  - https://db.tt/wJrhjWB2
 ---
 
 Fonts are a very attractive customization option. It is essential in text editing programs. Changing the font by code is easy, but listing them? Today we'll see how to list all the fonts in a TListBox.
@@ -96,14 +98,6 @@ Now draw a TLabel on the left of the spinner and set its caption as "Size:". Now
 
   
 You can select the font size now.  
-  
-  
 
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from here: [https://db.tt/wJrhjWB2](https://db.tt/wJrhjWB2)  
-Size: 514 KB  
-The package contains compiled executable EXE file.  
-  
 **Ref:**  
 [http://www.codefoot.com/delphi/fonts\_system.shtml](http://www.codefoot.com/delphi/fonts_system.shtml)

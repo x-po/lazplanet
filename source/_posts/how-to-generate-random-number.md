@@ -13,6 +13,9 @@ categories:
   - [Code Snippets]
 date: 2013-05-23 07:28:00
 thumbnail: how-to-generate-random-number/random-number-thumb.gif
+downloads:
+  - http://db.tt/uIzAEOfU
+  - http://bit.ly/195ERZK
 ---
 
 Do you know what face of dice is going to come up before throwing? That's what random means. We learn how to create a program that shows a random number each time you click a button.
@@ -185,13 +188,5 @@ begin
   
 end;
 
-  
 
-### Download Sample Code ZIP
-
-You can download example source code zip file from here: [http://db.tt/uIzAEOfU](http://db.tt/uIzAEOfU)  
-Or here: [http://bit.ly/195ERZK](http://bit.ly/195ERZK)  
-Size: 520 KB  
-The package contains compiled executable EXE file.  
-  
 _Photo credit: [en.kioskea.net](http://static.commentcamarche.net/en.kioskea.net/faq/images/0-tgQcgNyu-asdg-s-.png)_

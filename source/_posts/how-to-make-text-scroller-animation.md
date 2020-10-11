@@ -11,6 +11,9 @@ categories:
   - [Text Operation]
 date: 2016-04-25 14:11:00
 thumbnail: how-to-make-text-scroller-animation/text-scroller-thumb.jpg
+downloads:
+  - https://db.tt/DEgWwwBm
+  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSeVlDX3NHZFhDWXc
 ---
 
 At the end of a movie or in our application, we could use some text scrolling fun! But how to do that? Let's see...
@@ -107,11 +110,3 @@ begin
   end;  
 end;
 
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://db.tt/DEgWwwBm).  
-Or [here](https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSeVlDX3NHZFhDWXc).  
-Size: 598KB  
-The package contains compiled executable EXE file.

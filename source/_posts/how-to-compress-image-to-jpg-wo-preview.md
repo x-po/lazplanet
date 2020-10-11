@@ -17,6 +17,9 @@ categories:
   - [Code Snippets]
 date: 2014-03-24 17:35:00
 thumbnail: how-to-compress-image-to-jpg-wo-preview/JPEG_example_JPG_RIP_050.jpg
+downloads:
+  - https://db.tt/dT6lFkab
+  - http://bit.ly/1hUpMwG
 ---
 
 Today we'll make a JPEG compressor. Sounds exciting, doesn't it? It can convert and compress from any other image formats too!
@@ -263,12 +266,3 @@ Developing the code even further is great exercise to improve your skills as a p
 *   Crop feature. ([Help here](http://lazplanet.blogspot.com/2013/07/how-to-crop-image-and-save-to-file.html))
 *   Let users draw on the source image, rectangle, circle, scribble, text etc. (Help [here](http://lazplanet.blogspot.com/2013/05/how-to-scribble-with-virtual-pencil.html) and [here](http://lazplanet.blogspot.com/2013/06/how-to-create-basic-paint-software.html))
 *   Screen capture feature ([Help here](http://wiki.lazarus.freepascal.org/Developing_with_Graphics#Taking_a_screenshot_of_the_screen))
-
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from here: [https://db.tt/dT6lFkab](https://db.tt/dT6lFkab)  
-Or here:  [http://bit.ly/1hUpMwG](http://bit.ly/1hUpMwG)  
-Size: 550 KB  
-The package contains compiled executable EXE file.

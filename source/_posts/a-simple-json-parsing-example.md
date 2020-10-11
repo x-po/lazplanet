@@ -12,6 +12,9 @@ categories:
   - [Text Operation]
 date: 2014-09-03 17:46:00
 thumbnail: a-simple-json-parsing-example/json-thumb.gif
+downloads:
+  - https://www.dropbox.com/s/88zq6rl5xmvhh0b/JSONParser.zip?dl=1
+  - http://bit.ly/json-parser
 ---
 
 Can't get enough of JSONs? Crunch some JSON data with this simple code!
@@ -196,16 +199,8 @@ You will not see the message when running from inside Lazarus. To test it, save 
 Now you are ready parse some serious JSON goods!  
   
 If you want to learn more advanced ways to parse you will find some other examples here: [http://svn.freepascal.org/cgi-bin/viewvc.cgi/trunk/packages/fcl-json/examples/](http://svn.freepascal.org/cgi-bin/viewvc.cgi/trunk/packages/fcl-json/examples/)  
-  
-  
 
-### Download Sample Code ZIP
 
-You can download the above tutorial project's example source code from [here](https://www.dropbox.com/s/88zq6rl5xmvhh0b/JSONParser.zip?dl=1)  
-Or here: [http://bit.ly/json-parser](http://bit.ly/json-parser)  
-Size: 720 KB  
-The package contains compiled executable EXE file.  
-  
 **Ref:**  
 [http://wiki.freepascal.org/JSON](http://wiki.freepascal.org/JSON)  
 [http://www.freepascal.org/docs-html/fcl/fpjson/index.html](http://www.freepascal.org/docs-html/fcl/fpjson/index.html)  

@@ -9,6 +9,8 @@ categories:
   - [HTML Web]
 date: 2013-11-03 14:18:00
 thumbnail: browser-in-lazarus-with-gecko-pt2/firefox-funny-icon.jpg
+downloads:
+  - https://db.tt/Vv8h9mk8
 ---
 
 Web browsers are our daily thing. We browse the internet through them. But what about making our own browser? That we are going to do.
@@ -252,8 +254,4 @@ Now press F9. It should now work nicely.
 
   
 
-### Download Sample Code ZIP
-
-You can download the above example tutorial project source code from here: [https://db.tt/Vv8h9mk8](https://db.tt/Vv8h9mk8)  
-Size: 577 KB  
-The package contains compiled executable EXE. Don't forget to extract [xulrunner](http://ftp.mozilla.org/pub/mozilla.org/xulrunner/releases/1.9.2.19/runtimes/xulrunner-1.9.2.19.en-US.win32.zip) in the same directory as the exe to make it work.
+When downloading from below don't forget to extract [xulrunner](http://ftp.mozilla.org/pub/mozilla.org/xulrunner/releases/1.9.2.19/runtimes/xulrunner-1.9.2.19.en-US.win32.zip) in the same directory as the exe to make it work.

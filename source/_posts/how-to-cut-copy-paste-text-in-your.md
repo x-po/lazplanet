@@ -11,6 +11,9 @@ categories:
   - [Text Operation]
 date: 2013-05-02 09:28:00
 thumbnail: how-to-cut-copy-paste-text-in-your/th.jpg
+downloads:
+  - http://db.tt/5jI8AO61
+  - http://bit.ly/YnWIsL
 ---
 
 Word processors and even browsers have cut, copy, paste functions. You have used them many times in your life. But now make yours!
@@ -87,15 +90,5 @@ Memo2.Text := '';  // we clear the memo
 Memo2.PasteFromClipboard;  
   
 You can see the Wiki for more information: [http://wiki.lazarus.freepascal.org/Clipboard](http://wiki.lazarus.freepascal.org/Clipboard)  
-  
 
-### Download Sample Code zip
-
-![](how-to-cut-copy-paste-text-in-your/cut-copy-paste-text-clipboa.gif)
-
-You can download a sample source code zip as an example of the above discussion: [http://db.tt/5jI8AO61](http://db.tt/5jI8AO61)  
-Or here: [http://bit.ly/YnWIsL](http://bit.ly/YnWIsL)  
-   
-Size: 520 KB  
-The package has a compiled executable (EXE).  
 _Image: www.artistsvalley.com_

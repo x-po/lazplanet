@@ -13,6 +13,9 @@ categories:
   - [Text Operation]
 date: 2013-05-15 06:24:00
 thumbnail: how-to-use-text-and-background-color-in/console-colors-thumbs.gif
+downloads:
+  - http://db.tt/xhKB44c9
+  - http://bit.ly/17yg3dF
 ---
 
 Console applications are not of entertaining type. They have that whitish dull color in a black background. But who says you cannot change it! Here is a tip to change the text color of console programs.
@@ -146,15 +149,7 @@ You can try the above code with a New Program Project in Lazarus, like stated ab
 
 ![Using colors for text and text background in Free Pascal Lazarus](how-to-use-text-and-background-color-in/console-text-bg-color.gif "Using colors for text and text background in Free Pascal Lazarus")
 
-  
-  
 
-### Download Sample Code ZIP
-
-You can download a example source code zip file from here: [http://db.tt/xhKB44c9](http://db.tt/xhKB44c9)  
-Or here: [http://bit.ly/17yg3dF](http://bit.ly/17yg3dF)  
-Size: 66 KB  
-  
 Ref:  
 [http://www.math.uni-leipzig.de/pool/tuts/FreePascal/units/node2.html](http://www.math.uni-leipzig.de/pool/tuts/FreePascal/units/node2.html)  
 [http://www.freepascal.org/docs-html/rtl/crt/textcolor.html](http://www.freepascal.org/docs-html/rtl/crt/textcolor.html)  

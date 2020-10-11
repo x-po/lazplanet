@@ -11,6 +11,9 @@ categories:
   - [Screen Graphics]
 date: 2017-05-21 00:00:00
 thumbnail: make-simple-image-zoomer-in-5-minutes/image-zoomer-in-lazarus.gif
+downloads:
+  - https://www.dropbox.com/s/n1q2fg2udfwbso3/ImageScrollZoom.zip?dl=0
+  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSdmVxVDRtalp4SWM
 ---
 
 Zooming is kind of fun! Here is a 5 minute image zoom tutorial with mouse scroll fun!
@@ -137,16 +140,8 @@ This would show your shiny new form on your screen ready to be played with.
 This is just a quick example of how to use mouse scroll and image stretching in simple code. You can enhance it if you like.  
   
 Thanks to Achmad Davit for requesting this.  
-  
 
-### Download Sample Code ZIP
 
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/n1q2fg2udfwbso3/ImageScrollZoom.zip?dl=0).  
-Or [here](https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSdmVxVDRtalp4SWM).  
-Size: 566KB  
-The package contains compiled executable EXE file.  
-  
-  
 Ref:  
 [http://docs.embarcadero.com/products/rad\_studio/delphiAndcpp2009/HelpUpdate2/EN/html/delphivclwin32/Graphics\_TCanvas\_StretchDraw.html](http://docs.embarcadero.com/products/rad_studio/delphiAndcpp2009/HelpUpdate2/EN/html/delphivclwin32/Graphics_TCanvas_StretchDraw.html)  
 [http://wiki.lazarus.freepascal.org/Developing\_with\_Graphics#Using\_the\_non-native\_StretchDraw\_from\_LazCanvas](http://wiki.lazarus.freepascal.org/Developing_with_Graphics#Using_the_non-native_StretchDraw_from_LazCanvas)

@@ -15,6 +15,9 @@ categories:
   - [System API]
 date: 2013-05-06 16:38:00
 thumbnail: how-to-show-tooltip-balloon-tip-and/Tooltip-1.jpg
+downloads:
+  - http://db.tt/D3EwslOn
+  - http://bit.ly/13l2ycV
 ---
 
 Tooltips are text that appears as a short help for a component when we keep our mouse over it for a while. We can add single line or multiline tooltips easily. Here's how...
@@ -151,13 +154,4 @@ Now run the Program and hover your mouse over the button. You will see the text 
 
 ![Mouse hover help text on statusbar made in Lazarus](how-to-show-tooltip-balloon-tip-and/statusbar-text-help.gif "Mouse hover help text on statusbar made in Lazarus")
 
-  
-
-### Download Sample Code ZIP
-
-Download example source code zip file from here: [http://db.tt/D3EwslOn](http://db.tt/D3EwslOn)  
-Or here: [http://bit.ly/13l2ycV](http://bit.ly/13l2ycV)  
-Size: 540 KB  
-  
-The zip file contains compiled executable EXE file.  
 _Image: [http://jquerytools.org](http://jquerytools.org/media/img/hero/tooltips.jpg)_

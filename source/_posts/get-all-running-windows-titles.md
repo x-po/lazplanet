@@ -9,6 +9,9 @@ categories:
   - [System API]
 date: 2013-04-09 10:42:00
 thumbnail: get-all-running-windows-titles/tooManyWindows2.jpg
+downloads:
+  - http://db.tt/Sa19lv4u
+  - http://bit.ly/XzHRed
 ---
 
 With this simple little code you can list the windows/software that are running. You can identify if some specific software is running or do some magic tricks with Windows API. It is up to you...
@@ -90,15 +93,7 @@ LPARAM lParam // application-defined value
 
   
 A enumeration function should be given, which will, well, enumerate. In our case all windows' titles.  
-  
-  
 
-### Download source zip
-
-You can download the sample source code from here: [http://db.tt/Sa19lv4u](http://db.tt/Sa19lv4u)  
-Or here:  [http://bit.ly/XzHRed](http://bit.ly/XzHRed)  
-Size: 519KB  
-  
 Ref:  
 [http://delphi.about.com/od/windowsshellapi/l/aa080304a.htm](http://delphi.about.com/od/windowsshellapi/l/aa080304a.htm)  
 [http://www.lazarus.freepascal.org/index.php?topic=13007.0](http://www.lazarus.freepascal.org/index.php?topic=13007.0)

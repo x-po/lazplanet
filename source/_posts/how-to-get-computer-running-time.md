@@ -15,6 +15,8 @@ categories:
   - [System API]
 date: 2013-07-31 22:33:00
 thumbnail: how-to-get-computer-running-time/pc-running-time-code.jpg
+downloads:
+  - http://db.tt/F84ErkI7
 ---
 
 If you are reading this text then most probably you have your computer turned on. But for how long? You can get the time for how long the computer is running for.
@@ -177,10 +179,3 @@ Now Run the project (F9 or Run-> Run).
 
   
 You can take further challenges with this code. It is great for learning new stuff and making your learning permanent. You can save the user's daily computer usage in a text file or database (maybe with Sqlite). You can also create a statistics form and show for how much time the user keeps the computer running in a week, month or even a year. This could be an interesting app. Also if you could keep it synchronized with multiple computers (for example, across desktops and laptops and even multiple platforms) then it would be a delicacy!  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project source code from here: [http://db.tt/F84ErkI7](http://db.tt/F84ErkI7)[](http://db.tt/LCppQvtG)  
-Size: 518 KB  
-The package contains compiled executable EXE.

@@ -11,6 +11,9 @@ categories:
   - [Text Operation]
 date: 2013-05-31 15:55:00
 thumbnail: select-all-or-part-of-text/select-text-thumb.gif
+downloads:
+  - http://db.tt/PF34MqPe
+  - http://bit.ly/137AOcc
 ---
 
 Sometimes highlighting or selecting some part, not all, becomes necessary. We look into the method of how we can do it.
@@ -91,15 +94,7 @@ Now Run the Project (F9 or Run-> Run).
 
   
 And test the program!  
-  
 
-### Download Sample Code ZIP
-
-You can download an example source code ZIP file from here: [http://db.tt/PF34MqPe](http://db.tt/PF34MqPe)  
-Or here: [http://bit.ly/137AOcc](http://bit.ly/137AOcc)  
-Size: 518 KB  
-There is a compiled executable EXE file inside the package.  
-  
 _Image: [www.completeguides.net](http://www.completeguides.net/@api/deki/files/200/gb_browser_text_select.png?revision=1)_  
   
 Ref:  

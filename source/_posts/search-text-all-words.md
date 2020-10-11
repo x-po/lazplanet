@@ -11,6 +11,8 @@ categories:
   - [Text Operation]
 date: 2013-04-19 00:28:00
 thumbnail: search-text-all-words/Search-Logo.jpg
+downloads:
+  - http://db.tt/hdYl4dLh
 ---
 
 Another example of simple text search which implements a Search Next button, which continuously searches for the given text. Its very easy. Heres how...
@@ -182,11 +184,3 @@ Add the above lines of code just after the s := Copy(... line. Replace with targ
   
   
 This is it! You are now literate in text search function!  
-  
-
-### Download Source Zip
-
-Download the source code zip file from here: [http://db.tt/hdYl4dLh](http://db.tt/hdYl4dLh)  
-Size: 514 KB  
-  
-The zip contains the compiled executable EXE file.

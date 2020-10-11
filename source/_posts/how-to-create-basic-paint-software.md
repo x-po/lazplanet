@@ -13,6 +13,9 @@ categories:
   - [System API]
 date: 2013-06-12 00:44:00
 thumbnail: how-to-create-basic-paint-software/paint-icon.jpg
+downloads:
+  - http://db.tt/kZsqnbzw
+  - http://bit.ly/ZHUouW
 ---
 
 Today, in our special post, we see how to create a basic paint software in Lazarus with some basic drawing tools and Open, Save, Resize options. A must see for Lazarians!
@@ -506,11 +509,3 @@ You can improve the code / project further by adding following features:
 
   
 You can create practically a second Photoshop if you want!  
-  
-
-### Download Sample Code ZIP
-
-You can download an example source code from here: [http://db.tt/kZsqnbzw](http://db.tt/kZsqnbzw)  
-Or here: [http://bit.ly/ZHUouW](http://bit.ly/ZHUouW)  
-Size: 682 KB  
-The package includes compiled executable EXE file inside.

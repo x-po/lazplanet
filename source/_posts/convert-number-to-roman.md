@@ -9,6 +9,9 @@ categories:
   - [Text Operation]
 date: 2013-04-06 14:56:00
 thumbnail: convert-number-to-roman/Roman-Numerals-I-size.gif
+downloads:
+  - http://db.tt/L6fijSIC
+  - http://bit.ly/ZBBNfq
 ---
 
 Roman characters look very formal. I, II, III, IV ... BBC uses Roman for their copyright statement (e.g. BBC (c) MMVI). And it looks exceptional. What is your birth year in Roman? Let your program find that for you! Here's how:
@@ -77,13 +80,5 @@ end;
 
   
 Now Run again and try with a non-numeric character and the Label will show "(Error)". Decorate further with adding a label for instruction and may be changing the font size and name. Have fun.  
-  
 
-### Download source zip
-
-You can download the source code in a zip file here: [http://db.tt/L6fijSIC](http://db.tt/L6fijSIC)  
-Or here: [http://bit.ly/ZBBNfq](http://bit.ly/ZBBNfq)  
-Size: 666KB  
-  
-The zip file contains compiled executable (exe).  
 _Photo: mommymaestra.com_

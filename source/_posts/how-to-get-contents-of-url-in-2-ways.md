@@ -15,6 +15,9 @@ categories:
   - [HTML Web]
 date: 2019-03-15 23:47:00
 thumbnail: how-to-get-contents-of-url-in-2-ways/download-file-thumb.jpg
+downloads:
+  - https://drive.google.com/uc?export=download&id=1lGFBapcyiRWhMgJ6CXBl4nlzm2tEdwIa
+  - https://www.dropbox.com/s/b6nzuecc2htw136/DownloadContent.zip?dl=1
 ---
 
 The Web is an amazing place. What if we could download the contents of a link on the web to our own Lazarus program? Let's find out how!
@@ -246,14 +249,7 @@ Now **Run** the project (**F9 or Run - Run**). Now click the buttons to test. **
   
 You can also fetch links like: https://api.desktoppr.co/1/wallpapers/random  
 This will give you JSON data about a random wallpaper everytime. You can then [parse the JSON data](http://localhost/wp-lazplanet/2014/09/03/a-simple-json-parsing-example/) to get the random wallpaper image URL, then download and [set it as wallpaper](http://localhost/wp-lazplanet/2014/08/31/how-to-set-the-desktop-wallpaper/). This way you will get yourself a random wallpaper setter!  
-  
 
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://drive.google.com/uc?export=download&id=1lGFBapcyiRWhMgJ6CXBl4nlzm2tEdwIa) or [here](https://www.dropbox.com/s/b6nzuecc2htw136/DownloadContent.zip?dl=1).  
-Size: 4.29MB  
-The package contains compiled executable EXE file. It has been compressed with UPX so some antivirus programs may see it as a false positive.  
-  
 Ref:  
 [http://wiki.lazarus.freepascal.org/fphttpclient](http://wiki.lazarus.freepascal.org/fphttpclient)  
 [https://forum.lazarus.freepascal.org/index.php/topic,41401.msg287233.html#msg287233](https://forum.lazarus.freepascal.org/index.php/topic,41401.msg287233.html#msg287233)  

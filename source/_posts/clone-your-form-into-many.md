@@ -8,6 +8,9 @@ categories:
   - [Form Controls]
 date: 2013-04-03 07:30:00
 thumbnail: clone-your-form-into-many/duplicate-form-lazarus.jpg
+downloads:
+  - http://db.tt/4DKsykdh
+  - http://bit.ly/179TjPq
 ---
 
 This is a fun code example to try. When you open up a new Application project, you get a form. To have fun, we can create hundreds of "copies" of this form! On runtime. Here's how...
@@ -72,11 +75,3 @@ Now again press **F9**. Now you will see pure fun! Forms and forms everywhere! K
   
 
 ![](clone-your-form-into-many/duplicate-form-lazarus.jpg)
-
-  
-
-### Sample code zip
-
-Download sample source zip here: [http://db.tt/4DKsykdh](http://db.tt/4DKsykdh)  
-or here: [http://bit.ly/179TjPq](http://bit.ly/179TjPq)  
-Size: 670 KB

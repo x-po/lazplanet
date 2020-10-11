@@ -9,6 +9,9 @@ categories:
   - [Text Operation]
 date: 2013-04-16 00:26:00
 thumbnail: simple-text-search/search.jpg
+downloads:
+  - http://db.tt/dMCf7Zku
+  - http://bit.ly/105spbe
 ---
 
 Searching is one of the tasks of programing that reduces so much of our work and hardship. Today we see a **very** simple string search sample code...
@@ -97,13 +100,3 @@ Go to Run->Run. Write something in the memo and then write something in the edit
   
 
 ![](simple-text-search/Simple-text-search-lazarus.gif)
-
-  
-
-### Download sample source zip
-
-Download sample source code zip from here: [http://db.tt/dMCf7Zku](http://db.tt/dMCf7Zku)  
-Or here: [http://bit.ly/105spbe](http://bit.ly/105spbe)  
-  
-Size: 636 KB  
-The zip file contains the executable EXE file.

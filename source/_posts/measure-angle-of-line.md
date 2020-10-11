@@ -10,6 +10,9 @@ categories:
   - [Screen Graphics]
 date: 2013-05-14 07:00:00
 thumbnail: measure-angle-of-line/angle-1.gif
+downloads:
+  - http://db.tt/S73hZLr5
+  - http://bit.ly/10TeCxG
 ---
 
 When you draw a line, does that come to you that how many degrees is that line? How much is it steep or flat? Learn through your own program.
@@ -102,18 +105,8 @@ end;
   
 Start\_x and Start\_y contains the X and Y position of mouse cursor when the mouse was pressed down.  
 We use arc function to draw an arc to indicate the angle's length.  
-  
-  
-  
 
-### Download Sample Code ZIP
 
-You can download example source code from here: [http://db.tt/S73hZLr5](http://db.tt/S73hZLr5)  
-Or here: [http://bit.ly/10TeCxG](http://bit.ly/10TeCxG)  
-Size: 522 KB  
-The package contains compiled executable EXE file.  
-  
-  
 Ref:  
 [http://lazarus-ccr.sourceforge.net/docs/lcl/graphics/tcanvas.arc.html](http://lazarus-ccr.sourceforge.net/docs/lcl/graphics/tcanvas.arc.html)  
 [http://stackoverflow.com/questions/15596217/angle-between-two-coordinats-arctan2](http://stackoverflow.com/questions/15596217/angle-between-two-coordinats-arctan2)  

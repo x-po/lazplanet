@@ -12,6 +12,9 @@ categories:
   - [HTML Web]
 date: 2014-10-13 16:54:00
 thumbnail: find-out-if-computer-is-connected-to/connected-thumb.jpg
+downloads:
+  - https://db.tt/XCO9id6W
+  - https://drive.google.com/uc?id=0B9WrDtlrEzlSaVBlX3lZMThJU3c&export=download
 ---
 
 If you are doing something that depends on an internet connection, you would probably want to check if internet is available. That's what we are going to detect today.
@@ -89,14 +92,6 @@ Now Run the project (F9 or Run -> Run).
 Now if the computer is connected to the internet, it will show "Connected". And if its not, the label will show "Disconnected".  
   
 This code can be utilized in many ways. For example, if you're going to download a file from the internet you can check the connection before continuing. You can then prompt the user to get connected if he is not. Or maybe offering products to the user when he is online.  
-  
 
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://db.tt/XCO9id6W).[](https://db.tt/XCO9id6W)  
-Or [here](https://drive.google.com/uc?id=0B9WrDtlrEzlSaVBlX3lZMThJU3c&export=download)[](http://bit.ly/pascal_pong_game)  
-Size: 543 KB  
-The package contains compiled executable EXE file.  
-  
 **Ref:**  
 [http://snippets.delphidabbler.com](http://snippets.delphidabbler.com/)

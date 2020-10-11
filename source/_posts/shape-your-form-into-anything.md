@@ -13,6 +13,9 @@ categories:
   - [Form Controls]
 date: 2014-04-14 19:56:00
 thumbnail: shape-your-form-into-anything/lazarus-custom-form-shape-t.jpg
+downloads:
+  - https://www.dropbox.com/s/27fmzzas9z4bm7r/Shaped-Form.zip?dl=1
+  - http://bit.ly/1eAraIv
 ---
 
 Forms are rectangular, right? In this article we prove it wrong. We will turn our form into circle, triangle and what not!
@@ -312,11 +315,3 @@ Setting the BorderStyle to bsNone makes the form immovable with dragging the mou
 ### Conclusion
 
 So, you have learned how to set custom form shape in Lazarus. I haven't tried it on platforms other than Windows. So I don't know if it will work on Linux or Mac. But it should work across platforms. For further improvements you can try keeping a skin image by drawing a TImage in the form and setting its Z-Order to show behind. Then setting a skin image as its Picture property. Have fun shaping your form!  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/27fmzzas9z4bm7r/Shaped-Form.zip?dl=1)  
-Or here: [http://bit.ly/1eAraIv](http://bit.ly/1eAraIv)[](http://bit.ly/1hUpMwG)  
-Size: 707 KB  
-The package contains compiled executable EXE file.

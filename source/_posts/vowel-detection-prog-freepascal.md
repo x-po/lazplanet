@@ -9,6 +9,9 @@ categories:
   - [Text Operation]
 date: 2013-03-28 00:40:00
 thumbnail: vowel-detection-prog-freepascal/letters-flying-out-of.jpg
+downloads:
+  - http://db.tt/2yxbam0f
+  - http://www.gdriveurl.com/?idl=613644094399&out=1
 ---
 
 Have you tried finding anything in your life?! You sure did! But now we will let our program find/detect a vowel. User is asked to enter a letter until he enters a vowel. The user will be asked again and again when the user enters consonants. When the user enters a vowel, the program quits saying thanks.
@@ -79,16 +82,6 @@ We have used lowercase letters in our case block.
 So in this case when an user enters uppercase letter, like E, the case will not work. So we have converted the possible input E to a lowercase e by using the line below:  
 letter := lowercase(letter);  
 Now, e will become e and E will also become e. So our case will be able to catch the input.  
-  
 
-### Download Source Zip
 
-Download the Source Zip from here: [http://db.tt/2yxbam0f](http://db.tt/2yxbam0f)  
-  
-Or here: [http://www.gdriveurl.com/?idl=613644094399&out=1](http://www.gdriveurl.com/?idl=613644094399&out=1)  
-  
-It includes executable (exe).  
-  
-Have fun with FreePascal/Lazarus!  
-Written by Adnan Shameem  
-Image: 123rf.com
+_Image: 123rf.com_

@@ -12,6 +12,9 @@ categories:
   - [Screen Graphics]
 date: 2013-07-17 04:23:00
 thumbnail: how-to-crop-image-and-save-to-file/image-crop-thumb.jpg
+downloads:
+  - https://www.dropbox.com/s/gkqmtrz6a4oeufo/ImageCrop.zip?dl=1
+  - http://bit.ly/1aqGaCh
 ---
 
 Not every pixel of a photo is important. Sometimes we need to just crop out some of the area of a photo. We learn how to crop an image and save the cropped version in a file.
@@ -264,12 +267,3 @@ You can also make it do the following. Extending is a great practice for program
 *   Take a snapshot of the screen and offer to crop it (without need to press Print Screen button).
 *   Save as many formats, such as compressed JPEGs or GIFs.
 *   Use a single TImage to show both original and cropped image (Just like Gimp or Photoshop has a single canvas for showing both, not two canvases).
-
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project source code from [here](https://www.dropbox.com/s/gkqmtrz6a4oeufo/ImageCrop.zip?dl=1)  
-Or here: [http://bit.ly/1aqGaCh](http://bit.ly/1aqGaCh)  
-Size: 947 KB  
-The package contains compiled executable EXE.

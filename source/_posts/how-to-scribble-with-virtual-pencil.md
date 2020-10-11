@@ -13,6 +13,9 @@ categories:
   - [Screen Graphics]
 date: 2013-05-29 23:09:00
 thumbnail: how-to-scribble-with-virtual-pencil/pencil-thumb.jpg
+downloads:
+  - http://db.tt/IOtJPUPN
+  - http://bit.ly/175eR1E
 ---
 
 Drawing is fun. Learn how to create a drawing software that can let the user draw like a pencil in a virtual canvas in his computer screen. We are also going to use colors!
@@ -236,11 +239,3 @@ end;
 In the case of Pencil tool a line has to be drawn in the MouseMove event. So we should also update the PrevX & PrevY values.  
   
 Take a look at [Developing with Graphics wiki article](http://wiki.freepascal.org/Developing_with_Graphics) for a better understanding of graphical magic tricks!  
-  
-
-### Download Sample Code ZIP
-
-You can download an example source code zip file from here: [http://db.tt/IOtJPUPN](http://db.tt/IOtJPUPN)  
-Or here: [http://bit.ly/175eR1E](http://bit.ly/175eR1E)  
-Size: 527 KB  
-The compiled executable EXE is included in the zip file.

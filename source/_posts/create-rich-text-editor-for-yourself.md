@@ -14,6 +14,8 @@ categories:
   - [Text Operation]
 date: 2013-12-24 23:56:00
 thumbnail: create-rich-text-editor-for-yourself/rich-editor-thumb.jpg
+downloads:
+  - https://db.tt/S2Pz77A7
 ---
 
 In this holiday, gift yourself a nice little word processor that you can use yourself! You can further develop it. It happily supports Unicode and lets you learn the use of Toolbar, RichMemo, ImageLists, File Save Management and more.
@@ -527,14 +529,5 @@ begin
 end;  
   
 \- When you close the program with an unsaved document, press Yes, then in the dialog press Cancel, the program closes and the document is lost!  
-  
-  
-  
-
-### Download Sample Code ZIP
-
-You can download the above example tutorial project's source code from here: [https://db.tt/S2Pz77A7](https://db.tt/S2Pz77A7)  
-Size: 550 KB  
-The package contains compiled executable EXE file.  
-  
+ 
 EDIT 1 (31JUL14): A download link for SVN pull has been given. Thanks to Tail for pointing out an error in his SVN pull.

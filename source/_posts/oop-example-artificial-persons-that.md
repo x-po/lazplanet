@@ -10,6 +10,9 @@ categories:
   - [Code Snippets]
 date: 2014-07-30 14:47:00
 thumbnail: oop-example-artificial-persons-that/bionic-thumb.jpg
+downloads:
+  - https://www.dropbox.com/s/pl0rjwmdliaedx8/ObjectPersons.zip?dl=1
+  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSbjFWa1M3dXpQOGM
 ---
 
 Today we create bionic, robotic, futuristic human beings! That can even respond to your question! A virtual TPerson to be precise!
@@ -209,10 +212,3 @@ end.
 If you want to experiment, go ahead! But remember "{$mode objfpc}" compiler directive is required to use OOP in your code. (See above code for usage.)  
   
 If you have any questions, feel free to ask in the comments. ;-)  
-
-### Download Sample Code ZIP
-
-You can download the above tutorial project's source code example from [here](https://www.dropbox.com/s/pl0rjwmdliaedx8/ObjectPersons.zip?dl=1)  
-Or [here](https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSbjFWa1M3dXpQOGM)  
-Size: 70 KB  
-The package contains compiled executable (EXE) file.
