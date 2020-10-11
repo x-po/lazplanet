@@ -9,9 +9,10 @@ id: '7'
 categories:
   - - true
 date: 2020-05-01 16:37:00
+thumbnail: lua-code-inside-lazarus/lua-inside-lazarus-thumb.jpg
 ---
 
-![Lua inside Lazarus projects blog thumbnail](lua-code-inside-lazarus/lua-inside-lazarus-thumb.jpg "Lua inside Lazarus projects blog thumbnail")
+<!-- ![Lua inside Lazarus projects blog thumbnail](lua-code-inside-lazarus/lua-inside-lazarus-thumb.jpg "Lua inside Lazarus projects blog thumbnail") -->
 
 We're crazy! We're out of our minds! We're going to run Lua code, from inside our Lazarus code! 2 Languages at once!
 <!-- more -->
