@@ -8,9 +8,8 @@ categories:
   - [Code Snippets]
   - [Text Operation]
 date: 2013-04-16 00:26:00
+thumbnail: simple-text-search/search.jpg
 ---
-
-![](simple-text-search/search.jpg)
 
 Searching is one of the tasks of programing that reduces so much of our work and hardship. Today we see a **very** simple string search sample code...
 <!-- more -->

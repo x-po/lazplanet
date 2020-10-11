@@ -11,9 +11,8 @@ id: '64'
 categories:
   - [Screen Graphics]
 date: 2013-07-17 04:23:00
+thumbnail: how-to-crop-image-and-save-to-file/image-crop-thumb.jpg
 ---
-
-![](how-to-crop-image-and-save-to-file/image-crop-thumb.jpg)
 
 Not every pixel of a photo is important. Sometimes we need to just crop out some of the area of a photo. We learn how to crop an image and save the cropped version in a file.
 <!-- more -->

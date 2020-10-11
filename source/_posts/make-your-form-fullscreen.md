@@ -12,9 +12,8 @@ categories:
   - [Code Snippets]
   - [Form Controls]
 date: 2014-02-21 21:53:00
+thumbnail: make-your-form-fullscreen/fullscreen-form-thumb.gif
 ---
-
-![Lazarus Fullscreen Form project source code + article](make-your-form-fullscreen/fullscreen-form-thumb.gif "Lazarus Fullscreen Form project source code + article")
 
 Fullscreen is a common option in many of the popular programs we use. Today we learn the simple trick of making our program fullscreen.
 <!-- more -->

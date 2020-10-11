@@ -6,9 +6,8 @@ id: '115'
 categories:
   - 
 date: 2013-03-25 02:12:00
+thumbnail: why-do-you-need-to-use-lazarus/LazarusProject.png
 ---
-
-![](why-do-you-need-to-use-lazarus/LazarusProject.png)
 
 What is it with Lazarus? What Lazarus has and other IDEs don't? For beginners, is it a good option? For switchers, would it be difficult to switch from other IDEs/Languages? - Read on to get the answers...
 <!-- more -->

@@ -7,9 +7,8 @@ id: '120'
 categories:
   - 
 date: 2013-03-20 06:14:00
+thumbnail: welcome/public-speaking-robot-simple.jpg
 ---
-
-![](welcome/public-speaking-robot-simple.jpg)
 
 ### Welcome to LazPlanet!
 

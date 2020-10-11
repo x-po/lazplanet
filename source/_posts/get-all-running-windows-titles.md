@@ -8,9 +8,8 @@ categories:
   - [Code Snippets]
   - [System API]
 date: 2013-04-09 10:42:00
+thumbnail: get-all-running-windows-titles/tooManyWindows2.jpg
 ---
-
-![](get-all-running-windows-titles/tooManyWindows2.jpg)
 
 With this simple little code you can list the windows/software that are running. You can identify if some specific software is running or do some magic tricks with Windows API. It is up to you...
 <!-- more -->

@@ -11,9 +11,8 @@ categories:
   - [Screen Graphics]
   - [Text Operation]
 date: 2013-06-17 06:59:00
+thumbnail: how-to-draw-text-on-canvas/draw-text-thumb.gif
 ---
-
-![Tutorial and Example code on Drawing Text on a Canvas in Lazarus](how-to-draw-text-on-canvas/draw-text-thumb.gif "Tutorial and Example code on Drawing Text on a Canvas in Lazarus")
 
 We can use TLabel to show any text just to show any text, not editing. But what could we do to show text on a canvas? Then we would need to draw the text. Here's how...
 <!-- more -->

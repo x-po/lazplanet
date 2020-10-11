@@ -13,9 +13,8 @@ categories:
   - [Code Snippets]
   - [List Iteration]
 date: 2013-05-07 09:36:00
+thumbnail: how-to-add-delete-clear-items-of-listbox/list.png
 ---
-
-![Learn how to manipulate a list](how-to-add-delete-clear-items-of-listbox/list.png "Learn how to manipulate a list")
 
 Learn how to code a program to list different things. Make your own lists with your own program! Utilize this article to list many things that you have never listed before!
 <!-- more -->

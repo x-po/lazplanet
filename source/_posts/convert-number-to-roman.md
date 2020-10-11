@@ -8,9 +8,8 @@ categories:
   - [Math Dates]
   - [Text Operation]
 date: 2013-04-06 14:56:00
+thumbnail: convert-number-to-roman/Roman-Numerals-I-size.gif
 ---
-
-![](convert-number-to-roman/Roman-Numerals-I-size.gif)
 
 Roman characters look very formal. I, II, III, IV ... BBC uses Roman for their copyright statement (e.g. BBC (c) MMVI). And it looks exceptional. What is your birth year in Roman? Let your program find that for you! Here's how:
 <!-- more -->

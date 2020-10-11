@@ -10,9 +10,8 @@ categories:
   - [System API]
   - [Text Operation]
 date: 2013-05-02 09:28:00
+thumbnail: how-to-cut-copy-paste-text-in-your/th.jpg
 ---
-
-![](how-to-cut-copy-paste-text-in-your/th.jpg)
 
 Word processors and even browsers have cut, copy, paste functions. You have used them many times in your life. But now make yours!
 <!-- more -->

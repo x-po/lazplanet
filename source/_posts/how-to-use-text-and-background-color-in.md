@@ -12,9 +12,8 @@ categories:
   - [Screen Graphics]
   - [Text Operation]
 date: 2013-05-15 06:24:00
+thumbnail: how-to-use-text-and-background-color-in/console-colors-thumbs.gif
 ---
-
-![Using colors in Free Pascal console apps](how-to-use-text-and-background-color-in/console-colors-thumbs.gif "Using colors in Free Pascal console apps")
 
 Console applications are not of entertaining type. They have that whitish dull color in a black background. But who says you cannot change it! Here is a tip to change the text color of console programs.
 <!-- more -->

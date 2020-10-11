@@ -13,9 +13,8 @@ categories:
   - [System API]
   - [Hardware]
 date: 2020-05-12 23:29:00
+thumbnail: cross-compile-on-lazarus/lazarus-cross-compile-postthumb.png
 ---
-
-![](cross-compile-on-lazarus/lazarus-cross-compile-postthumb.png)
 
 It's alive! It's working! We're compiling for other OSs that we don't have... easily!
 <!-- more -->

@@ -14,9 +14,8 @@ categories:
   - [Code Snippets]
   - [HTML Web]
 date: 2019-03-15 23:47:00
+thumbnail: how-to-get-contents-of-url-in-2-ways/download-file-thumb.jpg
 ---
-
-![](how-to-get-contents-of-url-in-2-ways/download-file-thumb.jpg)
 
 The Web is an amazing place. What if we could download the contents of a link on the web to our own Lazarus program? Let's find out how!
 <!-- more -->

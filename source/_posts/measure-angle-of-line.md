@@ -9,9 +9,8 @@ categories:
   - [Math Dates]
   - [Screen Graphics]
 date: 2013-05-14 07:00:00
+thumbnail: measure-angle-of-line/angle-1.gif
 ---
-
-![Find Angle from two points](measure-angle-of-line/angle-1.gif "Find Angle from two points")
 
 When you draw a line, does that come to you that how many degrees is that line? How much is it steep or flat? Learn through your own program.
 <!-- more -->

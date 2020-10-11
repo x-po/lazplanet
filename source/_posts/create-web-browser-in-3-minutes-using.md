@@ -9,9 +9,8 @@ id: '23'
 categories:
   - [HTML Web]
 date: 2015-09-16 05:54:00
+thumbnail: create-web-browser-in-3-minutes-using/thumb-lazarus-chrome-webbrowser-1.jpg
 ---
-
-![](create-web-browser-in-3-minutes-using/thumb-lazarus-chrome-webbrowser-1.jpg)
 
 We'll learn how to create a web browser even quicker than you can install one! All using the people's favorite chromium engine!
 <!-- more -->

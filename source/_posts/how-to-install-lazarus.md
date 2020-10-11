@@ -7,9 +7,8 @@ id: '118'
 categories:
   - [Guides]
 date: 2013-03-21 00:35:00
+thumbnail: how-to-install-lazarus/windows-mac-os-linux-logo1.jpg
 ---
-
-![](how-to-install-lazarus/windows-mac-os-linux-logo1.jpg)
 
 Lazarus is a cross-platform IDE. It runs on Windows, Ubuntu/Linux, Mac OS and BSD Operating systems.  
   

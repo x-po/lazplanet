@@ -16,9 +16,8 @@ categories:
   - [Screen Graphics]
   - [Code Snippets]
 date: 2014-03-24 17:35:00
+thumbnail: how-to-compress-image-to-jpg-wo-preview/JPEG_example_JPG_RIP_050.jpg
 ---
-
-![](how-to-compress-image-to-jpg-wo-preview/JPEG_example_JPG_RIP_050.jpg)
 
 Today we'll make a JPEG compressor. Sounds exciting, doesn't it? It can convert and compress from any other image formats too!
 <!-- more -->

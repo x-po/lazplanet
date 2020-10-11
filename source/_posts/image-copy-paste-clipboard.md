@@ -13,9 +13,8 @@ categories:
   - [Screen Graphics]
   - [System API]
 date: 2013-05-05 18:10:00
+thumbnail: image-copy-paste-clipboard/clipboard_icon.jpg
 ---
-
-![](image-copy-paste-clipboard/clipboard_icon.jpg)
 
 In paint programs, we see a function to copy an image to clipboard and paste it from there. Paste an image from anywhere, Photoshop, Firefox in your own program! Here's how...
 <!-- more -->

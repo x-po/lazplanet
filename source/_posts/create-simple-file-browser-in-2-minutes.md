@@ -9,9 +9,8 @@ id: '73'
 categories:
   - [Files Directories]
 date: 2013-06-03 09:13:00
+thumbnail: create-simple-file-browser-in-2-minutes/folder-thumb.jpg
 ---
-
-![File folder icon](create-simple-file-browser-in-2-minutes/folder-thumb.jpg "File folder icon")
 
 File browsers are very useful in our everyday lives. What if you can create a file browser in 2 Minutes? ...without writing code? Yes! That's how we do it in Lazarus.
 <!-- more -->

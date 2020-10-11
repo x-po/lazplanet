@@ -9,9 +9,8 @@ categories:
   - [Code Snippets]
   - [Math Dates]
 date: 2013-05-01 14:46:00
+thumbnail: a-simple-calculator-project/simple-calculator.jpg
 ---
-
-![](a-simple-calculator-project/simple-calculator.jpg)
 
 There are many calculator programs out there... with hundreds of buttons to click and thousands of lines of codes to implement those functions. But in this little project we discover a simple calculator...by hand...
 <!-- more -->

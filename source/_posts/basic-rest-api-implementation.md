@@ -12,9 +12,8 @@ categories:
   - [HTML Web]
   - [System API]
 date: 2019-03-22 16:16:00
+thumbnail: basic-rest-api-implementation/rest-api-thumb.jpg
 ---
-
-![](basic-rest-api-implementation/rest-api-thumb.jpg)
 
 REST APIs are "the thing" to learn these days. But how should we get it to work on Lazarus? Let's see...
 <!-- more -->

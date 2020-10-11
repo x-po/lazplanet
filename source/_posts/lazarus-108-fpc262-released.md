@@ -6,6 +6,7 @@ id: '117'
 categories:
   - 
 date: 2013-03-21 00:50:00
+thumbnail: lazarus-108-fpc262-released/Lazarus-Logo.png
 ---
 
 This release is generally a bug fix release. The most important thing is that this version supports FPC 2.6.2. So no more installing FPC yourself! And the loading time is freakin' fast!

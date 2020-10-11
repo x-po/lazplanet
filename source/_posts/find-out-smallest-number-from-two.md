@@ -10,9 +10,8 @@ categories:
   - [Math Dates]
   - [Console]
 date: 2014-11-18 15:09:00
+thumbnail: find-out-smallest-number-from-two/min-number.jpg
 ---
-
-![minimum number between two numbers in Lazarus, Free Pascal](find-out-smallest-number-from-two/min-number.jpg "minimum number between two numbers in Lazarus, Free Pascal")
 
 This is usually a very basic task for beginner programmers. Find out the smaller from two numbers.
 <!-- more -->

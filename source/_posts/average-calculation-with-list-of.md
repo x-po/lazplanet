@@ -9,9 +9,8 @@ categories:
   - [List Iteration]
   - [Math Dates]
 date: 2013-05-10 18:02:00
+thumbnail: average-calculation-with-list-of/average-thumb.gif
 ---
-
-![](average-calculation-with-list-of/average-thumb.gif)
 
 Average calculation is a easy formula to practice your programing skills. We have seen a [CLI average calculator program](http://lazplanet.blogspot.com/2013/05/calculate-average-of-unlimited-numbers.html) of unlimited numbers, now its time for a GUI project.
 <!-- more -->

@@ -11,9 +11,8 @@ categories:
   - [Code Snippets]
   - [HTML Web]
 date: 2014-10-13 16:54:00
+thumbnail: find-out-if-computer-is-connected-to/connected-thumb.jpg
 ---
-
-![](find-out-if-computer-is-connected-to/connected-thumb.jpg)
 
 If you are doing something that depends on an internet connection, you would probably want to check if internet is available. That's what we are going to detect today.
 <!-- more -->

@@ -13,9 +13,8 @@ categories:
   - [Code Snippets]
   - [Form Controls]
 date: 2013-06-05 01:59:00
+thumbnail: dragging-form-by-its-body/drag-form-lazarus.jpg
 ---
-
-![](dragging-form-by-its-body/drag-form-lazarus.jpg)
 
 Moving a window is not new! We move windows by its title bar at the top. But what if we want to move a window/form by dragging its body? Could we remove the title bar of our form and have fancy interface going on? Yes. And here's how...
 <!-- more -->

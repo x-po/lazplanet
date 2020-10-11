@@ -9,9 +9,8 @@ categories:
   - [Files Directories]
   - [Screen Graphics]
 date: 2013-03-31 03:44:00
+thumbnail: how-to-get-exes-path-and-filename/exe-file.jpg
 ---
-
-![](how-to-get-exes-path-and-filename/exe-file.jpg)
 
 It is a common question. In your code, sometimes you need to define where your EXE is running from. Then you can load any file from the application's directory or subdirectories. Let's learn how to.
 <!-- more -->

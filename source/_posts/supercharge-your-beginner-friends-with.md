@@ -11,9 +11,8 @@ id: '19'
 categories:
   - 
 date: 2017-12-15 23:33:00
+thumbnail: supercharge-your-beginner-friends-with/e-book-cover-thumb.png
 ---
-
-![](supercharge-your-beginner-friends-with/e-book-cover-thumb.png)
 
 Many have the will to start learning Lazarus, but could not find an easy way to start. This e-book will give them the fuel to get started.
 <!-- more -->

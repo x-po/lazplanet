@@ -11,9 +11,8 @@ id: '28'
 categories:
   - 
 date: 2015-04-08 01:12:00
+thumbnail: lazarus-14-rc3-is-available-and-why-you/Lazarus-Logo.png
 ---
-
-![](lazarus-14-rc3-is-available-and-why-you/Lazarus-Logo.png)
 
 Lazarus 1.4 RC3 has been released. There are a lots of awaited updates and fixes. See how much Lazarus has evolved.
 <!-- more -->

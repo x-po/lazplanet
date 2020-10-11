@@ -10,9 +10,8 @@ categories:
   - [Code Snippets]
   - [Files Directories]
 date: 2013-05-25 01:02:00
+thumbnail: how-to-get-filesfolders-inside-zip-file/compress-icon-zip.jpg
 ---
-
-![](how-to-get-filesfolders-inside-zip-file/compress-icon-zip.jpg)
 
 Ever wanted to make your own Zip Viewer? In this article we look at a simple code for listing the files/folders inside a ZIP file, without any third party libraries.
 <!-- more -->

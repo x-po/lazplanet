@@ -14,9 +14,8 @@ categories:
   - [Form Controls]
   - [System API]
 date: 2013-05-06 16:38:00
+thumbnail: how-to-show-tooltip-balloon-tip-and/Tooltip-1.jpg
 ---
-
-![Tooltip icon decoration](how-to-show-tooltip-balloon-tip-and/Tooltip-1.jpg "Tooltip icon decoration")
 
 Tooltips are text that appears as a short help for a component when we keep our mouse over it for a while. We can add single line or multiline tooltips easily. Here's how...
 <!-- more -->

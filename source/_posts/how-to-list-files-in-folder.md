@@ -13,9 +13,8 @@ categories:
   - [Files Directories]
   - [List Iteration]
 date: 2013-07-08 01:50:00
+thumbnail: how-to-list-files-in-folder/file-browser-2-thumb.jpg
 ---
-
-![](how-to-list-files-in-folder/file-browser-2-thumb.jpg)
 
 We all have these gigabytes and terabytes of hard disks in our computers. But what's the use of this huge storage if we cannot see where our files are and in which folder they are located? Of course we can. With our very own IDE, Lazarus!
 <!-- more -->

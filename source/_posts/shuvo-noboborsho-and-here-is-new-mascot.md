@@ -6,9 +6,8 @@ id: '101'
 categories:
   - 
 date: 2013-04-14 19:16:00
+thumbnail: shuvo-noboborsho-and-here-is-new-mascot/alienguy-lazplanet-teaser.gif
 ---
-
-![](shuvo-noboborsho-and-here-is-new-mascot/alienguy-lazplanet-teaser.gif)
 
 Today is 14 April 2013, the first day of Bangla calendar. And in this auspicious day, an idea for a cartoon figure, as a mascot for LazPlanet has come to my mind. Here is the first image of him...
 <!-- more -->

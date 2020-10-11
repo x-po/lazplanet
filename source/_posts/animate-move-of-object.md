@@ -10,9 +10,8 @@ categories:
   - [Form Controls]
   - [List Iteration]
 date: 2013-05-13 20:25:00
+thumbnail: animate-move-of-object/animation_icon.jpg
 ---
-
-![Component Move Animation in Lazarus](animate-move-of-object/animation_icon.jpg "Component Move Animation in Lazarus")
 
 You have seen Windows 8 panels sliding and disappearing in and out of the screen. Now create such effects for your program! Here's a handy little procedure...
 <!-- more -->

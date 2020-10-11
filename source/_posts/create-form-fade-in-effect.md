@@ -11,9 +11,8 @@ categories:
   - [Code Snippets]
   - [Form Controls]
 date: 2013-05-12 01:21:00
+thumbnail: create-form-fade-in-effect/Form-alpha-blending.gif
 ---
-
-![](create-form-fade-in-effect/Form-alpha-blending.gif)
 
 Forms are a bit boring sometimes, right? Spice it a little bit with a Fade In animation effect on startup. That boring square area of form will amuse the users a bit more.
 <!-- more -->

@@ -12,9 +12,8 @@ id: '45'
 categories:
   - [Form Controls]
 date: 2014-04-14 19:56:00
+thumbnail: shape-your-form-into-anything/lazarus-custom-form-shape-t.jpg
 ---
-
-![](shape-your-form-into-anything/lazarus-custom-form-shape-t.jpg)
 
 Forms are rectangular, right? In this article we prove it wrong. We will turn our form into circle, triangle and what not!
 <!-- more -->

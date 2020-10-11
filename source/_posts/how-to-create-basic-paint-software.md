@@ -12,9 +12,8 @@ categories:
   - [Screen Graphics]
   - [System API]
 date: 2013-06-12 00:44:00
+thumbnail: how-to-create-basic-paint-software/paint-icon.jpg
 ---
-
-![](how-to-create-basic-paint-software/paint-icon.jpg)
 
 Today, in our special post, we see how to create a basic paint software in Lazarus with some basic drawing tools and Open, Save, Resize options. A must see for Lazarians!
 <!-- more -->

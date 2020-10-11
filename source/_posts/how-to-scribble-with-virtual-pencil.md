@@ -12,9 +12,8 @@ id: '75'
 categories:
   - [Screen Graphics]
 date: 2013-05-29 23:09:00
+thumbnail: how-to-scribble-with-virtual-pencil/pencil-thumb.jpg
 ---
-
-![Scribble pencil art decoration](how-to-scribble-with-virtual-pencil/pencil-thumb.jpg "Scribble pencil art decoration")
 
 Drawing is fun. Learn how to create a drawing software that can let the user draw like a pencil in a virtual canvas in his computer screen. We are also going to use colors!
 <!-- more -->

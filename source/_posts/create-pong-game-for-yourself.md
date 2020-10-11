@@ -11,9 +11,8 @@ categories:
   - [Screen Graphics]
   - [Games]
 date: 2014-10-04 12:33:00
+thumbnail: create-pong-game-for-yourself/ping_pong.png
 ---
-
-![Pong game](create-pong-game-for-yourself/ping_pong.png "Pong game")
 
 Everybody likes to play games. It gets even better if you play the game you made yourself.
 <!-- more -->

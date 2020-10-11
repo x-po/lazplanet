@@ -8,9 +8,8 @@ id: '69'
 categories:
   - 
 date: 2013-06-15 00:28:00
+thumbnail: lazarus-1010-with-fpc-262-released/Lazarus-Logo.png
 ---
-
-![](lazarus-1010-with-fpc-262-released/Lazarus-Logo.png)
 
 Another release of the 1.x stable version Lazarus 1.0.10 has been released. It has FPC 2.6.2 like its previous version. It is generally a bugfix version. It is good to see Lazarus releasing more updates for the stable version.
 <!-- more -->

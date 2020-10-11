@@ -9,9 +9,8 @@ id: '47'
 categories:
   - 
 date: 2014-03-05 18:33:00
+thumbnail: lazarus-12-with-fpc-262-released/Lazarus-Logo.png
 ---
-
-![](lazarus-12-with-fpc-262-released/Lazarus-Logo.png)
 
 The long awaited stable version Lazarus 1.2 has been released yesterday. It has FPC 2.6.2 like its previous versions. It has huge number of improvements. Plus, it can have multiple installations in Windows.
 <!-- more -->

@@ -12,9 +12,8 @@ id: '21'
 categories:
   - [System API]
 date: 2016-06-22 13:59:00
+thumbnail: how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-thumb.gif
 ---
-
-![Form design for Systemwide mouse event capture in Free Pascal, Lazarus](how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-thumb.gif "Form design for Systemwide mouse event capture in Free Pascal, Lazarus")
 
 In this article we find out what the user is doing with his mouse, even outside of the program. Let's conquer the whole system!
 <!-- more -->

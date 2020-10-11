@@ -8,9 +8,8 @@ categories:
   - [Code Snippets]
   - [Form Controls]
 date: 2013-04-12 05:06:00
+thumbnail: make-your-forms-transparent/lazarus-form-transparency-2.gif
 ---
-
-![](make-your-forms-transparent/lazarus-form-transparency-2.gif)
 
 Forms are boring solid objects. But you can make it fun in many ways. One of them is transparency. Here's how...
 <!-- more -->

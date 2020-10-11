@@ -13,9 +13,8 @@ categories:
   - [Math Dates]
   - [Screen Graphics]
 date: 2014-06-14 00:03:00
+thumbnail: how-to-make-simple-analog-clock/analog-clock-project-thumb.gif
 ---
-
-![](how-to-make-simple-analog-clock/analog-clock-project-thumb.gif)
 
 Digital clocks are cool. But Analog clocks are cooler... when you make them yourself! In this little article we are gonna create an analog clock!
 <!-- more -->

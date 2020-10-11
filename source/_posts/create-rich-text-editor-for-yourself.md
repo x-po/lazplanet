@@ -13,9 +13,8 @@ id: '55'
 categories:
   - [Text Operation]
 date: 2013-12-24 23:56:00
+thumbnail: create-rich-text-editor-for-yourself/rich-editor-thumb.jpg
 ---
-
-![penguin, linux, word processor](create-rich-text-editor-for-yourself/rich-editor-thumb.jpg "penguin, linux, word processor")
 
 In this holiday, gift yourself a nice little word processor that you can use yourself! You can further develop it. It happily supports Unicode and lets you learn the use of Toolbar, RichMemo, ImageLists, File Save Management and more.
 <!-- more -->

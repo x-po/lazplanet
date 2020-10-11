@@ -9,9 +9,8 @@ id: '26'
 categories:
   - [Misc]
 date: 2015-06-25 22:24:00
+thumbnail: 10-things-you-did-not-know-about-lazarus/Lazarus-Logo.png
 ---
-
-![](10-things-you-did-not-know-about-lazarus/Lazarus-Logo.png)
 
 In this useful article we see some of the less known but handy tools or features that Lazarus has
 <!-- more -->

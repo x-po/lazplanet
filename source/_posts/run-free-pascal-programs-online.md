@@ -9,9 +9,8 @@ id: '52'
 categories:
   - [HTML Web]
 date: 2014-02-13 18:06:00
+thumbnail: run-free-pascal-programs-online/fpc-compiler-online.jpg
 ---
-
-![](run-free-pascal-programs-online/fpc-compiler-online.jpg)
 
 Today we explore a painless online solution for running your Free Pascal programs online, without installing and configuring a compiler yourself! Neat!
 <!-- more -->

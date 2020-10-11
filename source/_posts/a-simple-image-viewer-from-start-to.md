@@ -10,10 +10,8 @@ categories:
   - [Code Snippets]
   - [Screen Graphics]
 date: 2013-05-04 18:28:00
+thumbnail: a-simple-image-viewer-from-start-to/th.jpg
 ---
-
-![](a-simple-image-viewer-from-start-to/th.jpg)
-
   
 Today we are going to make a simple image viewer. It will have a lot of functionality but with only 5 lines of code!
 <!-- more -->

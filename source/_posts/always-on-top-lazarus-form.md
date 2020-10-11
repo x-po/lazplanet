@@ -12,9 +12,8 @@ categories:
   - [Form Controls]
   - [Code Snippets]
 date: 2014-01-12 15:44:00
+thumbnail: always-on-top-lazarus-form/lazarus-always-on-top-thumb.gif
 ---
-
-![](always-on-top-lazarus-form/lazarus-always-on-top-thumb.gif)
 
 We learn how to make our forms stay Always on Top so that it always stays shown on screen. It is good for projects where live information is shown or sometimes just for fun!
 <!-- more -->

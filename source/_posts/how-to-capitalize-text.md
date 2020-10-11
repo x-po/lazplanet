@@ -8,9 +8,8 @@ categories:
   - [Code Snippets]
   - [Text Operation]
 date: 2013-04-14 00:28:00
+thumbnail: how-to-capitalize-text/croppercapture2.jpg
 ---
-
-![](how-to-capitalize-text/croppercapture2.jpg)
 
 We write the words in the middle of the sentence in lowercase letters. Capitalizing is sometimes necessary to emphasize things. Any text (or string) can be converted to uppercase (capitalize). Here's how...
 <!-- more -->

@@ -8,9 +8,8 @@ categories:
   - [Screen Graphics]
   - [System API]
 date: 2013-04-07 05:14:00
+thumbnail: mouse-cursor-position-get-set/629615-siamese-kitten-on-a-funny-pose-playing-and-looking-to-computer-mouse-on-hand.jpg
 ---
-
-![](mouse-cursor-position-get-set/629615-siamese-kitten-on-a-funny-pose-playing-and-looking-to-computer-mouse-on-hand.jpg)
 
 Find out if your user is pointing to left or right, top or down of the screen. If you are keen for a shock, then yes! You can also position the cursor wherever you want! Without having the user moving their mouse! Here's how
 <!-- more -->

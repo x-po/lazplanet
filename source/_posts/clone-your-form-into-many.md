@@ -7,9 +7,8 @@ id: '108'
 categories:
   - [Form Controls]
 date: 2013-04-03 07:30:00
+thumbnail: clone-your-form-into-many/duplicate-form-lazarus.jpg
 ---
-
-![](clone-your-form-into-many/duplicate-form-lazarus.jpg)
 
 This is a fun code example to try. When you open up a new Application project, you get a form. To have fun, we can create hundreds of "copies" of this form! On runtime. Here's how...
 <!-- more -->

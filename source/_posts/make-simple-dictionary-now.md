@@ -13,9 +13,8 @@ categories:
   - [Text Operation]
   - [Databases]
 date: 2015-07-19 16:09:00
+thumbnail: make-simple-dictionary-now/funny-pictures-cat-dictionary-cheezburger.jpg
 ---
-
-![](make-simple-dictionary-now/funny-pictures-cat-dictionary-cheezburger.jpg)
 
 Dictionary is one of the fun challenges of programming. Learn how to make a dictionary in this quick tutorial.
 <!-- more -->

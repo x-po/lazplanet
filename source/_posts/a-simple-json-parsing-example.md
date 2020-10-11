@@ -11,9 +11,8 @@ categories:
   - [System API]
   - [Text Operation]
 date: 2014-09-03 17:46:00
+thumbnail: a-simple-json-parsing-example/json-thumb.gif
 ---
-
-![](a-simple-json-parsing-example/json-thumb.gif)
 
 Can't get enough of JSONs? Crunch some JSON data with this simple code!
 <!-- more -->

@@ -9,9 +9,8 @@ id: '40'
 categories:
   - [Code Snippets]
 date: 2014-07-22 15:06:00
+thumbnail: what-are-classes-and-what-they-can-do/oop-thumb.jpg
 ---
-
-![](what-are-classes-and-what-they-can-do/oop-thumb.jpg)
 
 Learn one of the most powerful features of any language. We will be talking about things that come alive! Plus, learn how to build a robot with the keystrokes!
 <!-- more -->

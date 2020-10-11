@@ -13,9 +13,8 @@ id: '66'
 categories:
   - [Screen Graphics]
 date: 2013-06-28 22:06:00
+thumbnail: how-to-create-airbrush-tool-for-drawing/airbrush-thumb.jpg
 ---
-
-![Airbrush tool in Lazarus IDE](how-to-create-airbrush-tool-for-drawing/airbrush-thumb.jpg "Airbrush tool in Lazarus IDE")
 
 You know [how to draw like a pencil](http://lazplanet.blogspot.com/2013/05/how-to-scribble-with-virtual-pencil.html) and [circles and rectangles and stuff](http://lazplanet.blogspot.com/2013/06/how-to-create-basic-paint-software.html). But how do you make an airbrush tool in Lazarus? Here's how...
 <!-- more -->

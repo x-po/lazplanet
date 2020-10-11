@@ -12,9 +12,8 @@ categories:
   - [Form Controls]
   - [System API]
 date: 2013-05-27 03:19:00
+thumbnail: drag-drop-files-lazarus-form/drag-drop-thumb.jpg
 ---
-
-![drag and drop on a window](drag-drop-files-lazarus-form/drag-drop-thumb.jpg "drag and drop on a window")
 
 You can drag and drop files to softwares, that's old news. But can you drag & drop files over YOUR own software? Yes. And we learn how to...
 <!-- more -->

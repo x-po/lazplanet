@@ -9,9 +9,8 @@ id: '18'
 categories:
   - 
 date: 2017-12-16 21:58:00
+thumbnail: lazarus-18-released-with-new-icons-and/Lazarus-Logo.png
 ---
-
-![](lazarus-18-released-with-new-icons-and/Lazarus-Logo.png)
 
 Lazarus 1.8 has been released. It is the first version with FPC 3.0.4. It has many visible and under the hood changes.
 <!-- more -->

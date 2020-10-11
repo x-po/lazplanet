@@ -10,9 +10,8 @@ categories:
   - [List Iteration]
   - [Text Operation]
 date: 2013-05-21 00:05:00
+thumbnail: partial-list-search-technique/search-list-thumb.gif
 ---
-
-![Partial list search in Lazarus](partial-list-search-technique/search-list-thumb.gif "Partial list search in Lazarus")
 
 Lists are interesting to do programing tricks. In this session we learn how to search partial inputs with only the first part of the list items.
 <!-- more -->

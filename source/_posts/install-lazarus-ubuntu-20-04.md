@@ -11,9 +11,8 @@ id: '8'
 categories:
   - [Guides]
 date: 2020-04-27 13:56:00
+thumbnail: install-lazarus-ubuntu-20-04/lazarus-install-ubuntu-thumb.png
 ---
-
-![](install-lazarus-ubuntu-20-04/lazarus-install-ubuntu-thumb.png)
 
 Ubuntu 20.04 LTS has been released recently, but installing Lazarus there from the official repos won't get you up and running. Let's see how Lazarus can be installed on 20.04 without issues.
 <!-- more -->

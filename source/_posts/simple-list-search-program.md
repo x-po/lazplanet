@@ -9,9 +9,8 @@ categories:
   - [Code Snippets]
   - [List Iteration]
 date: 2013-05-19 09:21:00
+thumbnail: simple-list-search-program/search-list-thumb.gif
 ---
-
-![Simple list search in Lazarus](simple-list-search-program/search-list-thumb.gif "Simple list search in Lazarus")
 
 Searching a list is one of computer's specialties. If you are a programer, you at least need to know this simple list search technique.
 <!-- more -->

@@ -12,9 +12,8 @@ id: '29'
 categories:
   - [Form Controls]
 date: 2015-01-13 00:33:00
+thumbnail: everything-about-using-2-forms-or-more/lazarus-multi-forms.gif
 ---
-
-![Multiple forms in Lazarus IDE](everything-about-using-2-forms-or-more/lazarus-multi-forms.gif "Multiple forms in Lazarus IDE")
 
 We love forms, right? So why have only one? Why not two?! Let's learn how to create multiple forms, manage them and use them as dialog boxes.
 <!-- more -->

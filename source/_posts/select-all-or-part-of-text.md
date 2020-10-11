@@ -10,9 +10,8 @@ categories:
   - [Code Snippets]
   - [Text Operation]
 date: 2013-05-31 15:55:00
+thumbnail: select-all-or-part-of-text/select-text-thumb.gif
 ---
-
-![Select text article thumb](select-all-or-part-of-text/select-text-thumb.gif "Select text article thumb")
 
 Sometimes highlighting or selecting some part, not all, becomes necessary. We look into the method of how we can do it.
 <!-- more -->

@@ -11,9 +11,8 @@ categories:
   - [List Iteration]
   - [Math Dates]
 date: 2013-10-19 12:13:00
+thumbnail: how-to-use-arrays-in-lazarusfpc/arrays2.jpg
 ---
-
-![Arrays in Lazarus/FPC](how-to-use-arrays-in-lazarusfpc/arrays2.jpg "Arrays in Lazarus/FPC")
 
 Come, discover the wonderful way to store and manage virtual lists on the computer memory.
 <!-- more -->

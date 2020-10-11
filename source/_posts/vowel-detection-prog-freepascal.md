@@ -8,9 +8,8 @@ categories:
   - [Console]
   - [Text Operation]
 date: 2013-03-28 00:40:00
+thumbnail: vowel-detection-prog-freepascal/letters-flying-out-of.jpg
 ---
-
-![](vowel-detection-prog-freepascal/letters-flying-out-of.jpg)
 
 Have you tried finding anything in your life?! You sure did! But now we will let our program find/detect a vowel. User is asked to enter a letter until he enters a vowel. The user will be asked again and again when the user enters consonants. When the user enters a vowel, the program quits saying thanks.
 <!-- more -->

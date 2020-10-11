@@ -11,9 +11,8 @@ id: '41'
 categories:
   - 
 date: 2014-06-21 18:46:00
+thumbnail: lazarus-124-with-fpc-264-released/Lazarus-Logo.png
 ---
-
-![](lazarus-124-with-fpc-264-released/Lazarus-Logo.png)
 
 Lazarus 1.2.4 has been released. It is the second version with FPC 2.6.4. It is basically a bug fix release but worth upgrading.
 <!-- more -->

@@ -13,9 +13,8 @@ id: '43'
 categories:
   - [Code Snippets]
 date: 2014-05-24 14:26:00
+thumbnail: how-to-show-your-program-on-system-tray/TrayIcon-Article-Thumb.gif
 ---
-
-![](how-to-show-your-program-on-system-tray/TrayIcon-Article-Thumb.gif)
 
 Some programs can minimize, but some very special programs can squeeze themselves to the system tray! Users can even use right click menu to do most of the stuff while minimized.
 <!-- more -->

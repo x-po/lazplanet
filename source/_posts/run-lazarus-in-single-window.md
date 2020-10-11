@@ -10,9 +10,8 @@ id: '116'
 categories:
   - [Guides]
 date: 2013-03-23 23:10:00
+thumbnail: run-lazarus-in-single-window/single-window.gif
 ---
-
-![](run-lazarus-in-single-window/single-window.gif)
 
 This tutorial shows you how to make lazarus run with just one window. It is a good docking solution which will be integrated in Lazarus in future, when it becomes stable.
 <!-- more -->

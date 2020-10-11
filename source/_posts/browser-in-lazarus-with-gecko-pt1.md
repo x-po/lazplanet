@@ -10,9 +10,8 @@ id: '59'
 categories:
   - [HTML Web]
 date: 2013-10-29 18:43:00
+thumbnail: browser-in-lazarus-with-gecko-pt1/firefox-funny-icon.jpg
 ---
-
-![](browser-in-lazarus-with-gecko-pt1/firefox-funny-icon.jpg)
 
 What web browsers do for us? They let us browse the internet, serve some wicked features that we love and let us customize them as we wish. Well, now it's time to make your own and customize it even further!
 <!-- more -->

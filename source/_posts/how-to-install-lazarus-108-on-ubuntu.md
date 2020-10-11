@@ -13,9 +13,8 @@ id: '92'
 categories:
   - [Guides]
 date: 2013-05-08 18:26:00
+thumbnail: how-to-install-lazarus-108-on-ubuntu/Lazarus-ubuntu-13.04-launcher.jpg
 ---
-
-![](how-to-install-lazarus-108-on-ubuntu/Lazarus-ubuntu-13.04-launcher.jpg)
 
 Ubuntu 13.04 has been released recently but its repo has an outdated version of Lazarus (0.9.30.4). Lazarus is at version 1.0.8 stable with FPC 2.6.2. This guide serves you as an installation guide to having the best of both worlds. Learn how to get the Latest Lazarus running in your latest Ubuntu.
 <!-- more -->

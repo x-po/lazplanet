@@ -6,9 +6,8 @@ id: '113'
 categories:
   - [Guides]
 date: 2013-03-26 07:57:00
+thumbnail: how-to-reduce-exe-file-size-of-your/lazarus-exe-compression.jpg
 ---
-
-![](how-to-reduce-exe-file-size-of-your/lazarus-exe-compression.jpg)
 
 By default, Lazarus makes EXEs including debug information which makes them extremely big. You can strip out this debug information easily and make your EXEs smaller. Here's how to...
 <!-- more -->

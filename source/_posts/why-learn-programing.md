@@ -6,9 +6,8 @@ id: '114'
 categories:
   - 
 date: 2013-03-25 17:58:00
+thumbnail: why-learn-programing/why-learn-programing.jpg
 ---
-
-![](why-learn-programing/why-learn-programing.jpg)
 
 Programing is like a magic. Programmers are like wizards of future. With programing "you can ... sit down and make something completely new from scratch."-Mark Zuckerberg (Founder of Facebook) There are thousands more reasons why you should learn to code.
 <!-- more -->

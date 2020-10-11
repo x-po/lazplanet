@@ -9,9 +9,8 @@ id: '39'
 categories:
   - [Code Snippets]
 date: 2014-07-30 14:47:00
+thumbnail: oop-example-artificial-persons-that/bionic-thumb.jpg
 ---
-
-![](oop-example-artificial-persons-that/bionic-thumb.jpg)
 
 Today we create bionic, robotic, futuristic human beings! That can even respond to your question! A virtual TPerson to be precise!
 <!-- more -->

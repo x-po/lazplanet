@@ -8,9 +8,8 @@ id: '49'
 categories:
   - 
 date: 2014-02-26 13:46:00
+thumbnail: links-added-to-sidebar-which-lets-you/lazplanet-links.gif
 ---
-
-![](links-added-to-sidebar-which-lets-you/lazplanet-links.gif)
 
 As a Lazarus user we know how often some links we visit. And typing them again and again is a daunting task for lazy programmers like us! ;-) So LazPlanet introduced a new Links section in the sidebar so that necessary links stay always on the homepage and you can click them and enjoy the ride.
 <!-- more -->

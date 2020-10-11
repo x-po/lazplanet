@@ -10,9 +10,8 @@ id: '16'
 categories:
   - 
 date: 2018-05-01 13:45:00
+thumbnail: spotlight-cudatext-hot-replacement-for/cudatext_thumb.png
 ---
-
-![](spotlight-cudatext-hot-replacement-for/cudatext_thumb.png)
 
 Care for a replacement of Sublime Text, but Open Source? We got you covered...!
 <!-- more -->

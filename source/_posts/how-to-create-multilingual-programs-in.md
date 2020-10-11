@@ -13,9 +13,8 @@ id: '14'
 categories:
   - [Text Operation]
 date: 2018-12-16 00:54:00
+thumbnail: how-to-create-multilingual-programs-in/lazarus-i18n-thumb.jpg
 ---
-
-![](how-to-create-multilingual-programs-in/lazarus-i18n-thumb.jpg)
 
 Hola, ciào, bonjour! Today we're making our program speak different languages!
 <!-- more -->

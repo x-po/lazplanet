@@ -6,9 +6,8 @@ id: '107'
 categories:
   - [Text Operation]
 date: 2013-04-04 12:23:00
+thumbnail: count-words-in-string/necklace-measure-words.jpg
 ---
-
-![](count-words-in-string/necklace-measure-words.jpg)
 
 Suppose you have found a huge paragraph. How many words are in that paragraph? Do you want to count yourself? No. We can let our program count the words! Here's how...
 <!-- more -->

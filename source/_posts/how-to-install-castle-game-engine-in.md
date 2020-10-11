@@ -11,9 +11,8 @@ id: '83'
 categories:
   - [Screen Graphics]
 date: 2013-05-18 00:21:00
+thumbnail: how-to-install-castle-game-engine-in/lazarus-and-castle-3d.jpg
 ---
-
-![](how-to-install-castle-game-engine-in/lazarus-and-castle-3d.jpg)
 
 Castle is a mouth watering and exciting 3D Game Engine for Lazarus. It can show, modify, animate X3D, Collada, 3DS, VRML, OBJ and more 3D formats. Start your 3D programing life, now...!
 <!-- more -->

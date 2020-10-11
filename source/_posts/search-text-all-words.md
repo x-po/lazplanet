@@ -10,9 +10,8 @@ categories:
   - [Code Snippets]
   - [Text Operation]
 date: 2013-04-19 00:28:00
+thumbnail: search-text-all-words/Search-Logo.jpg
 ---
-
-![](search-text-all-words/Search-Logo.jpg)
 
 Another example of simple text search which implements a Search Next button, which continuously searches for the given text. Its very easy. Heres how...
 <!-- more -->

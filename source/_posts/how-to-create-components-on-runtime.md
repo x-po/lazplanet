@@ -8,9 +8,8 @@ id: '27'
 categories:
   - [Form Controls]
 date: 2015-05-06 01:16:00
+thumbnail: how-to-create-components-on-runtime/create-components-thumb.jpg
 ---
-
-![Creating components on runtime on exe](how-to-create-components-on-runtime/create-components-thumb.jpg "Creating components on runtime on exe")
 
 The good thing about programming is that you can do almost anything you wish. Even create components out of thin air!
 <!-- more -->

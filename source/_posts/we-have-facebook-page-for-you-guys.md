@@ -8,9 +8,8 @@ id: '80'
 categories:
   - 
 date: 2013-05-22 06:42:00
+thumbnail: we-have-facebook-page-for-you-guys/lazplanet-like.gif
 ---
-
-![LazPlanet Facebook Page Like button](we-have-facebook-page-for-you-guys/lazplanet-like.gif "LazPlanet Facebook Page Like button")
 
 Facebook is something the trendy people can't live without. Now LazPlanet also has a Facebook Page. The link is available at the top of this website. Check it out!
 <!-- more -->

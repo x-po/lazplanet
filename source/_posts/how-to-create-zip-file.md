@@ -7,9 +7,8 @@ id: '109'
 categories:
   - [Files Directories]
 date: 2013-04-02 05:22:00
+thumbnail: how-to-create-zip-file/lazarus-exe-compression.jpg
 ---
-
-![](how-to-create-zip-file/lazarus-exe-compression.jpg)
 
 Zip files are a very common way of sharing multiple files compressed into a single file. Zip files are supported in various platforms (Windows, Mac, Linux etc.). We can use many softwares to create a zip file, such as [7-zip](http://www.7-zip.org/), [WinZip](http://www.winzip.com/), [WinRAR](http://www.rarlab.com/) etc. But today we are going to make zip files on our own program!
 <!-- more -->

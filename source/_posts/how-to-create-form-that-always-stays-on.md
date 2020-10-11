@@ -9,9 +9,8 @@ categories:
   - [Form Controls]
   - [System API]
 date: 2014-08-25 16:27:00
+thumbnail: how-to-create-form-that-always-stays-on/widgets2.jpg
 ---
-
-![](how-to-create-form-that-always-stays-on/widgets2.jpg)
 
 Discover the path to cool widget programming. Learn how to show your form only on desktop and nowhere else. Great for Widgets and To-do apps.
 <!-- more -->

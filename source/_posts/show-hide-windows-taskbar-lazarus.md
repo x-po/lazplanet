@@ -15,9 +15,8 @@ categories:
   - [Form Controls]
   - [System API]
 date: 2014-02-20 14:22:00
+thumbnail: show-hide-windows-taskbar-lazarus/task-bar-show-hide-lazplanet-thumb.jpg
 ---
-
-![](show-hide-windows-taskbar-lazarus/task-bar-show-hide-lazplanet-thumb.jpg)
 
 If you want to build some uncommon software which needs hiding the taskbar then check out this article.
 <!-- more -->

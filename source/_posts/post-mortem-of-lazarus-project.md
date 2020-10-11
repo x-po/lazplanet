@@ -16,9 +16,8 @@ id: '44'
 categories:
   - [Misc]
 date: 2014-05-19 15:25:00
+thumbnail: post-mortem-of-lazarus-project/Lazarus-project.jpg
 ---
-
-![](post-mortem-of-lazarus-project/Lazarus-project.jpg)
 
 How do Lazarus projects work? Each Project file have their own purpose. Today, we do an autopsy or a post-mortem to learn about their function!
 <!-- more -->

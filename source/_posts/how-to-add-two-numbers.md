@@ -8,9 +8,8 @@ categories:
   - [Code Snippets]
   - [Math Dates]
 date: 2013-03-29 05:42:00
+thumbnail: how-to-add-two-numbers/2_2_4.jpg
 ---
-
-![](how-to-add-two-numbers/2_2_4.jpg)
 
 Okey. Adding is not the first thing you did. But teaching a computer how to add two numbers is something worth learning.
 <!-- more -->

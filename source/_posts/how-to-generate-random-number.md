@@ -12,9 +12,8 @@ categories:
   - [Math Dates]
   - [Code Snippets]
 date: 2013-05-23 07:28:00
+thumbnail: how-to-generate-random-number/random-number-thumb.gif
 ---
-
-![Random numbers](how-to-generate-random-number/random-number-thumb.gif "Random numbers")
 
 Do you know what face of dice is going to come up before throwing? That's what random means. We learn how to create a program that shows a random number each time you click a button.
 <!-- more -->

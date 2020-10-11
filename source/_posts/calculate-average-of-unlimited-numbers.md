@@ -10,11 +10,8 @@ categories:
   - [Console]
   - [Math Dates]
 date: 2013-05-09 18:20:00
+thumbnail: calculate-average-of-unlimited-numbers/average-thumb.gif
 ---
-
-  
-
-![](calculate-average-of-unlimited-numbers/average-thumb.gif)
 
 We have seen a lot of average calculation programs. They have limit to their numbers of input. So we have a code that will let you enter number to your heart's content.
 <!-- more -->

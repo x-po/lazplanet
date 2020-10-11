@@ -10,9 +10,8 @@ id: '20'
 categories:
   - [Screen Graphics]
 date: 2017-05-21 00:00:00
+thumbnail: make-simple-image-zoomer-in-5-minutes/image-zoomer-in-lazarus.gif
 ---
-
-![](make-simple-image-zoomer-in-5-minutes/image-zoomer-in-lazarus.gif)
 
 Zooming is kind of fun! Here is a 5 minute image zoom tutorial with mouse scroll fun!
 <!-- more -->

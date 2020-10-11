@@ -10,9 +10,8 @@ categories:
   - [Form Controls]
   - [List Iteration]
 date: 2013-05-12 18:51:00
+thumbnail: clear-all-edit-boxes-in-form/reset-button-1.gif
 ---
-
-![Reset values thumbnail](clear-all-edit-boxes-in-form/reset-button-1.gif "Reset values thumbnail")
 
 It is a tedious job to create a "Reset Form" button and recall all the names of the Editboxes in the form. So we let Lazarus do that for us! ... with only 3 lines of code!
 <!-- more -->

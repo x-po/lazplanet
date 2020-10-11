@@ -9,9 +9,8 @@ id: '13'
 categories:
   - 
 date: 2019-02-14 16:20:00
+thumbnail: lazarus-200-released-with-many-tiny/Lazarus-Logo.png
 ---
-
-![](lazarus-200-released-with-many-tiny/Lazarus-Logo.png)
 
 Lazarus 2.0 has been released. It is the second major release with FPC 3.0.4. It has many new minor changes to look for.
 <!-- more -->

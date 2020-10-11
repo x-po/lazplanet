@@ -13,9 +13,8 @@ categories:
   - [Audio Video]
   - [Code Snippets]
 date: 2018-01-28 02:49:00
+thumbnail: how-to-make-simple-video-player-in/vlc_video_player_thumb.png
 ---
-
-![](how-to-make-simple-video-player-in/vlc_video_player_thumb.png)
 
 We like to watch videos. How about playing videos on our own player? In this article, we are going to create a fun, simple video player.
 <!-- more -->

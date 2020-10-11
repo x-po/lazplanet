@@ -11,9 +11,8 @@ id: '54'
 categories:
   - [Screen Graphics]
 date: 2013-12-30 22:36:00
+thumbnail: create-digital-clock-that-talks/pacman-clock.jpg
 ---
-
-![Digital Clock in Lazarus, that speaks!](create-digital-clock-that-talks/pacman-clock.jpg "Digital Clock in Lazarus, that speaks!")
 
 We are going to make a digital clock that has LCD Screen looking digits. Not only that. It can also speak the time!
 <!-- more -->

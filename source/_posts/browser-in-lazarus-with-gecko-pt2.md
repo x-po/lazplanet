@@ -8,9 +8,8 @@ id: '58'
 categories:
   - [HTML Web]
 date: 2013-11-03 14:18:00
+thumbnail: browser-in-lazarus-with-gecko-pt2/firefox-funny-icon.jpg
 ---
-
-![](browser-in-lazarus-with-gecko-pt2/firefox-funny-icon.jpg)
 
 Web browsers are our daily thing. We browse the internet through them. But what about making our own browser? That we are going to do.
 <!-- more -->

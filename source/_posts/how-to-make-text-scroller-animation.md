@@ -10,9 +10,8 @@ categories:
   - [Form Controls]
   - [Text Operation]
 date: 2016-04-25 14:11:00
+thumbnail: how-to-make-text-scroller-animation/text-scroller-thumb.jpg
 ---
-
-![](how-to-make-text-scroller-animation/text-scroller-thumb.jpg)
 
 At the end of a movie or in our application, we could use some text scrolling fun! But how to do that? Let's see...
 <!-- more -->

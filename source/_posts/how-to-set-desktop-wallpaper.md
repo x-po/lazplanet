@@ -12,9 +12,8 @@ categories:
   - [System API]
   - [Screen Graphics]
 date: 2014-08-31 16:11:00
+thumbnail: how-to-set-desktop-wallpaper/lazarus-wallp-thumb.gif
 ---
-
-![](how-to-set-desktop-wallpaper/lazarus-wallp-thumb.gif)
 
 Do you know how to change a single image and change the whole feeling of how your computer looks? Get your seatbelt on!
 <!-- more -->
