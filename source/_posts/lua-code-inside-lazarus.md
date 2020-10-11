@@ -252,19 +252,6 @@ Which should output like the screenshot below:
   
 Have fun with this amazing trick!  
   
-
-### Download Sample Code ZIP
-
-### 
-
-You can download the above example tutorial project's source code from [here](https://www.dropbox.com/s/xyz7jws01axuvnk/lua-inside-fpc.zip?dl=1) or [here](https://gitlab.com/lazplanet/lua-inside-fpc/-/releases).
-
-Size: 1.02MB
-
-The package may contain compiled executable EXE file(s).  
-  
-We now have a GitLab.com page where (hopefully) all future project source codes will be available. You can also post issues and pull requests if you want to: [https://gitlab.com/lazplanet/](https://gitlab.com/lazplanet/)
-
   
 **Ref:**  
 \- Basics: [http://lua-users.org/wiki/LuaInFreePascal](http://lua-users.org/wiki/LuaInFreePascal)  
