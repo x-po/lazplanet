@@ -6,8 +6,8 @@
   <div class="article-inner">
     <%- partial('post/gallery') %>
       <% if (post.thumbnail) { %>
-	      <% var asset_path = post.permalink.match(/(.*\/).*\//)[1]; %>
-	      <img class="article thumbnail-image" src="<%= asset_path %><%= post.thumbnail %>" title="<%= post.title %>" /></br>
+          <% var asset_path = post.permalink.match(/(.*\/).*\//)[1]; %>
+          <img class="article thumbnail-image" src="<%= asset_path %><%= post.thumbnail %>" title="<%= post.title %>" /></br>
       <% } %>
     <% if (post.link || post.title){ %>
       <header class="article-header">
@@ -24,6 +24,20 @@
         <% } %>
       <% } else { %>
         <%- post.content %>
+        <%/* Downloads related to post */%>
+        <% if (typeof post.downloads != 'undefined') { %>
+            <% if (post.downloads.length > 0) { %>
+                <div class="downloads">
+                    <h2>Downloads</h2>
+                    <p>You can download the source code for the tutorial project and executable/EXE files from the links below:</p>
+                    <ul>
+                    <% for (var i = 0; i < post.downloads.length; i++) { %>
+                        <li><a href="<%= post.downloads[i] %>">Download Link <%= i+1 %></a></li>
+                    <% } %>
+                    </ul>
+                </div>
+            <% } %>
+        <% } %>
       <% } %>
     </div>
     <footer class="article-footer">
