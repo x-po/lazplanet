@@ -41,4 +41,4 @@ The blog is mainly made in Hexo (Node.js based static site generator) and the co
 
 As the site is static, the comments are not. So they had to be kept somewhere that dynamic languages are supported. [HashOver](https://www.barkdull.org/software/hashover) is a great project that lets anyone host their own comments and also supports [converting WordPress comments](https://github.com/kepon85/wp2hashover) into it.
 
-The search feature is not implemented yet, but will be in future. All the self hosted solutions involve downloading the whole content index data into user machine and process it in browser. But it would be too much overhead for a simple feature. It could be somewhere around utilizing the GitLab search feature or having a dynamic language parse the dataset on some server and render the result on the site.
+The search feature is implemented through [StaticSearcher](https://gitlab.com/adnan360/static-searcher) hosted on __adnan360.com__.
