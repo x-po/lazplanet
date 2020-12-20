@@ -45,6 +45,14 @@
       <% } %>
     </div>
     <footer class="article-footer">
+      <%/* Author related : start */%>
+      <% if (author && post.author) { %>
+        <div class="author">
+          <%= __('Written by') %> <a href="<%- config.root %><%- 'author/' + post.authorId %>"><%= post.author.name %></a>
+          <p><%= post.author.about %></p>
+        </div>
+      <% } %>
+      <%/* Author related : end */%>
       <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>
       <% if (post.comments && config.disqus_shortname){ %>
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"><%= __('comment') %></a>
