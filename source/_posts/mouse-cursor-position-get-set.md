@@ -8,6 +8,7 @@ categories:
   - [Screen Graphics]
   - [System API]
 date: 2013-04-07 05:14:00
+authorId: adnan
 thumbnail: mouse-cursor-position-get-set/629615-siamese-kitten-on-a-funny-pose-playing-and-looking-to-computer-mouse-on-hand.jpg
 downloads:
   - http://db.tt/c08t8N5l

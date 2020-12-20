@@ -11,6 +11,7 @@ id: '54'
 categories:
   - [Screen Graphics]
 date: 2013-12-30 22:36:00
+authorId: adnan
 thumbnail: create-digital-clock-that-talks/pacman-clock.jpg
 downloads:
   - https://www.dropbox.com/s/6yycr85ynjoukuf/Digital_Clock.zip?dl=1

@@ -9,6 +9,7 @@ id: '40'
 categories:
   - [Code Snippets]
 date: 2014-07-22 15:06:00
+authorId: adnan
 thumbnail: what-are-classes-and-what-they-can-do/oop-thumb.jpg
 ---
 

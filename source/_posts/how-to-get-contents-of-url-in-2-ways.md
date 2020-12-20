@@ -14,6 +14,7 @@ categories:
   - [Code Snippets]
   - [HTML Web]
 date: 2019-03-15 23:47:00
+authorId: adnan
 thumbnail: how-to-get-contents-of-url-in-2-ways/download-file-thumb.jpg
 downloads:
   - https://drive.google.com/uc?export=download&id=1lGFBapcyiRWhMgJ6CXBl4nlzm2tEdwIa

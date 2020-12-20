@@ -11,6 +11,7 @@ categories:
   - [Code Snippets]
   - [Form Controls]
 date: 2013-05-12 01:21:00
+authorId: adnan
 thumbnail: create-form-fade-in-effect/Form-alpha-blending.gif
 downloads:
   - http://db.tt/DKJZ6LSb

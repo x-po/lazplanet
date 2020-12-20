@@ -10,6 +10,7 @@ categories:
   - [Code Snippets]
   - [Files Directories]
 date: 2013-05-25 01:02:00
+authorId: adnan
 thumbnail: how-to-get-filesfolders-inside-zip-file/compress-icon-zip.jpg
 downloads:
   - http://db.tt/BkhyiN9i

@@ -10,6 +10,7 @@ id: '59'
 categories:
   - [HTML Web]
 date: 2013-10-29 18:43:00
+authorId: adnan
 thumbnail: browser-in-lazarus-with-gecko-pt1/firefox-funny-icon.jpg
 ---
 

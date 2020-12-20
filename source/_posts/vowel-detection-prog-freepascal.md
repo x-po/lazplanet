@@ -8,6 +8,7 @@ categories:
   - [Console]
   - [Text Operation]
 date: 2013-03-28 00:40:00
+authorId: adnan
 thumbnail: vowel-detection-prog-freepascal/letters-flying-out-of.jpg
 downloads:
   - http://db.tt/2yxbam0f

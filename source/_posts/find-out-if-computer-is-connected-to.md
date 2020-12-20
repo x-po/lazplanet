@@ -11,6 +11,7 @@ categories:
   - [Code Snippets]
   - [HTML Web]
 date: 2014-10-13 16:54:00
+authorId: adnan
 thumbnail: find-out-if-computer-is-connected-to/connected-thumb.jpg
 downloads:
   - https://db.tt/XCO9id6W

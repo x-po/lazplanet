@@ -14,6 +14,7 @@ categories:
   - [Math Dates]
   - [System API]
 date: 2013-07-31 22:33:00
+authorId: adnan
 thumbnail: how-to-get-computer-running-time/pc-running-time-code.jpg
 downloads:
   - http://db.tt/F84ErkI7

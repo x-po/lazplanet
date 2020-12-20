@@ -9,6 +9,7 @@ id: '18'
 categories:
   - 
 date: 2017-12-16 21:58:00
+authorId: adnan
 thumbnail: lazarus-18-released-with-new-icons-and/Lazarus-Logo.png
 ---
 

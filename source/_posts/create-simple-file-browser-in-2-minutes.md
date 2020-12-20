@@ -9,6 +9,7 @@ id: '73'
 categories:
   - [Files Directories]
 date: 2013-06-03 09:13:00
+authorId: adnan
 thumbnail: create-simple-file-browser-in-2-minutes/folder-thumb.jpg
 downloads:
   - http://db.tt/LOmni33C

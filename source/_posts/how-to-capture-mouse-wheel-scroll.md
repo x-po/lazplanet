@@ -12,6 +12,7 @@ categories:
   - [System API]
   - [Text Operation]
 date: 2013-06-22 15:31:00
+authorId: adnan
 thumbnail: how-to-capture-mouse-wheel-scroll/mouse-scroll-thumb.jpg
 downloads:
   - https://www.dropbox.com/s/ohlyiwu6e1mlqmk/MouseWheel.zip?dl=1

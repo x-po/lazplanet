@@ -12,6 +12,7 @@ categories:
   - [HTML Web]
   - [System API]
 date: 2019-03-22 16:16:00
+authorId: adnan
 thumbnail: basic-rest-api-implementation/rest-api-thumb.jpg
 downloads:
   - https://www.dropbox.com/s/1y4dtttcxmfzul5/RESTApiBasics.zip?dl=1

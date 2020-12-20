@@ -9,6 +9,7 @@ categories:
   - [Code Snippets]
   - [Math Dates]
 date: 2013-05-01 14:46:00
+authorId: adnan
 thumbnail: a-simple-calculator-project/simple-calculator.jpg
 downloads:
   - http://db.tt/2mZrTg7n

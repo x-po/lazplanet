@@ -10,6 +10,7 @@ categories:
   - [List Iteration]
   - [Text Operation]
 date: 2013-05-21 00:05:00
+authorId: adnan
 thumbnail: partial-list-search-technique/search-list-thumb.gif
 downloads:
   - http://db.tt/DLaoSjba

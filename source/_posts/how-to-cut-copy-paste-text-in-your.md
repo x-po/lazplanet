@@ -10,6 +10,7 @@ categories:
   - [System API]
   - [Text Operation]
 date: 2013-05-02 09:28:00
+authorId: adnan
 thumbnail: how-to-cut-copy-paste-text-in-your/th.jpg
 downloads:
   - http://db.tt/5jI8AO61

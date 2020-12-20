@@ -12,6 +12,7 @@ categories:
   - [System API]
   - [Screen Graphics]
 date: 2014-08-31 16:11:00
+authorId: adnan
 thumbnail: how-to-set-desktop-wallpaper/lazarus-wallp-thumb.gif
 downloads:
   - https://www.dropbox.com/s/kn8oxl5z47tpow4/WallpaperSetter.zip?dl=1

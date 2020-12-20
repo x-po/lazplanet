@@ -12,6 +12,7 @@ categories:
   - [Math Dates]
   - [Code Snippets]
 date: 2013-05-23 07:28:00
+authorId: adnan
 thumbnail: how-to-generate-random-number/random-number-thumb.gif
 downloads:
   - http://db.tt/uIzAEOfU

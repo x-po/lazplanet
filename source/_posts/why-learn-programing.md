@@ -6,6 +6,7 @@ id: '114'
 categories:
   - 
 date: 2013-03-25 17:58:00
+authorId: adnan
 thumbnail: why-learn-programing/why-learn-programing.jpg
 ---
 

@@ -15,6 +15,7 @@ categories:
   - [Form Controls]
   - [System API]
 date: 2014-02-20 14:22:00
+authorId: adnan
 thumbnail: show-hide-windows-taskbar-lazarus/task-bar-show-hide-lazplanet-thumb.jpg
 downloads:
   - https://db.tt/Nca39jNf

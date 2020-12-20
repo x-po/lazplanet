@@ -13,6 +13,7 @@ categories:
   - [Audio Video]
   - [Code Snippets]
 date: 2018-01-28 02:49:00
+authorId: adnan
 thumbnail: how-to-make-simple-video-player-in/vlc_video_player_thumb.png
 downloads:
   - https://www.dropbox.com/s/c4w0c9vnetwktcy/vlc_video_player.zip?dl=0

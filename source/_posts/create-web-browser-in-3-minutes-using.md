@@ -9,6 +9,7 @@ id: '23'
 categories:
   - [HTML Web]
 date: 2015-09-16 05:54:00
+authorId: adnan
 thumbnail: create-web-browser-in-3-minutes-using/thumb-lazarus-chrome-webbrowser-1.jpg
 downloads:
   - https://db.tt/MWPFjW2v

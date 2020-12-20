@@ -9,6 +9,7 @@ categories:
   - [Math Dates]
   - [Screen Graphics]
 date: 2013-06-10 01:35:00
+authorId: adnan
 thumbnail: how-to-roll-dice-in-your-program/stock-illustration-15736915.gif
 downloads:
   - http://db.tt/tIoPETn4

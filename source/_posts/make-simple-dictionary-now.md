@@ -13,6 +13,7 @@ categories:
   - [Text Operation]
   - [Databases]
 date: 2015-07-19 16:09:00
+authorId: adnan
 thumbnail: make-simple-dictionary-now/funny-pictures-cat-dictionary-cheezburger.jpg
 downloads:
   - https://db.tt/NYKh4Nbf

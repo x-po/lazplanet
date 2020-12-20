@@ -9,6 +9,7 @@ categories:
   - [Code Snippets]
   - [List Iteration]
 date: 2013-05-19 09:21:00
+authorId: adnan
 thumbnail: simple-list-search-program/search-list-thumb.gif
 downloads:
   - http://db.tt/6cIeojH9

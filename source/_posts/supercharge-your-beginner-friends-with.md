@@ -11,6 +11,7 @@ id: '19'
 categories:
   - 
 date: 2017-12-15 23:33:00
+authorId: adnan
 thumbnail: supercharge-your-beginner-friends-with/e-book-cover-thumb.png
 ---
 

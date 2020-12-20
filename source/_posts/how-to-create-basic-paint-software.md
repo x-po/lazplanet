@@ -12,6 +12,7 @@ categories:
   - [Screen Graphics]
   - [System API]
 date: 2013-06-12 00:44:00
+authorId: adnan
 thumbnail: how-to-create-basic-paint-software/paint-icon.jpg
 downloads:
   - http://db.tt/kZsqnbzw

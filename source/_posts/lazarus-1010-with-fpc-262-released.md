@@ -8,6 +8,7 @@ id: '69'
 categories:
   - 
 date: 2013-06-15 00:28:00
+authorId: adnan
 thumbnail: lazarus-1010-with-fpc-262-released/Lazarus-Logo.png
 ---
 

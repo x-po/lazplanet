@@ -10,6 +10,7 @@ categories:
   - [Console]
   - [Math Dates]
 date: 2013-05-09 18:20:00
+authorId: adnan
 thumbnail: calculate-average-of-unlimited-numbers/average-thumb.gif
 downloads:
   - http://bit.ly/15seTRc

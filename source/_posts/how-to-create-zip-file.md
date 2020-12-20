@@ -7,6 +7,7 @@ id: '109'
 categories:
   - [Files Directories]
 date: 2013-04-02 05:22:00
+authorId: adnan
 thumbnail: how-to-create-zip-file/lazarus-exe-compression.jpg
 downloads:
   - http://dl.dropbox.com/u/6459514/LazPlanet/File-Functions/add-to-zip.zip

@@ -12,6 +12,7 @@ id: '84'
 categories:
   - [Math Dates]
 date: 2013-05-16 14:44:00
+authorId: adnan
 thumbnail: a-simple-celsius-to-fahrenheit-to/thermometer-thumb.gif
 downloads:
   - http://db.tt/ZO5eXPFG

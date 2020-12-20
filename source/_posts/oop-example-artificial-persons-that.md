@@ -9,6 +9,7 @@ id: '39'
 categories:
   - [Code Snippets]
 date: 2014-07-30 14:47:00
+authorId: adnan
 thumbnail: oop-example-artificial-persons-that/bionic-thumb.jpg
 downloads:
   - https://www.dropbox.com/s/pl0rjwmdliaedx8/ObjectPersons.zip?dl=1

@@ -10,6 +10,7 @@ categories:
   - [Code Snippets]
   - [Text Operation]
 date: 2013-05-31 15:55:00
+authorId: adnan
 thumbnail: select-all-or-part-of-text/select-text-thumb.gif
 downloads:
   - http://db.tt/PF34MqPe

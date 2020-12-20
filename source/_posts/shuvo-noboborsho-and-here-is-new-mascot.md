@@ -6,6 +6,7 @@ id: '101'
 categories:
   - 
 date: 2013-04-14 19:16:00
+authorId: adnan
 thumbnail: shuvo-noboborsho-and-here-is-new-mascot/alienguy-lazplanet-teaser.gif
 ---
 

@@ -10,6 +10,7 @@ categories:
   - [Code Snippets]
   - [Text Operation]
 date: 2013-04-19 00:28:00
+authorId: adnan
 thumbnail: search-text-all-words/Search-Logo.jpg
 downloads:
   - http://db.tt/hdYl4dLh

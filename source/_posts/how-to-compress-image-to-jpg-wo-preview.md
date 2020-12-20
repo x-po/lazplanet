@@ -16,6 +16,7 @@ categories:
   - [Screen Graphics]
   - [Code Snippets]
 date: 2014-03-24 17:35:00
+authorId: adnan
 thumbnail: how-to-compress-image-to-jpg-wo-preview/JPEG_example_JPG_RIP_050.jpg
 downloads:
   - https://db.tt/dT6lFkab

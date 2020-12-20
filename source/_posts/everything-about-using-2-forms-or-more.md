@@ -12,6 +12,7 @@ id: '29'
 categories:
   - [Form Controls]
 date: 2015-01-13 00:33:00
+authorId: adnan
 thumbnail: everything-about-using-2-forms-or-more/lazarus-multi-forms.gif
 ---
 

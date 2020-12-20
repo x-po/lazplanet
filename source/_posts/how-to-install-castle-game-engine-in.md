@@ -11,6 +11,7 @@ id: '83'
 categories:
   - [Screen Graphics]
 date: 2013-05-18 00:21:00
+authorId: adnan
 thumbnail: how-to-install-castle-game-engine-in/lazarus-and-castle-3d.jpg
 ---
 

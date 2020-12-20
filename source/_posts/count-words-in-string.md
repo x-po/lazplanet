@@ -6,6 +6,7 @@ id: '107'
 categories:
   - [Text Operation]
 date: 2013-04-04 12:23:00
+authorId: adnan
 thumbnail: count-words-in-string/necklace-measure-words.jpg
 downloads:
   - http://db.tt/hz89LpUW

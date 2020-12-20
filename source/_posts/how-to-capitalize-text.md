@@ -8,6 +8,7 @@ categories:
   - [Code Snippets]
   - [Text Operation]
 date: 2013-04-14 00:28:00
+authorId: adnan
 thumbnail: how-to-capitalize-text/croppercapture2.jpg
 downloads:
   - http://db.tt/lKVYnRYc

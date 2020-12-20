@@ -10,6 +10,7 @@ categories:
   - [Form Controls]
   - [List Iteration]
 date: 2013-05-13 20:25:00
+authorId: adnan
 thumbnail: animate-move-of-object/animation_icon.jpg
 downloads:
   - http://db.tt/3SnFTFfj

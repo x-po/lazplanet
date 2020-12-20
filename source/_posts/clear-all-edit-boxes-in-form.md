@@ -10,6 +10,7 @@ categories:
   - [Form Controls]
   - [List Iteration]
 date: 2013-05-12 18:51:00
+authorId: adnan
 thumbnail: clear-all-edit-boxes-in-form/reset-button-1.gif
 downloads:
   - http://db.tt/krCwyjdt

@@ -9,6 +9,7 @@ categories:
   - [Math Dates]
   - [Screen Graphics]
 date: 2013-05-14 07:00:00
+authorId: adnan
 thumbnail: measure-angle-of-line/angle-1.gif
 downloads:
   - http://db.tt/S73hZLr5

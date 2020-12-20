@@ -14,6 +14,7 @@ categories:
   - [Form Controls]
   - [System API]
 date: 2013-05-06 16:38:00
+authorId: adnan
 thumbnail: how-to-show-tooltip-balloon-tip-and/Tooltip-1.jpg
 downloads:
   - http://db.tt/D3EwslOn

@@ -11,6 +11,7 @@ categories:
   - [List Iteration]
   - [Math Dates]
 date: 2013-10-19 12:13:00
+authorId: adnan
 thumbnail: how-to-use-arrays-in-lazarusfpc/arrays2.jpg
 downloads:
   - https://db.tt/VPbShvQ1

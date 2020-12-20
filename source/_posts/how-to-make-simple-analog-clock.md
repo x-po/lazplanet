@@ -13,6 +13,7 @@ categories:
   - [Math Dates]
   - [Screen Graphics]
 date: 2014-06-14 00:03:00
+authorId: adnan
 thumbnail: how-to-make-simple-analog-clock/analog-clock-project-thumb.gif
 downloads:
   - https://www.dropbox.com/s/5bugnivorzdef3t/analog-clock.zip?dl=1

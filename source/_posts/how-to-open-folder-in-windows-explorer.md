@@ -12,6 +12,7 @@ categories:
   - [Files Directories]
   - [System API]
 date: 2014-03-03 18:04:00
+authorId: adnan
 thumbnail: how-to-open-folder-in-windows-explorer/open-directory-explorer-thumb.gif
 downloads:
   - https://db.tt/YBYWmfgX
