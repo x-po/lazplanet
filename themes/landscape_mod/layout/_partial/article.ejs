@@ -46,7 +46,7 @@
     </div>
     <footer class="article-footer">
       <%/* Author related : start */%>
-      <% if (author && post.author) { %>
+      <% if (author && post.author && !index) { %>
         <div class="author">
           <%= __('Written by') %> <a href="<%- config.root %><%- 'author/' + post.authorId %>"><%= post.author.name %></a>
           <p><%= post.author.about %></p>
