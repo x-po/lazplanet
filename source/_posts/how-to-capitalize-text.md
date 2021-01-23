@@ -16,56 +16,57 @@ downloads:
 
 We write the words in the middle of the sentence in lowercase letters. Capitalizing is sometimes necessary to emphasize things. Any text (or string) can be converted to uppercase (capitalize). Here's how...
 <!-- more -->
-  
-  
+
 
 ### Quick Tutorial
 
-  
-Create a new Application Project. Project->New Project->Application->OK.  
-  
-Drop a TMemo and a TButton in the form. Select the TMemo and set the Scrollbars style to ssAutoVertical. Set the caption of the TButton to "Capitalize it !". Double click the button. Then write the following:  
-  
+Create a new Application Project. **Project -> New Project -> Application -> OK**.
 
-procedure TForm1.Button1Click(Sender: TObject);  
-begin  
-  
-  Memo1.Text := UpperCase(Memo1.Text);  
-  
+Drop a **TMemo** and a **TButton** in the form. Select the **TMemo** and set the `Scrollbars` property to `ssAutoVertical`. Set the `Caption` of the `TButton` to `Capitalize it !`. Double click the button. Then write the following:
+
+```pascal
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+
+  Memo1.Text := UpperCase(Memo1.Text);
+
 end;
+```
 
-  
 
 ### Run It
 
-Press F9 (Run->Run). Enter some text in the memo and then click the button.  
-  
+Press **F9** (or **Run -> Run**). Enter some text in the memo and then click the button.
+
 
 ![](how-to-capitalize-text/lazarus-lazarus-uppercase.gif)
 
+
 ### Concept
 
-Well it is easy! Just find out what you want to capitalize and then use the [Uppercase()](http://www.freepascal.org/docs-html/rtl/sysutils/uppercase.html) function to capitalize it. The function comes from sysutils unit.  
-  
-For example,  
+Well it's easy! Just find out what you want to capitalize and then use the [`Uppercase()`](http://www.freepascal.org/docs-html/rtl/sysutils/uppercase.html) function to capitalize it. The function comes from `sysutils` unit.
 
-uses  
-..., sysutils, ...;  
-  
-...  
-  
-begin  
-  
-  Caption := Uppercase('John Doe');  
-  
+For example,
+
+```pascal
+uses
+  ..., sysutils, ...;
+
+...
+
+begin
+
+  Caption := Uppercase('John Doe');
+
 end;
+```
 
-  
-The above function will set the form's caption as JOHN DOE.  
-  
-So the syntax is:  
+The above function will set the form's caption as `JOHN DOE`.
 
-function UpperCase(  
-  const s:  
+So the syntax is:
+
+```pascal
+function UpperCase(
+  const s:
 ):;
-
+```

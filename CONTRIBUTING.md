@@ -104,6 +104,20 @@ Typical tutorial article layout:
 - Something 2: [Link text](http://example.com/something2)
 ```
 
+### Inter linking posts
+
+To link to an existing post, don't use code like this:
+
+```
+[CLI average calculator program](http://lazplanet.example.com/2013/05/calculate-average-of-unlimited-numbers.html)
+```
+
+Use [this tag](https://hexo.io/docs/tag-plugins.html#Include-Posts) instead:
+
+```
+{% post_link calculate-average-of-unlimited-numbers 'CLI average calculator program' %}
+```
+
 
 ### Writing Advice
 
