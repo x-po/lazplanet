@@ -54,8 +54,8 @@ and
 ### How-to-Install Guide
 
   
-You can [click here for an installation guide](http://lazplanet.blogspot.com/2013/03/how-to-install-lazarus.html) for all Operating Systems.  
-Also see [this post for an exclusive guide for installing Lazarus 1.0.10 in Ubuntu 13.04](http://lazplanet.blogspot.com/2013/05/how-to-install-lazarus-108-on-ubuntu.html) (you can follow the same guide to install in previous versions, such as 12.04 LTS, 12.10 etc. or any other debian based OS).  
+You can {% post_link how-to-install-lazarus 'click here for an installation guide' %} for all Operating Systems.  
+Also see {% post_link how-to-install-lazarus-108-on-ubuntu 'this post for an exclusive guide for installing Lazarus 1.0.10 in Ubuntu 13.04' %} (you can follow the same guide to install in previous versions, such as 12.04 LTS, 12.10 etc. or any other debian based OS).  
   
 
 ### Source

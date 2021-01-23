@@ -7,7 +7,7 @@ tags:
   - version
 id: '18'
 categories:
-  - 
+  -
 date: 2017-12-16 21:58:00
 thumbnail: lazarus-18-released-with-new-icons-and/Lazarus-Logo.png
 ---
@@ -82,8 +82,8 @@ and later at (after some time for synchronization)
 ### How-to-Install Guide
 
   
-You can [click here for an installation guide](http://localhost/wp-lazplanet/2013/03/20/how-to-install-lazarus/) for all Operating Systems.  
-If you are an Ubuntu user then also see [this post for an exclusive guide for installing Lazarus 1.0.10 in Ubuntu 13.04](http://localhost/wp-lazplanet/2013/05/08/how-to-install-lazarus-1-0-8-on-ubuntu-13-04-raring/) (you can follow the same guide to install in previous or latest versions of Ubuntu, such as 12.04 LTS, 12.10, 13.10, 14.04 LTS, 16.04 LTS etc. or any other debian based OS).  
+You can {% post_link how-to-install-lazarus 'click here for an installation guide' %} for all Operating Systems.  
+If you are an Ubuntu user then also see {% post_link how-to-install-lazarus-108-on-ubuntu 'this post for an exclusive guide for installing Lazarus 1.0.10 in Ubuntu 13.04' %} (you can follow the same guide to install in previous or latest versions of Ubuntu, such as 12.04 LTS, 12.10, 13.10, 14.04 LTS, 16.04 LTS etc. or any other debian based OS).  
   
 
 ### Source
