@@ -13,6 +13,7 @@ id: '55'
 categories:
   - [Text Operation]
 date: 2013-12-24 23:56:00
+authorId: adnan
 thumbnail: create-rich-text-editor-for-yourself/rich-editor-thumb.jpg
 downloads:
   - https://db.tt/S2Pz77A7

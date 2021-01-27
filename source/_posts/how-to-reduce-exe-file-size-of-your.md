@@ -6,6 +6,7 @@ id: '113'
 categories:
   - [Guides]
 date: 2013-03-26 07:57:00
+authorId: adnan
 thumbnail: how-to-reduce-exe-file-size-of-your/lazarus-exe-compression.jpg
 ---
 

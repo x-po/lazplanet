@@ -9,6 +9,7 @@ categories:
   - [Files Directories]
   - [Screen Graphics]
 date: 2013-03-31 03:44:00
+authorId: adnan
 thumbnail: how-to-get-exes-path-and-filename/exe-file.jpg
 downloads:
   - http://db.tt/CQSN7hcI

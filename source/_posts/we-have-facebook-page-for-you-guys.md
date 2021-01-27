@@ -8,6 +8,7 @@ id: '80'
 categories:
   -
 date: 2013-05-22 06:42:00
+authorId: adnan
 thumbnail: we-have-facebook-page-for-you-guys/lazplanet-like.gif
 ---
 

@@ -13,6 +13,7 @@ id: '14'
 categories:
   - [Text Operation]
 date: 2018-12-16 00:54:00
+authorId: adnan
 thumbnail: how-to-create-multilingual-programs-in/lazarus-i18n-thumb.jpg
 downloads:
   - https://drive.google.com/uc?export=download&id=1dCVx3biUCYGh5540kT27WTHArYuOjS7A

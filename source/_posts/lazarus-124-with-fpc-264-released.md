@@ -11,6 +11,7 @@ id: '41'
 categories:
   -
 date: 2014-06-21 18:46:00
+authorId: adnan
 thumbnail: lazarus-124-with-fpc-264-released/Lazarus-Logo.png
 ---
 

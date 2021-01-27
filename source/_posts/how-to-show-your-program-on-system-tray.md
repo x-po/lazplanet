@@ -13,6 +13,7 @@ id: '43'
 categories:
   - [Code Snippets]
 date: 2014-05-24 14:26:00
+authorId: adnan
 thumbnail: how-to-show-your-program-on-system-tray/TrayIcon-Article-Thumb.gif
 downloads:
   - https://www.dropbox.com/s/xvmap95ydvgjxop/TrayIcon_Test.zip?dl=1

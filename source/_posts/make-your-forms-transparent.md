@@ -8,6 +8,7 @@ categories:
   - [Code Snippets]
   - [Form Controls]
 date: 2013-04-12 05:06:00
+authorId: adnan
 thumbnail: make-your-forms-transparent/lazarus-form-transparency-2.gif
 downloads:
   - https://dl.dropboxusercontent.com/u/6459514/LazPlanet/Form-Controls/formtrans_color.zip

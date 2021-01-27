@@ -10,6 +10,7 @@ id: '20'
 categories:
   - [Screen Graphics]
 date: 2017-05-21 00:00:00
+authorId: adnan
 thumbnail: make-simple-image-zoomer-in-5-minutes/image-zoomer-in-lazarus.gif
 downloads:
   - https://www.dropbox.com/s/n1q2fg2udfwbso3/ImageScrollZoom.zip?dl=0

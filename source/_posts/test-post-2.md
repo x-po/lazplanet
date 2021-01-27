@@ -6,6 +6,7 @@ id: '119'
 categories:
   -
 date: 2013-03-20 15:54:00
+authorId: adnan
 ---
 
 

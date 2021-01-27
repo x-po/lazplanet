@@ -13,6 +13,7 @@ categories:
   - [Code Snippets]
   - [List Iteration]
 date: 2013-05-07 09:36:00
+authorId: adnan
 thumbnail: how-to-add-delete-clear-items-of-listbox/list.png
 downloads:
   - http://db.tt/VPbShvQ1

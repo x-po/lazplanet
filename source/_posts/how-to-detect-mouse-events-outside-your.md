@@ -12,6 +12,7 @@ id: '21'
 categories:
   - [System API]
 date: 2016-06-22 13:59:00
+authorId: adnan
 thumbnail: how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-thumb.gif
 downloads:
   - https://db.tt/VSs3JIJ9

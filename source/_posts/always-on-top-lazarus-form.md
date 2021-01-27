@@ -12,6 +12,7 @@ categories:
   - [Form Controls]
   - [Code Snippets]
 date: 2014-01-12 15:44:00
+authorId: adnan
 thumbnail: always-on-top-lazarus-form/lazarus-always-on-top-thumb.gif
 downloads:
   - https://db.tt/t6JS2cAZ

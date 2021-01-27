@@ -8,6 +8,7 @@ categories:
   - [Code Snippets]
   - [System API]
 date: 2013-04-09 10:42:00
+authorId: adnan
 thumbnail: get-all-running-windows-titles/tooManyWindows2.jpg
 downloads:
   - http://db.tt/Sa19lv4u

@@ -10,6 +10,7 @@ id: '116'
 categories:
   - [Guides]
 date: 2013-03-23 23:10:00
+authorId: adnan
 thumbnail: run-lazarus-in-single-window/single-window.gif
 ---
 

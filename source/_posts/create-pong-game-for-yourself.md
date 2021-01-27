@@ -11,6 +11,7 @@ categories:
   - [Screen Graphics]
   - [Games]
 date: 2014-10-04 12:33:00
+authorId: adnan
 thumbnail: create-pong-game-for-yourself/ping_pong.png
 downloads:
   - https://www.dropbox.com/s/0mo8d0vx23o6j9a/PingPong.zip?dl=1

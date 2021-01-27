@@ -7,6 +7,7 @@ id: '118'
 categories:
   - [Guides]
 date: 2013-03-21 00:35:00
+authorId: adnan
 thumbnail: how-to-install-lazarus/windows-mac-os-linux-logo1.jpg
 ---
 

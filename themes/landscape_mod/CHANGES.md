@@ -6,3 +6,4 @@ Changes applied to `landscape` theme:
 - Changed the Hexo default text on footer. Changes: `layout/_partial/post/footer.ejs`
 - Added Hashover comments. Changes: `layout/_partial/post/head.ejs`, `layout/_partial/post/footer.ejs`
 - Modified search form to work with custom domain. Changes: `layout/_partial/header.ejs`
+- Added author feature with [`hexo-multiauthor`](https://github.com/bob983/hexo-multiauthor). Changes: `layout/_partial/post/title.ejs`

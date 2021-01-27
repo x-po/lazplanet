@@ -10,6 +10,7 @@ id: '16'
 categories:
   -
 date: 2018-05-01 13:45:00
+authorId: adnan
 thumbnail: spotlight-cudatext-hot-replacement-for/cudatext_thumb.png
 ---
 

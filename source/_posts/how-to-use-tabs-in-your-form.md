@@ -9,6 +9,7 @@ id: '63'
 categories:
   - [Form Controls]
 date: 2013-07-22 23:59:00
+authorId: adnan
 thumbnail: how-to-use-tabs-in-your-form/tab-components-thumb.gif
 downloads:
   - https://www.dropbox.com/s/pk701y03xg08gvn/TabTest.zip?dl=1

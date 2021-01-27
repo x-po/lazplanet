@@ -13,6 +13,7 @@ id: '92'
 categories:
   - [Guides]
 date: 2013-05-08 18:26:00
+authorId: adnan
 thumbnail: how-to-install-lazarus-108-on-ubuntu/Lazarus-ubuntu-13.04-launcher.jpg
 ---
 

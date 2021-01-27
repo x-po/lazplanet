@@ -11,6 +11,7 @@ id: '64'
 categories:
   - [Screen Graphics]
 date: 2013-07-17 04:23:00
+authorId: adnan
 thumbnail: how-to-crop-image-and-save-to-file/image-crop-thumb.jpg
 downloads:
   - https://www.dropbox.com/s/gkqmtrz6a4oeufo/ImageCrop.zip?dl=1

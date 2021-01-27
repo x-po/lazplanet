@@ -13,6 +13,7 @@ categories:
   - [Screen Graphics]
   - [System API]
 date: 2013-05-05 18:10:00
+authorId: adnan
 thumbnail: image-copy-paste-clipboard/clipboard_icon.jpg
 downloads:
   - http://db.tt/NQdGyKX5

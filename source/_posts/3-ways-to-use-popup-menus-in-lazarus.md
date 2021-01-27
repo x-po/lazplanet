@@ -14,6 +14,7 @@ categories:
   - [System API]
   - [Form Controls]
 date: 2013-08-05 18:08:00
+authorId: adnan
 thumbnail: 3-ways-to-use-popup-menus-in-lazarus/popup-menu-thumb.jpg
 downloads:
   - http://db.tt/NP2l6YEK

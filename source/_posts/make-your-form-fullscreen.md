@@ -12,6 +12,7 @@ categories:
   - [Code Snippets]
   - [Form Controls]
 date: 2014-02-21 21:53:00
+authorId: adnan
 thumbnail: make-your-form-fullscreen/fullscreen-form-thumb.gif
 downloads:
   - https://db.tt/TzCldWJU

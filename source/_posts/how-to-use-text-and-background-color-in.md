@@ -12,6 +12,7 @@ categories:
   - [Screen Graphics]
   - [Text Operation]
 date: 2013-05-15 06:24:00
+authorId: adnan
 thumbnail: how-to-use-text-and-background-color-in/console-colors-thumbs.gif
 downloads:
   - http://db.tt/xhKB44c9

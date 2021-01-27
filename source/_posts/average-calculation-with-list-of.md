@@ -9,6 +9,7 @@ categories:
   - [List Iteration]
   - [Math Dates]
 date: 2013-05-10 18:02:00
+authorId: adnan
 thumbnail: average-calculation-with-list-of/average-thumb.gif
 downloads:
   - http://db.tt/FlizcsXt

@@ -12,6 +12,7 @@ id: '75'
 categories:
   - [Screen Graphics]
 date: 2013-05-29 23:09:00
+authorId: adnan
 thumbnail: how-to-scribble-with-virtual-pencil/pencil-thumb.jpg
 downloads:
   - http://db.tt/IOtJPUPN

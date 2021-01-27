@@ -9,6 +9,7 @@ id: '13'
 categories:
   -
 date: 2019-02-14 16:20:00
+authorId: adnan
 thumbnail: lazarus-200-released-with-many-tiny/Lazarus-Logo.png
 ---
 

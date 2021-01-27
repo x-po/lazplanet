@@ -12,6 +12,7 @@ categories:
   - [Form Controls]
   - [System API]
 date: 2013-05-27 03:19:00
+authorId: adnan
 thumbnail: drag-drop-files-lazarus-form/drag-drop-thumb.jpg
 downloads:
   - http://db.tt/BrvWq8WL

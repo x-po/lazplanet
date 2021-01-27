@@ -10,6 +10,7 @@ categories:
   - [List Iteration]
   - [System API]
 date: 2013-12-13 16:21:00
+authorId: adnan
 thumbnail: how-to-list-all-fonts-easily/font-list-3.gif
 downloads:
   - https://db.tt/wJrhjWB2

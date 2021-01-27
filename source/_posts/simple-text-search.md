@@ -8,6 +8,7 @@ categories:
   - [Code Snippets]
   - [Text Operation]
 date: 2013-04-16 00:26:00
+authorId: adnan
 thumbnail: simple-text-search/search.jpg
 downloads:
   - http://db.tt/dMCf7Zku

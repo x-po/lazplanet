@@ -13,6 +13,7 @@ categories:
   - [System API]
   - [Hardware]
 date: 2020-05-12 23:29:00
+authorId: adnan
 thumbnail: cross-compile-on-lazarus/lazarus-cross-compile-postthumb.png
 downloads:
   - https://gitlab.com/lazplanet/cross-compile/-/releases

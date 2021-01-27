@@ -9,6 +9,7 @@ id: '52'
 categories:
   - [HTML Web]
 date: 2014-02-13 18:06:00
+authorId: adnan
 thumbnail: run-free-pascal-programs-online/fpc-compiler-online.jpg
 ---
 

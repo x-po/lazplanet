@@ -11,6 +11,7 @@ id: '28'
 categories:
   -
 date: 2015-04-08 01:12:00
+authorId: adnan
 thumbnail: lazarus-14-rc3-is-available-and-why-you/Lazarus-Logo.png
 ---
 

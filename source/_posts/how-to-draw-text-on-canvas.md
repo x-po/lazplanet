@@ -11,6 +11,7 @@ categories:
   - [Screen Graphics]
   - [Text Operation]
 date: 2013-06-17 06:59:00
+authorId: adnan
 thumbnail: how-to-draw-text-on-canvas/draw-text-thumb.gif
 downloads:
   - https://www.dropbox.com/s/zncc8kggdirvh06/DrawTextCanvas.zip?dl=1

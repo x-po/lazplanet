@@ -10,6 +10,7 @@ categories:
   - [Form Controls]
   - [Text Operation]
 date: 2016-04-25 14:11:00
+authorId: adnan
 thumbnail: how-to-make-text-scroller-animation/text-scroller-thumb.jpg
 downloads:
   - https://db.tt/DEgWwwBm

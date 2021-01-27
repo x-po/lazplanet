@@ -16,6 +16,7 @@ id: '44'
 categories:
   - [Misc]
 date: 2014-05-19 15:25:00
+authorId: adnan
 thumbnail: post-mortem-of-lazarus-project/Lazarus-project.jpg
 ---
 

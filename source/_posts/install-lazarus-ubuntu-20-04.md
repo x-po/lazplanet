@@ -11,6 +11,7 @@ id: '8'
 categories:
   - [Guides]
 date: 2020-04-27 13:56:00
+authorId: adnan
 thumbnail: install-lazarus-ubuntu-20-04/lazarus-install-ubuntu-thumb.png
 ---
 
