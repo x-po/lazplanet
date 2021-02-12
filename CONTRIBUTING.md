@@ -104,7 +104,7 @@ Typical tutorial article layout:
 - Something 2: [Link text](http://example.com/something2)
 ```
 
-### Inter linking posts
+### Inter linking posts/pages
 
 To link to an existing post, don't use code like this:
 
@@ -116,6 +116,12 @@ Use [this tag](https://hexo.io/docs/tag-plugins.html#Include-Posts) instead:
 
 ```
 {% post_link calculate-average-of-unlimited-numbers 'CLI average calculator program' %}
+```
+
+For pages, there are no `page_link` tag in Hexo. There is an [interim `hexo-tag-home` plugin](https://gitlab.com/adnan360/hexo-tag-home) being used. Use something like this for the time being:
+
+```
+{% home 'FAQ page' '/faq' %}
 ```
 
 
