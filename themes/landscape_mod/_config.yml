@@ -1,7 +1,11 @@
 # Header
 menu:
   Home: /
+  Start Here!: /getting-started
+  FAQ: /faq
+  Resources: /resources
   Archives: /archives
+  Contact: /contact
 rss: /atom.xml
 
 # Content

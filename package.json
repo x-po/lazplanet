@@ -24,6 +24,7 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
+    "hexo-tag-home": "git+https://gitlab.com/adnan360/hexo-tag-home.git",
     "request": "^2.88.2",
     "turndown": "^7.0.0",
     "xml2js": "^0.4.23"
