@@ -8,3 +8,4 @@ Changes applied to `landscape` theme:
 - Modified search form to work with custom domain. Changes: `layout/_partial/header.ejs`
 - Added author feature with [`hexo-multiauthor`](https://github.com/bob983/hexo-multiauthor). Changes: `layout/_partial/post/title.ejs`
 - Removed code which links Source Code Pro from Google (`fonts.googleapis.com/css?family=Source+Code+Pro`)
+- Changed jquery url that was going to Google (`ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js`)
