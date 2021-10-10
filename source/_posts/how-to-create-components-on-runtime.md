@@ -11,8 +11,7 @@ date: 2015-05-06 01:16:00
 authorId: adnan
 thumbnail: how-to-create-components-on-runtime/create-components-thumb.jpg
 downloads:
-  - https://db.tt/Ivkd1Pbq
-  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSYmFNNldUaWphbnc
+  - https://drive.protonmail.com/urls/A6ZHRH7K60#G0xWNPY4cNaC
 ---
 
 The good thing about programming is that you can do almost anything you wish. Even create components out of thin air!

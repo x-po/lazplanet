@@ -11,8 +11,7 @@ date: 2013-04-07 05:14:00
 authorId: adnan
 thumbnail: mouse-cursor-position-get-set/629615-siamese-kitten-on-a-funny-pose-playing-and-looking-to-computer-mouse-on-hand.jpg
 downloads:
-  - http://db.tt/c08t8N5l
-  - http://bit.ly/XkPp27
+  - https://drive.protonmail.com/urls/43G46T18VG#OmIrkktzytHE
 ---
 
 Find out if your user is pointing to left or right, top or down of the screen. If you are keen for a shock, then yes! You can also position the cursor wherever you want! Without having the user moving their mouse! Here's how

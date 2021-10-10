@@ -12,8 +12,7 @@ date: 2014-07-30 14:47:00
 authorId: adnan
 thumbnail: oop-example-artificial-persons-that/bionic-thumb.jpg
 downloads:
-  - https://www.dropbox.com/s/pl0rjwmdliaedx8/ObjectPersons.zip?dl=1
-  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSbjFWa1M3dXpQOGM
+  - https://drive.protonmail.com/urls/6AARKG74D4#YlUF9RQ0FMYH
 ---
 
 Today we create bionic, robotic, futuristic human beings! That can even respond to your question! A virtual TPerson to be precise!

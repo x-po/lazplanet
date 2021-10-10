@@ -16,8 +16,7 @@ date: 2015-07-19 16:09:00
 authorId: adnan
 thumbnail: make-simple-dictionary-now/funny-pictures-cat-dictionary-cheezburger.jpg
 downloads:
-  - https://db.tt/NYKh4Nbf
-  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSUncyc3Q0MWUyU2c
+  - https://drive.protonmail.com/urls/GG8CKDNEEW#Kr3N4uSthaqP
 ---
 
 Dictionary is one of the fun challenges of programming. Learn how to make a dictionary in this quick tutorial.

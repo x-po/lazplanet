@@ -13,8 +13,7 @@ date: 2014-11-18 15:09:00
 authorId: adnan
 thumbnail: find-out-smallest-number-from-two/min-number.jpg
 downloads:
-  - https://db.tt/aSea8hOp
-  - http://bit.ly/min-number
+  - https://drive.protonmail.com/urls/23974GTQ44#QJrWMLNK9IE5
 ---
 
 This is usually a very basic task for beginner programmers. Find out the smaller from two numbers.

@@ -17,8 +17,7 @@ date: 2013-05-06 16:38:00
 authorId: adnan
 thumbnail: how-to-show-tooltip-balloon-tip-and/Tooltip-1.jpg
 downloads:
-  - http://db.tt/D3EwslOn
-  - http://bit.ly/13l2ycV
+  - https://drive.protonmail.com/urls/Q49JGKTKAM#pGf6qlMtv0ao
 ---
 
 Tooltips are text that appears as a short help for a component when we keep our mouse over it for a while. We can add single line or multiline tooltips easily. Here's how...

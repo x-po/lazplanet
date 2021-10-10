@@ -15,8 +15,7 @@ date: 2016-06-22 13:59:00
 authorId: adnan
 thumbnail: how-to-detect-mouse-events-outside-your/Systemwide-Mouse-events-thumb.gif
 downloads:
-  - https://db.tt/VSs3JIJ9
-  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSYlgtWGRIQmdrcjQ
+  - https://drive.protonmail.com/urls/K71KB7KTV8#tUe7I4n5AjzE
 ---
 
 In this article we find out what the user is doing with his mouse, even outside of the program. Let's conquer the whole system!

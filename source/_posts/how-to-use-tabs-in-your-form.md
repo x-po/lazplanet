@@ -12,7 +12,7 @@ date: 2013-07-22 23:59:00
 authorId: adnan
 thumbnail: how-to-use-tabs-in-your-form/tab-components-thumb.gif
 downloads:
-  - https://www.dropbox.com/s/pk701y03xg08gvn/TabTest.zip?dl=1
+  - https://drive.protonmail.com/urls/3DDZNHCJ90#3LCTpxgc8laz
 ---
 
 Tabs are a good way to tidy up your form and give a perfect look to hundreds of checkboxes. Today we learn how to use this inevitable UI element in our forms.

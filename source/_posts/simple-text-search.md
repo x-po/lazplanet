@@ -11,8 +11,7 @@ date: 2013-04-16 00:26:00
 authorId: adnan
 thumbnail: simple-text-search/search.jpg
 downloads:
-  - http://db.tt/dMCf7Zku
-  - http://bit.ly/105spbe
+  - https://drive.protonmail.com/urls/2K70JN07TW?SimpleTextSearch.zip#D3w8740QVl0L
 ---
 
 Searching is one of the tasks of programing that reduces so much of our work and hardship. Today we see a **very** simple string search sample code...

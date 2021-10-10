@@ -15,8 +15,7 @@ date: 2014-08-31 16:11:00
 authorId: adnan
 thumbnail: how-to-set-desktop-wallpaper/lazarus-wallp-thumb.gif
 downloads:
-  - https://www.dropbox.com/s/kn8oxl5z47tpow4/WallpaperSetter.zip?dl=1
-  - http://bit.ly/wallpaper-setter
+  - https://drive.protonmail.com/urls/7B96CY30N8#0wS1k6diVmtD
 ---
 
 Do you know how to change a single image and change the whole feeling of how your computer looks? Get your seatbelt on!

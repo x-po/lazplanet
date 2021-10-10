@@ -13,8 +13,7 @@ date: 2013-05-12 18:51:00
 authorId: adnan
 thumbnail: clear-all-edit-boxes-in-form/reset-button-1.gif
 downloads:
-  - http://db.tt/krCwyjdt
-  - http://bit.ly/ZUJhvP
+  - https://drive.protonmail.com/urls/EYXTXYHMEC#b44KCGeyvEFo
 ---
 
 It is a tedious job to create a "Reset Form" button and recall all the names of the Editboxes in the form. So we let Lazarus do that for us! ... with only 3 lines of code!

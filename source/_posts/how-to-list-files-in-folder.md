@@ -16,8 +16,7 @@ date: 2013-07-08 01:50:00
 authorId: adnan
 thumbnail: how-to-list-files-in-folder/file-browser-2-thumb.jpg
 downloads:
-  - https://www.dropbox.com/s/ft6ig0dekkknk3n/ZipViewer.zip?dl=1
-  - http://bit.ly/18cGsOG
+  - https://drive.protonmail.com/urls/H2KFW1V01M#eGhUFhDwdWe2
 ---
 
 We all have these gigabytes and terabytes of hard disks in our computers. But what's the use of this huge storage if we cannot see where our files are and in which folder they are located? Of course we can. With our very own IDE, Lazarus!

@@ -13,8 +13,7 @@ date: 2013-05-31 15:55:00
 authorId: adnan
 thumbnail: select-all-or-part-of-text/select-text-thumb.gif
 downloads:
-  - http://db.tt/PF34MqPe
-  - http://bit.ly/137AOcc
+  - https://drive.protonmail.com/urls/1VRDNK65RW#y3kK1Q5kie0V
 ---
 
 Sometimes highlighting or selecting some part, not all, becomes necessary. We look into the method of how we can do it.

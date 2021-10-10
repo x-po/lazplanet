@@ -15,7 +15,7 @@ date: 2014-02-21 21:53:00
 authorId: adnan
 thumbnail: make-your-form-fullscreen/fullscreen-form-thumb.gif
 downloads:
-  - https://db.tt/TzCldWJU
+  - https://drive.protonmail.com/urls/XFHFQY6YXM#TgrnuBXOuZfp
 ---
 
 Fullscreen is a common option in many of the popular programs we use. Today we learn the simple trick of making our program fullscreen.

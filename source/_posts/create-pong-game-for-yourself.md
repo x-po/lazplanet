@@ -14,8 +14,7 @@ date: 2014-10-04 12:33:00
 authorId: adnan
 thumbnail: create-pong-game-for-yourself/ping_pong.png
 downloads:
-  - https://www.dropbox.com/s/0mo8d0vx23o6j9a/PingPong.zip?dl=1
-  - http://bit.ly/pascal_pong_game
+  - https://drive.protonmail.com/urls/HP4N9E51PR#2XaD5I6yMvgc
 ---
 
 Everybody likes to play games. It gets even better if you play the game you made yourself.

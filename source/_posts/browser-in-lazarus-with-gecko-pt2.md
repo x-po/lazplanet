@@ -11,7 +11,7 @@ date: 2013-11-03 14:18:00
 authorId: adnan
 thumbnail: browser-in-lazarus-with-gecko-pt2/firefox-funny-icon.jpg
 downloads:
-  - https://www.dropbox.com/s/w42ksmgmr4r7zbo/gecko_test.zip?dl=1
+  - https://drive.protonmail.com/urls/A0G5BMECP0#FUuGiVpSQmrz
 ---
 
 Web browsers are our daily thing. We browse the internet through them. But what about making our own browser? That we are going to do.

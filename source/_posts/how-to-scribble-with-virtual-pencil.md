@@ -15,8 +15,7 @@ date: 2013-05-29 23:09:00
 authorId: adnan
 thumbnail: how-to-scribble-with-virtual-pencil/pencil-thumb.jpg
 downloads:
-  - http://db.tt/IOtJPUPN
-  - http://bit.ly/175eR1E
+  - https://drive.protonmail.com/urls/PYJZKXSPT4#AyNmxJJoAh5e
 ---
 
 Drawing is fun. Learn how to create a drawing software that can let the user draw like a pencil in a virtual canvas in his computer screen. We are also going to use colors!

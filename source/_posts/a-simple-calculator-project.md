@@ -12,7 +12,7 @@ date: 2013-05-01 14:46:00
 authorId: adnan
 thumbnail: a-simple-calculator-project/simple-calculator.jpg
 downloads:
-  - http://db.tt/2mZrTg7n
+  - https://drive.protonmail.com/urls/W6291S1NQM#avKY6WpaQ5TW
 ---
 
 There are many calculator programs out there... with hundreds of buttons to click and thousands of lines of codes to implement those functions. But in this little project we discover a simple calculator...by hand...

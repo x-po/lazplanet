@@ -13,8 +13,7 @@ date: 2013-05-09 18:20:00
 authorId: adnan
 thumbnail: calculate-average-of-unlimited-numbers/average-thumb.gif
 downloads:
-  - https://www.dropbox.com/s/y6jbxvklrnap5re/AverageConsole.zip?dl=1
-  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSTFhlcDQyb1FNMGs
+  - https://drive.protonmail.com/urls/FE09PW65Z8#pKQdPHt41A69
 ---
 
 We have seen a lot of average calculation programs. They have limit to their numbers of input. So we have a code that will let you enter number to your heart's content.

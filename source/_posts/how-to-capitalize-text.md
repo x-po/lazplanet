@@ -11,8 +11,7 @@ date: 2013-04-14 00:28:00
 authorId: adnan
 thumbnail: how-to-capitalize-text/croppercapture2.jpg
 downloads:
-  - http://db.tt/lKVYnRYc
-  - http://bit.ly/111WGlk
+  - https://drive.protonmail.com/urls/8DF119RCPM#TXFOb74EW6nt
 ---
 
 We write the words in the middle of the sentence in lowercase letters. Capitalizing is sometimes necessary to emphasize things. Any text (or string) can be converted to uppercase (capitalize). Here's how...

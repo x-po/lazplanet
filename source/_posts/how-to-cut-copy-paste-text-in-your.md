@@ -13,8 +13,7 @@ date: 2013-05-02 09:28:00
 authorId: adnan
 thumbnail: how-to-cut-copy-paste-text-in-your/th.jpg
 downloads:
-  - http://db.tt/5jI8AO61
-  - http://bit.ly/YnWIsL
+  - https://drive.protonmail.com/urls/CA3BYPDYZ4#0MM97PAprNlu
 ---
 
 Word processors and even browsers have cut, copy, paste functions. You have used them many times in your life. But now make yours!

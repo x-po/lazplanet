@@ -14,8 +14,7 @@ date: 2013-07-17 04:23:00
 authorId: adnan
 thumbnail: how-to-crop-image-and-save-to-file/image-crop-thumb.jpg
 downloads:
-  - https://www.dropbox.com/s/gkqmtrz6a4oeufo/ImageCrop.zip?dl=1
-  - http://bit.ly/1aqGaCh
+  - https://drive.protonmail.com/urls/8C0GV9633C#dtTedHwi1jY2
 ---
 
 Not every pixel of a photo is important. Sometimes we need to just crop out some of the area of a photo. We learn how to crop an image and save the cropped version in a file.

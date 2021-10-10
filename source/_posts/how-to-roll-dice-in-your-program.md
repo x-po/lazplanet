@@ -12,8 +12,7 @@ date: 2013-06-10 01:35:00
 authorId: adnan
 thumbnail: how-to-roll-dice-in-your-program/stock-illustration-15736915.gif
 downloads:
-  - http://db.tt/tIoPETn4
-  - http://bit.ly/ZHUDq1
+  - https://drive.protonmail.com/urls/09227NB8HR#XkLBA9cNMWaD
 ---
 
 Learn how to Roll a Dice in your own program and stay ahead in the Game! We learn how to use an Image List to store the images (self-contained) in the program and show the images on a TImage. (Images are included in sample zip file. Easy-peasy!)

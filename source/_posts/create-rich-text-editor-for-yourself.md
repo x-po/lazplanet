@@ -16,7 +16,7 @@ date: 2013-12-24 23:56:00
 authorId: adnan
 thumbnail: create-rich-text-editor-for-yourself/rich-editor-thumb.jpg
 downloads:
-  - https://db.tt/S2Pz77A7
+  - https://drive.protonmail.com/urls/WBAZ4E8S1R#O5MQPTDIshW4
 ---
 
 In this holiday, gift yourself a nice little word processor that you can use yourself! You can further develop it. It happily supports Unicode and lets you learn the use of Toolbar, RichMemo, ImageLists, File Save Management and more.

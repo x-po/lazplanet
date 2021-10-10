@@ -17,8 +17,7 @@ date: 2019-03-15 23:47:00
 authorId: adnan
 thumbnail: how-to-get-contents-of-url-in-2-ways/download-file-thumb.jpg
 downloads:
-  - https://drive.google.com/uc?export=download&id=1lGFBapcyiRWhMgJ6CXBl4nlzm2tEdwIa
-  - https://www.dropbox.com/s/b6nzuecc2htw136/DownloadContent.zip?dl=1
+  - https://drive.protonmail.com/urls/KPM1JK9AKW#1wweoQajhDB4
 ---
 
 The Web is an amazing place. What if we could download the contents of a link on the web to our own Lazarus program? Let's find out how!

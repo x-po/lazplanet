@@ -15,8 +15,7 @@ date: 2013-06-12 00:44:00
 authorId: adnan
 thumbnail: how-to-create-basic-paint-software/paint-icon.jpg
 downloads:
-  - http://db.tt/kZsqnbzw
-  - http://bit.ly/ZHUouW
+  - https://drive.protonmail.com/urls/DNC6HRPA98#wUt27yqV7Q8D
 ---
 
 Today, in our special post, we see how to create a basic paint software in Lazarus with some basic drawing tools and Open, Save, Resize options. A must see for Lazarians!

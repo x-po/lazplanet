@@ -12,8 +12,7 @@ date: 2020-05-01 16:37:00
 authorId: adnan
 thumbnail: lua-code-inside-lazarus/lua-inside-lazarus-thumb.jpg
 downloads:
-  - https://www.dropbox.com/s/xyz7jws01axuvnk/lua-inside-fpc.zip?dl=1
-  - https://gitlab.com/lazplanet/lua-inside-fpc/-/releases
+  - https://drive.protonmail.com/urls/F5G1WQTZ6C#k8134WumSvM0
 ---
 
 We're crazy! We're out of our minds! We're going to run Lua code, from inside our Lazarus code! 2 Languages at once!

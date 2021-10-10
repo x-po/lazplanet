@@ -15,8 +15,7 @@ date: 2014-04-14 19:56:00
 authorId: adnan
 thumbnail: shape-your-form-into-anything/lazarus-custom-form-shape-t.jpg
 downloads:
-  - https://www.dropbox.com/s/27fmzzas9z4bm7r/Shaped-Form.zip?dl=1
-  - http://bit.ly/1eAraIv
+  - https://drive.protonmail.com/urls/T1VNMJV5YR#Gb9PkIdR4DaP
 ---
 
 Forms are rectangular, right? In this article we prove it wrong. We will turn our form into circle, triangle and what not!

@@ -13,8 +13,7 @@ date: 2013-05-04 18:28:00
 authorId: adnan
 thumbnail: a-simple-image-viewer-from-start-to/th.jpg
 downloads:
-  - http://db.tt/nivChy58
-  - http://bit.ly/ZxpHFz
+  - https://drive.protonmail.com/urls/N8JWPR7404#vWyKK7ptys0a
 ---
 
 Today we are going to make a simple image viewer. It will have a lot of functionality but with only 5 lines of code!

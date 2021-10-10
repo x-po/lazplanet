@@ -15,8 +15,7 @@ date: 2013-06-22 15:31:00
 authorId: adnan
 thumbnail: how-to-capture-mouse-wheel-scroll/mouse-scroll-thumb.jpg
 downloads:
-  - https://www.dropbox.com/s/ohlyiwu6e1mlqmk/MouseWheel.zip?dl=1
-  - http://bit.ly/12fuoYV
+  - https://drive.protonmail.com/urls/1QEHFP16TG#5mxG3eQzKUJ3
 ---
 
 Mouse wheel is very common in modern day mouse. It helps us scroll text, image and sometimes do something amazing in 3D software. So how do we know when the user has scrolled the mouse wheel?

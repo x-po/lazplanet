@@ -12,8 +12,7 @@ date: 2013-05-10 18:02:00
 authorId: adnan
 thumbnail: average-calculation-with-list-of/average-thumb.gif
 downloads:
-  - http://db.tt/FlizcsXt
-  - http://bit.ly/10z6mZH
+  - https://drive.protonmail.com/urls/VWWKEXGJSG#LAJoJb5i4kBx
 ---
 
 Average calculation is an easy formula to practice your programing skills. We have seen a {% post_link calculate-average-of-unlimited-numbers 'CLI average calculator program' %} of unlimited numbers, now its time for a GUI project.

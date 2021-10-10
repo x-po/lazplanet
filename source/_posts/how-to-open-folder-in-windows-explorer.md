@@ -15,7 +15,7 @@ date: 2014-03-03 18:04:00
 authorId: adnan
 thumbnail: how-to-open-folder-in-windows-explorer/open-directory-explorer-thumb.gif
 downloads:
-  - https://db.tt/YBYWmfgX
+  - https://drive.protonmail.com/urls/GF434FHYNR#iSncw3niV2tD
 ---
 
 We often need to open a directory/folder in a File Manager to show its contents. Today we learn how to run [Windows Explorer](http://en.wikipedia.org/wiki/File_Explorer) to automatically show the content of a directory of our choice.

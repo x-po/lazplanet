@@ -14,7 +14,7 @@ date: 2013-10-19 12:13:00
 authorId: adnan
 thumbnail: how-to-use-arrays-in-lazarusfpc/arrays2.jpg
 downloads:
-  - https://db.tt/VPbShvQ1
+  - https://drive.protonmail.com/urls/PDTBW6EDN0#jSrEKHPFScJe
 ---
 
 Come, discover the wonderful way to store and manage virtual lists on the computer memory.

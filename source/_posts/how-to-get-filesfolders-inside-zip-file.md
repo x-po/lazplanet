@@ -13,8 +13,7 @@ date: 2013-05-25 01:02:00
 authorId: adnan
 thumbnail: how-to-get-filesfolders-inside-zip-file/compress-icon-zip.jpg
 downloads:
-  - http://db.tt/BkhyiN9i
-  - http://bit.ly/18cGsOG
+  - https://drive.protonmail.com/urls/WMBGPZCGMR#jn0FjMMc2mGB
 ---
 
 Ever wanted to make your own Zip Viewer? In this article we look at a simple code for listing the files/folders inside a ZIP file, without any third party libraries.

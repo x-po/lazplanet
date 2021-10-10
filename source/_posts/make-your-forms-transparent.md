@@ -11,7 +11,7 @@ date: 2013-04-12 05:06:00
 authorId: adnan
 thumbnail: make-your-forms-transparent/lazarus-form-transparency-2.gif
 downloads:
-  - https://dl.dropboxusercontent.com/u/6459514/LazPlanet/Form-Controls/formtrans_color.zip
+  - https://drive.protonmail.com/urls/HFB1MBRZPW#X5sY0I3Z7l35
 ---
 
 Forms are boring solid objects. But you can make it fun in many ways. One of them is transparency. Here's how...

@@ -15,8 +15,7 @@ date: 2013-05-23 07:28:00
 authorId: adnan
 thumbnail: how-to-generate-random-number/random-number-thumb.gif
 downloads:
-  - http://db.tt/uIzAEOfU
-  - http://bit.ly/195ERZK
+  - https://drive.protonmail.com/urls/7WGESDCW2R#pSLtRJtT4mBw
 ---
 
 Do you know what face of dice is going to come up before throwing? That's what random means. We learn how to create a program that shows a random number each time you click a button.

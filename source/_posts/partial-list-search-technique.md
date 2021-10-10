@@ -13,7 +13,7 @@ date: 2013-05-21 00:05:00
 authorId: adnan
 thumbnail: partial-list-search-technique/search-list-thumb.gif
 downloads:
-  - http://db.tt/DLaoSjba
+  - https://drive.protonmail.com/urls/8FE694G3XW#sKt50SsXC9w9
 ---
 
 Lists are interesting to do programing tricks. In this session we learn how to search partial inputs with only the first part of the list items.

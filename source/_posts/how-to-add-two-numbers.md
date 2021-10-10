@@ -11,8 +11,7 @@ date: 2013-03-29 05:42:00
 authorId: adnan
 thumbnail: how-to-add-two-numbers/2_2_4.jpg
 downloads:
-  - http://db.tt/QamzMLhC
-  - http://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSY2JmZGkzaERDTkk
+  - https://drive.protonmail.com/urls/B0ADJP0KAR#wzSr6mjZ9pUc
 ---
 
 Okey. Adding is not the first thing you did. But teaching a computer how to add two numbers is something worth learning.

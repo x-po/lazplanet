@@ -13,8 +13,7 @@ date: 2016-04-25 14:11:00
 authorId: adnan
 thumbnail: how-to-make-text-scroller-animation/text-scroller-thumb.jpg
 downloads:
-  - https://db.tt/DEgWwwBm
-  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSeVlDX3NHZFhDWXc
+  - https://drive.protonmail.com/urls/SBFP6XEGDR#ZexqFm0BIQoR
 ---
 
 At the end of a movie or in our application, we could use some text scrolling fun! But how to do that? Let's see...

@@ -14,8 +14,7 @@ date: 2014-10-13 16:54:00
 authorId: adnan
 thumbnail: find-out-if-computer-is-connected-to/connected-thumb.jpg
 downloads:
-  - https://db.tt/XCO9id6W
-  - https://drive.google.com/uc?id=0B9WrDtlrEzlSaVBlX3lZMThJU3c&export=download
+  - https://drive.protonmail.com/urls/V7FRACVM6C#It0BjVQQu6Cz
 ---
 
 If you are doing something that depends on an internet connection, you would probably want to check if internet is available. That's what we are going to detect today.

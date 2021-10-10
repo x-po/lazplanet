@@ -17,7 +17,7 @@ date: 2013-08-05 18:08:00
 authorId: adnan
 thumbnail: 3-ways-to-use-popup-menus-in-lazarus/popup-menu-thumb.jpg
 downloads:
-  - http://db.tt/NP2l6YEK
+  - https://drive.protonmail.com/urls/1RP1MH2E14#ox6atgamppCh
 ---
 
 Pop Up menus pop when you right click on the application somewhere to make available the quick jobs in a menu. We explore 3 ways of using popup menus in Lazarus.

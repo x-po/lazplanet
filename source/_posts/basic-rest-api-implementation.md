@@ -15,8 +15,7 @@ date: 2019-03-22 16:16:00
 authorId: adnan
 thumbnail: basic-rest-api-implementation/rest-api-thumb.jpg
 downloads:
-  - https://www.dropbox.com/s/1y4dtttcxmfzul5/RESTApiBasics.zip?dl=1
-  - https://drive.google.com/uc?export=download&id=19QvnjNUpOEdXUpGQcd_MJ7eCQigUufVE
+  - https://drive.protonmail.com/urls/HNK81K6Y1G#U9L7SChfdn57
 ---
 
 REST APIs are "the thing" to learn these days. But how should we get it to work on Lazarus? Let's see...

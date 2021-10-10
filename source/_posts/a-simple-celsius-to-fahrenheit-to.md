@@ -12,12 +12,12 @@ id: '84'
 categories:
   - [Math Dates]
   - [Code Snippets]
+  - [Console]
 date: 2013-05-16 14:44:00
 authorId: adnan
 thumbnail: a-simple-celsius-to-fahrenheit-to/thermometer-thumb.gif
 downloads:
-  - http://db.tt/ZO5eXPFG
-  - http://bit.ly/17yfRLm
+  - https://drive.protonmail.com/urls/T9X2JF9578#o37HrpGJrBnk
 ---
 
 Another good way to practice your programing skills- Celsius to Fahrenheit converter. There is a good formula for the conversion which makes it easy to create converter programs. We have a basic console program...

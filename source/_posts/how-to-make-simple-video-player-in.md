@@ -16,8 +16,7 @@ date: 2018-01-28 02:49:00
 authorId: adnan
 thumbnail: how-to-make-simple-video-player-in/vlc_video_player_thumb.png
 downloads:
-  - https://www.dropbox.com/s/c4w0c9vnetwktcy/vlc_video_player.zip?dl=0
-  - https://drive.google.com/uc?export=download&id=1yufROefQsbAXVjwAK9F0xvGJSBB4dmdz
+  - https://drive.protonmail.com/urls/TZ0BPK60NG#vcPsUuP9iKI9
 ---
 
 We like to watch videos. How about playing videos on our own player? In this article, we are going to create a fun, simple video player.

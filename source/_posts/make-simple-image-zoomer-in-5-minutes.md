@@ -13,8 +13,7 @@ date: 2017-05-21 00:00:00
 authorId: adnan
 thumbnail: make-simple-image-zoomer-in-5-minutes/image-zoomer-in-lazarus.gif
 downloads:
-  - https://www.dropbox.com/s/n1q2fg2udfwbso3/ImageScrollZoom.zip?dl=0
-  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSdmVxVDRtalp4SWM
+  - https://drive.protonmail.com/urls/DZ84A8289W#Nweu6FPldT2a
 ---
 
 Zooming is kind of fun! Here is a 5 minute image zoom tutorial with mouse scroll fun!

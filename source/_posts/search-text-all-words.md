@@ -13,7 +13,7 @@ date: 2013-04-19 00:28:00
 authorId: adnan
 thumbnail: search-text-all-words/Search-Logo.jpg
 downloads:
-  - http://db.tt/hdYl4dLh
+  - https://drive.protonmail.com/urls/ZW3DRSZES8#845gL4O2hV97
 ---
 
 Another example of simple text search which implements a Search Next button, which continuously searches for the given text. Its very easy. Heres how...

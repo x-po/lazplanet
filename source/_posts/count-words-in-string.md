@@ -9,7 +9,7 @@ date: 2013-04-04 12:23:00
 authorId: adnan
 thumbnail: count-words-in-string/necklace-measure-words.jpg
 downloads:
-  - http://db.tt/hz89LpUW
+  - https://drive.protonmail.com/urls/DQWMADSJYG#P9YJhP2lihq9
 ---
 
 Suppose you have found a huge paragraph. How many words are in that paragraph? Do you want to count yourself? No. We can let our program count the words! Here's how...

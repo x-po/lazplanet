@@ -13,8 +13,7 @@ date: 2019-03-07 16:36:00
 authorId: adnan
 thumbnail: how-to-create-calculator-in-under-5/lazarus-easy-calculator-thu.jpg
 downloads:
-  - https://drive.google.com/uc?export=download&id=1j8O_gmt36u3ApRZFWkn0FJRh_ZMFyM2e
-  - https://www.dropbox.com/s/9vh7bhffumt4hwx/easycalc.zip?dl=1
+  - https://drive.protonmail.com/urls/8C54EQRXXW#iEbH2rr7f92M
 ---
 
 Computers are huge calculators. But how about making your own program to calculate things?! ...And under 5 minutes? How is it even possible?! Let's find out!

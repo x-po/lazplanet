@@ -13,7 +13,7 @@ date: 2013-12-13 16:21:00
 authorId: adnan
 thumbnail: how-to-list-all-fonts-easily/font-list-3.gif
 downloads:
-  - https://db.tt/wJrhjWB2
+  - https://drive.protonmail.com/urls/Q1HX3TW140#tWrydGtK3iwd
 ---
 
 Fonts are a very attractive customization option. It is essential in text editing programs. Changing the font by code is easy, but listing them? Today we'll see how to list all the fonts in a TListBox.

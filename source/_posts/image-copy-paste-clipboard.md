@@ -16,8 +16,7 @@ date: 2013-05-05 18:10:00
 authorId: adnan
 thumbnail: image-copy-paste-clipboard/clipboard_icon.jpg
 downloads:
-  - http://db.tt/NQdGyKX5
-  - http://bit.ly/13l0L7G
+  - https://drive.protonmail.com/urls/RG1DRM50N4#igcwS4Alx3yt
 ---
 
 In paint programs, we see a function to copy an image to clipboard and paste it from there. Paste an image from anywhere, Photoshop, Firefox in your own program! Here's how...

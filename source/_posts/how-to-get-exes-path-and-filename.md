@@ -12,8 +12,7 @@ date: 2013-03-31 03:44:00
 authorId: adnan
 thumbnail: how-to-get-exes-path-and-filename/exe-file.jpg
 downloads:
-  - http://db.tt/CQSN7hcI
-  - http://bit.ly/10bEVCf
+  - https://drive.protonmail.com/urls/ZNTMN79KVR#xKN4LI9xuTM5
 ---
 
 It is a common question. In your code, sometimes you need to define where your EXE is running from. Then you can load any file from the application's directory or subdirectories. Let's learn how to.

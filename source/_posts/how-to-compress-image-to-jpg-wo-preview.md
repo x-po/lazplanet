@@ -19,8 +19,7 @@ date: 2014-03-24 17:35:00
 authorId: adnan
 thumbnail: how-to-compress-image-to-jpg-wo-preview/JPEG_example_JPG_RIP_050.jpg
 downloads:
-  - https://db.tt/dT6lFkab
-  - http://bit.ly/1hUpMwG
+  - https://drive.protonmail.com/urls/1GRTQ1T7BR#fBTNy9ROlBoj
 ---
 
 Today we'll make a JPEG compressor. Sounds exciting, doesn't it? It can convert and compress from any other image formats too!

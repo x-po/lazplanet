@@ -14,8 +14,7 @@ date: 2013-06-17 06:59:00
 authorId: adnan
 thumbnail: how-to-draw-text-on-canvas/draw-text-thumb.gif
 downloads:
-  - https://www.dropbox.com/s/zncc8kggdirvh06/DrawTextCanvas.zip?dl=1
-  - http://bit.ly/12ftOdL
+  - https://drive.protonmail.com/urls/DP34ED4KWC#xf4qqsAAxtJl
 ---
 
 We can use TLabel to show any text just to show any text, not editing. But what could we do to show text on a canvas? Then we would need to draw the text. Here's how...

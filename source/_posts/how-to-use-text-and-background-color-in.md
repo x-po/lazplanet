@@ -15,8 +15,7 @@ date: 2013-05-15 06:24:00
 authorId: adnan
 thumbnail: how-to-use-text-and-background-color-in/console-colors-thumbs.gif
 downloads:
-  - http://db.tt/xhKB44c9
-  - http://bit.ly/17yg3dF
+  - https://drive.protonmail.com/urls/6PP1159Z1W#4K0lnDQ0Boze
 ---
 
 Console applications are not of entertaining type. They have that whitish dull color in a black background. But who says you cannot change it! Here is a tip to change the text color of console programs.

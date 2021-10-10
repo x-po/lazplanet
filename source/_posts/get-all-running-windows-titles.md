@@ -11,8 +11,7 @@ date: 2013-04-09 10:42:00
 authorId: adnan
 thumbnail: get-all-running-windows-titles/tooManyWindows2.jpg
 downloads:
-  - http://db.tt/Sa19lv4u
-  - http://bit.ly/XzHRed
+  - https://drive.protonmail.com/urls/CM2N6ZX14G#8takgeDLy3SM
 ---
 
 With this simple little code you can list the windows/software that are running. You can identify if some specific software is running or do some magic tricks with Windows API. It is up to you...

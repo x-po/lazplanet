@@ -11,8 +11,10 @@ date: 2013-03-28 00:40:00
 authorId: adnan
 thumbnail: vowel-detection-prog-freepascal/letters-flying-out-of.jpg
 downloads:
-  - http://db.tt/2yxbam0f
-  - http://www.gdriveurl.com/?idl=613644094399&out=1
+  - title: 'Binaries'
+    url: https://gitlab.com/lazplanet/vowel-detector/-/releases
+  - title: 'Source code'
+    url: https://gitlab.com/lazplanet/vowel-detector
 ---
 
 Have you tried finding anything in your life?! You sure did! But now we will let our program find/detect a vowel. User is asked to enter a letter until he enters a vowel. The user will be asked again and again when the user enters consonants. When the user enters a vowel, the program quits saying thanks.

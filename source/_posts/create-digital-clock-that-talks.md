@@ -14,7 +14,7 @@ date: 2013-12-30 22:36:00
 authorId: adnan
 thumbnail: create-digital-clock-that-talks/pacman-clock.jpg
 downloads:
-  - https://www.dropbox.com/s/6yycr85ynjoukuf/Digital_Clock.zip?dl=1
+  - https://drive.protonmail.com/urls/70THN14CMG#ac9ouecggxYL
 ---
 
 We are going to make a digital clock that has LCD Screen looking digits. Not only that. It can also speak the time!

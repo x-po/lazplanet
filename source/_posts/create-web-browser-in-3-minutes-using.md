@@ -12,8 +12,7 @@ date: 2015-09-16 05:54:00
 authorId: adnan
 thumbnail: create-web-browser-in-3-minutes-using/thumb-lazarus-chrome-webbrowser-1.jpg
 downloads:
-  - https://db.tt/MWPFjW2v
-  - https://drive.google.com/uc?export=download&id=0B9WrDtlrEzlSUncyc3Q0MWUyU2c
+  - https://drive.protonmail.com/urls/TBN2PDBGYC#Zth6rSv4gLIT
 ---
 
 We'll learn how to create a web browser even quicker than you can install one! All using the people's favorite chromium engine!

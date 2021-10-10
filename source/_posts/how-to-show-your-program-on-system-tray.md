@@ -16,8 +16,7 @@ date: 2014-05-24 14:26:00
 authorId: adnan
 thumbnail: how-to-show-your-program-on-system-tray/TrayIcon-Article-Thumb.gif
 downloads:
-  - https://www.dropbox.com/s/xvmap95ydvgjxop/TrayIcon_Test.zip?dl=1
-  - http://bit.ly/LazTray
+  - https://drive.protonmail.com/urls/N0G7AGHDNM#72gY6NorgTkv
 ---
 
 Some programs can minimize, but some very special programs can squeeze themselves to the system tray! Users can even use right click menu to do most of the stuff while minimized.
