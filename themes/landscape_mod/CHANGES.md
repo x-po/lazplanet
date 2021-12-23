@@ -9,3 +9,4 @@ Changes applied to `landscape` theme:
 - Added author feature with [`hexo-multiauthor`](https://github.com/bob983/hexo-multiauthor). Changes: `layout/_partial/post/title.ejs`
 - Removed code which links Source Code Pro from Google (`fonts.googleapis.com/css?family=Source+Code+Pro`)
 - Changed jquery url that was going to Google (`ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js`)
+- Added related posts. Changes: `layout/_partial/article.ejs`, `source/css/_partial/article.styl`
