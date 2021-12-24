@@ -59,6 +59,40 @@
       <% } %>
       <%- partial('post/tag') %>
     </footer>
+
+    <%/* Related posts : start */%>
+    <% if (page.related_posts && page.related_posts.length > 0) { %>
+      <section class="related-posts">
+        <h2>Related posts</h2>
+        <ul>
+        <%
+        for (const path of page.related_posts) {
+          var posts = site.posts.filter(function(post) {
+            return post.path === path;
+          });
+          if (posts && posts.length > 0) {
+            posts.each(function(apost) {
+            %>
+            <a href="<%- url_for(apost.path) %>" title="<%= apost.title %>">
+            <li>
+            <% if (apost.thumbnail) { %>
+              <div class="thumbnail-container">
+                <% var asset_path = apost.permalink.match(/(.*\/).*\.html/)[1]; %>
+                <img class="thumbnail" src="<%= asset_path %><%= apost.thumbnail %>" alt="<%= apost.title %>" />
+              </div>
+            <% } %>
+            <span><%= apost.title || '(no title)' %></span></li>
+            </a>
+            <%
+            });
+          }
+        }
+        %>
+        </ul>
+      </section>
+    <% } %>
+    <%/* Related posts : end */%>
+
   </div>
   <% if (!index){ %>
     <%- partial('post/nav') %>
