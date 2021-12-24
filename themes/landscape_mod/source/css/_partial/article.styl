@@ -360,3 +360,34 @@ $article-gallery-ctrl
   &:before
     content: "\f054"
     right: 15px*/
+
+// Related posts: start
+// Styles for related posts below article text
+.related-posts
+  padding: 0 20px 20px
+  h2
+    font-weight: bold
+    margin: 0 0 10px
+  .thumbnail-container // container outside thumbnail img
+    max-height: 100px
+    overflow: hidden
+    margin: 0 0 10px
+  .thumbnail // thumbnail img
+    width: 100%
+  a
+    display: inline-block
+    width: 150px
+    height: 160px
+    overflow: hidden
+    margin: 0 10px 10px 0
+  li
+    // Show first 3 lines and then ellipsis (...) if more characters left
+    // https://stackoverflow.com/a/30940678
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  li span
+    color: #258fb8
+    text-decoration: none
+    text-overflow: ellipsis
+// Related posts: end
