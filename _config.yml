@@ -98,6 +98,12 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: landscape_mod
 
+# External services
+## For search feature based on StaticSearcher
+static_searcher_location: https://lazplanet.adnan360.com/search
+## For comment feature based on HashOver Next
+hashover_next_location: https://lazplanet.adnan360.com/hovr
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
