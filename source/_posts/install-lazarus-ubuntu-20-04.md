@@ -25,9 +25,9 @@ Apparantly the package for Lazarus available from Ubuntu Software, the official 
 
 Don't worry, I have made this easy for anyone to follow. So come along!
 
-There is even a video available to make things easier for you...
+There is even a [video](https://odysee.com/@LazPlanet:8/install-lazarus-ubuntu-20.04:2) [available](https://redirect.invidious.io/watch?v=D1eQmgcFwGY) to make things easier for you...
 
-
+<iframe id="odysee-iframe" width="560" height="315" src="https://odysee.com/$/embed/install-lazarus-ubuntu-20.04/25e279a69fb0c4028e5cedb688eaaf3044442955?r=28iwjGBau5MyZ3VzezEymfLvCwoYC3XK" allowfullscreen></iframe>
 
 
 **Note**: If you don't have the issue above and you are satisfied with 1 or 2 version old package that you get from official repos, ignore this guide and stick to the version from Ubuntu Software.
