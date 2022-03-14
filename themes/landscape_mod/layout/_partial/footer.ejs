@@ -4,6 +4,9 @@
   <% } %>
   <div class="outer">
     <div id="footer-info" class="inner">
+      <% if (theme.copyright){ %>
+        <%- render(theme.copyright, 'pug'); %>
+      <% } %>
       &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
       <a href="https://gitlab.com/lazplanet/lazplanet.gitlab.io">Fork</a> this blog
     </div>

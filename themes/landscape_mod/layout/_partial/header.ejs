@@ -5,9 +5,9 @@
       <h1 id="logo-wrap">
         <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
       </h1>
-      <% if (theme.subtitle){ %>
+      <% if (theme.subtitle || config.subtitle){ %>
         <h2 id="subtitle-wrap">
-          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
+          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle || config.subtitle %></a>
         </h2>
       <% } %>
     </div>
@@ -25,7 +25,9 @@
         <a id="nav-search-btn" class="nav-icon" title="<%= __('search') %>"></a>
       </nav>
       <div id="search-form-wrap">
+      	<%/* Static Searcher search form : start */%>
         <form action="<%= config.static_searcher_location %>" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="<%= config.url %>"></form>
+      	<%/* Static Searcher search form : end */%>
       </div>
     </div>
   </div>

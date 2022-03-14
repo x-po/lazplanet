@@ -25,10 +25,12 @@
   @extend $block-caption
   margin: 0 12px 1em
 
+// Thumbnail styles: start
 .thumbnail-image
   float: left;
   margin: 0 10px 10px 0;
   padding: 35px 0 20px 20px;
+// Thumbnail styles: start
 
 .article-header
   padding: article-padding article-padding 0
@@ -299,13 +301,13 @@ $article-share-link
     background: color-pinterest
     text-shadow: 0 1px darken(color-pinterest, 20%)
 
-.article-share-google
+.article-share-linkedin
   @extend $article-share-link
   &:before
-    content: "\f0d5"
+    content: "\f0e1"
   &:hover
-    background: color-google
-    text-shadow: 0 1px darken(color-google, 20%)
+    background: color-linkedin
+    text-shadow: 0 1px darken(color-linkedin, 20%)
 
 .article-gallery
   background: #000
@@ -360,6 +362,7 @@ $article-gallery-ctrl
   &:before
     content: "\f054"
     right: 15px*/
+
 
 // Related posts: start
 // Styles for related posts below article text
