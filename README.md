@@ -27,7 +27,7 @@ To work locally with this project, you'll have to follow the steps below:
 
 1. Fork, clone or download this project
 1. [Install](https://hexo.io/docs/#Installation) Hexo globally: `npm install -g hexo-cli`
-1. Install dependencies: `npm install`
+1. Install dependencies: `npm install --force` (force is for [this issue](https://github.com/sergeyzwezdin/hexo-related-posts/issues/8))
 1. Add/edit content (optional)
 1. Generate your site: `hexo generate`
 1. Preview your site: `hexo server`

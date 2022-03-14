@@ -6,7 +6,9 @@ cache:
 
 before_script:
   - npm install hexo-cli -g
-  - test -e package.json && npm install
+  # --force is temporary due to:
+  # https://github.com/sergeyzwezdin/hexo-related-posts/issues/8
+  - test -e package.json && npm install --force
   - hexo generate
 
 pages:

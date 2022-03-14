@@ -9,21 +9,21 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "6.1.0"
   },
   "dependencies": {
-    "hexo": "^5.0.0",
-    "hexo-asset-link": "^2.1.0",
+    "hexo": "^6.0.0",
+    "hexo-asset-link": "^2.1.1",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-multiauthor": "0.0.1",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^3.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.0.0",
-    "hexo-server": "^2.0.0",
+    "hexo-server": "^3.0.0",
     "hexo-tag-home": "git+https://gitlab.com/adnan360/hexo-tag-home.git",
     "request": "^2.88.2",
     "turndown": "^7.0.0",
