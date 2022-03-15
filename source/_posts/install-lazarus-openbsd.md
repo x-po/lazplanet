@@ -111,6 +111,8 @@ We need to install `fpc`, `gmake`, `libiconv`, `gtk+2` because they are required
 
 At the time of writing this, the port is at `2.0.12` (run `grep ^V /usr/ports/devel/lazarus/Makefile` to check). It may be updated later, so don't worry about the version number for now.
 
+**UPDATE:** The port [has been updated](https://github.com/ibara/openbsd-ports-wip/pull/3) for 2.2.0-0, so you'll get the latest version without any effort.
+
 Let it do it's thing. Gradually it will download the source code of Lazarus, build it and install it.
 
 After it's finished it should say something like:
@@ -161,6 +163,8 @@ For most, the journey ends here. But for the curious ones, it starts. You are fr
 ### Building latest version
 
 The version on the port was `2.0.12` when I tried it. If any newer version is out by the time you read this article, go to [this SourceForge page](http://sourceforge.net/projects/lazarus/files/Lazarus%20Zip%20_%20GZip/) and look for the latest version number in the directory names listed there. It is currently showing `2.2.0-0` for me.
+
+**UPDATE:** The port [has been updated](https://github.com/ibara/openbsd-ports-wip/pull/3) for 2.2.0-0, so you'll get the latest version without doing anything further.
 
 While this may not work for all the versions, you can change the version to `2.2.0-0` on the `Makefile` inside `/usr/ports/devel/lazarus`, then run `make makesum` from that directory, then run `make install` to see if that builds and installs the new 2.2.0-0 version of Lazarus. Depending on the development changes to the new versions, this strategy might not work.
 
