@@ -1,17 +1,29 @@
 <?php
 //// Script for showing full screen HashOver Next comments for a certain page ////
 
-// To use this, place this file on your HashOver Next directory and then
-// set hashover_comment_within_page to false on Hexo's _config.yml
+// License: CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+// To use this, on LazPlanet project place this file on your HashOver Next
+// directory and then set hashover_comment_display_style to 2 on Hexo's
+// _config.yml
+
+// Without Hexo, just link to this file with "url" and "title" parameters.
 
 // Retrieve values from GET variables in the url
-$url = @$_GET['url'];
-$title = @$_GET['title'];
+// URL of the page to show comments for
+$url = filter_input(INPUT_POST | INPUT_GET, 'url', FILTER_SANITIZE_SPECIAL_CHARS);
+// Title of the page to show on UI
+$title = filter_input(INPUT_POST | INPUT_GET, 'title', FILTER_SANITIZE_SPECIAL_CHARS);
+// Fallback if title is not given
 if ( $title ) {
 	$identifier = $title;
 } else {
 	$identifier = $url;
 }
+
+// Hides the go back link when noback is set to 1
+$noback = intval(filter_input(INPUT_POST | INPUT_GET, 'noback', FILTER_SANITIZE_SPECIAL_CHARS));
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,7 +34,7 @@ if ( $title ) {
 </head>
 <body>
 
-<?php if ( intval(@$_GET['noback']) != 1 ) : ?>
+<?php if ( $noback != 1 ) : ?>
 
 <a href="<?=$url?>" title="Click this link to go back to &quot;<?=$identifier?>&quot;">&laquo; Go back to article</a>
 <hr/>
