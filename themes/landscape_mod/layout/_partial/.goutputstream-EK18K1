@@ -119,12 +119,15 @@
 <% } %>
 
 <% if (!index && post.comments){ %>
+	<%/* 1: Show within page with JS */%>
 	<% if (config.hashover_comment_display_style == 1) { %>
 	<div id="hashover"></div>
+	<%/* 2: Show a button to show comments full page */%>
 	<% } else if (config.hashover_comment_display_style == 2) { %>
 	<div class="commentlink">
 	<a href="<%= config.hashover_next_location %>/_fullscreen.php?url=<%= encodeURIComponent(page.permalink) %>&title=<%= encodeURIComponent(post.title) %>" target="_blank">See comments for this article</a>
 	</div>
+	<%/* 3: Show with the help of iframe */%>
 	<% } else if (config.hashover_comment_display_style == 3) { %>
 	<div class="commentframe">
 	<%/* The "contentWindow" code might not work if HashOver is on another domain. So have to keep a height value just in case. */%>

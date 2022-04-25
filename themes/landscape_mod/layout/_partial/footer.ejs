@@ -13,6 +13,8 @@
   </div>
 </footer>
 
-<% if (page.path !== 'index.html'){ %>
-<script type="text/javascript" src="<%= config.hashover_next_location %>/comments.php"></script>
+<% if (config.hashover_comment_display_style == 1){ %>
+	<% if (page.path !== 'index.html'){ %>
+	<script type="text/javascript" src="<%= config.hashover_next_location %>/comments.php"></script>
+	<% } %>
 <% } %>

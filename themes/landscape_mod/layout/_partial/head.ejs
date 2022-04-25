@@ -37,8 +37,10 @@
     <%- css('fancybox/jquery.fancybox.min.css') %>
   <% } %>
   <%/* HashOver comments theme : start */%>
-  <% if (page.path !== 'index.html'){ %>
-  <link rel="stylesheet" type="text/css" href="<%= config.hashover_next_location %>/themes/default-borderless/comments.css">
+  <% if (config.hashover_comment_display_style == 1){ %>
+	  <% if (page.path !== 'index.html'){ %>
+	  <link rel="stylesheet" type="text/css" href="<%= config.hashover_next_location %>/themes/default-borderless/comments.css">
+	  <% } %>
   <% } %>
   <%/* HashOver comments theme : end */%>
 </head>

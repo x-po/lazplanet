@@ -103,6 +103,19 @@ theme: landscape_mod
 static_searcher_location: https://lazplanet.adnan360.com/search
 ## For comment feature based on HashOver Next
 hashover_next_location: https://lazplanet.adnan360.com/hovr
+## How to show the comments
+# 1: Show within page with JS
+# 2: Show a link to open comments on a new tab (no external requests to hashover
+#    site without user event)
+# 3: Show within the page through an iframe. Better when hashover is on a
+#    different domain, but may not be ideal. Read note below.
+# Note: Currently recommended to be set as 2 due to browser issues that
+# may be a result of origin policy, webhost issues etc. e.g. In case HashOver is
+# on different domain Librewolf is ok with 3 and 2 but not 1, Brave requires 2
+# or 1. The issues may not occur if HashOver is on same domain and all options
+# may work. Anything above 1 will require misc/hashover/_fullscreen.php to be
+# installed in HashOver directory (hashover_next_location above).
+hashover_comment_display_style: 2
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
