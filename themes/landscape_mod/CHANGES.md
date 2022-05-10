@@ -11,3 +11,4 @@ Changes applied to `landscape` theme:
 - Removed code which links Source Code Pro from Google (`fonts.googleapis.com/css?family=Source+Code+Pro`)
 - ~Changed jquery url that was going to Google (`ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js`)~ No longer needed, since 0.0.3 uses local version
 - Added related posts. Changes: `layout/_partial/article.ejs`, `source/css/_partial/article.styl`
+- Added favicon as `source/favicon.png`
